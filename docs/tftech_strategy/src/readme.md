@@ -1,0 +1,6 @@
+# TFTech Strategty
+
+
+## TODO projects 
+
+
