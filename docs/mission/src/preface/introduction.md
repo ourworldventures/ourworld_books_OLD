@@ -14,7 +14,7 @@ Together we build our own future through the Internet of Internets:
 * A circular economy, to benefit the collective and, as a result, each of us individually.
 * As believers in a better world who choose to act.
 
-**"The fight for a better Internet is inseparable from the fight for a better world."**
+**_"The fight for a better Internet is inseparable from the fight for a better world."_**
 
 We can continue down the path we’re on.  
 But ask yourself, is it a good one? Is it the right one? Is it just?  

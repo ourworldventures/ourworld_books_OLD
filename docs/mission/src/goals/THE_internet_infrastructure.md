@@ -12,4 +12,4 @@ A first project in Dubai for 170 Villa’s has been realized and there is now a 
 
 Next to our Neighborhood Cloud expansion model, we support our global Do-It-Yourself (DIY) and commercial farmers. 
 
-A 2e large neighborhood cloud is very close to being signed, this time with even more homes.
+A 2nd large neighborhood cloud is very close to being signed, this time with even more homes.

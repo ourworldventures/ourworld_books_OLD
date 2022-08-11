@@ -27,11 +27,11 @@ we are part of a group of leaders of change and making real the zeitgeist of the
 ThreeFold is a movement, not just a project or company. 
 
 
-together we are creating the Internet of Internets 
+Together we are creating the Internet of Internets:
 
 abundance based, unlimited knowledge, communication, global collaboration
 exchange of value without limitations or intermediaries. 
 
 
-to learn more about ThreeFold read our litepaper on [http://litepaper.threefold.me](http://litepaper.threefold.me).  
+To learn more about ThreeFold read our litepaper on: [http://litepaper.threefold.me](http://litepaper.threefold.me).  
 
