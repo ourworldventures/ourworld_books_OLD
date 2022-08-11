@@ -1,16 +1,20 @@
 # PLANET AND PEOPLE FIRST APPROACH
 
-![image alt text](img/planet_people_profit.png)  
+<img src="img/planet_people_profit.png" alt="planetpeopleprofit" width="200" style="float: right"/>
+
+&nbsp;
 
 We believe in:
 
-Planet First
-People Second
-Profit As Result
+* **Planet First**  
+* **People Second**  
+* **Profit As Result**  
+
+&nbsp;
 
 Anything we do needs to improve our planet's situation (climate change, regenerative, respect resources, …) and help the people around us. As a result of doing so, we as investors of time and money will have created most value and will get the benefits from our efforts.
 
-Of course being financially healthy is requirement nr 1.
+Of course being financially healthy is the first requirement.
 </td>
   </tr>
 </table>
