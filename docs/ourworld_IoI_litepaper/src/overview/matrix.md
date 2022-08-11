@@ -33,7 +33,7 @@ an abundance based OURWORLD. \
 
 
 
-![alt_text](img/image5.png "image_tooltip")
+![alt_text](img/positive_impact.png "image_tooltip")
 
 
 OurWorld (using ThreeFold Technology) allows us to co-create our own digital future together.
@@ -75,5 +75,5 @@ Imagine an economical system
 
 
 
-![alt_text](img/image6.png "image_tooltip")
+![alt_text](img/internet_internet.png "image_tooltip")
 
