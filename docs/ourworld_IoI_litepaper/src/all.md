@@ -1,4 +1,66 @@
-![image1](img/image1.png "image_tooltip")
+<!-----
+
+You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
+* ERRORs: 0
+* WARNINGs: 0
+* ALERTS: 17
+
+Conversion time: 12.43 seconds.
+
+
+Using this Markdown file:
+
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β33
+* Thu Aug 11 2022 02:30:41 GMT-0700 (PDT)
+* Source doc: Copy of OurWorld Abundance based Internet of Internets Litepaper v3 copy
+* Tables are currently converted to HTML tables.
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
+
+
+WARNING:
+You have 15 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
+
+----->
+
+
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 17.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
+
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+<a href="#gdcalert2">alert2</a>
+<a href="#gdcalert3">alert3</a>
+<a href="#gdcalert4">alert4</a>
+<a href="#gdcalert5">alert5</a>
+<a href="#gdcalert6">alert6</a>
+<a href="#gdcalert7">alert7</a>
+<a href="#gdcalert8">alert8</a>
+<a href="#gdcalert9">alert9</a>
+<a href="#gdcalert10">alert10</a>
+<a href="#gdcalert11">alert11</a>
+<a href="#gdcalert12">alert12</a>
+<a href="#gdcalert13">alert13</a>
+<a href="#gdcalert14">alert14</a>
+<a href="#gdcalert15">alert15</a>
+<a href="#gdcalert16">alert16</a>
+<a href="#gdcalert17">alert17</a>
+
+<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
+
+
+# 
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
 
 # OurWorld = an abundance based Internet of Internets system
 
@@ -29,7 +91,7 @@ We are excited about a future where we can together create a more safe platform,
 
 
 
-![image2](img/image2.jpg "image_tooltip")
+![alt_text](images/image2.jpg "image_tooltip")
 
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
@@ -48,7 +110,8 @@ Companies and investors that fail to be part of this needed movement will seem l
    <td>
 
 
-<img src="img/image3.png" width="" alt="image3" title="image_tooltip">
+
+<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>We believe in:
@@ -76,7 +139,7 @@ Read more about our mission in [http://mission.threefold.me/](http://mission.thr
 
 
 
-![image4](img/image4.png "image_tooltip")
+![alt_text](images/image4.png "image_tooltip")
 
 
 
@@ -114,7 +177,7 @@ an abundance based OURWORLD. \
 
 
 
-![image5](img/image5.png "image_tooltip")
+![alt_text](images/image5.png "image_tooltip")
 
 
 OurWorld (using ThreeFold Technology) allows us to co-create our own digital future together.
@@ -155,7 +218,8 @@ Imagine an economical system
 # 
 
 
-![image6](img/image6.png "image_tooltip")
+
+![alt_text](images/image6.png "image_tooltip")
 
 
 
@@ -261,7 +325,7 @@ Following information and content will be available
 
 
 
-![image 7](img/image7.png "image_tooltip")
+![alt_text](images/image7.png "image_tooltip")
 
 
 We want to help countries, many countries find themselves in a challenging situation where they run out of money, have too much debt, people are potentially unhappy, there could be a risk of conflict, … We believe a decentralized Internet of Internets could help. Some very concrete benefits for a country to get started now.
@@ -280,7 +344,7 @@ On the security side, the Internet is super centralized today and actually very 
 
 
 
-![image 8](img/image8.png "image_tooltip")
+![alt_text](images/image8.png "image_tooltip")
 
 
 The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.
@@ -289,7 +353,7 @@ The internet today is constructed in a centralized way, we exist many times and 
 
 
 
-![image 9](img/image9.png "image_tooltip")
+![alt_text](images/image9.png "image_tooltip")
 
 
 Blockchain is a huge step in the right direction but it's a shared architecture distributed over the world where data gets replicated on many locations. It's a good technology choice for use cases like money, smart contracts, voting, digital notary and identity but not at all suited for building a new internet with. This is also called web 4. Developers still need to develop applications connecting to multiple blockchains and centralization is often not good enough.
@@ -300,7 +364,8 @@ Blockchain is a huge step in the right direction but it's a shared architecture 
 
 
 
-![image 10](img/image10.png "image_tooltip")
+
+![alt_text](images/image10.png "image_tooltip")
 
 
 We are brainwashed about the need to centralize & control everything, this leads to suboptimal systems and a lot of waste. Web 1,2,3,4 are all centralized by nature. The best the world has been able to come up with is a shared consensus driven architecture called blockchain which is good for certain use cases but suboptimal for many more. 
@@ -309,7 +374,9 @@ The solution is actually very simple, you should be the center of your digital l
 
 
 
-![image 11](img/image11.png "image_tooltip")
+
+
+![alt_text](images/image11.png "image_tooltip")
 
 
 There is a need for a co-owned global Internet infrastructure on top of which each of us can exist digitally, this is a dramatically different architecture with no centralization whatsoever and offering 100% equality as well as full data and application ownership. This has never been done because it's so different in design and goes away from any form of control by a money making company.
@@ -322,21 +389,24 @@ The twins communicate with each other and the rest of the world (existing centra
 
 
 
-![image 12](img/image12.png "image_tooltip")
+![alt_text](images/image12.png "image_tooltip")
 
 
 Imagine the benefits for use cases like video conferencing:
 
 
 
-![image 13](img/image13.png "image_tooltip")
+
+
+![alt_text](images/image13.png "image_tooltip")
 
 
 
 # 
 
 
-![image 14](img/image14.png "image_tooltip")
+
+![alt_text](images/image14.png "image_tooltip")
 
 
 
@@ -409,7 +479,9 @@ We now have a fully working OurWorld Internet of Internets system running with a
 
 
 
-![image 15](img/image15.png "image_tooltip")
+
+
+![alt_text](images/image15.png "image_tooltip")
 
 
 This is an example of a small village of 30 families which might spend 10k USD (can be wholly or in part funded by grants from a DAI) to build out their own peer2peer internet infrastructure. We call this process digital farming.
@@ -474,7 +546,7 @@ This Internet of Internets concept is not only for emerging regions. Each nation
 
 
 
-![image 16](img/image16.png "image_tooltip")
+![alt_text](images/image16.png "image_tooltip")
 
 
 
@@ -510,7 +582,8 @@ _Please note, to use http (not https) in the url._
 # 
 
 
-![image 17](img/image17.png "image_tooltip")
+
+![alt_text](images/image17.png "image_tooltip")
 
 
 Come meet us at one of our planned events
