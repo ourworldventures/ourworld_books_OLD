@@ -16,8 +16,7 @@ We call this document an **“opinionated” document** because it's certainly n
 
 This can be done by:
 
-
-* **Having all code & knowledge inside the country.**
-* **Building Education programs to make sure that further systems development can happen in the country.**
-* **Creating organizations that are reliable and coming from the heart with love and loyalty for their country.**
-* **Emphasizing the importance of values , this is not a marketing exercise, this needs to be the strong foundation of anyone helping their country to become digitally independent.**
+- Having all code and knowledge inside the country.
+- Building Education programs to make sure that further systems development can happen in the country.
+- Creating organizations that are reliable and coming from the heart with love and loyalty for their country.
+- Emphasizing the importance of values , this is not a marketing exercise, this needs to be the strong foundation of anyone helping their country to become digitally independent.

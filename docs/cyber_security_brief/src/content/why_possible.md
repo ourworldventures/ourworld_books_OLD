@@ -3,7 +3,7 @@
 # **Why is this possible**
 
 
-## **Backdoors are in the majority of network attached devices.**
+## **Backdoors are in the majority of network attached devices**
 
 Backdoors are the reality of digital life, they might have been created with the  right intentions but the unintended consequences are dramatic.
 
@@ -15,14 +15,12 @@ The root keys and secrets are known by many and can be used and abused by whoeve
 
 Hacking became a very big business, and the cyber attack pandemic became a reality. This topic should not be underestimated nor ignored, it's a sovereign issue, it's not too late now, but we need to act while there is still time.
 
-Some info
+Some info:
 
-
-
-* [Network Management Became Backdoors](https://www.theregister.com/2018/08/10/data_center_hacking/)
-* [Article 1](https://sociable.co/web/cyber-pandemic-big-tech-bank-media-airline-websites-down/)
-* [Article 2](https://www.nasdaq.com/articles/tired-of-covid-lockdowns-well-a-cyber-pandemic-seems-to-be-next-2021-10-06)
-* [Article 3](https://www.airuniversity.af.edu/Portals/10/JOTA/Journals/Volume%203%20Issue%201/07-Afanador_eng.pdf)
+-[Network Management Became Backdoors](https://www.theregister.com/2018/08/10/data_center_hacking/)
+- [Article 1](https://sociable.co/web/cyber-pandemic-big-tech-bank-media-airline-websites-down/)
+- [Article 2](https://www.nasdaq.com/articles/tired-of-covid-lockdowns-well-a-cyber-pandemic-seems-to-be-next-2021-10-06)
+- [Article 3](https://www.airuniversity.af.edu/Portals/10/JOTA/Journals/Volume%203%20Issue%201/07-Afanador_eng.pdf)
 
 
 ## **Most security products are compromised**
@@ -34,18 +32,16 @@ If you were a party looking for ways to access information, it might seem logica
 **SOVEREIGNTY CAN NOT BE OUTSOURCED**
 
 
-## **People are vulnerable.**
+## **People are vulnerable**
 
 We are certainly not implying that people are bad by design, but people are the vulnerable part of any IT system. Self-healing systems are the future, they allow systems to run, sometimes protected by consensus mechanisms like on blockchain to make sure that human “error” is less of an issue.
 
-People related issues can be
+People related issues can be:
 
-
-
-* Not enough education
-* Genuine mistakes being  made (+90% of issues)
-* Bribery sometimes extortion of people who operate/deploy IT systems
-* Manipulation by fear or media, resulting in wrong decisions 
+* Not enough education.
+* Genuine mistakes being  made (+90% of issues).
+* Bribery sometimes extortion of people who operate/deploy IT systems.
+* Manipulation by fear or media, resulting in wrong decisions.
 * Ego driven decisions, often IT people are by design unsecure, putting too much power in their hands is not always the wise decision.
 
 Simplicity, education, and transparency is the best solution here.
@@ -68,22 +64,19 @@ Many of these protocols lead to a false sense of security.
 
 ## **Hacking is a commercial business**
 
-I personally only have knowledge of the pricing of 3 years ago but at that time it would cost about 50k USD to get the digital life of a person, everything: email, chats, passwords, bank details, …
+I personally only have knowledge of the pricing of 3 years ago but at that time it would cost about 50k USD to get the digital life of a person, everything: email, chats, passwords, bank details…
 
 A VIP was of course more expensive. There are massive hacking companies operating globally which pre-hack most of the devices on the internet.
 
 This leads to security for the rich and leaves others unprotected and vulnerable leading to a vicious cycle where the unprotected are more abused and find themselves with fewer chances for creating prosperity for their nation.
 
-
-## **The centralized services give out a lot of information.**
+## **The centralized services give out a lot of information**
 
 Services like Google, Facebook, … do have access to our full personal life. Where are we, what do we buy, how do we travel, who do we meet, what do we search for, it's now proven that our personal and business information are being compromised and used during our illusion of security and privacy. Many claim that this information is being used outside of the scope of the privacy regulations or even the expectations of the users. The real value lies in the personal data, as much as in the products and services purchased.
-
 
 ## **Most network components are vulnerable and/or pre-hacked**
 
 Routers, Wifi Bridges are ideal components for hackers to get into network traffic and intercept packets they are interested in. There are claims that more than 50% of routers and network components are vulnerable or hacked. Personally, I can believe this. Man in the middle attacks are easy to do, information can freely be found on the internet (just an example [article](https://witestlab.poly.edu/blog/conduct-a-simple-man-in-the-middle-attack-on-a-wifi-hotspot/)).
-
 
 ## **Security & privacy claims are void**
 
@@ -116,9 +109,9 @@ Info can be found on the internet and can be done by not even serious experts.
 
 
 
-* e.g. a [youtube training](https://www.youtube.com/watch?v=cgM-_42rWbM)
-* e.g. on [medium](https://medium.datadriveninvestor.com/creating-windows-os-backdoor-with-msfvenom-ba56567eb088)
-* Other: [example](https://www.wikihow.com/Create-a-Nearly-Undetectable-Backdoor-using-MSFvenom-in-Kali-Linux)
+- e.g. a [youtube training](https://www.youtube.com/watch?v=cgM-_42rWbM).
+- e.g. on [medium](https://medium.datadriveninvestor.com/creating-windows-os-backdoor-with-msfvenom-ba56567eb088).
+- Other: [example](https://www.wikihow.com/Create-a-Nearly-Undetectable-Backdoor-using-MSFvenom-in-Kali-Linux).
 
 I just found these in 2 min google search, it's actually all quite simple and effective.
 
@@ -143,14 +136,13 @@ Of course, companies like Microsoft/Google/Amazon will claim privacy and securit
 Just one example: AWS Quotes on its [website](https://aws.amazon.com/compliance/data-privacy-faq/):
 
 
-    _When evaluating the security of a cloud solution, it is important for you to understand and distinguish between the security of the cloud, and your security in the cloud. Security of the cloud encompasses the security measures that AWS implements and operates. We are responsible for the security of the cloud. Security in the cloud encompasses the security measures that you implement and operate, related to the AWS services you use. You are responsible for your security in the cloud. For more information, see the AWS Shared Responsibility webpage._
-
-This is not shared responsibility, this just means, we Amazon take NO responsibility.
+>When evaluating the security of a cloud solution, it is important for you to understand and distinguish between the security of the cloud, and your security in the cloud. Security of the cloud encompasses the security measures that AWS implements and operates. We are responsible for the security of the cloud. Security in the cloud encompasses the security measures that you implement and operate, related to the AWS services you use. You are responsible for your security in the cloud.  
+For more information, see the AWS Shared Responsibility webpage. This is not shared responsibility, this just means, we Amazon take NO responsibility.
 
 Please do note that it's often not even in their control. People using these services are making it insecure by design. Many computers and mobile phones are hacked and make the information accessible to others. Centralized designs are simply more unreliable and unsafe.
 
 
-## Some would claim that even these large organizations like Google are not safe themselves and do not mind making information available. Allow me to not take an opinion here, it's just my intent to show you this possibility.
+**Some would claim that even these large organizations like Google are not safe themselves and do not mind making information available. Allow me to not take an opinion here, it's just my intent to show you this possibility.**
 
 
 ## **The centralized clouds or telecom operators are NOT PRIVATE NOR SECURE**

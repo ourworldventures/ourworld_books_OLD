@@ -12,7 +12,7 @@ Backdoors in technology products.
 * [https://www.reuters.com/article/us-usa-security-congress-insight-idUSKBN27D1CS](https://www.reuters.com/article/us-usa-security-congress-insight-idUSKBN27D1CS)
 * [https://www.popularmechanics.com/technology/security/a34533340/nsa-tech-back-doors-software](https://www.popularmechanics.com/technology/security/a34533340/nsa-tech-back-doors-software/)
 
-Example of backdoors & some proof points
+Example of backdoors & some proof points:
 
 
 
@@ -23,22 +23,22 @@ Example of backdoors & some proof points
     * [https://www.technologyreview.com/2013/10/08/176195/nsas-own-hardware-backdoors-may-still-be-a-problem-from-hell/](https://www.technologyreview.com/2013/10/08/176195/nsas-own-hardware-backdoors-may-still-be-a-problem-from-hell/)
     * ​​[https://www.theregister.com/2019/03/29/intel_visa_hack/](https://www.theregister.com/2019/03/29/intel_visa_hack/) 
     * PS: AMD has similar mechanisms
-* Standard encryption mechanisms by themselves are not safe
+* Standard encryption mechanisms by themselves are not safe:
     * [https://www.techrepublic.com/article/why-the-nsa-may-not-need-backdoors/](https://www.techrepublic.com/article/why-the-nsa-may-not-need-backdoors/)
     * [https://www.techrepublic.com/article/the-undercover-war-on-your-internet-secrets-how-online-surveillance-cracked-our-trust-in-the-web/](https://www.techrepublic.com/article/the-undercover-war-on-your-internet-secrets-how-online-surveillance-cracked-our-trust-in-the-web/) 
     * [https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/](https://www.techrepublic.com/article/defending-the-last-missing-pixels-phil-zimmermann/) 
 
-Things to think about
+Things to think about:
 
 
 
 * Intel buys McAfee, which is installed on so many computers as antivirus software which by design has access to all information on your computer.
     * [https://www.zdnet.com/article/intel-considering-sale-of-security-arm-formed-after-mcafee-acquisition/](https://www.zdnet.com/article/intel-considering-sale-of-security-arm-formed-after-mcafee-acquisition/) 
     * [https://www.zdnet.com/article/intel-cuts-12000-jobs-as-it-bets-on-iot-data-center-over-pcs/](https://www.zdnet.com/article/intel-cuts-12000-jobs-as-it-bets-on-iot-data-center-over-pcs/) the cpu & motherboards they already own majority, now focus on the other area’s
-* 5 possible scenarios
+* 5 possible scenarios:
     * [https://www.techrepublic.com/article/cybersecurity-in-2020-the-future-looks-bleak/](https://www.techrepublic.com/article/cybersecurity-in-2020-the-future-looks-bleak/) 
 
-Wikileaks
+Wikileaks:
 
 
 
