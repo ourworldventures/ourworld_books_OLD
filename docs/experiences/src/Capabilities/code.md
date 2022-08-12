@@ -1,6 +1,6 @@
-![code developing](./../capabilities/img/flower.png)
+![code](../capabilities/img/danger.png)
 
-# Code developing
+## Code
 
 Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.
 

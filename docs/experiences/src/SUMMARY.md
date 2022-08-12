@@ -1,6 +1,10 @@
-# Summary
+# Capabilities overview
 
-- [Frontpage](./readme.md)
+- [Community Tools]()
+- [Community Rooms](./community_tools/rooms.md)
+- [Share itt](./community_tools/shareitt.md)
+- [Code platform](./community_tools/code_developing.md)
+- [Capabilities]()
 - [Communication chat](./Capabilities/Communication_chat.md)
 - [Communication video](./Capabilities/Communication_video.md)
 - [Code developing](./Capabilities/code_developing.md)
