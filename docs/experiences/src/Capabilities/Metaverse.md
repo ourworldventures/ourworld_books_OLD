@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![metaverse](./img/smiley.png)
+
+</div>
 
 ## Metaverse
 

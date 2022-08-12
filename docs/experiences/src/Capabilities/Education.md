@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![education](./img/oc.png)
+
+</div>
 
 ## Education
 

@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![communication tool chat](./img/oc.png)
+
+</div>
 
 ## Communication tool: Chat
 

@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![comnunication tool video](./img/camera.png)
+
+</div>
 
 ## Communication tool: Video
 
@@ -25,7 +29,7 @@ Needs better quality picture.  Have to find original slide
 
 </div>
 
-This is not lead to create the best experience and over all, it is very wasteful with a number of (scarse) resources.
+This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.
 
 The solution to this problem is to have a video conference solution that works peer to peer.
 
@@ -40,4 +44,8 @@ If we build a video conferencing system that follows this principle we can be mu
 
 ![](../capabilities/img/videoconference_central-2.png)
 
-</div?>
+</div>
+
+### What?
+
+#### Product feature
