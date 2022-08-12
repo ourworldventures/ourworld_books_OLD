@@ -3,62 +3,17 @@
 Let's create a system which follows another paradigm:
 
 
-<table>
-  <tr>
-   <td><strong>GOOD = Heart Driven</strong>
-   </td>
-   <td><strong>BAD = Fear Driven</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Empowering
-   </td>
-   <td>Controlling
-   </td>
-  </tr>
-  <tr>
-   <td>Networks
-   </td>
-   <td>Hierarchies
-   </td>
-  </tr>
-  <tr>
-   <td>Transparency
-   </td>
-   <td>Secrecy
-   </td>
-  </tr>
-  <tr>
-   <td>Purpose, money as a gift.
-   </td>
-   <td>Profit, money as a drug.
-   </td>
-  </tr>
-  <tr>
-   <td>Give First, Receive Later
-   </td>
-   <td>Take first, maybe Give Back Later
-   </td>
-  </tr>
-  <tr>
-   <td>Collaborate.
-   </td>
-   <td>Survival of the fittest
-   </td>
-  </tr>
-  <tr>
-   <td>Sustainability
-   </td>
-   <td>Unhealthy drive for over optimization=efficiency
-   </td>
-  </tr>
-  <tr>
-   <td>The power is within us. We need to choose that we have a choice, we are not powerless.
-   </td>
-   <td>Stardom, we need heroes, we want what they achieved, the so-called “way” out of the matrix.
-   </td>
-  </tr>
-</table>
+|GOOD = Heart Driven|BAD = Fear Driven|
+|---|---|
+|Empowering|Controlling|
+|Networks|Hierarchies|
+|Transparency|Secrecy|
+|Purpose, money as a gift.|Profit, money as a drug.|
+|Give First, Receive Later|Take first, maybe Give Back Later|
+|Collaborate.|Survival of the fittest|
+|Sustainability|Unhealthy drive for over optimization=efficiency|
+|The power is within us. We need to choose that we have a choice, we are not powerless.|Stardom, we need heroes, we want what they achieved, the so-called “way” out of the matrix.|
+
 
 
 
@@ -134,62 +89,17 @@ How is blockchain doing in relation to our awareness table? \
 
 
 
-<table>
-  <tr>
-   <td><strong>BAD = Fear Driven</strong>
-   </td>
-   <td><strong>Blockchain</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Controlling
-   </td>
-   <td>Most of them are quite centralized, unfortunately.
-   </td>
-  </tr>
-  <tr>
-   <td>Hierarchies
-   </td>
-   <td>Pricing, code controlled from the center.
-   </td>
-  </tr>
-  <tr>
-   <td>Secrecy
-   </td>
-   <td>not enough transparency, complexity everywhere.
-   </td>
-  </tr>
-  <tr>
-   <td>Profit, money as a drug.
-   </td>
-   <td>Blockchains, lots of greed today
-   </td>
-  </tr>
-  <tr>
-   <td>Take first, maybe Give Back Later
-   </td>
-   <td>Yes ICO, is basically this.
-   </td>
-  </tr>
-  <tr>
-   <td>Survival of the fittest
-   </td>
-   <td>Yes, everyone is fighting for dominance.
-   </td>
-  </tr>
-  <tr>
-   <td>Efficiency: how to do more with less
-   </td>
-   <td>Blockchains are seldom efficient.
-   </td>
-  </tr>
-  <tr>
-   <td>Stardom, we need heroes, we want what they achieved, the so-called “way” out of the matrix.
-   </td>
-   <td>It's all about the heroes...
-   </td>
-  </tr>
-</table>
+|BAD = Fear Driven|Blockchain|
+|---|---|
+|Controlling|Most of them are quite centralized, unfortunately.|
+|Hierarchies|Pricing, code controlled from the center.|
+|Secrecy|not enough transparency, complexity everywhere.|
+|Profit, money as a drug.|Blockchains, lots of greed today|
+|Take first, maybe Give Back Later|Yes ICO, is basically this.|
+|Survival of the fittest|Yes, everyone is fighting for dominance.|
+|Efficiency: how to do more with less|Blockchains are seldom efficient.|
+|Stardom, we need heroes, we want what they achieved, the so-called “way” out of the matrix.|It's all about the heroes...|
+
 
 
 We love the technology behind blockchain, it's an amazing powerful tool, but it got hijacked.
