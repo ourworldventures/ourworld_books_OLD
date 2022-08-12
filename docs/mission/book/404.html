@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title></title>
+        <title>Page not found - ThreeFold Mission</title>
         <base href="/">
 
 
@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="mission.html"><strong aria-hidden="true">1.</strong> Home</a></li><li class="chapter-item expanded "><a href="market_feasibility.html"><strong aria-hidden="true">2.</strong> Feasibility</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="preface/introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="preface/approach.html">Approach</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Strategic Goals</li><li class="chapter-item expanded "><a href="goals/concept_realization.html"><strong aria-hidden="true">1.</strong> IoI Concept Realization</a></li><li class="chapter-item expanded "><a href="goals/internet_GDP_positivity.html"><strong aria-hidden="true">2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="goals/realizing_web_4.html"><strong aria-hidden="true">3.</strong> Realizing Web 4.0</a></li><li class="chapter-item expanded "><a href="goals/bitcoin_for_internet_capacity.html"><strong aria-hidden="true">4.</strong> Bitcoin for Internet Capacity</a></li><li class="chapter-item expanded "><a href="goals/THE_internet_infrastructure.html"><strong aria-hidden="true">5.</strong> Make Threefold THE Internet Infrastructure</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -165,7 +165,9 @@
 
         <!-- Livereload script (if served using the cli tool) -->
         <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:8888/__livereload");
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
             socket.onmessage = function (event) {
                 if (event.data === "reload") {
                     socket.close();
