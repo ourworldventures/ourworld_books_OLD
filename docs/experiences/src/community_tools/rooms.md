@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![commmunity room](../capabilities/img/flower.png)
+
+</div>
 
 ## Community rooms
 

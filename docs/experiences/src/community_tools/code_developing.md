@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![Developing Code](../capabilities/img/danger.png)
+
+</div> 
 
 ## Developing code
 

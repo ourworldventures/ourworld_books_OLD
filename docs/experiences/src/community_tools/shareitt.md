@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![share itt](../capabilities/img/left-right.png)
+
+</div>
 
 ## Share itt
 
