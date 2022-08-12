@@ -1,4 +1,8 @@
+<div style="text-align: center;">
+
 ![code developing](./../capabilities/img/flower.png)
+
+</div>
 
 # Code developing
 
