@@ -12,6 +12,10 @@ Current world video conferencing services use service provider and centralized s
 
 In principle this looks like
 
+<!--
+Needs better quality picture.  Have to find original slide
+-->
+
 <div style="text-align: center;">
 
 ![alt text](../capabilities/img/videoconferencing_cental.png))
@@ -19,11 +23,13 @@ In principle this looks like
 </div>
 
 
-And if we expand this to a world map it could look like this:
+And if we expand this to a world map it would look somethingg like this:
+
 <!--
-Needs better quality picture.  Have to find original slide
+mermaid source in: ./includes/centralized_video.md
 -->
-<div style="text-align: center;">
+
+<div style="text-align: left;">
 
 ![alt text](../capabilities/img/videoconference_central-1.png))
 
@@ -32,6 +38,10 @@ Needs better quality picture.  Have to find original slide
 This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.
 
 The solution to this problem is to have a video conference solution that works peer to peer.
+
+<!--
+mermaid source in: ./includes/private_video.md
+-->
 
 <div style="text-align: center;">
 
@@ -46,6 +56,12 @@ If we build a video conferencing system that follows this principle we can be mu
 
 </div>
 
-### What?
+### 
 
-#### Product feature
+#### Product features
+
+- 1. 
+- 2. 
+- 3. 
+- etc.
+
