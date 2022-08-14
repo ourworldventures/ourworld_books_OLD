@@ -33,16 +33,17 @@ This is make possible in the metaverse and proximity of the virtual world render
 ![metaverse](../capabilities/img/metaverse_conference.png)
 
 ### Internal and outside work, meet and greet spaces
-Larger rooms allow for digital roaming and imprompty mweetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains strorming sessions or just that little chat near the coffee machine in the cafetaria.  
+Larger rooms allow for digital roaming and impromptu meetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.  
 
 <div style="text-align: center;">
+
 ![](../capabilities/img/metaverse_kitchen.png)
 </div>
-![](../capabilities/img/metaverse_kitchen.png)
 
 Remote working has taken away these little distractions and creative moments and a metaverse is able to bring this back to the remote working / social locations.
 
 <div style="text-align: center;">
+
 ![](../capabilities/img/metaverse_pool.png)
 </div>
 
