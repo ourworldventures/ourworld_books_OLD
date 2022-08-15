@@ -1,4 +1,4 @@
-### Social Impact {#social-impact}
+### Social Impact
 
 The World Bank (WB) upgraded Tanzania’s country classification by income level from low income to lower-middle income in 2020-21. The WB assigns the world’s economies to four income groups—low, lower-middle, upper-middle, and high-income countries, based on their GNI per capita in current USD. 
 - Low income is defined as less than USD 1,036 in 2020 (USD 1,026 in 2019)

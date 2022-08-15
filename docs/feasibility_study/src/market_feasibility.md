@@ -1,4 +1,4 @@
-### Market Feasibility {#market-feasibility}
+### Market Feasibility
 
 The Internet economy is largely untapped in Africa compared to the developed markets and poses huge potential to boost the overall GDP of most African countries
 

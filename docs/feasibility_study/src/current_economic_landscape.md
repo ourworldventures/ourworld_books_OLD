@@ -1,4 +1,4 @@
-### Current Economic Landscape {#current-economic-landscape}
+### Current Economic Landscape
 
 * The Economy of Tanzania in 2021  With an average real GDP growth rate of 6.3% over the past decade (2010-2019), 
 * Tanzania is among the fastest-growing economies in Africa and in the world. 

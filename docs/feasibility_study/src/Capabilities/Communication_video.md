@@ -18,7 +18,7 @@ Needs better quality picture.  Have to find original slide
 
 
 ```mermaid
-graph LR
+graph RL
     
     subgraph Individual A
     INDIVIDUALA(Person A)
@@ -56,7 +56,7 @@ mermaid source in: ./includes/private_video.md
 -->
 
 ```mermaid
-graph LR
+graph RL
     
     subgraph Individual A
     INDIVIDUALA(Person A)

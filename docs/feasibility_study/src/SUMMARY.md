@@ -1,7 +1,7 @@
 # Summary
 
 - [Frontpage](./readme.md)
-- [Executive Summary (include the WHY)](./executive_summary.md)
+- [Executive Summary](./executive_summary.md)
 - [Description of the Project](./project_description.md)
 - [Market Assessment and Strategy](./market_assessment_and_strategy.md)
   - [Current Economic Landscape](./current_economic_landscape.md)

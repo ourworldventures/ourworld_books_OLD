@@ -1,4 +1,4 @@
-## Description of the Project {#description-of-the-project}
+## Description of the Project
 
 The Tanzania Sovereign Internet Platform (“TSIP”) as envisaged in the memorandum of understanding (see appendix A), is a end to end ecosystem blending people, technology and key principles in order to deliver Internet Infrastructure and digital services that ensure the privacy, sovereignty and empowerment of Tanzania and its people. 
 
@@ -24,6 +24,7 @@ The make up of such an ecosystem includes:
 
 * An incubation hub to empower the development of further digital services to run on top of the TSIP platform and further empower and uplift the community of Tanzania.  Such examples include:
     * Virtual healthcare delivery
-    * Virtual education curriculum
+    * Online education curriculum
+    * Agriculture improvements through data ownership
     * Digital banking
-    * etc
+    * and much, much, much more possibilities
