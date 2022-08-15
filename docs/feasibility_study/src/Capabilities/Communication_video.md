@@ -41,7 +41,7 @@ And if we expand this to a world map it would look somethingg like this:
 mermaid source in: ./includes/centralized_video.md
 -->
 
-<div style="text-align: left;">
+<div style="text-align: center;">
 
 ![alt text](../capabilities/img/videoconference_central-1.png))
 

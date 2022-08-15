@@ -60,7 +60,6 @@ graph LR
     TWINB -->|secure network| TWINA
     end
 ```
-![private_chat](../capabilities/img/private_chat.png)
 
 The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:
 - send text message
@@ -78,8 +77,6 @@ Group chat is unique to this peer to peer chat platform.  The group functionalit
 <!--
 mermaid source code in ./includes/group_chat.md
 -->
-
-![group_chat](../capabilities/img/group_chat.png)
 
 ```mermaid
 graph LR
