@@ -12,18 +12,42 @@ Current world video conferencing services use service provider and centralized s
 
 In principle this looks like
 
+<!--
+Needs better quality picture.  Have to find original slide
+-->
+
+
 <div style="text-align: center;">
 
 ![alt text](../capabilities/img/videoconferencing_cental.png))
 
 </div>
 
+```mermaid
+graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .->|browser| MESSAGINGA
+    MESSAGINGA -->|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) -->|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .->|browser| INDIVIDUALB
+    end
+```
 
-And if we expand this to a world map it could look like this:
+
+And if we expand this to a world map it would look somethingg like this:
+
 <!--
-Needs better quality picture.  Have to find original slide
+mermaid source in: ./includes/centralized_video.md
 -->
-<div style="text-align: center;">
+
+<div style="text-align: left;">
 
 ![alt text](../capabilities/img/videoconference_central-1.png))
 
@@ -33,11 +57,39 @@ This does not lead to create the best experience and over all, it is very wastef
 
 The solution to this problem is to have a video conference solution that works peer to peer.
 
+<!--
+mermaid source in: ./includes/private_video.md
+-->
+
 <div style="text-align: center;">
 
 ![](../capabilities/img/videoconference_decentral.png)
 
 </div>
+
+
+```mermaid
+graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .->|browser| TWINA
+    TWINA -->|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .->|Browser| INDIVIDUALB
+    TWINA(Twin A) .->|Browser| INDIVIDUALC
+    TWINA(Twin A) .->|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) -->|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) -->|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) -->|Browser| TWINA
+    end
+
+```
 If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:
 
 <div style="text-align: center;">
@@ -46,6 +98,12 @@ If we build a video conferencing system that follows this principle we can be mu
 
 </div>
 
-### What?
+### 
 
-#### Product feature
+#### Product features
+
+- 1. 
+- 2. 
+- 3. 
+- etc.
+
