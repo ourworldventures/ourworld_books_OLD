@@ -43,6 +43,39 @@ Office tools can be deployed locally if and when there is a digital infrastuctur
 
 The principle of doing it that way would look as follows:
 
+```mermaid
+graph RL
 
+    subgraph Location A
+        INDIVIDUALA(Individual A)
+        subgraph Twin A
+            OFFICETOOL(Office Tool Platform)
+            DATASTORE(Data Storage)
+            OFFICETOOL --> DATASTORE
+            DATASTORE --> OFFICETOOL 
+        end
+        INDIVIDUALA .->|browser| OFFICETOOL
+        OFFICETOOL -->|browser| INDIVIDUALA
 
+    end
 
+    subgraph Location B
+        INDIVIDUALB(Individual B)
+    end 
+        INDIVIDUALB .->|browser| OFFICETOOL
+        OFFICETOOL -->|browser| INDIVIDUALB
+   
+    subgraph Location C
+        INDIVIDUALC(Individual C)
+    end 
+        INDIVIDUALC .->|browser| OFFICETOOL
+        OFFICETOOL -->|browser| INDIVIDUALC
+
+    subgraph Location ...
+        INDIVIDUALD(Individual ...)
+    end 
+        INDIVIDUALD .->|browser| OFFICETOOL
+        OFFICETOOL -->|browser| INDIVIDUALD
+```
+
+This way, person A is providing the Office tool from his twin and invites other people to cooperate in this office tool. The Twin can run anywhere (as determined by the operator, person A).  With this priciple we can create individuals or companies that operate and own their own office tool and datastorage platform.
