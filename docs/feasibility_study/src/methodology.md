@@ -1,4 +1,4 @@
-### Methodology {#methodology}
+### Methodology
 
 Process
 - create outline & roadmap, identify key ministries, dedicate resources

@@ -1,4 +1,4 @@
-# ThreeFold Technology enabler for digitising the Agricultural sector
+# Digitising and enablement of the Tanzania agricultural sector
 
 ## Introduction
 Agriculture is the main part of Tanzania's economy. As of 2016, Tanzania had over 44 million hectares of arable land with only 33 percent of this amount in cultivation. Almost 70 percent of the poor population live in rural areas, and almost all of them are involved in the farming sector. Land is a vital asset in ensuring food security, and among the nine main food crops in Tanzania are maize, sorghum, millet, rice, wheat, beans, cassava, potatoes, and bananas. The agricultural industry makes a large contribution to the country's foreign exchange earnings, with more than US$1 billion in earnings from cash crop exports.

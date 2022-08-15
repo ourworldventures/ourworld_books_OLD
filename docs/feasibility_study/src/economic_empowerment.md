@@ -1,5 +1,4 @@
-### Economic Empowerment {#economic-empowerment}
-
+### Economic Empowerment
 TSIP must enable the economic empowerment of Tanzania, ensure the digital sovereignty of the nation and unlock the Tanzanian internet economy. TSIP is the secure, sovereign and sustainable digital infrastructure and services that empowers each and every TZN citizen to thrive in the digital economy and partake in the economic success of their country.
 
 TSIP should empower the economic and overall well being of every citizen, promoting new job creation and contributing toward the following metrics of Tanzania economy:
