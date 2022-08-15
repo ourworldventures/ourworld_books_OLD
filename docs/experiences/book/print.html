@@ -146,24 +146,20 @@
                         <div style="text-align: center;">
 <p><img src="community_tools/../capabilities/img/flower.png" alt="commmunity room" /></p>
 </div>
-<h2 id="community-rooms"><a class="header" href="#community-rooms">Community rooms</a></h2>
-<p>Content needs to describe</p>
+<p>Rooms are chat rooms which are part of your digital twin.  In these rooms you can invite people that make up / are part of you room, covering a specific topic. Specific topics could be:  my football club, my investment club, my family, my friends.  Anything is possible with regards to rooms, people are bonded together in groups on you personal twin.</p>
+<p>Examples of groups of people using rooms:  local football club,  book club, companies, enterprises, states, countries.</p>
+<p>Within these group functionality can be made available.  Example (and probably first MVP functionality is:</p>
 <ul>
-<li>what is a room?</li>
-<li>what is the functionality of a room
-<ul>
-<li>community / group of people with a common interest / purpose / mission / work / hobby</li>
-<li>be be used for simple chat</li>
-<li>can be configured as a DAO</li>
-<li>can be configured with variable consensus rules</li>
+<li>be be used for simple chat function between all members.</li>
+<li>can be used to create and operate a DAO</li>
+<li>variable (free) consensus rules can be implemented to reflect the rules of the DAO.</li>
 </ul>
-</li>
-<li>examples
-<ul>
-<li>local farming community</li>
-</ul>
-</li>
-</ul>
+<p>Rooms will provide functionality to non technical groups in an easy way to self organize and create consensus mechanisms to govern activities and transact money all done from you own private digital space.</p>
+<div style="text-align: center;">
+<p><img src="community_tools/../capabilities/img/room_consensus.png" alt="commmunity room" /></p>
+</div>
+<p>The interface will present it self as a chat interface to the members of the group.  In the chat language there will be a very simple language available to create the chains and consensus rules around it.  For consensus a quorum )5 out of 8 members or for larger groups for example 70% of the members) need to agree. Once this quorum has been achieved by a simple poll in the group, the transaction is done, the governance rule is accepted.</p>
+<p>All of this is an individuals twin, in which a room was created which presents this functionality to the group members.</p>
 <div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
 <p><img src="community_tools/../capabilities/img/left-right.png" alt="share itt" /></p>
 </div>
@@ -213,6 +209,20 @@ Insert a graph that shows that everyone has their own marketplace own which they
 <p>The chat communication tools presents a simple interface to manage individual and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.</p>
 <p>Centralized messaging service always have a third party (company) involved.  A message would follow the following path:</p>
 <p><img src="Capabilities/../capabilities/img/centralized_chat.png" alt="private_chat" /></p>
+<pre><code class="language-mermaid">graph LR
+    subgraph Individual A;
+    INDIVIDUALA(Person A);
+    end;
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA;
+    MESSAGINGA --&gt;|browser| INDIVIDUALA;
+    subgraph Messaging provider;
+    MESSAGINGA(messaging platform);
+    end;
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA;
+    subgraph Individual B;
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB;
+    end;
+</code></pre>
 <p>The problem here is that the messaging provider sits in the middle and has access to all messages passing through its messaging platform.  This also means that messaging providers can (or can be told to) do the following:</p>
 <ul>
 <li>do machine learning on message content and/or message volume, frequency, size and all sort of other data.</li>
@@ -235,6 +245,20 @@ Insert a graph that shows that everyone has their own marketplace own which they
 <!--
 mermaid source code in ./includes/private_chat.md
 -->
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|secure network| TWINB(Twin B)
+    subgraph Individual B
+    TWINB .-&gt;|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINB
+    TWINB --&gt;|secure network| TWINA
+    end
+</code></pre>
 <p><img src="Capabilities/../capabilities/img/private_chat.png" alt="private_chat" /></p>
 <p>The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:</p>
 <ul>
@@ -252,6 +276,32 @@ mermaid source code in ./includes/private_chat.md
 mermaid source code in ./includes/group_chat.md
 -->
 <p><img src="Capabilities/../capabilities/img/group_chat.png" alt="group_chat" /></p>
+<pre><code class="language-mermaid">graph LR
+    subgraph Individual A
+    PERSONA(Person A) --&gt; TWINA
+    TWINA --&gt; PERSONA
+    TWINA(Twin A) --&gt; GROUP(group)
+    GROUP .-&gt; TWINA
+    end
+    GROUP .-&gt; TWINB
+    subgraph Individual B
+    TWINB(Twin B) --&gt; GROUP
+    TWINB --&gt; PERSONB
+    end
+    PERSONB(Person B) --&gt; TWINB
+    subgraph Individual C
+   GROUP .-&gt; TWINC
+    TWINC(Twin C) --&gt; GROUP
+    TWINC --&gt; PERSONC
+    end
+    PERSONC(Person C) --&gt; TWINC
+       GROUP .-&gt; TWIND
+    subgraph Individual D
+    TWIND(Twin D) --&gt; GROUP
+    TWIND --&gt; PERSOND
+    end
+    PERSOND(Person D) --&gt; TWIND
+</code></pre>
 <h3 id="look-and-feel-in-a-browser"><a class="header" href="#look-and-feel-in-a-browser">Look and feel in a browser</a></h3>
 <p><img src="Capabilities/../capabilities/img/chat_people%20invite.png" alt="groups_and_contacts" /></p>
 <div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
@@ -267,6 +317,21 @@ Needs better quality picture.  Have to find original slide
 <div style="text-align: center;">
 <p><img src="Capabilities/../capabilities/img/videoconferencing_cental.png" alt="alt text" />)</p>
 </div>
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA
+    MESSAGINGA --&gt;|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB
+    end
+</code></pre>
 <p>And if we expand this to a world map it would look somethingg like this:</p>
 <!--
 mermaid source in: ./includes/centralized_video.md
@@ -282,7 +347,28 @@ mermaid source in: ./includes/private_video.md
 <div style="text-align: center;">
 <p><img src="Capabilities/../capabilities/img/videoconference_decentral.png" alt="" /></p>
 </div>
-If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALB
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALC
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) --&gt;|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) --&gt;|Browser| TWINA
+    end
+
+</code></pre>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
 <div style="text-align: center;">
 <p><img src="Capabilities/../capabilities/img/videoconference_central-2.png" alt="" /></p>
 </div>
@@ -334,11 +420,84 @@ If we build a video conferencing system that follows this principle we can be mu
 <div style="text-align: center;">
 <p><img src="Capabilities/../Capabilities/img/central_education.png" alt="central_video" /></p>
 </div>
+<pre><code class="language-mermaid">graph LR
+    VIDEOPLATFORM .-&gt; INDIVIDUALA
+    VIDEOPLATFORM .-&gt; INDIVIDUALB
+    VIDEOPLATFORM .-&gt; INDIVIDUALC
+    VIDEOPLATFORM .-&gt; INDIVIDUALD
+    
+    subgraph Class A
+    INDIVIDUALA(Student A)
+    INDIVIDUALB(Student B)
+    INDIVIDUALH(Student ...)
+    INDIVIDUALI(Student N)
+    end
+    
+    VIDEOPLATFORM(central video sharing platform)
+    
+    subgraph Class B
+    INDIVIDUALC(Student 1)
+    INDIVIDUALD(Student 2)
+    INDIVIDUALJ(Student ...)
+    INDIVIDUALK(Student N)
+    end
+
+
+
+    VIDEOPLATFORM .-&gt; INDIVIDUALH
+    VIDEOPLATFORM .-&gt; INDIVIDUALI
+    VIDEOPLATFORM .-&gt; INDIVIDUALJ
+    VIDEOPLATFORM .-&gt; INDIVIDUALK
+
+</code></pre>
 <p>To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.</p>
 <p>Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.</p>
 <div style="text-align: center;">
 <p><img src="Capabilities/../capabilities/img/decentral_education.png" alt="central_video" /></p>
 </div>
+<pre><code class="language-mermaid">graph LR
+    subgraph Region A
+    INDIVIDUALAA(Student A)
+    INDIVIDUALAB(Student B)
+    INDIVIDUALAC(Student ...)
+    INDIVIDUALAD(Student N)
+    VIDEOPLATFORMA(Local video sharing platform)
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAA
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAB
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAC
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAD
+    end
+
+    subgraph Region B
+    INDIVIDUALBA(Student A)
+    INDIVIDUALBB(Student B)
+    INDIVIDUALBC(Student ...)
+    INDIVIDUALBD(Student N)
+    VIDEOPLATFORMB(Local video sharing platform)
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBA
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBB
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBC
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBD
+    end   
+
+    subgraph Region C
+    INDIVIDUALCA(Student A)
+    INDIVIDUALCB(Student B)
+    INDIVIDUALCC(Student ...)
+    INDIVIDUALCD(Student N)
+    VIDEOPLATFORMC(Local video sharing platform)
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCA
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCB
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCC
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCD
+    end   
+    VIDEOPLATFORMA --&gt; VIDEOPLATFORMB
+    VIDEOPLATFORMB --&gt; VIDEOPLATFORMA
+    VIDEOPLATFORMA --&gt; VIDEOPLATFORMC
+    VIDEOPLATFORMC --&gt; VIDEOPLATFORMA
+    VIDEOPLATFORMB --&gt; VIDEOPLATFORMC
+    VIDEOPLATFORMC --&gt; VIDEOPLATFORMB
+</code></pre>
 <p>4BILLION  COURSES DELIVERED</p>
 <p>Our local infrastructure ensures data locality.</p>
 <p>Over 3,000 Videos</p>
@@ -380,6 +539,55 @@ If we build a video conferencing system that follows this principle we can be mu
 <p><img src="Capabilities/./img/search.png" alt="surf safe" /></p>
 </div>
 <h2 id="surf-safe"><a class="header" href="#surf-safe">Surf safe</a></h2>
+<p>Browsing the internet present risks.  There are many sites which have malicious code embedded in what look like harmless web pages.  This malicious content gets uploaded to your browser and might trick you in agreeing malicious code in your local browser on you local machine.  This is a fairly common practice and people are being tricked into providing information of access to information which they should not.</p>
+<p>The Surf Safe option of the twin provider a virtual browser on the twin that browses the internet on behalf off the person who operates the twin.</p>
+<div style="text-align: center;">
+<p><img src="Capabilities/../capabilities/img/internet_browsing.png" alt="surf safe" /></p>
+</div>
+<pre><code class="language-mermaid">graph RL
+    subgraph Person A
+    PERSONA(Browser A)
+    end
+
+    Internet
+    PERSONA .-&gt; Internet
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    Internet .-&gt; WEB
+
+    WEB --&gt; Internet
+    Internet --&gt; PERSONA
+
+</code></pre>
+<p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
+<div style="text-align: center;">
+<p><img src="Capabilities/../capabilities/img/safe_browsing.png" alt="surf safe" /></p>
+</div>
+<pre><code class="language-mermaid">graph RL
+    subgraph Person A
+        PERSONA(Browser A)
+        TWINA(Twin A)
+    end
+    PERSONA .-&gt; TWINA
+    subgraph Internet
+        NETWORK(Internet)
+    end
+
+    TWINA .-&gt; NETWORK
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    NETWORK .-&gt; WEB
+
+    WEB --&gt; NETWORK
+    NETWORK --&gt; TWINA
+    TWINA --&gt; PERSONA
+</code></pre>
 
                     </main>
 
