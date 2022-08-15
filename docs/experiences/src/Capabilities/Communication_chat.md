@@ -10,7 +10,26 @@ The chat communication tools presents a simple interface to manage individual an
 
 Centralized messaging service always have a third party (company) involved.  A message would follow the following path:
 
+
 ![private_chat](../capabilities/img/centralized_chat.png)
+
+
+
+```mermaid
+graph LR
+    subgraph Individual A;
+    INDIVIDUALA(Person A);
+    end;
+    INDIVIDUALA .->|browser| MESSAGINGA;
+    MESSAGINGA -->|browser| INDIVIDUALA;
+    subgraph Messaging provider;
+    MESSAGINGA(messaging platform);
+    end;
+    INDIVIDUALB(Person B) -->|browser| MESSAGINGA;
+    subgraph Individual B;
+    MESSAGINGA .->|browser| INDIVIDUALB;
+    end;
+```
 
 The problem here is that the messaging provider sits in the middle and has access to all messages passing through its messaging platform.  This also means that messaging providers can (or can be told to) do the following:
 - do machine learning on message content and/or message volume, frequency, size and all sort of other data.
@@ -34,6 +53,21 @@ With private chat we mean a chat between to entities. These entities could be in
 mermaid source code in ./includes/private_chat.md
 -->
 
+```mermaid
+graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .->|browser| TWINA
+    TWINA -->|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .->|secure network| TWINB(Twin B)
+    subgraph Individual B
+    TWINB .->|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) -->|Browser| TWINB
+    TWINB -->|secure network| TWINA
+    end
+```
 ![private_chat](../capabilities/img/private_chat.png)
 
 The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:
@@ -55,6 +89,33 @@ mermaid source code in ./includes/group_chat.md
 
 ![group_chat](../capabilities/img/group_chat.png)
 
+```mermaid
+graph LR
+    subgraph Individual A
+    PERSONA(Person A) --> TWINA
+    TWINA --> PERSONA
+    TWINA(Twin A) --> GROUP(group)
+    GROUP .-> TWINA
+    end
+    GROUP .-> TWINB
+    subgraph Individual B
+    TWINB(Twin B) --> GROUP
+    TWINB --> PERSONB
+    end
+    PERSONB(Person B) --> TWINB
+    subgraph Individual C
+   GROUP .-> TWINC
+    TWINC(Twin C) --> GROUP
+    TWINC --> PERSONC
+    end
+    PERSONC(Person C) --> TWINC
+       GROUP .-> TWIND
+    subgraph Individual D
+    TWIND(Twin D) --> GROUP
+    TWIND --> PERSOND
+    end
+    PERSOND(Person D) --> TWIND
+```
 
 ### Look and feel in a browser
 

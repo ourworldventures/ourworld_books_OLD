@@ -155,6 +155,21 @@ Needs better quality picture.  Have to find original slide
 <div style="text-align: center;">
 <p><img src="../capabilities/img/videoconferencing_cental.png" alt="alt text" />)</p>
 </div>
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA
+    MESSAGINGA --&gt;|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB
+    end
+</code></pre>
 <p>And if we expand this to a world map it would look somethingg like this:</p>
 <!--
 mermaid source in: ./includes/centralized_video.md
@@ -170,7 +185,28 @@ mermaid source in: ./includes/private_video.md
 <div style="text-align: center;">
 <p><img src="../capabilities/img/videoconference_decentral.png" alt="" /></p>
 </div>
-If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALB
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALC
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) --&gt;|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) --&gt;|Browser| TWINA
+    end
+
+</code></pre>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
 <div style="text-align: center;">
 <p><img src="../capabilities/img/videoconference_central-2.png" alt="" /></p>
 </div>

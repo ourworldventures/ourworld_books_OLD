@@ -16,11 +16,29 @@ In principle this looks like
 Needs better quality picture.  Have to find original slide
 -->
 
+
 <div style="text-align: center;">
 
 ![alt text](../capabilities/img/videoconferencing_cental.png))
 
 </div>
+
+```mermaid
+graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .->|browser| MESSAGINGA
+    MESSAGINGA -->|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) -->|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .->|browser| INDIVIDUALB
+    end
+```
 
 
 And if we expand this to a world map it would look somethingg like this:
@@ -48,6 +66,30 @@ mermaid source in: ./includes/private_video.md
 ![](../capabilities/img/videoconference_decentral.png)
 
 </div>
+
+
+```mermaid
+graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .->|browser| TWINA
+    TWINA -->|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .->|Browser| INDIVIDUALB
+    TWINA(Twin A) .->|Browser| INDIVIDUALC
+    TWINA(Twin A) .->|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) -->|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) -->|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) -->|Browser| TWINA
+    end
+
+```
 If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:
 
 <div style="text-align: center;">

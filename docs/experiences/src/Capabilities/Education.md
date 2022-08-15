@@ -19,6 +19,38 @@ Taking the learnings from both of these current use cases we have created Sikana
 ![central_video](../Capabilities/img/central_education.png)
 </div>
 
+```mermaid
+graph LR
+    VIDEOPLATFORM .-> INDIVIDUALA
+    VIDEOPLATFORM .-> INDIVIDUALB
+    VIDEOPLATFORM .-> INDIVIDUALC
+    VIDEOPLATFORM .-> INDIVIDUALD
+    
+    subgraph Class A
+    INDIVIDUALA(Student A)
+    INDIVIDUALB(Student B)
+    INDIVIDUALH(Student ...)
+    INDIVIDUALI(Student N)
+    end
+    
+    VIDEOPLATFORM(central video sharing platform)
+    
+    subgraph Class B
+    INDIVIDUALC(Student 1)
+    INDIVIDUALD(Student 2)
+    INDIVIDUALJ(Student ...)
+    INDIVIDUALK(Student N)
+    end
+
+
+
+    VIDEOPLATFORM .-> INDIVIDUALH
+    VIDEOPLATFORM .-> INDIVIDUALI
+    VIDEOPLATFORM .-> INDIVIDUALJ
+    VIDEOPLATFORM .-> INDIVIDUALK
+
+```
+
 To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.
 
 Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.
@@ -28,7 +60,50 @@ Decentralized video sharing as an education platform as a platform will lower th
 ![central_video](../capabilities/img/decentral_education.png)   
 </div>
 
+```mermaid
+graph LR
+    subgraph Region A
+    INDIVIDUALAA(Student A)
+    INDIVIDUALAB(Student B)
+    INDIVIDUALAC(Student ...)
+    INDIVIDUALAD(Student N)
+    VIDEOPLATFORMA(Local video sharing platform)
+    VIDEOPLATFORMA .-> INDIVIDUALAA
+    VIDEOPLATFORMA .-> INDIVIDUALAB
+    VIDEOPLATFORMA .-> INDIVIDUALAC
+    VIDEOPLATFORMA .-> INDIVIDUALAD
+    end
 
+    subgraph Region B
+    INDIVIDUALBA(Student A)
+    INDIVIDUALBB(Student B)
+    INDIVIDUALBC(Student ...)
+    INDIVIDUALBD(Student N)
+    VIDEOPLATFORMB(Local video sharing platform)
+    VIDEOPLATFORMB .-> INDIVIDUALBA
+    VIDEOPLATFORMB .-> INDIVIDUALBB
+    VIDEOPLATFORMB .-> INDIVIDUALBC
+    VIDEOPLATFORMB .-> INDIVIDUALBD
+    end   
+
+    subgraph Region C
+    INDIVIDUALCA(Student A)
+    INDIVIDUALCB(Student B)
+    INDIVIDUALCC(Student ...)
+    INDIVIDUALCD(Student N)
+    VIDEOPLATFORMC(Local video sharing platform)
+    VIDEOPLATFORMC .-> INDIVIDUALCA
+    VIDEOPLATFORMC .-> INDIVIDUALCB
+    VIDEOPLATFORMC .-> INDIVIDUALCC
+    VIDEOPLATFORMC .-> INDIVIDUALCD
+    end   
+    VIDEOPLATFORMA --> VIDEOPLATFORMB
+    VIDEOPLATFORMB --> VIDEOPLATFORMA
+    VIDEOPLATFORMA --> VIDEOPLATFORMC
+    VIDEOPLATFORMC --> VIDEOPLATFORMA
+    VIDEOPLATFORMB --> VIDEOPLATFORMC
+    VIDEOPLATFORMC --> VIDEOPLATFORMB
+```
 4BILLION  COURSES DELIVERED
 
 Our local infrastructure ensures data locality.

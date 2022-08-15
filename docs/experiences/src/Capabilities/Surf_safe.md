@@ -16,7 +16,26 @@ The Surf Safe option of the twin provider a virtual browser on the twin that bro
 
 </div>
 
-In order to make this safe, the Twin can perforn the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.
+```mermaid
+graph RL
+    subgraph Person A
+    PERSONA(Browser A)
+    end
+
+    Internet
+    PERSONA .-> Internet
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    Internet .-> WEB
+
+    WEB --> Internet
+    Internet --> PERSONA
+
+```
+In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.
 
 <div style="text-align: center;">
 
@@ -24,3 +43,26 @@ In order to make this safe, the Twin can perforn the browsing activities and sen
 
 </div>
 
+```mermaid
+graph RL
+    subgraph Person A
+        PERSONA(Browser A)
+        TWINA(Twin A)
+    end
+    PERSONA .-> TWINA
+    subgraph Internet
+        NETWORK(Internet)
+    end
+
+    TWINA .-> NETWORK
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    NETWORK .-> WEB
+
+    WEB --> NETWORK
+    NETWORK --> TWINA
+    TWINA --> PERSONA
+```

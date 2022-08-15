@@ -149,6 +149,20 @@
 <p>The chat communication tools presents a simple interface to manage individual and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.</p>
 <p>Centralized messaging service always have a third party (company) involved.  A message would follow the following path:</p>
 <p><img src="../capabilities/img/centralized_chat.png" alt="private_chat" /></p>
+<pre><code class="language-mermaid">graph LR
+    subgraph Individual A;
+    INDIVIDUALA(Person A);
+    end;
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA;
+    MESSAGINGA --&gt;|browser| INDIVIDUALA;
+    subgraph Messaging provider;
+    MESSAGINGA(messaging platform);
+    end;
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA;
+    subgraph Individual B;
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB;
+    end;
+</code></pre>
 <p>The problem here is that the messaging provider sits in the middle and has access to all messages passing through its messaging platform.  This also means that messaging providers can (or can be told to) do the following:</p>
 <ul>
 <li>do machine learning on message content and/or message volume, frequency, size and all sort of other data.</li>
@@ -171,6 +185,20 @@
 <!--
 mermaid source code in ./includes/private_chat.md
 -->
+<pre><code class="language-mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|secure network| TWINB(Twin B)
+    subgraph Individual B
+    TWINB .-&gt;|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINB
+    TWINB --&gt;|secure network| TWINA
+    end
+</code></pre>
 <p><img src="../capabilities/img/private_chat.png" alt="private_chat" /></p>
 <p>The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:</p>
 <ul>
@@ -188,6 +216,32 @@ mermaid source code in ./includes/private_chat.md
 mermaid source code in ./includes/group_chat.md
 -->
 <p><img src="../capabilities/img/group_chat.png" alt="group_chat" /></p>
+<pre><code class="language-mermaid">graph LR
+    subgraph Individual A
+    PERSONA(Person A) --&gt; TWINA
+    TWINA --&gt; PERSONA
+    TWINA(Twin A) --&gt; GROUP(group)
+    GROUP .-&gt; TWINA
+    end
+    GROUP .-&gt; TWINB
+    subgraph Individual B
+    TWINB(Twin B) --&gt; GROUP
+    TWINB --&gt; PERSONB
+    end
+    PERSONB(Person B) --&gt; TWINB
+    subgraph Individual C
+   GROUP .-&gt; TWINC
+    TWINC(Twin C) --&gt; GROUP
+    TWINC --&gt; PERSONC
+    end
+    PERSONC(Person C) --&gt; TWINC
+       GROUP .-&gt; TWIND
+    subgraph Individual D
+    TWIND(Twin D) --&gt; GROUP
+    TWIND --&gt; PERSOND
+    end
+    PERSOND(Person D) --&gt; TWIND
+</code></pre>
 <h3 id="look-and-feel-in-a-browser"><a class="header" href="#look-and-feel-in-a-browser">Look and feel in a browser</a></h3>
 <p><img src="../capabilities/img/chat_people%20invite.png" alt="groups_and_contacts" /></p>
 
