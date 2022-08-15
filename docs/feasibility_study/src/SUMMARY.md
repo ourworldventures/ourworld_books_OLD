@@ -31,7 +31,7 @@
     - [Real estate availability and reliability](./realestate_options.md)
   - [Deployment types](./deployment_types.md)
 - [Operational Feasibility](./operational_feasibility.md)
-- [Financial Feasibility](./not_done.md)
+- [Financial Feasibility](./financial_feasibility.md)
 - [Legal/Regulatory Compliance](./legal_compliance.md)
 - [Risk Factors & Mitigation](./risk_factors.md)
 - [Schedule](./schedule.md)

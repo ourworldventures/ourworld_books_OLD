@@ -17,7 +17,8 @@ Combined:
 
 | Data overlay| Feasibility phasing|
 |---|---|
-| <img src="./img/tanzania_conbined_meta.png" alt="drawing" height="200"/> | <img src="./img/tanzania_phases.png" alt="drawing" hieght="200"/> |
+| <img src="./img/tanzania_conbined_meta.png" alt="drawing" height="300"/> | <img src="./img/tanzania_phases.png" alt="drawing" height="300"/> |
+
 Main focus fof the feasibility study wil be nio the phase1 area, which include the following main islands and cities:
 
 * Dar Es Salam (7,404,689)
