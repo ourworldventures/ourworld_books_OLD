@@ -1,4 +1,4 @@
-#### Market Feasibility Study Results {#market-feasibility-study-results}
+#### Market Feasibility Study Results
 
 TOP 20 African Countries by Overall Assessment
 

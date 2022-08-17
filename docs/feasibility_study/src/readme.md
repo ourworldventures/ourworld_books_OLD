@@ -1,6 +1,6 @@
 **<p style="text-align: center;">UNITED REPUBLIC OF TANZANIA</p>**
-TEST
 
+test
 <div style="text-align: center;">
 
 ![alt_text](img/tanzania_flag.png "image_tooltip")
@@ -22,4 +22,3 @@ TEST
 **<p style="text-align: center;">THREEFOLD NV</p>**
 
 **<p style="text-align: center;">AUGUST 2022</p>**
-
