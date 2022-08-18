@@ -101,7 +101,7 @@ Following information and content will be available
 
 
 
-![alt_text](img/centralized_internet.png "image_tooltip")
+![alt_text](../img/centralized_internet.png "image_tooltip")
 
 
 We want to help countries, many countries find themselves in a challenging situation where they run out of money, have too much debt, people are potentially unhappy, there could be a risk of conflict, … We believe a decentralized Internet of Internets could help. Some very concrete benefits for a country to get started now.

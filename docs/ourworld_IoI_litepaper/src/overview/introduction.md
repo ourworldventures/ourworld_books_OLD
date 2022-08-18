@@ -1,5 +1,4 @@
-![alt_text](img/web_remade.png "image_tooltip")
-
+![alt_text](../img/web_remade.png "image_tooltip")
 
 
 # OurWorld is an abundance based Internet of Internets system
@@ -31,7 +30,7 @@ We are excited about a future where we can together create a more safe platform,
 
 
 
-![alt_text](img/crises_waves.jpg "image_tooltip")
+![alt_text](../img/crises_waves.jpg "image_tooltip")
 
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
