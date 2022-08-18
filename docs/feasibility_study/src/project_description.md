@@ -4,7 +4,7 @@ The Tanzania Sovereign Internet Platform (“TSIP”) as envisaged in the memora
 
 The make up of such an ecosystem includes:
 
-![ecosystem](./img/ecosystem.png)
+![ecosystem](./../img/ecosystem.png)
 
 **TSIP Grid (powered by Threefold)**
 

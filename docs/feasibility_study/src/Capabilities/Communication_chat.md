@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![communication tool chat](./img/oc.png)
+![communication tool chat](./../img/oc.png)
 
 </div>
 
@@ -69,7 +69,7 @@ The chat functionality allows most (if not all) of the standard functionality kn
 - send photo/file/
 
 From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
-![private_chat](../capabilities/img/chat_overview.png)
+![private_chat](../capabilities/../img/chat_overview.png)
 
 ### Group Chat
 
@@ -108,5 +108,5 @@ graph LR
 
 ### Look and feel in a browser
 
-![groups_and_contacts](../capabilities/img/chat_people%20invite.png)
+![groups_and_contacts](../capabilities/../img/chat_people%20invite.png)
 

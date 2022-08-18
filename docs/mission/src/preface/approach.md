@@ -1,6 +1,6 @@
 # PLANET AND PEOPLE FIRST APPROACH
 
-<img src="img/planet_people_profit.png" alt="planetpeopleprofit" width="200" style="float: right"/>
+<img src="../img/planet_people_profit.png" alt="planetpeopleprofit" width="200" style="float: right"/>
 
 &nbsp;
 
@@ -19,7 +19,7 @@ Of course being financially healthy is the first requirement.
   </tr>
 </table>
 
-![image alt text](img/crisis_waves.jpg)  
+![image alt text](../img/crisis_waves.jpg)  
 
 We are in the forefront of a growing movement, more and more companies are being pushed by customers and stakeholders to prioritize sustainability and planet positive policies. We are not swimming against the stream, 
 we are part of a group of leaders of change and making real the zeitgeist of the 21st century. 

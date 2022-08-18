@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![surf safe](./img/search.png)
+![surf safe](./../img/search.png)
 
 </div>
 
@@ -12,7 +12,7 @@ The Surf Safe option of the twin provider a virtual browser on the twin that bro
 
 <div style="text-align: center;">
 
-![surf safe](../capabilities/img/internet_browsing.png)
+![surf safe](../capabilities/../img/internet_browsing.png)
 
 </div>
 
@@ -39,7 +39,7 @@ In order to make this safe, the Twin can perform the browsing activities and sen
 
 <div style="text-align: center;">
 
-![surf safe](../capabilities/img/safe_browsing.png)
+![surf safe](../capabilities/../img/safe_browsing.png)
 
 </div>
 
