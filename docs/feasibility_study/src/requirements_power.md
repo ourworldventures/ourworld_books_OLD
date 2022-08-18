@@ -10,18 +10,18 @@ Categories:
 
 The national grid (needs more research) is looking as follows:
 
-![power original](./img/tanzania_power_original.png "image_tooltip")
+![power original](./../img/tanzania_power_original.png "image_tooltip")
 
 <!-->
-<img src="./img/tanzania_power_original.png" alt="drawing" width="200"/>
+<img src="./../img/tanzania_power_original.png" alt="drawing" width="200"/>
 -->
 
 We are getting more detailed and recent information on the power grid in Tanzania but this represents a first good start.  Everything that is considers close to the major power distribution lines is meant to be stable and reliable.  The further aways from these major power distribution lines, available power becomes scarcer and less reliable.
 
-![power meta](./img/tanzania_power_meta.png)
+![power meta](./../img/tanzania_power_meta.png)
 
 Extracting the areas where major powerlines bring sufficient quantity and quality power to operate installations.  These areas are the preferred areas to build a proof of concept in.
 
 <!--
-<img src="./img/tanzania_power_meta.png" alt="drawing" width="200"/>
+<img src="./../img/tanzania_power_meta.png" alt="drawing" width="200"/>
 -->

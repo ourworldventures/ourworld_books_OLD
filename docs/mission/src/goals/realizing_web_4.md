@@ -1,4 +1,4 @@
-## ![image alt text](img/globe.png)
+## ![image alt text](../img/globe.png)
 
 ## **Goal 3: Realizing Web 4 for a better world.**
 

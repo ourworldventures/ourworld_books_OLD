@@ -1,6 +1,6 @@
 # Threefold Mission
 
-# ![image alt text](img/sky_surfing.png)
+# ![image alt text](../img/sky_surfing.png)
 
 **"When you were born in a world where you don’t fit in, you were born to help create a new one."**
 

@@ -1,4 +1,4 @@
-![alt_text](img/ghost_hacker.png)
+![alt_text](../img/ghost_hacker.png)
 
 # Introduction
 

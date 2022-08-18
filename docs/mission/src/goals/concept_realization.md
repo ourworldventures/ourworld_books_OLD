@@ -1,4 +1,4 @@
-![image alt text](img/waterfall.png)
+![image alt text](../img/waterfall.png)
 
 ## **Goal 1: Realize the Internet of Internets Concept**
 

@@ -1,4 +1,4 @@
-## ![image alt text](img/bitcoin.png)
+## ![image alt text](../img/bitcoin.png)
 
 ## **Goal 4: Become the Bitcoin for Internet Capacity = in a good way (-:**
 
@@ -15,5 +15,5 @@ TFT = a reliable digital currency for everyone in the world and provides equal c
 |Price is currently > 40k USD|Price is currently = 0.09 USD|
 
 
-![image alt text](img/missing_layer.png)
+![image alt text](../img/missing_layer.png)
 

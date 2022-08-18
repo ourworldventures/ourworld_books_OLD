@@ -30,7 +30,7 @@ The added value of digital technology to support improving livelihoods while con
 
 When farmers start collecting data off their farming activities, and retain ownership of that data, that data can lead to a large number of positive outcomes  that help farmers become better at what they do, retain a higher percentage of the final retail sales price of the produce and give them opportunities to attract forms of investment and income that are not available to them without data ownership.
 
-![data_ecosystem](img/fair_data_use_cases.png)
+![data_ecosystem](../img/fair_data_use_cases.png)
 
 ## Product quality and quantity
 
