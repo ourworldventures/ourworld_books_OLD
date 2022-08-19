@@ -11,3 +11,4 @@ Extensive research has been done to evaluate the market readiness of each countr
 
 The following explains the basis for the evaluation and the results. Tanzania scored extremely high relative to its peers and shows its readiness for growth in the internet based economy 
 
+
