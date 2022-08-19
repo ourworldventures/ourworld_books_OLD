@@ -1,4 +1,4 @@
-![alt_text](img/image1.png "image_tooltip")
+![alt_text](img/imagthreefold_internet_of_internets1.png "image_tooltip")
 
 
 Imagine a world where “YOU” are the Internet.
@@ -33,7 +33,7 @@ The decentralized Internet like you co-own a super computer which gives yous unl
 # The Internet Today
 
 
-![alt_text](img/image2.png "image_tooltip")
+![alt_text](img/centalized_data_centers.png "image_tooltip")
 
 
 The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.
@@ -249,44 +249,13 @@ Imagine the capabilities and potential of a combination of blockchain and our te
 # ThreeFold Can Be Considered Like BTC but then for Internet Infrastructure
 
 
-<table>
-  <tr>
-   <td><strong>BTC for Money</strong>
-   </td>
-   <td><strong>ThreeFold for Internet Infrastructure</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>$ are created by central banks, BTC by the people
-   </td>
-   <td>Cloud by Amazon, Google, …, TFT by the people
-   </td>
-  </tr>
-  <tr>
-   <td>Mining of BTC based on energy
-   </td>
-   <td>Farming of TFT based on storage, compute, network
-   </td>
-  </tr>
-  <tr>
-   <td>Endless Potential
-   </td>
-   <td>Endless Potential, + trillion USD market
-   </td>
-  </tr>
-  <tr>
-   <td>Store of value = digital currency
-   </td>
-   <td>Store of Value = utility token = Internet capacity
-   </td>
-  </tr>
-  <tr>
-   <td>Price is currently > 30k USD
-   </td>
-   <td>Price is currently around  0.05 USD
-   </td>
-  </tr>
-</table>
+|BTC for Money|ThreeFold for Internet Infrastructure|
+|---|---|
+|$ are created by central banks, BTC by the people|Cloud by Amazon, Google, …, TFT by the people|
+|Mining of BTC based on energy|Farming of TFT based on storage, compute, network|
+|Endless Potential|Endless Potential, + trillion USD market|
+|Store of value = digital currency|Store of Value = utility token = Internet capacity|
+|Price is currently > 30k USD|Price is currently around  0.05 USD|
 
 
 Our token is a digital currency backed by a real commodity = Internet capacity. 
