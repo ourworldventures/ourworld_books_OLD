@@ -8,7 +8,7 @@
 
 
 
-<img src="../img/planet_people_profit.png" width="" alt="alt_text" title="image_tooltip">
+<img src="img/planet_people_profit.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>We believe in:
@@ -32,9 +32,5 @@ Anything we do needs to improve our planet's situation (climate change, regenera
 Read more about our mission in [http://mission.threefold.me/](http://mission.threefold.me/) 
 
 
-# 
-
-
-
-![alt_text](../img/matrix.png "image_tooltip")
+![alt_text](img/matrix.png "image_tooltip")
 
