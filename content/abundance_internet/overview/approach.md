@@ -32,9 +32,5 @@ Anything we do needs to improve our planet's situation (climate change, regenera
 Read more about our mission in [http://mission.threefold.me/](http://mission.threefold.me/) 
 
 
-# 
-
-
-
 ![alt_text](img/matrix.png "image_tooltip")
 
