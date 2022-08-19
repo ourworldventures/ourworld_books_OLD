@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![education](./img/oc.png)
+![education](./../img/oc.png)
 
 </div>
 
@@ -16,35 +16,43 @@ Taking the learnings from both of these current use cases we have created Sikana
 
 
 ```mermaid
-graph LR
-    VIDEOPLATFORM .-> INDIVIDUALA
-    VIDEOPLATFORM .-> INDIVIDUALB
-    VIDEOPLATFORM .-> INDIVIDUALC
-    VIDEOPLATFORM .-> INDIVIDUALD
+graph TD
+
     
-    subgraph Class A
-    INDIVIDUALA(Student A)
-    INDIVIDUALB(Student B)
-    INDIVIDUALH(Student ...)
-    INDIVIDUALI(Student N)
+    subgraph Region A
+        subgraph Class A
+            INDIVIDUALA(Student 1)
+            INDIVIDUALB(Student ...)
+            INDIVIDUALC(Student N)
+        end
+        subgraph Class B
+            INDIVIDUALD(Student 1)
+            INDIVIDUALE(Student ...)
+            INDIVIDUALF(Student N)
+        end
     end
     
     VIDEOPLATFORM(central video sharing platform)
     
-    subgraph Class B
-    INDIVIDUALC(Student 1)
-    INDIVIDUALD(Student 2)
-    INDIVIDUALJ(Student ...)
-    INDIVIDUALK(Student N)
+    subgraph Region B
+        subgraph Class C
+            INDIVIDUALG(Student 1)
+            INDIVIDUALH(Student ...)
+            INDIVIDUALI(Student N)
+        end
     end
 
+    VIDEOPLATFORM .-> INDIVIDUALA
+    VIDEOPLATFORM .-> INDIVIDUALB
+    VIDEOPLATFORM .-> INDIVIDUALC
 
+    VIDEOPLATFORM .-> INDIVIDUALD
+    VIDEOPLATFORM .-> INDIVIDUALE
+    VIDEOPLATFORM .-> INDIVIDUALF
 
+    VIDEOPLATFORM .-> INDIVIDUALG
     VIDEOPLATFORM .-> INDIVIDUALH
     VIDEOPLATFORM .-> INDIVIDUALI
-    VIDEOPLATFORM .-> INDIVIDUALJ
-    VIDEOPLATFORM .-> INDIVIDUALK
-
 ```
 
 To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.
@@ -53,48 +61,44 @@ Decentralized video sharing as an education platform as a platform will lower th
 
 
 ```mermaid
-graph LR
+graph TD
     subgraph Region A
-    INDIVIDUALAA(Student A)
-    INDIVIDUALAB(Student B)
-    INDIVIDUALAC(Student ...)
-    INDIVIDUALAD(Student N)
-    VIDEOPLATFORMA(Local video sharing platform)
-    VIDEOPLATFORMA .-> INDIVIDUALAA
-    VIDEOPLATFORMA .-> INDIVIDUALAB
-    VIDEOPLATFORMA .-> INDIVIDUALAC
-    VIDEOPLATFORMA .-> INDIVIDUALAD
+        INDIVIDUALAA(Student 1)
+        INDIVIDUALAC(Student ...)
+        INDIVIDUALAD(Student N)
+        VIDEOPLATFORMA(Local video sharing platform)
+        VIDEOPLATFORMA .-> INDIVIDUALAA
+        VIDEOPLATFORMA .-> INDIVIDUALAC
+        VIDEOPLATFORMA .-> INDIVIDUALAD
     end
 
     subgraph Region B
-    INDIVIDUALBA(Student A)
-    INDIVIDUALBB(Student B)
-    INDIVIDUALBC(Student ...)
-    INDIVIDUALBD(Student N)
-    VIDEOPLATFORMB(Local video sharing platform)
-    VIDEOPLATFORMB .-> INDIVIDUALBA
-    VIDEOPLATFORMB .-> INDIVIDUALBB
-    VIDEOPLATFORMB .-> INDIVIDUALBC
-    VIDEOPLATFORMB .-> INDIVIDUALBD
+        INDIVIDUALBA(Student 1)
+        INDIVIDUALBC(Student ...)
+        INDIVIDUALBD(Student N)
+        VIDEOPLATFORMB(Local video sharing platform)
+        VIDEOPLATFORMB .-> INDIVIDUALBA
+        VIDEOPLATFORMB .-> INDIVIDUALBC
+        VIDEOPLATFORMB .-> INDIVIDUALBD
     end   
 
     subgraph Region C
-    INDIVIDUALCA(Student A)
-    INDIVIDUALCB(Student B)
-    INDIVIDUALCC(Student ...)
-    INDIVIDUALCD(Student N)
-    VIDEOPLATFORMC(Local video sharing platform)
-    VIDEOPLATFORMC .-> INDIVIDUALCA
-    VIDEOPLATFORMC .-> INDIVIDUALCB
-    VIDEOPLATFORMC .-> INDIVIDUALCC
-    VIDEOPLATFORMC .-> INDIVIDUALCD
+        INDIVIDUALCA(Student A)
+        INDIVIDUALCC(Student ...)
+        INDIVIDUALCD(Student N)
+        VIDEOPLATFORMC(Local video sharing platform)
+        VIDEOPLATFORMC .-> INDIVIDUALCA
+        VIDEOPLATFORMC .-> INDIVIDUALCC
+        VIDEOPLATFORMC .-> INDIVIDUALCD
     end   
-    VIDEOPLATFORMA --> VIDEOPLATFORMB
-    VIDEOPLATFORMB --> VIDEOPLATFORMA
-    VIDEOPLATFORMA --> VIDEOPLATFORMC
-    VIDEOPLATFORMC --> VIDEOPLATFORMA
-    VIDEOPLATFORMB --> VIDEOPLATFORMC
-    VIDEOPLATFORMC --> VIDEOPLATFORMB
+
+    VIDEOPLATFORMA .-> VIDEOPLATFORMB
+    VIDEOPLATFORMB .-> VIDEOPLATFORMC
+    VIDEOPLATFORMA .-> VIDEOPLATFORMC
+
+    VIDEOPLATFORMC .-> VIDEOPLATFORMB
+    VIDEOPLATFORMC .-> VIDEOPLATFORMA
+    VIDEOPLATFORMB .-> VIDEOPLATFORMA
 ```
 4BILLION  COURSES DELIVERED
 

@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![comnunication tool video](./img/camera.png)
+![comnunication tool video](./../img/camera.png)
 
 </div>
 
@@ -43,7 +43,7 @@ mermaid source in: ./includes/centralized_video.md
 
 <div style="text-align: center;">
 
-![alt text](../capabilities/img/videoconference_central-1.png))
+![alt text](../capabilities/../img/videoconference_central-1.png))
 
 </div>
 
@@ -81,7 +81,7 @@ If we build a video conferencing system that follows this principle we can be mu
 
 <div style="text-align: center;">
 
-![](../capabilities/img/videoconference_central-2.png)
+![](../capabilities/../img/videoconference_central-2.png)
 
 </div>
 

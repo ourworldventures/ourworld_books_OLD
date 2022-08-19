@@ -12,7 +12,7 @@
     * followed by Industry and Construction (31.1%) 
     * Agriculture, Forestry and Fishing  (28.9%) 
 
-![Tanzania GDP](./img/tanzania_gdp.png "image_tooltip")
+![Tanzania GDP](./../img/tanzania_gdp.png "image_tooltip")
 
 Among Tanzania’s predominantly rural population (73 percent), economic growth has been limited. Inclusive, broad-based growth is hindered by low productivity growth in labour-intensive sectors like agriculture, which employs 77 percent of working age adults. The agriculture sector grew just 4 percent per year over the past decade.
 
