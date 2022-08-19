@@ -9,8 +9,8 @@
 
 # Internet Architectures
 
-- [The Internet Today](./internet_architectures/internet_today.md)
-- [Web Re-made Architecture](./internet_architectures/remade_architecture.md)
+- [The Internet Today](./architecture/internet_today.md)
+- [Web Re-made Architecture](./architecture/remade_architecture.md)
 
 # Deployment
 
