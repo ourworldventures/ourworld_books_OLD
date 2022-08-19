@@ -14,7 +14,7 @@
 <table>
   <tr>
    <td>
-<img src="img/earth.png" width="" alt="alt_text" title="image_tooltip">
+<img src="matrix_overview/img/earth.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td><strong>Our major currencies are no longer Money</strong>
@@ -103,7 +103,7 @@ Link to money
 ## Climate Change - is real, and happening too fast
 
 
-![alt_text](img/red_blue_pill.png "image_tooltip")
+![alt_text](matrix_overview/img/red_blue_pill.png "image_tooltip")
 
 
 **Some facts**
