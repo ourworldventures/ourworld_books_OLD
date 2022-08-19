@@ -10,7 +10,7 @@ _The Digital Twin is a primitive that assures you only own your data and no one 
 
 ## Intro web4
 
-![](img/web4.png)  
+![](../img/web4.png)  
 
 _It consists of a peer-to-peer infrastructure. A decentralized cloud system to support a set of tool that will be used in the digital twin. The optimization is huge (x10) in terms of sustainability compared to centralized cloud computing. It is also more cost-effective._
 

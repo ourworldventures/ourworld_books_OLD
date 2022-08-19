@@ -1,4 +1,4 @@
-![alt_text](img/cyberspace_responsibility.png)
+![alt_text](../img/cyberspace_responsibility.png)
 
 # **Approach to Cyber Security Independence**
 
@@ -98,7 +98,7 @@ This has proven to work very well, super reliable and also regenerative, it migh
 ## **Keep all data in Secure Sandbox deployments**
 
 
-![alt_text](img/sandbox.png)
+![alt_text](../img/sandbox.png)
 
 
 Secure locations need to be a mix between distributed and centralized facilities but in such a way that data can never be lost nor modified.

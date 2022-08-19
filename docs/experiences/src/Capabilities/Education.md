@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![education](./img/oc.png)
+![education](./../img/oc.png)
 
 </div>
 
@@ -16,7 +16,7 @@ Taking the learnings from both of these current use cases we have created Sikana
 
 <div style="text-align: center;">
 
-![central_video](../Capabilities/img/central_education.png)
+![central_video](../Capabilities/../img/central_education.png)
 </div>
 
 ```mermaid
@@ -57,7 +57,7 @@ Decentralized video sharing as an education platform as a platform will lower th
 
 <div style="text-align: center;">
 
-![central_video](../capabilities/img/decentral_education.png)   
+![central_video](../capabilities/../img/decentral_education.png)   
 </div>
 
 ```mermaid

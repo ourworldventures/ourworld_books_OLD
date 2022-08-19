@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![alt_text](img/threefold_internet_of_internets1.png "image_tooltip")
+=======
+![alt_text](../img/image1.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Imagine a world where “YOU” are the Internet.
@@ -33,13 +37,21 @@ The decentralized Internet like you co-own a super computer which gives yous unl
 # The Internet Today
 
 
+<<<<<<< HEAD
 ![alt_text](img/centalized_data_centers.png "image_tooltip")
+=======
+![alt_text](../img/image2.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.
 
 
+<<<<<<< HEAD
 ![alt_text](img/blockchain.png "image_tooltip")
+=======
+![alt_text](../img/image3.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Blockchain is a huge step in the right direction but it's a shared architecture distributed over the world where data gets replicated on many locations. It's a good technology choice for use cases like money, smart contracts, voting, digital notary and identity but not at all suited for building a new internet with. This is also called web 4. Developers still need to develop applications connecting to multiple blockchains and centralization is often not good enough.
@@ -48,7 +60,11 @@ Blockchain is a huge step in the right direction but it's a shared architecture 
 # Web Re-Made Architecture
 
 
+<<<<<<< HEAD
 ![alt_text](img/web_remade_architect.png "image_tooltip")
+=======
+![alt_text](../img/image4.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 We are brainwashed about the need to centralize & control everything, this leads to suboptimal systems and a lot of waste. Web 1,2,3,4 are all centralized by nature. The best the world has been able to come up with is a shared consensus driven architecture called blockchain which is good for certain use cases but suboptimal for many more. 
@@ -56,7 +72,11 @@ We are brainwashed about the need to centralize & control everything, this leads
 The solution is actually very simple, you should be the center of your digital life, you own all your data, you are your own application (we call this your digital twin), we believe +90% of your digital needs can be implemented that way. Blockchain technology is needed for items where consensus is required like identity, money, smart contracts…
 
 
+<<<<<<< HEAD
 ![alt_text](img/digital_twins.png "image_tooltip")
+=======
+![alt_text](../img/image5.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 There is a need for a co-owned global Internet infrastructure on top of which each of us can exist digitally, this is a dramatically different architecture with no centralization whatsoever and offering 100% equality as well as full data and application ownership. This has never been done because it's so different in design and goes away from any form of control by a money making company.
@@ -66,13 +86,21 @@ The Twins live on top of the ThreeFold Grid which is a co-owned infrastructure l
 The twins communicate with each other and the rest of the world (existing centralized services) as well as existing blockchain technologies. The data is using a novel storage technology which makes sure your data is safe and can never get lost, yet it's only owned by you and not even a quantum computer can hack it.
 
 
+<<<<<<< HEAD
 ![alt_text](img/personal_twin.png "image_tooltip")
+=======
+![alt_text](../img/image6.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Imagine the benefits for use cases like video conferencing:
 
 
+<<<<<<< HEAD
 ![alt_text](img/internet_distance.png "image_tooltip")
+=======
+![alt_text](../img/image7.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -85,7 +113,11 @@ The digital economy and our future as digital citizens are wholly dependent on t
 More than 80% of today's Internet infrastructure is owned by less than 20 organizations. The lack of ownership of our own data and the consequent commercialization of that data is a major concern for both individuals and governments alike. The future neutrality and democratization of the Internet is an absolute necessity in this regard.
 
 
+<<<<<<< HEAD
 ![alt_text](img/centralized_problems.png "image_tooltip")
+=======
+![alt_text](../img/image8.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 The Internet is growing like crazy. Today the Internet is mainly delivered out of data centers, which are huge buildings containing up to millions of servers. They consume a lot of energy and are very expensive to build. Building more data centers is not enough…
@@ -101,7 +133,11 @@ ThreeFold is different, is an Internet of Internets solution, people can build a
 “ThreeFold Neighborhood Clouds'' are the alternative to centralized datacenters, transforming a typical neighborhood into a decentralized and distributed data center. Each home, office or commercial property can host a 3Node (a computer delivering Internet Capacity in the form of storage and compute power). These 3Nodes are interconnected over fast local networks (e.g. it can be in the neighborhood as a fiber ring or using local Internet existing cable infrastructure) and offer a quantum safe storage system, metaverse/gaming rendering cloud (coming in 2023), compute cloud, a platform for our digital applications to enable our day to day digital life, and more.
 
 
+<<<<<<< HEAD
 ![alt_text](img/crises_waves.jpg "image_tooltip")
+=======
+![alt_text](../img/image9.jpg "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
@@ -118,7 +154,11 @@ Companies and investors that fail to be part of this needed movement will seem l
 <table>
   <tr>
    <td>
+<<<<<<< HEAD
 <img src="img/people_planet_profit.png" width="" alt="alt_text" title="image_tooltip">
+=======
+<img src="../img/image10.png" width="" alt="alt_text" title="image_tooltip">
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
    </td>
    <td>We believe in:
@@ -165,14 +205,22 @@ A more aware approach to global problems \
 # HOW DOES IT WORK?
 
 
+<<<<<<< HEAD
 ![alt_text](img/centralized_servers_solution.png "image_tooltip")
+=======
+![alt_text](../img/image11.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
 ## You can become an Internet Farmer today:
 
 
+<<<<<<< HEAD
 ![alt_text](img/node_guide.png "image_tooltip")
+=======
+![alt_text](../img/image12.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Farming Internet capacity is really easy and you can do it yourself today. Just buy a computer, go to our website, download our boot loader (which is a software which loads our operating system) and your computer is now a farming (mining) device that farms TFT, our Internet capacity reward token. If you do this yourself then we call this DIY (Do It Yourself) Internet Farming, more info see [https://library.threefold.me/info/threefold#/tfgrid/farming/farming_intro](https://library.threefold.me/info/threefold#/tfgrid/farming/farming_intro) 
@@ -186,7 +234,11 @@ We call this: a “ThreeFold **Neighborhood Cloud.”**
 
 
 ## 
+<<<<<<< HEAD
 ![alt_text](img/community_driven.png "image_tooltip")
+=======
+![alt_text](../img/image13.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -239,7 +291,11 @@ ThreeFold has successfully developed a peer-to-peer cloud operating system runni
 
 **This is the result of 20 years of work. \
 **
+<<<<<<< HEAD
 ![alt_text](img/blockchain_threefold.png "image_tooltip")
+=======
+![alt_text](../img/image14.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
  \
@@ -271,7 +327,11 @@ The current liquid market cap value for threefold is less than 30m USD which rep
 ThreeFold uses the power of digital currency models to create value. 
 
 
+<<<<<<< HEAD
 ![alt_text](img/underlying_utility.png "image_tooltip")
+=======
+![alt_text](../img/image15.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 TFT is valuable and delivers the resources described above for a certain number of hours. You can do much more with a TFT than what is described above. It's just an example, but it shows the real utility of a TFT. \
 See [https://library.threefold.me/info/threefold#/tokens/grid_valuation](https://library.threefold.me/info/threefold#/tokens/grid_valuation) 
 
@@ -279,7 +339,11 @@ See [https://library.threefold.me/info/threefold#/tokens/grid_valuation](https:/
 ## Our Token is Properly Constructed
 
 
+<<<<<<< HEAD
 ![alt_text](img/threefold_token_grid.png "image_tooltip")
+=======
+![alt_text](../img/image16.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 See [https://library.threefold.me/info/threefold#/tokens/tokenomics](https://library.threefold.me/info/threefold#/tokens/threefold__tokenomics)
@@ -288,7 +352,11 @@ See [https://library.threefold.me/info/threefold#/tokens/tokenomics](https://lib
 # 4 phases, TFT is Scarce and Valuable
 
 
+<<<<<<< HEAD
 ![alt_text](img/velocity_phase.png "image_tooltip")
+=======
+![alt_text](../img/image17.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 The first phase has been focused on the initial expansion and the creation of all the technology required (this phase is now completed. The next two phases are all about accelerated expansion, and this requires many billions of tokens and tens of thousands of servers, neither of which are available today.  To support the accelerated expansion phase, we are now establishing a set of liquidity pools.The more TFT flow, the more successful ThreeFold will become. 
@@ -388,7 +456,11 @@ There are 800m TFT right now. The above described staking requirement needs +50 
 
 
 ## 
+<<<<<<< HEAD
 ![alt_text](img/market_value.png "image_tooltip")
+=======
+![alt_text](../img/image18.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -419,7 +491,11 @@ More info see [https://library.threefold.me/info/threefold#/tfgrid/farming/proof
 
 
 # 
+<<<<<<< HEAD
 ![alt_text](img/threefold_city.png "image_tooltip")
+=======
+![alt_text](../img/image19.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -428,7 +504,11 @@ More info see [https://library.threefold.me/info/threefold#/tfgrid/farming/proof
 We have developed a massive scalable Internet concept which has 3 layers. The Threefold Internet of Internets approach needs to scale to billions of users, and needs to be available at all times. We believe the best way is not to have one internet but many internets, hence the name Internet of Internets.
 
 
+<<<<<<< HEAD
 ![alt_text](img/internet_of_internets.png "image_tooltip")
+=======
+![alt_text](../img/image20.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Above image shows how the Internet is hierarchical and scales forever. Each layer has a distinct purpose and allows the ecosystem to interact. While being hierarchical, it's still 100% peer-to-peer and decentralized.
@@ -437,7 +517,11 @@ Let's look at the different layers:
 
 
 ### 
+<<<<<<< HEAD
 ![alt_text](img/decentralized_city.png "image_tooltip")
+=======
+![alt_text](../img/image21.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 Layer 2 = Internet of Internets = Mother DAI
 
 The top layer, the home of the ThreeFold Token (TFT) and the base governance layer.
@@ -466,7 +550,11 @@ Each Regional Internet will have a read only Validator as part of their Region, 
 ### 
 
 
+<<<<<<< HEAD
 ![alt_text](img/threefold_phones.png "image_tooltip")
+=======
+![alt_text](../img/image22.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -514,7 +602,11 @@ Components of the Regional Internet
 * Initial Internet Capacity to host the base Information & Educational Layer (+40 Petabytes needed at this stage)
 
 
+<<<<<<< HEAD
 ![alt_text](img/houde_web.png "image_tooltip")
+=======
+![alt_text](../img/image23.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
@@ -559,20 +651,28 @@ The Following Experiences are by default available for each OurWorld Internet
 # Deployment Models
 
 
+<<<<<<< HEAD
 ![alt_text](img/3x_easy_implementation.png "image_tooltip")
+=======
+![alt_text](../img/image24.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 
 ## Open Source Deployment
 
 
+<<<<<<< HEAD
 ![alt_text](img/easy_implementation.png "image_tooltip")
+=======
+![alt_text](../img/image25.png "image_tooltip")
+>>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 People everywhere in the world expand on daily basis see [https://stats.grid.tf/](https://stats.grid.tf/) and the explorer for mainnet is on [https://explorer3.grid.tf/](https://explorer3.grid.tf/) (see the nodes being added on our mainnet for TFGrid 3.0).
 
 
-![alt_text](img/image26.png "image_tooltip")
+![alt_text](../img/image26.png "image_tooltip")
 
 
 
@@ -612,7 +712,7 @@ We expect 1 INCA to generate up to 2 to 3x less TFT over 5 years by the end of t
 ### Simulation For Homeowner
 
 
-![alt_text](img/image27.png "image_tooltip")
+![alt_text](../img/image27.png "image_tooltip")
 
 
 In this simulation, if the TFT price would go to $3, the homeowner would have their home for free.
@@ -639,7 +739,7 @@ _Disclaimer, we are not making any promise nor TFT price prediction, this is pur
 In some circumstances, it would take too long before the opensource deployment of neighborhood cloud concept would work in that case special purpose investment vehicles are created which allow investors to in invest in Internet Capacity deployment.
 
 
-![alt_text](img/image28.png "image_tooltip")
+![alt_text](../img/image28.png "image_tooltip")
 
 
 Above example has been created for Tanzania and allows 200.000 users to find their digital home per edge datacenter, do note that the data is not stored in 1 datacenter but dispersed over quite some of them.
@@ -652,7 +752,7 @@ Above example has been created for Tanzania and allows 200.000 users to find the
 
 
 # 
-![alt_text](img/image29.png "image_tooltip")
+![alt_text](../img/image29.png "image_tooltip")
 
 
 We are focussed on providing global decentralized IT capacity for any project in the world. We believe in partners, more than 40 partners are building on top of us already today. This needs to become thousands of them. We have blockchain constructs which allow partners to be part of ThreeFold and have their own revenue streams. We can be seen as a go2market vehicle for any software as a service or web business. 
@@ -661,7 +761,7 @@ Right now, we are mainly focussed on expansion though, see our 4 dimensions of G
 
 
 
-![alt_text](img/image30.png "image_tooltip")
+![alt_text](../img/image30.png "image_tooltip")
 
 
 
@@ -674,7 +774,7 @@ Right now, we are mainly focussed on expansion though, see our 4 dimensions of G
 ## Develop For Digital Twin  versus Your Own Apps On Capacity Layer (TF Grid)
 
 
-![alt_text](img/image31.png "image_tooltip")
+![alt_text](../img/image31.png "image_tooltip")
 
 
 Zero-OS (see further) is used on the 3Nodes and provides the base layer with storage, compute & network capacity. 
@@ -694,7 +794,7 @@ Our Decentralized Operating System (called Zero-OS) allows every company or pers
 Internet **compute**, **storage** or **network** capacity which can be used by everyone to host their Internet solutions:
 
 
-![alt_text](img/image32.png "image_tooltip")
+![alt_text](../img/image32.png "image_tooltip")
 
 
  \
@@ -702,7 +802,7 @@ Our blockchain provisioning/utilization layer allows everyone in the world to pr
 
  \
 
-![alt_text](img/image33.png "image_tooltip")
+![alt_text](../img/image33.png "image_tooltip")
 
 
 ThreeFold 3Nodes (the computers that provide the storage, compute and network capacity), can be as small as a 100 USD device or a big server for in a data center of 50,000USD per server. There is no limit to the scale we can achieve.
@@ -713,7 +813,7 @@ Each layer is as distributed as possible, already today a lot of capacity has be
 ## Tech: Our Quantum Safe Storage System Protects Your Data
 
 
-![alt_text](img/image34.png "image_tooltip")
+![alt_text](../img/image34.png "image_tooltip")
 
 
 Your data is unlimitedly scalable and can never be lost or corrupted. **You are the only one who owns your data.**
@@ -721,7 +821,7 @@ Your data is unlimitedly scalable and can never be lost or corrupted. **You are 
 ThreeFold nodes or even full data centers can go down, your data is always there, available forever.
 
 
-![alt_text](img/image35.png "image_tooltip")
+![alt_text](../img/image35.png "image_tooltip")
 
 
 Your quantum safe storage system is very cost effective,** the cost of farming 1 TB of storage per month can be less than 1 USD, the market price is between 20 and 180 USD. **
@@ -736,7 +836,7 @@ Our network layer connects anything to anyone. We have clients for iPhone, Andro
 The end 2 end encrypted network will look for the shortest path between any app or user. It has a built-in DNS system and works seamlessly together with existing networks like the current Internet backbones and providers, satellite providers like starlink, 5G, Meshed Wireless (build our own networks with the community) or any other mobile technology. It's the swiss army knife for network connectivity in the world which tries to keep our data flowing all the time in all security.
 
 
-![alt_text](img/image36.png "image_tooltip")
+![alt_text](../img/image36.png "image_tooltip")
 
 
 Your network address is unique to your device and you and never changes, doesn’t matter how you will communicate or where you are. If links go down the Planetary network client will look for other paths.
@@ -748,27 +848,27 @@ Your network address is unique to your device and you and never changes, doesn�
 ## Tech: Digital Twin Technology
 
 
-![alt_text](img/image37.png "image_tooltip")
+![alt_text](../img/image37.png "image_tooltip")
 Each twin is hosted on the ThreeFold Grid. The data is using the quantum safe storage layer and can never be corrupted or lost. This architecture is super scalable, billions of twins can be deployed. \
  \
 
-![alt_text](img/image38.png "image_tooltip")
+![alt_text](../img/image38.png "image_tooltip")
  \
 
 
 
-![alt_text](img/image39.png "image_tooltip")
+![alt_text](../img/image39.png "image_tooltip")
 Each digital twin talks directly to the other twins, this keeps information flow local and provides for a more green internet experience, it also improves security, performance and privacy. \
 
 
 The twin system is also compatible with IPFS to integrate with the web3 world.
 
 
-![alt_text](img/image40.png "image_tooltip")
+![alt_text](../img/image40.png "image_tooltip")
 
 
 
-![alt_text](img/image41.png "image_tooltip")
+![alt_text](../img/image41.png "image_tooltip")
 
 
 Each twin can talk to any blockchain around (web3) to arrange management of digital currencies and peer2peer exchange of value. The Twins are compatible with any major blockchain technology.
@@ -776,7 +876,7 @@ Each twin can talk to any blockchain around (web3) to arrange management of digi
 The twins can also talk to web 2 and own deployed client-server applications on top of the TFGrid. This leads to a super scalable & polyvalent ecosystem.
 
 
-![alt_text](img/image42.png "image_tooltip")
+![alt_text](../img/image42.png "image_tooltip")
 
 
 
@@ -789,7 +889,7 @@ Our team has multiple world records for scaling projects on the Internet, invent
 Our ThreeFold system brings us back to the Internet as originally conceived. A collaborative and community-based network of compute, storage and network resources, peer-to-peer connected and delivered by all. Only this time, we can use advanced technologies and structures which were only developed very recently.
 
 
-![alt_text](img/image43.png "image_tooltip")
+![alt_text](../img/image43.png "image_tooltip")
 
 
 Kristof De Spiegeleer: Founder/Chairman ([linkedin](https://www.linkedin.com/in/despiegk/))
@@ -844,7 +944,7 @@ The following section will demonstrate how our technology is capable of deliveri
 The following pricing is only for Internet Capacity, there are thousands of more use cases on top of the Neighborhood Cloud Concept, it's just to show that it works for the most basic use case = IT As Energy = Internet Capacity.
 
 
-![alt_text](img/image44.png "image_tooltip")
+![alt_text](../img/image44.png "image_tooltip")
 
 
 This is only with a 50% discount, partners can go to much more discount, the source doc can be found [here](https://docs.google.com/spreadsheets/d/1E6MpGs15h1_flyT5AtyKp1TixH1ILuGo5tzHdmjeYdQ/edit#gid=2014089775).
@@ -858,7 +958,7 @@ Compare with others [https://library.threefold.me/info/threefold#/tfgrid/pricing
 
 
 ## 
-![alt_text](img/image45.png "image_tooltip")
+![alt_text](../img/image45.png "image_tooltip")
 
 
 

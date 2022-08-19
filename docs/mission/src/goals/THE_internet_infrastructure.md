@@ -1,4 +1,4 @@
-## ![image alt text](img/threefold_infrastructure.png)
+## ![image alt text](../img/threefold_infrastructure.png)
 
 ## **Goal 5: Make ThreeFold the most useful Internet Infrastructure in the world.**
 
@@ -8,7 +8,7 @@ A neighborhood cloud is like a community driven decentralized data center. The i
 
 A first project in Dubai for 170 Villa’s has been realized and there is now a funnel of at least 10 more. Each project brings Internet capacity to the local community which is the easiest way to expand the ThreeFold Grid.
 
-![image alt text](img/decentralized_dc.png)
+![image alt text](../img/decentralized_dc.png)
 
 Next to our Neighborhood Cloud expansion model, we support our global Do-It-Yourself (DIY) and commercial farmers. 
 

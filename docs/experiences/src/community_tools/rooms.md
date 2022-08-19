@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![commmunity room](../capabilities/img/flower.png)
+![commmunity room](../capabilities/../img/flower.png)
 
 </div>
 
@@ -17,7 +17,7 @@ Rooms will provide functionality to non technical groups in an easy way to self 
 
 <div style="text-align: center;">
 
-![commmunity room](../capabilities/img/room_consensus.png)
+![commmunity room](../capabilities/../img/room_consensus.png)
 
 </div>
 

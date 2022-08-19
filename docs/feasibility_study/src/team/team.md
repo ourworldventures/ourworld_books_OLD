@@ -1,7 +1,7 @@
 # Founders Background
 
 
-![](img/exits.png)  
+![](../img/exits.png)  
 
 
 - [Gava ...](./gava.md)

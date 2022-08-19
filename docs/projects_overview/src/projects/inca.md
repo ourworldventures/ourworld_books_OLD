@@ -1,4 +1,4 @@
-![alt_text](img/inca.png "image_tooltip")
+![alt_text](../img/inca.png "image_tooltip")
 
 
 # INCA = Internet of Internets project

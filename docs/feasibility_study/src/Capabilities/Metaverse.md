@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-![metaverse](./img/smiley.png)
+![metaverse](./../img/smiley.png)
 </div>
 
 ## Metaverse
@@ -23,27 +23,27 @@ The metaverse allows to create physical world experiences and in general things 
 
 ### Personal ToDo list
 The metaverse presents real work experiences in a new an innovative way.  For example a wall with ToDo list functionality will present different personal ToDo lists for any that is looking at the same wall. Also, when two people want to share their todo lists they can make their private todo list viewable for other digital avatars in the digital space.
-![](../capabilities/img/metaverse_todo.png)
+![](../capabilities/../img/metaverse_todo.png)
 
 ### Meeting and presentation capabilities
 
 Covid-19 has put digital meetings in everyones agenda.  From business meetings to school classes, we all have been using industry standard video conferencing tools.  This is a step forward from having audio conferences only, but a lot can be improved if all participants are part of and in a virtual space where everyone has 3D virtual representation and experiences the same (virtual) environment as one would in the real world in a conference room.
 
 This is make possible in the metaverse and proximity of the virtual world rendering makes the experiences high quality and latency free.
-![metaverse](../capabilities/img/metaverse_conference.png)
+![metaverse](../capabilities/../img/metaverse_conference.png)
 
 ### Internal and outside work, meet and greet spaces
 Larger rooms allow for digital roaming and impromptu meetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.  
 
 <div style="text-align: center;">
 
-![](../capabilities/img/metaverse_kitchen.png)
+![](../capabilities/../img/metaverse_kitchen.png)
 </div>
 
 Remote working has taken away these little distractions and creative moments and a metaverse is able to bring this back to the remote working / social locations.
 
 <div style="text-align: center;">
 
-![](../capabilities/img/metaverse_pool.png)
+![](../capabilities/../img/metaverse_pool.png)
 </div>
 

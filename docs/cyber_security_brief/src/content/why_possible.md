@@ -1,4 +1,4 @@
-![alt_text](img/cyber_globe.png)
+![alt_text](../img/cyber_globe.png)
 
 # **Why is this possible**
 
@@ -160,7 +160,7 @@ It's possible that these monitoring probes are heavily targeted by hackers all o
 ## **Hackers like to hack**
 
 
-![alt_text](img/labelled_hacker.png)
+![alt_text](../img/labelled_hacker.png)
 
 
 Many of them don’t feel appreciated by “normal” society and they wanna use their superpowers to work on alternative domains. Hacking gives them a purpose and they become powerful and important.
