@@ -2,7 +2,7 @@
 
 # Overview
 
-- [OurWorld Introduction](./overview/introduction.md)
+- [OurWorld Introduction](introduction.md)
 - [Regenerative Planet and People First Approach](./overview/approach.md)
 - [We are already in the Matrix!](./overview/matrix.md)
 - [OurWorld Internet of Internets](./overview/ourworld_IoI.md)

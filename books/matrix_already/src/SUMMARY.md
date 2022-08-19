@@ -2,7 +2,7 @@
 
 # We already live in the Matrix!
 
-- [The world has become insane!](./matrix_overview/world_insane.md)
+- [The world has become insane!](world_insane.md)
 - [The blue pill or the red pill?](./matrix_overview/blue_red_pill.md)
 - [Is this what we need?](./matrix_overview/what_we_need.md)
 - [The Purple Pill](./matrix_overview/purple_pill.md)

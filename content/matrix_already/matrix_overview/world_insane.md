@@ -1,7 +1,7 @@
 # We already live in the matrix.
 
 
-![alt_text](img/world_matrix.png "image_tooltip")
+![alt_text](matrix_overview/img/world_matrix.png "image_tooltip")
 
 
 

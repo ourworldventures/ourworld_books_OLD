@@ -1,4 +1,4 @@
-![alt_text](img/web_remade.png "image_tooltip")
+![alt_text](overview/img/web_remade.png "image_tooltip")
 
 
 # OurWorld is an abundance based Internet of Internets system
