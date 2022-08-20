@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ![alt_text](img/threefold_internet_of_internets1.png "image_tooltip")
-=======
-![alt_text](../img/image1.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 Imagine a world where “YOU” are the Internet.
@@ -37,22 +33,12 @@ The decentralized Internet like you co-own a super computer which gives yous unl
 # The Internet Today
 
 
-<<<<<<< HEAD
 ![alt_text](img/centalized_data_centers.png "image_tooltip")
-=======
-![alt_text](../img/image2.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.
 
-
-<<<<<<< HEAD
 ![alt_text](img/blockchain.png "image_tooltip")
-=======
-![alt_text](../img/image3.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
 
 Blockchain is a huge step in the right direction but it's a shared architecture distributed over the world where data gets replicated on many locations. It's a good technology choice for use cases like money, smart contracts, voting, digital notary and identity but not at all suited for building a new internet with. This is also called web 4. Developers still need to develop applications connecting to multiple blockchains and centralization is often not good enough.
 
@@ -60,24 +46,14 @@ Blockchain is a huge step in the right direction but it's a shared architecture 
 # Web Re-Made Architecture
 
 
-<<<<<<< HEAD
 ![alt_text](img/web_remade_architect.png "image_tooltip")
-=======
-![alt_text](../img/image4.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
 
 
 We are brainwashed about the need to centralize & control everything, this leads to suboptimal systems and a lot of waste. Web 1,2,3,4 are all centralized by nature. The best the world has been able to come up with is a shared consensus driven architecture called blockchain which is good for certain use cases but suboptimal for many more. 
 
 The solution is actually very simple, you should be the center of your digital life, you own all your data, you are your own application (we call this your digital twin), we believe +90% of your digital needs can be implemented that way. Blockchain technology is needed for items where consensus is required like identity, money, smart contracts…
 
-
-<<<<<<< HEAD
 ![alt_text](img/digital_twins.png "image_tooltip")
-=======
-![alt_text](../img/image5.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
 
 There is a need for a co-owned global Internet infrastructure on top of which each of us can exist digitally, this is a dramatically different architecture with no centralization whatsoever and offering 100% equality as well as full data and application ownership. This has never been done because it's so different in design and goes away from any form of control by a money making company.
 
@@ -85,24 +61,11 @@ The Twins live on top of the ThreeFold Grid which is a co-owned infrastructure l
 
 The twins communicate with each other and the rest of the world (existing centralized services) as well as existing blockchain technologies. The data is using a novel storage technology which makes sure your data is safe and can never get lost, yet it's only owned by you and not even a quantum computer can hack it.
 
-
-<<<<<<< HEAD
 ![alt_text](img/personal_twin.png "image_tooltip")
-=======
-![alt_text](../img/image6.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
 
 Imagine the benefits for use cases like video conferencing:
 
-
-<<<<<<< HEAD
 ![alt_text](img/internet_distance.png "image_tooltip")
-=======
-![alt_text](../img/image7.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
-
 
 # WHY A NEW INTERNET? 
 
@@ -112,17 +75,9 @@ The digital economy and our future as digital citizens are wholly dependent on t
 
 More than 80% of today's Internet infrastructure is owned by less than 20 organizations. The lack of ownership of our own data and the consequent commercialization of that data is a major concern for both individuals and governments alike. The future neutrality and democratization of the Internet is an absolute necessity in this regard.
 
-
-<<<<<<< HEAD
 ![alt_text](img/centralized_problems.png "image_tooltip")
-=======
-![alt_text](../img/image8.png "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
 
 The Internet is growing like crazy. Today the Internet is mainly delivered out of data centers, which are huge buildings containing up to millions of servers. They consume a lot of energy and are very expensive to build. Building more data centers is not enough…
-
-
 
 * There are not enough data centers and this won't change in the short term: it's too expensive and complex.
 * Data centers are not war-proof and they are vulnerable to catastrophes (see Ukraine).
@@ -132,13 +87,7 @@ ThreeFold is different, is an Internet of Internets solution, people can build a
 
 “ThreeFold Neighborhood Clouds'' are the alternative to centralized datacenters, transforming a typical neighborhood into a decentralized and distributed data center. Each home, office or commercial property can host a 3Node (a computer delivering Internet Capacity in the form of storage and compute power). These 3Nodes are interconnected over fast local networks (e.g. it can be in the neighborhood as a fiber ring or using local Internet existing cable infrastructure) and offer a quantum safe storage system, metaverse/gaming rendering cloud (coming in 2023), compute cloud, a platform for our digital applications to enable our day to day digital life, and more.
 
-
-<<<<<<< HEAD
 ![alt_text](img/crises_waves.jpg "image_tooltip")
-=======
-![alt_text](../img/image9.jpg "image_tooltip")
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
-
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
 
@@ -154,11 +103,8 @@ Companies and investors that fail to be part of this needed movement will seem l
 <table>
   <tr>
    <td>
-<<<<<<< HEAD
 <img src="img/people_planet_profit.png" width="" alt="alt_text" title="image_tooltip">
-=======
-<img src="../img/image10.png" width="" alt="alt_text" title="image_tooltip">
->>>>>>> ed52a1db91ed0051a692116217756322f57f719f
+
 
    </td>
    <td>We believe in:
