@@ -1,19 +1,19 @@
 # Summary
 
 - [Introduction](./content/introduction.md)
-- [The Internet Today](./content/internet_today.md)
-- [Web Re-Made Architecture](./content/web_remade.md)
-- [Why a new internet?](./content/why_new_internet.md)
-- [Regenerative planet and people first approach](./content/regenerative_planet.md)
-- [How does it work?](./content/how_it_works.md)
-- [The missing layer for a more decentralized world](./content/missing_layer.md)
-- [The BTC for internet infrastructure](./content/like_BTC.md)
+    - [The Internet Today](./content/internet_today.md)
+    - [Web Re-Made Architecture](./content/web_remade.md)
+    - [Why a new internet?](./content/why_new_internet.md)
+    - [Regenerative planet and people first approach](./content/regenerative_planet.md)
+    - [How does it work?](./content/how_it_works.md)
+    - [The missing layer for a more decentralized world](./content/missing_layer.md)
+    - [The BTC for internet infrastructure](./content/like_BTC.md)
 
 ---
 
 - [TFToken = the Valuable Token of The Internet of Internets](./content/tf_token.md)
-- [4 phases, TFT is Scarce and Valuable](./content/tft_4_phases.md)
-- [3 Dimensions in Token Creation & Utilization](./content/tft_3_dimensions.md)
+    - [4 phases, TFT is Scarce and Valuable](./content/tft_4_phases.md)
+    - [3 Dimensions in Token Creation & Utilization](./content/tft_3_dimensions.md)
 
 ---
 
@@ -46,5 +46,4 @@
     - [The Three Tokens in the ThreeFold Ecosystem](./content/three_tokens.md)
     - [TFGrid Utilization Growth](./content/tfgrid_utilizaiton.md)
     - [Timeline](./content/timeline.md)
-    
     
