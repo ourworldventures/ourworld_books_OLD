@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![Developing Code](../capabilities/../img/danger.png)
+![Developing Code](img/danger.png)
 
 </div> 
 
