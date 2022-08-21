@@ -1,4 +1,5 @@
 # Why a new internet?
+
 THE CURRENT INTERNET CANNOT KEEP UP WITH EMERGING DEMAND.
 
 The digital economy and our future as digital citizens are wholly dependent on the Internet. However, today’s Internet and cloud infrastructure is too centralized, cannot grow fast enough to meet growing demand nor support future use cases, and  promises neither data sovereignty nor equality. 
@@ -17,11 +18,3 @@ ThreeFold is different, is an Internet of Internets solution, people can build a
 
 “ThreeFold Neighborhood Clouds'' are the alternative to centralized datacenters, transforming a typical neighborhood into a decentralized and distributed data center. Each home, office or commercial property can host a 3Node (a computer delivering Internet Capacity in the form of storage and compute power). These 3Nodes are interconnected over fast local networks (e.g. it can be in the neighborhood as a fiber ring or using local Internet existing cable infrastructure) and offer a quantum safe storage system, metaverse/gaming rendering cloud (coming in 2023), compute cloud, a platform for our digital applications to enable our day to day digital life, and more.
 
-![alt_text](img/crises_waves.jpg "image_tooltip")
-
-**The world is changing in front of us, we cannot deny it and we need to act now.** \
-
-
-We are in the forefront of a growing movement, more and more companies want to prioritize people and planet positive policies. We are not swimming against the stream, we are part of a group of leaders of change and we are making real the zeitgeist of the 21st century. 
-
-Companies and investors that fail to be part of this needed movement will seem like dinosaurs by 2030 and be valued by our communities accordingly.
