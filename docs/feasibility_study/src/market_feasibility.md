@@ -11,4 +11,15 @@ Extensive research has been done to evaluate the market readiness of each countr
 
 The following explains the basis for the evaluation and the results. Tanzania scored extremely high relative to its peers and shows its readiness for growth in the internet based economy 
 
+## Market Feasibility Study Criteria
 
+![Market feasibility criteria](./../img/market_feasibility_criteria.png "image_tooltip")
+
+## Market Feasibility Study Results
+
+TOP 20 African Countries by Overall Assessment
+
+
+![market feasibility results_1](./../img/market_feasibility_results_1.png "image_tooltip")
+
+![market feasibility results 2](./../img/market_feasibility_results_2.png "image_tooltip")

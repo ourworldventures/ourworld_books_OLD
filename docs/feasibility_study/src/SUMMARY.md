@@ -3,7 +3,7 @@
 - [Frontpage](./readme.md)
 - [Executive Summary](./executive_summary.md)
 - [Description of the Project](./project_description.md)
-- [Market Assessment and Strategy](./market_assessment_and_strategy.md)
+- [Market Feasibility](./market_assessment_and_strategy.md)
   - [Economic Empowerment](./economic_empowerment.md)
   - [Social Impact](./social_impact.md)
   - [Methodology](./methodology.md)
