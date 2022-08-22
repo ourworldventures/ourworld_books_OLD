@@ -1,6 +1,6 @@
 
 # 
-![alt_text](img/image1.png "image_tooltip")
+![alt_text](img/banking4.0.png "image_tooltip")
 Web 4.0 and Banking 4.0 Platform
 
 Blockchains are leading the way to the next disruption in the FINTECH industry.
@@ -8,76 +8,20 @@ Blockchains are leading the way to the next disruption in the FINTECH industry.
 DeFi (Decentralize Finance) and Digital Ledger technology (Blockchain) allow much more cost-effective deployments, at larger scale, without having to rely on ultra expensive and complicated old fashioned financial backend systems.
 
 
-<table>
-  <tr>
-   <td><strong>Classic Banking System</strong>
-   </td>
-   <td><strong>New Modern Digital Systems </strong>
-   </td>
-   <td><strong>Banking 4.0 Platform</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>± Any bank right now
-   </td>
-   <td>Example Revolut, millions of users in no time, at incomparable low cost
-   </td>
-   <td>Each banking user is in the center  \
-of their own financial life.
-   </td>
-  </tr>
-  <tr>
-   <td>Ultra costly to scale
-   </td>
-   <td>Cost Effective
-   </td>
-   <td>Much More Cost Effective.
-   </td>
-  </tr>
-  <tr>
-   <td>Became incredibly complicated and cumbersome to maintain and create new revenue opportunities for the vendors
-   </td>
-   <td>More simple systems, but still centralized, scales quite well.
-   </td>
-   <td>Ultra scalable and many exciting new functionalities prospect. 
-   </td>
-  </tr>
-  <tr>
-   <td>Non Transparent Fee Structure
-   </td>
-   <td>Transparent Fee Structure
-   </td>
-   <td>Transparent Fee Structure \
-DAO Based Governance \
-Made for volume.
-   </td>
-  </tr>
-  <tr>
-   <td>Unsafe, bank’s hacks are all over, complexity leads to security risks.
-   </td>
-   <td>Hacking is still a real danger because of centralization.
-   </td>
-   <td>Very safe, probably the safest at this stage. Low cost to operate. \
-Strong integration with regulation.
-   </td>
-  </tr>
-  <tr>
-   <td>Cannot compete with newer digital systems, ± impossible to make really safe.
-   </td>
-   <td>Is regulated, enormous growth. These systems have the capability to replace a larger part of classic banks for a large part of functions, which means classic banks become more specialized and have the risk of ending up with a non profitable business case.
-   </td>
-   <td>Central banks are starting to work on CBDC (central bank digital currency) using blockchain tech.
-<p>
-In older blockchain systems (not ours) people might abuse the information as stored on blockchain (trading pre-knowledge, bots, …). These systems might also be too limited in functionality today, can be used as a base for a new revolutionary banking system.
-   </td>
-  </tr>
-</table>
+|Classic Banking System|New Modern Digital Systems|Banking 4.0 Platform|
+|---|---|---|
+|± Any bank right now|Example Revolut, millions of users in no time, at incomparable low cost|Each banking user is in the center of their own financial life.|
+|Ultra costly to scale|Cost Effective|Much More Cost Effective.|
+|Became incredibly complicated and cumbersome to maintain and create new revenue opportunities for the vendors|More simple systems, but still centralized, scales quite well.|Ultra scalable and many exciting new functionalities prospect.|
+|Non Transparent Fee Structure|Transparent Fee Structure|Transparent Fee Structure, DAO Based Governance, Made for volume.
+|Unsafe, bank’s hacks are all over, complexity leads to security risks.|Hacking is still a real danger because of centralization.Very safe, probably the safest at this stage. Low cost to operate. Strong integration with regulation.|Cannot compete with newer digital systems, ± impossible to make really safe.|
+|Is regulated, enormous growth. These systems have the capability to replace a larger part of classic banks for a large part of functions, which means classic banks become more specialized and have the risk of ending up with a non profitable business case.|Central banks are starting to work on CBDC (central bank digital currency) using blockchain tech.|In older blockchain systems (not ours) people might abuse the information as stored on blockchain (trading pre-knowledge, bots, …). These systems might also be too limited in functionality today, can be used as a base for a new revolutionary banking system.
 
 
 **Our aim is to provide a solution using blockchain technology, more scalable, way much safer and not as vulnerable to abuse by its users, we are combining the next Web level called Web 4.0 and Blockchain.**
 
 
-![alt_text](img/image2.png "image_tooltip")
+![alt_text](img/finance_and_web.png "image_tooltip")
 
 
 We do believe the next generation Fintech 4.0 solution can be built with the following benefits
@@ -133,7 +77,7 @@ It is essential to make it possible to comply with the regulatory requirements i
 ## 99% of all current financial banking solutions are client server
 
 
-![alt_text](img/image3.png "image_tooltip")
+![alt_text](img/client_server.png "image_tooltip")
 
 
 
@@ -146,7 +90,7 @@ It is essential to make it possible to comply with the regulatory requirements i
 ## Blockchain Based Web 3.0 Vision
 
 
-![alt_text](img/image4.png "image_tooltip")
+![alt_text](img/blockchain.png "image_tooltip")
 
 
 Blockchain decentralizes the server, but in principle it remains a ‘client - server’ model.
@@ -159,7 +103,7 @@ Blockchain decentralizes the server, but in principle it remains a ‘client - s
 * This is called Web 3.0
 
 
-![alt_text](img/image5.png "image_tooltip")
+![alt_text](img/browser_operating_system.png "image_tooltip")
 
 
 The browser has now become our operating system, it is running on javascript. All applications run in our browser and interact with multiple blockchains.
@@ -176,7 +120,7 @@ Web 3.0 can be used for fintech applications but there are some issues to consid
 ## Web/Banking 4.0 = digital twin technology
 
 
-![alt_text](img/image6.png "image_tooltip")
+![alt_text](img/digital_twin_technology.png "image_tooltip")
 
 
 Web 4.0 is user-centric,  
@@ -193,7 +137,7 @@ Web 4.0 alone is not usable for many Fintech applications but, once combined wit
 **Hence, our solution to combine Web 4.0 and Blockchain, see below.**
 
 
-![alt_text](img/image7.png "image_tooltip")
+![alt_text](img/peer_2_peer_blockchain.png "image_tooltip")
 
 
 Peer To Peer is the most decentralized way and offers the best possible security, it's much easier for hackers to go after a centralized system.
@@ -213,7 +157,7 @@ which keeps data more secure
 ## Inspired By Nature
 
 
-![alt_text](img/image8.png "image_tooltip")
+![alt_text](img/inspired_by_nature.png "image_tooltip")
 
 
 
@@ -225,7 +169,7 @@ which keeps data more secure
 * can be private per fintech institute.
 
 This approach scales for ever
-![alt_text](img/image9.png "image_tooltip")
+![alt_text](img/unlimited_3nodes.png "image_tooltip")
 
 
 
@@ -316,7 +260,7 @@ Of course, together we will  need to define which if any of these possibilities 
 ## Easy To Use Wallet / Banking Apps
 
 
-![alt_text](img/image10.png "image_tooltip")
+![alt_text](img/crypto_wallet.png "image_tooltip")
 
 
 Together, we will design the customers’ wallet, and leverage our existing platform to create the user experience the Bank wants to provide to its customers.
@@ -348,7 +292,7 @@ The functionalities are implemented using Peer to Peer twin technology, as well 
 ## Digital Currency Wrapping
 
 
-![alt_text](img/image11.png "image_tooltip")
+![alt_text](img/cryptocurrency.png "image_tooltip")
 
 
 In Addition to allowing a user to directly integrate with an outside digital currency, we suggest also allowing wrapping of the outside currencies e.g. a wrapped BitCoin (BTC).
@@ -368,13 +312,13 @@ It is possible to introduce multiple stages e.g. in the digital bank ecosystem, 
 
 
 ## 
-![alt_text](img/image12.png "image_tooltip")
+![alt_text](img/security_vault.png "image_tooltip")
 
 
 As an option, one or more secure areas can be used to provide offline storage of keys and digital currency cold wallets.
 
 
-![alt_text](img/image13.png "image_tooltip")
+![alt_text](img/distributed_storage.png "image_tooltip")
 
 
 Each Knox Security Vault is an ultra safe area. Thanks to our Quantum Safe Storage system, it is not possible to retrieve a key even if a hacker would be in one safe, as a combination of three safes is required to recover information.
@@ -385,7 +329,7 @@ We suggest using one way key storage, e.g. each wallet from a user, stores the e
 ## Metaverse Capabilities
 
 
-![alt_text](img/image14.png "image_tooltip")
+![alt_text](img/metaverse1.png "image_tooltip")
 
 
 The metaverse we have at our disposal is the most complete, useful and beautiful one ever made. 
@@ -393,17 +337,17 @@ The metaverse we have at our disposal is the most complete, useful and beautiful
 It can be used to spice up any type of experiences, educational, help desk, meetings, shopping, etc.
 
 
-![alt_text](img/image15.png "image_tooltip")
+![alt_text](img/metaverse3.png "image_tooltip")
 
 
 
-![alt_text](img/image16.png "image_tooltip")
+![alt_text](img/metaverse4.png "image_tooltip")
 
 
 Shopping experience can be delivered to bank customers (shops and users), with integrated payment for the merchants.
 
 
-![alt_text](img/image17.png "image_tooltip")
+![alt_text](img/metaverse2.png "image_tooltip")
 
 
 Some videos of our metaverse capabilities: [https://tube.freeflow.life/video-channels/verse/videos](https://tube.freeflow.life/video-channels/verse/videos) 
@@ -415,7 +359,7 @@ Some videos of our metaverse capabilities: [https://tube.freeflow.life/video-cha
 ## DeFi and Peer To Peer Exchange
 
 
-![alt_text](img/image18.png "image_tooltip")
+![alt_text](img/defi_exchange.png "image_tooltip")
 
 
 DeFi is an amazing trend which banks should try to leverage, if not for internal usage, to provide a more transparent and safe way for their customers to exchange their currencies (digital and fiat) in a fully regulated environment.
@@ -437,7 +381,7 @@ We are developing a unique peer to peer reputation system to allow the power of 
 ThreeFold is the main sponsor behind vlang
 
 
-![alt_text](img/image19.png "image_tooltip")
+![alt_text](img/v_programming_language.png "image_tooltip")
 
 
 Vlang is a language heavily inspired by google’s GOLANG but faster, and more friendly with resources. It's also a language much easier to understand and code in. This language has 26.000 github stars which is +25% of google itself for golang, this shows the potential.
@@ -459,8 +403,6 @@ This approach allows us maximum productivity and minimal resource utilization wh
 
 Our approach is
 
-
-
 * Ultimate simplicity (do more with less)
 * Easy to read code (DSL  = Domain Specific Languages)
 * Ultra reliable communication thanks to RMB (Reliable Message Bus) 
@@ -481,13 +423,13 @@ Imagine a database which can scale to a petabyte and be fully integrated in a bl
 ## Secure Access Mechanism = Browser Firewall
 
 
-![alt_text](img/image20.png "image_tooltip")
+![alt_text](img/browser_firewall.png "image_tooltip")
 
 
 For ultra secure use cases, the user does not use javascript in their browser, the user connects over a ultra secure end2end encrypted and multi authenticated link from his browser to a secure location. In the secure location, the secure browser engine gives access to the required web and banking applications which connect further.
 
 
-![alt_text](img/image21.png "image_tooltip")
+![alt_text](img/twin_functions.png "image_tooltip")
 
 
 As an option, the web sessions can be recorded for auditing or anti-hacking/fraud detection, also in a secure location.
@@ -495,7 +437,7 @@ As an option, the web sessions can be recorded for auditing or anti-hacking/frau
 The twin can communicate to other twins, in a close ultra secure closed context, giving no chance to hackers to interfere. The data is stored on a Quantum Safe Storage system (see further).
 
 
-![alt_text](img/image22.png "image_tooltip")
+![alt_text](img/cyber_security.png "image_tooltip")
 
 
 This leads to very good protection and ‘Auditing’ opportunities.
@@ -511,13 +453,13 @@ Even in the very unlikely event a hacker would succeed, he would only interfere 
 ## Compatible with Blockchain & Legacy Systems
 
 
-![alt_text](img/image23.png "image_tooltip")
+![alt_text](img/web_remade_twin.png "image_tooltip")
 
 
 The Twins can connect to any blockchain solution, close to the twins which are on safe locations where full blockchain nodes are deployed, this leads to even more security. In other words, it's not the browser of the user who connects to the blockchain, the browser of the user connects over the Browser Firewall to the apps running on the twin which connects the blockchain, hackers have no possibility to abuse javascript or browser vulnerabilities.
 
 
-![alt_text](img/image24.png "image_tooltip")
+![alt_text](img/digital_twin_executor.png "image_tooltip")
 
 
 This is also compatible with any other classic IT system running behind firewalls in protected environments, the Twins can connect to any possible IT system, blockchain or classic in an ultra secure setting.
@@ -526,7 +468,7 @@ This is also compatible with any other classic IT system running behind firewall
 ## Quantum Safe Storage
 
 
-![alt_text](img/image25.png "image_tooltip")
+![alt_text](img/quantum_safe_file_system.png "image_tooltip")
 
 
 Imagine a storage system with the following benefits:
@@ -543,14 +485,14 @@ Imagine a storage system with the following benefits:
 It is not a dream, it does already exist, and is the underpinning of the ultra safe **Cloud System** empowering this solution. Our storage architecture follows the true Peer To Peer design. Any participating nodes (can be on ultra safe locations) only store small incomplete parts of data (files, photos, movies, databases…) by only offering a slice of their current (local) storage devices. Managing the storage and retrieval of all these ‘distributed fragments’ is done by a software that creates ‘development and/or end-user interfaces’ for this storage algorithm. We call this ‘dispersed storage‘.
 
 See in Appendix A to learn more about how Quantum Safe storage works. 
-![alt_text](img/image26.png "image_tooltip")
+![alt_text](img/data_security.png "image_tooltip")
 
 
 
 ## Quantum Safe Twin Storage System
 
 
-![alt_text](img/image27.png "image_tooltip")
+![alt_text](img/quantum_safe_storage.png "image_tooltip")
 
 
 The Quantum Safe storage solution, as described above, is used to create the Quantum Safe Filesystem.
@@ -586,7 +528,7 @@ Unique features:
 ## Ultra Secure Operating System = Zero-OS
 
 
-![alt_text](img/image28.png "image_tooltip")
+![alt_text](img/zero_os.png "image_tooltip")
 
 
 Zero-OS is a lightweight and efficient operating system. There is no shell, local nor remote. It supports a small number of primitives; the low-level functions it could perform natively in the operating system. Zero-OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity in all safety to its applications. ZOS has been developed by ThreeFold from scratch, starting from the Linux kernel with the purpose to improve on efficiency, energy usage, performance, scale, cost of management and security. All applications, twins and blockchains are secured by the Zero-OS operating system.
@@ -613,7 +555,7 @@ The result is game-changing as ZOS is able to provide the following benefits:
 * Compatible: run anything that can run on Linux but in a decentralized environment.
 
 
-![alt_text](img/image29.png "image_tooltip")
+![alt_text](img/zero_os_server.png "image_tooltip")
 
 
 Imagine an operating system with the following benefits
@@ -642,13 +584,13 @@ Existing blockchains don’t have a pruning feature, which means old data cannot
 ## Planetary network
 
 
-![alt_text](img/image30.png "image_tooltip")
+![alt_text](img/planetary_network.png "image_tooltip")
 
 
 The planetary network leads to serious benefits in scalability, reliability and security:
 
 
-![alt_text](img/image31.png "image_tooltip")
+![alt_text](img/traditional_threefold_comparison.png "image_tooltip")
 
 
 
@@ -658,7 +600,7 @@ The planetary network leads to serious benefits in scalability, reliability and 
 ## Unbreakable Deployment
 
 
-![alt_text](img/image32.png "image_tooltip")
+![alt_text](img/unbreakable_deployment.png "image_tooltip")
 
 
 Ultra Scalable & Secure Decentralized Deployment
@@ -695,13 +637,13 @@ This system works with and enables the planetary network and quantum safe storag
 ## Appendix A: Quantum Safe Storage Internals
 
 
-![alt_text](img/image33.png "image_tooltip")
+![alt_text](img/example_distributed_storage.png "image_tooltip")
 
 
 In a classic system data gets replicated (sometimes shared, means over many locations). To allow 4 nodes to fail, 5 copies would be needed. This leads to some concrete disadvantages as described above.
 
 
-![alt_text](img/image34.png "image_tooltip")
+![alt_text](img/quantum_safe_storage_system.png "image_tooltip")
 
 
 In our system each object is fragmented into 16 parts. So we have 16 original fragments for which we need 16 equations to mathematically describe them. Now let’s make 20 equations and store them dispersedly on 20 devices. To recreate the original object we only need 16 equations, the first 16 that we find and collect which allows us to recover the fragment and in the end the original object. We could lose any 4 of those original 20 equations.
@@ -714,7 +656,7 @@ More info see [https://library.threefold.me/info/threefold#/technology/qsss/qss_
 ## Appendix B: Zero-OS
 
 
-![alt_text](img/image35.png "image_tooltip")
+![alt_text](img/3node.png "image_tooltip")
 
 
 More info see [https://library.threefold.me/info/threefold#/technology/zos](https://library.threefold.me/info/threefold#/technology/zos) 
