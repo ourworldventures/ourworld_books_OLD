@@ -75,5 +75,5 @@ Imagine an economical system
 
 
 
-![alt_text](img/internet_internet.png "image_tooltip")
+![alt_text](img/internet_of_internets.png "image_tooltip")
 

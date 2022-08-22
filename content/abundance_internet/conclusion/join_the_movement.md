@@ -6,7 +6,6 @@
 # 
 
 
-
 ![alt_text](img/egypt_nile.png "image_tooltip")
 
 

@@ -1,6 +1,6 @@
 ## Purpose
 
-![](img/overview_purpose.png)  
+![](../img/overview_purpose.png)  
 
 - Get basic communication, storage and messaging system to work (this grant)
     - Implement first functionalities inside Domain Specific Language

@@ -2,15 +2,15 @@
 
 # Overview
 
-- [OurWorld Introduction](./overview/introduction.md)
+- [OurWorld Introduction](introduction.md)
 - [Regenerative Planet and People First Approach](./overview/approach.md)
 - [We are already in the Matrix!](./overview/matrix.md)
 - [OurWorld Internet of Internets](./overview/ourworld_IoI.md)
 
 # Internet Architectures
 
-- [The Internet Today](./internet_architectures/internet_today.md)
-- [Web Re-made Architecture](./internet_architectures/remade_architecture.md)
+- [The Internet Today](./architecture/internet_today.md)
+- [Web Re-made Architecture](./architecture/remade_architecture.md)
 
 # Deployment
 

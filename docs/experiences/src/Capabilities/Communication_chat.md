@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![communication tool chat](./img/oc.png)
+![communication tool chat](./../img/oc.png)
 
 </div>
 
@@ -11,7 +11,7 @@ The chat communication tools presents a simple interface to manage individual an
 Centralized messaging service always have a third party (company) involved.  A message would follow the following path:
 
 
-![private_chat](../capabilities/img/centralized_chat.png)
+![private_chat](../capabilities/../img/centralized_chat.png)
 
 
 
@@ -68,7 +68,7 @@ graph LR
     TWINB -->|secure network| TWINA
     end
 ```
-![private_chat](../capabilities/img/private_chat.png)
+![private_chat](../capabilities/../img/private_chat.png)
 
 The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:
 - send text message
@@ -78,7 +78,7 @@ The chat functionality allows most (if not all) of the standard functionality kn
 - send photo/file/
 
 From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
-![private_chat](../capabilities/img/chat_overview.png)
+![private_chat](../capabilities/../img/chat_overview.png)
 
 ### Group Chat
 
@@ -87,7 +87,7 @@ Group chat is unique to this peer to peer chat platform.  The group functionalit
 mermaid source code in ./includes/group_chat.md
 -->
 
-![group_chat](../capabilities/img/group_chat.png)
+![group_chat](../capabilities/../img/group_chat.png)
 
 ```mermaid
 graph LR
@@ -119,5 +119,5 @@ graph LR
 
 ### Look and feel in a browser
 
-![groups_and_contacts](../capabilities/img/chat_people%20invite.png)
+![groups_and_contacts](../capabilities/../img/chat_people%20invite.png)
 

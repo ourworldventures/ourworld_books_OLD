@@ -4,11 +4,9 @@ The Tanzania Sovereign Internet Platform (“TSIP”) as envisaged in the memora
 
 The make up of such an ecosystem includes:
 
-![ecosystem](./img/ecosystem.png)
+![ecosystem](./../img/ecosystem.png)
 
 **TSIP Grid (powered by Threefold)**
-
-
 
 * a network of decentralised, autonomous and distributed edge micro data centre infrastructure forming a meshed internet grid.
 * located entirely within Tanzania, providing national sovereignty over data and all associated revenue streams as well as security and immunity from disruption

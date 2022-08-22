@@ -12,7 +12,7 @@
     * followed by Industry and Construction (31.1%) 
     * Agriculture, Forestry and Fishing  (28.9%) 
 
-![Tanzania GDP](./img/tanzania_gdp.png "image_tooltip")
+![Tanzania GDP](./../img/tanzania_gdp.png "image_tooltip")
 
 Among Tanzania’s predominantly rural population (73 percent), economic growth has been limited. Inclusive, broad-based growth is hindered by low productivity growth in labour-intensive sectors like agriculture, which employs 77 percent of working age adults. The agriculture sector grew just 4 percent per year over the past decade.
 
@@ -21,3 +21,4 @@ The Tanzanian private sector’s vast financial resources and expertise in marke
 USAID objectives include advancing Tanzania’s socio-economic status toward middle-income status by 2025; sustaining inclusive, broad-based economic growth; supporting private sector investment in energy as well as agriculture and natural resource-based tourism; and increasing the access of women and youth to resources and knowledge that allow them to take advantage of opportunities in these sectors.
 
 Source: (https://[www.tanzaniainvest.com/economy](www.tanzaniainvest.com/economy))
+

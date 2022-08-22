@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![comnunication tool video](./img/camera.png)
+![comnunication tool video](./../img/camera.png)
 
 </div>
 
@@ -19,7 +19,7 @@ Needs better quality picture.  Have to find original slide
 
 <div style="text-align: center;">
 
-![alt text](../capabilities/img/videoconferencing_cental.png))
+![alt text](../capabilities/../img/videoconferencing_cental.png))
 
 </div>
 
@@ -49,7 +49,7 @@ mermaid source in: ./includes/centralized_video.md
 
 <div style="text-align: left;">
 
-![alt text](../capabilities/img/videoconference_central-1.png))
+![alt text](../capabilities/../img/videoconference_central-1.png))
 
 </div>
 
@@ -63,7 +63,7 @@ mermaid source in: ./includes/private_video.md
 
 <div style="text-align: center;">
 
-![](../capabilities/img/videoconference_decentral.png)
+![](../capabilities/../img/videoconference_decentral.png)
 
 </div>
 
@@ -94,7 +94,7 @@ If we build a video conferencing system that follows this principle we can be mu
 
 <div style="text-align: center;">
 
-![](../capabilities/img/videoconference_central-2.png)
+![](../capabilities/../img/videoconference_central-2.png)
 
 </div>
 

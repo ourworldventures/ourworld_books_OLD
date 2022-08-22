@@ -49,10 +49,10 @@ Some example applications ready to be launched on top of the digital twin, it re
 ### Metaverse
 
 
-![](img/metaverse.png)  
+![](../img/metaverse.png)  
 
 ### Gdoc/Whatsapp/... alternative
 
-![](img/uhuru.png)  
+![](../img/uhuru.png)  
 
 

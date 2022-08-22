@@ -1,4 +1,4 @@
-![image alt text](img/undersea_cables.png)
+![image alt text](../img/undersea_cables.png)
 
 ## **Goal 2: Help Countries to make their Internet GDP Positive.**
 

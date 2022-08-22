@@ -1,14 +1,13 @@
 
 # REGENERATIVE PLANET AND PEOPLE FIRST APPROACH
 
-
 <table>
   <tr>
    <td>
 
 
 
-<img src="img/planet_people_profit.png" width="" alt="alt_text" title="image_tooltip">
+<img src="img/planet_people_profit.png" width="100" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>We believe in:

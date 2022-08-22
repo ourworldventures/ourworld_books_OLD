@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![education](./img/oc.png)
+![education](./../img/oc.png)
 
 </div>
 

@@ -1,7 +1,8 @@
 # ThreeFold Projects overview
 
-source t
 
 ## TODO projects overview doc
+
+- [ ] fix image in the overview page
 
 
