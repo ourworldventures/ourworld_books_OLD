@@ -21,3 +21,4 @@ The Tanzanian private sector’s vast financial resources and expertise in marke
 USAID objectives include advancing Tanzania’s socio-economic status toward middle-income status by 2025; sustaining inclusive, broad-based economic growth; supporting private sector investment in energy as well as agriculture and natural resource-based tourism; and increasing the access of women and youth to resources and knowledge that allow them to take advantage of opportunities in these sectors.
 
 Source: (https://[www.tanzaniainvest.com/economy](www.tanzaniainvest.com/economy))
+

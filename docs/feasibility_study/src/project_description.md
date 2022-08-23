@@ -8,8 +8,6 @@ The make up of such an ecosystem includes:
 
 **TSIP Grid (powered by Threefold)**
 
-
-
 * a network of decentralised, autonomous and distributed edge micro data centre infrastructure forming a meshed internet grid.
 * located entirely within Tanzania, providing national sovereignty over data and all associated revenue streams as well as security and immunity from disruption
 * the foundational layer of the TSIP ecosystem, powered by Threefold technology, providing the compute, storage and network resources, enabling FreeFlow Life and further digital services to empower the nation of Tanzania
