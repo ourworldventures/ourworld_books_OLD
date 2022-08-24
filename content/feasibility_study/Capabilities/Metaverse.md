@@ -17,7 +17,7 @@ This allows streaming and graphic rendering at super high speeds with pixel perf
 Even on mobile devices, GPU rendering shows quality previously not available for such experiences.
 
 ## Metaverse is making remote local
-The metaverse allows to create physical world experiences and in general things we are used to available in the digital space.  We do so much in our personal and professional lifes online that is replaces a lot of physcial times being with others.  In order to make that digital online life more like our day to day physical life.  Email, Todo lists, video conferences they can all be redone and redesigned into somthing that is more personal and provides everyone with more detailed input and feedback about the situation we are in.
+The metaverse allows to create physical world experiences and in general things we are used to available in the digital space.  We do so much in our personal and professional lives online that is replaces a lot of physical times being with others.  In order to make that digital online life more like our day to day physical life.  Email, Todo lists, video conferences they can all be redone and redesigned into something that is more personal and provides everyone with more detailed input and feedback about the situation we are in.
 
 ## Example experiences
 
