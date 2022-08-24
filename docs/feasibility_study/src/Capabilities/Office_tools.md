@@ -49,7 +49,7 @@ graph RL
     subgraph Location A
         INDIVIDUALA(Individual A)
         subgraph Twin A
-            OFFICETOOL(Office Tool Platform)
+            OFFICETOOL(Office Capability)
             DATASTORE(Data Storage)
             OFFICETOOL --> DATASTORE
             DATASTORE --> OFFICETOOL 

@@ -492,7 +492,7 @@ mermaid source in: ./includes/private_video.md
         TWINA --&gt;|browser| INDIVIDUALA
     end
 
-        TWINA(Twin A - Video Conference Server) .-&gt;|Browser| INDIVIDUALB
+        TWINA(Twin A - Video Conference capability) .-&gt;|Browser| INDIVIDUALB
         TWINA .-&gt;|Browser| INDIVIDUALC
         TWINA .-&gt;|Browser| INDIVIDUALD
     subgraph Individual B
@@ -583,7 +583,7 @@ mermaid source in: ./includes/private_video.md
         INDIVIDUALAA(Student 1)
         INDIVIDUALAC(Student ...)
         INDIVIDUALAD(Student N)
-        VIDEOPLATFORMA(Local video sharing platform)
+        VIDEOPLATFORMA(Local video sharing Capability)
         VIDEOPLATFORMA .-&gt; INDIVIDUALAA
         VIDEOPLATFORMA .-&gt; INDIVIDUALAC
         VIDEOPLATFORMA .-&gt; INDIVIDUALAD
@@ -593,7 +593,7 @@ mermaid source in: ./includes/private_video.md
         INDIVIDUALBA(Student 1)
         INDIVIDUALBC(Student ...)
         INDIVIDUALBD(Student N)
-        VIDEOPLATFORMB(Local video sharing platform)
+        VIDEOPLATFORMB(Local video sharing Capability)
         VIDEOPLATFORMB .-&gt; INDIVIDUALBA
         VIDEOPLATFORMB .-&gt; INDIVIDUALBC
         VIDEOPLATFORMB .-&gt; INDIVIDUALBD
@@ -603,7 +603,7 @@ mermaid source in: ./includes/private_video.md
         INDIVIDUALCA(Student A)
         INDIVIDUALCC(Student ...)
         INDIVIDUALCD(Student N)
-        VIDEOPLATFORMC(Local video sharing platform)
+        VIDEOPLATFORMC(Local Video sharing capability)
         VIDEOPLATFORMC .-&gt; INDIVIDUALCA
         VIDEOPLATFORMC .-&gt; INDIVIDUALCC
         VIDEOPLATFORMC .-&gt; INDIVIDUALCD
@@ -660,7 +660,7 @@ mermaid source in: ./includes/private_video.md
     subgraph Location A
         INDIVIDUALA(Individual A)
         subgraph Twin A
-            OFFICETOOL(Office Tool Platform)
+            OFFICETOOL(Office Capability)
             DATASTORE(Data Storage)
             OFFICETOOL --&gt; DATASTORE
             DATASTORE --&gt; OFFICETOOL 
@@ -700,46 +700,37 @@ mermaid source in: ./includes/private_video.md
     PERSONA(Browser A)
     end
 
-    Internet
-    PERSONA .-&gt; Internet
-
-    subgraph Wesite
+    subgraph Website
     WEB(Any website)
     end
     
-    Internet .-&gt; WEB
+    PERSONA .-&gt;|Content GET request| WEB
 
-    WEB --&gt; Internet
-    Internet --&gt; PERSONA
+    WEB --&gt;|Content| PERSONA
 
 </pre>
 <p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
 <pre class="mermaid">graph RL
     subgraph Person A
         PERSONA(Browser A)
-        TWINA(Twin A)
+        TWINA(Twin A - virtual browser)
     end
-    PERSONA .-&gt; TWINA
-    subgraph Internet
-        NETWORK(Internet)
-    end
+    PERSONA .-&gt;|Stream Input| TWINA
 
-    TWINA .-&gt; NETWORK
+    TWINA .-&gt;|Content GET request| WEB
 
     subgraph Wesite
     WEB(Any website)
     end
-    
-    NETWORK .-&gt; WEB
 
-    WEB --&gt; NETWORK
-    NETWORK --&gt; TWINA
-    TWINA --&gt; PERSONA
+    WEB --&gt;|Content| TWINA
+    TWINA --&gt;|Stream Internet Content| PERSONA
 </pre>
 <div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
 <p><img src="Capabilities/./../img/camera.png" alt="river" /></p>
 </div>
 <h2 id="river"><a class="header" href="#river">River</a></h2>
+<p>Need to research what the river service is.</p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="technology-considerations-technology-considerations"><a class="header" href="#technology-considerations-technology-considerations">Technology Considerations {#technology-considerations}</a></h2>
 <ul>
 <li>Broken down by Project - what is required, what exists, what must be built? </li>
