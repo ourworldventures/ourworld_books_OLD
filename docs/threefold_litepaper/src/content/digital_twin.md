@@ -1,1 +1,0 @@
-# Tech: Digital Twin Technology
