@@ -5,12 +5,13 @@
 - [Description of the Project](./project_description.md)
 - [Market Feasibility](./market_assessment_and_strategy.md)
   - [Market Feasibility Study](./market_feasibility.md)
-    - [Market Feasibility Study Criteria](./market_feasibility_criteria.md)
-    - [Market Feasibility Study Results](./market_feasibility_results.md)
+    - [Study Criteria](./market_feasibility_criteria.md)
+    - [Study Results](./market_feasibility_results.md)
 - [Economic Empowerment](./economic_empowerment.md)
   - [Agriculture](./Agriculture/onepager.md)
+  - [Tourism & Services]() ???
 - [Social Upliftment](./social_impact.md)
-  - [Virtual Healthcare]()
+  - [Virtual Healthcare]() chris h
   - [Digital Enablement]()
     - [Digital Capabilities and Experiences]()
       - [Communication: chat](./Capabilities/Communication_chat.md)
@@ -26,13 +27,13 @@
     - [Composite overview of areas of interest](./requirements_composite.md)
     - [Real estate availability and reliability](./realestate_options.md)
   - [Deployment types](./deployment_types.md)
-- [Operational Feasibility]()
+- [Operational Feasibility]() weynand
   - [Operational Approach](./operational_feasibility.md)
   - [Operational strategy](./operational_strategy.md)
-- [Financial Feasibility](./financial_feasibility.md)
-- [Legal/Regulatory Compliance](./legal_compliance.md)
-- [Risk Factors & Mitigation](./risk_factors.md)
-- [Schedule](./schedule.md)
+- [Financial Feasibility](./financial_feasibility.md) chris h
+- [Legal/Regulatory Compliance](./legal_compliance.md) chris c
+- [Risk Factors & Mitigation](./risk_factors.md) ???
+- [Schedule](./schedule.md) ???
 
 
 <!--
