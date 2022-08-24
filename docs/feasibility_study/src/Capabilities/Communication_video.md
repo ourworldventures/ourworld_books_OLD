@@ -59,18 +59,19 @@ mermaid source in: ./includes/private_video.md
 graph RL
     
     subgraph Individual A
-    INDIVIDUALA(Person A)
-    INDIVIDUALA .->|browser| TWINA
-    TWINA -->|browser| INDIVIDUALA
+        INDIVIDUALA(Person A)
+        INDIVIDUALA .->|browser| TWINA
+        TWINA -->|browser| INDIVIDUALA
     end
-    TWINA(Twin A) .->|Browser| INDIVIDUALB
-    TWINA(Twin A) .->|Browser| INDIVIDUALC
-    TWINA(Twin A) .->|Browser| INDIVIDUALD
+
+        TWINA(Twin A - Video Conference capability) .->|Browser| INDIVIDUALB
+        TWINA .->|Browser| INDIVIDUALC
+        TWINA .->|Browser| INDIVIDUALD
     subgraph Individual B
-    INDIVIDUALB(Person B) -->|Browser| TWINA
+        INDIVIDUALB(Person B) -->|Browser| TWINA
     end
     subgraph Individual C
-    INDIVIDUALC(Person C) -->|Browser| TWINA
+        INDIVIDUALC(Person C) -->|Browser| TWINA
     end
     subgraph Individual D
     INDIVIDUALD(Person D) -->|Browser| TWINA

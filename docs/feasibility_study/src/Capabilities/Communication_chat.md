@@ -53,7 +53,7 @@ graph LR
     INDIVIDUALA .->|browser| TWINA
     TWINA -->|browser| INDIVIDUALA
     end
-    TWINA(Twin A) .->|secure network| TWINB(Twin B)
+    TWINA(Twin A - Chat Functionality) .->|secure network| TWINB(Twin B - Chat Functionality)
     subgraph Individual B
     TWINB .->|browser| INDIVIDUALB
     INDIVIDUALB(Person B) -->|Browser| TWINB
@@ -83,24 +83,24 @@ graph LR
     subgraph Individual A
     PERSONA(Person A) --> TWINA
     TWINA --> PERSONA
-    TWINA(Twin A) --> GROUP(group)
+    TWINA(Twin A - Chat Functionality) --> GROUP(group)
     GROUP .-> TWINA
     end
     GROUP .-> TWINB
     subgraph Individual B
-    TWINB(Twin B) --> GROUP
+    TWINB(Twin B - Chat Functionality) --> GROUP
     TWINB --> PERSONB
     end
     PERSONB(Person B) --> TWINB
     subgraph Individual C
    GROUP .-> TWINC
-    TWINC(Twin C) --> GROUP
+    TWINC(Twin C - Chat Functionality) --> GROUP
     TWINC --> PERSONC
     end
     PERSONC(Person C) --> TWINC
        GROUP .-> TWIND
     subgraph Individual D
-    TWIND(Twin D) --> GROUP
+    TWIND(Twin D - Chat Functionality) --> GROUP
     TWIND --> PERSOND
     end
     PERSOND(Person D) --> TWIND

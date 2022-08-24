@@ -66,7 +66,7 @@ graph TD
         INDIVIDUALAA(Student 1)
         INDIVIDUALAC(Student ...)
         INDIVIDUALAD(Student N)
-        VIDEOPLATFORMA(Local video sharing platform)
+        VIDEOPLATFORMA(Local video sharing Capability)
         VIDEOPLATFORMA .-> INDIVIDUALAA
         VIDEOPLATFORMA .-> INDIVIDUALAC
         VIDEOPLATFORMA .-> INDIVIDUALAD
@@ -76,7 +76,7 @@ graph TD
         INDIVIDUALBA(Student 1)
         INDIVIDUALBC(Student ...)
         INDIVIDUALBD(Student N)
-        VIDEOPLATFORMB(Local video sharing platform)
+        VIDEOPLATFORMB(Local video sharing Capability)
         VIDEOPLATFORMB .-> INDIVIDUALBA
         VIDEOPLATFORMB .-> INDIVIDUALBC
         VIDEOPLATFORMB .-> INDIVIDUALBD
@@ -86,19 +86,19 @@ graph TD
         INDIVIDUALCA(Student A)
         INDIVIDUALCC(Student ...)
         INDIVIDUALCD(Student N)
-        VIDEOPLATFORMC(Local video sharing platform)
+        VIDEOPLATFORMC(Local Video sharing capability)
         VIDEOPLATFORMC .-> INDIVIDUALCA
         VIDEOPLATFORMC .-> INDIVIDUALCC
         VIDEOPLATFORMC .-> INDIVIDUALCD
     end   
 
-    VIDEOPLATFORMA .-> VIDEOPLATFORMB
-    VIDEOPLATFORMB .-> VIDEOPLATFORMC
-    VIDEOPLATFORMA .-> VIDEOPLATFORMC
+    VIDEOPLATFORMA .->|curriculum updates| VIDEOPLATFORMB
+    VIDEOPLATFORMB .->|curriculum updates| VIDEOPLATFORMC
+    VIDEOPLATFORMA .->|curriculum updates| VIDEOPLATFORMC
 
-    VIDEOPLATFORMC .-> VIDEOPLATFORMB
-    VIDEOPLATFORMC .-> VIDEOPLATFORMA
-    VIDEOPLATFORMB .-> VIDEOPLATFORMA
+    VIDEOPLATFORMC .->|curriculum updates| VIDEOPLATFORMB
+    VIDEOPLATFORMC .->|curriculum updates| VIDEOPLATFORMA
+    VIDEOPLATFORMB .->|curriculum updates| VIDEOPLATFORMA
 ```
 4BILLION  COURSES DELIVERED
 
