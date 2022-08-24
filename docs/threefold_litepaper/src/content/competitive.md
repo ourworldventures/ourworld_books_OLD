@@ -1,1 +1,0 @@
-# Is our Solution Competitive?
