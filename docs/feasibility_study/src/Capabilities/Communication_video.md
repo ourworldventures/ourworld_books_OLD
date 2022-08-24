@@ -64,7 +64,7 @@ graph RL
         TWINA -->|browser| INDIVIDUALA
     end
 
-        TWINA(Twin A - Video Conference Server) .->|Browser| INDIVIDUALB
+        TWINA(Twin A - Video Conference capability) .->|Browser| INDIVIDUALB
         TWINA .->|Browser| INDIVIDUALC
         TWINA .->|Browser| INDIVIDUALD
     subgraph Individual B

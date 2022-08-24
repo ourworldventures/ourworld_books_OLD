@@ -145,41 +145,31 @@
     PERSONA(Browser A)
     end
 
-    Internet
-    PERSONA .-&gt; Internet
-
-    subgraph Wesite
+    subgraph Website
     WEB(Any website)
     end
     
-    Internet .-&gt; WEB
+    PERSONA .-&gt;|Content GET request| WEB
 
-    WEB --&gt; Internet
-    Internet --&gt; PERSONA
+    WEB --&gt;|Content| PERSONA
 
 </pre>
 <p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
 <pre class="mermaid">graph RL
     subgraph Person A
         PERSONA(Browser A)
-        TWINA(Twin A)
+        TWINA(Twin A - virtual browser)
     end
-    PERSONA .-&gt; TWINA
-    subgraph Internet
-        NETWORK(Internet)
-    end
+    PERSONA .-&gt;|Stream Input| TWINA
 
-    TWINA .-&gt; NETWORK
+    TWINA .-&gt;|Content GET request| WEB
 
     subgraph Wesite
     WEB(Any website)
     end
-    
-    NETWORK .-&gt; WEB
 
-    WEB --&gt; NETWORK
-    NETWORK --&gt; TWINA
-    TWINA --&gt; PERSONA
+    WEB --&gt;|Content| TWINA
+    TWINA --&gt;|Stream Internet Content| PERSONA
 </pre>
 
                     </main>
