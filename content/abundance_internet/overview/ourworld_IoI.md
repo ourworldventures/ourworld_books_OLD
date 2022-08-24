@@ -23,17 +23,11 @@ In each OurWorld Internet abundance is the base:
 
 This internet is “a peer2peer people’s internet”, created and owned by all of us together. The economic principles are dramatically different. Everything is available to build your own internet, from scratch. As a starting point you only need some computers and standard network equipment, all the rest is achieved by the magic of our threefold opensource software.
 
-
-## 
-
-
 ## The Internet of Internets integrated DEFI.
 
 Each Regional Internet hosts and connects to its own set of blockchains and web 4 and banking 4 functions, which interact with global public blockchains like Solana, Ethereum, Casper Labs, Cosmos, Stellar, Algorand any blockchain actually… 
 
 Each Regional Internet is responsible for
-
-
 
 * Identity & reputation management of community linked to the Regional Internet.
 * DEFI blockchain with links to any other possible blockchain as required.
