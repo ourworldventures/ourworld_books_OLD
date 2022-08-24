@@ -1,7 +1,7 @@
+
+![alt_text](img/threefold_internet_of_internets.png "image_tooltip")
+
 # Introduction
-
-![alt_text](introduction/img/threefold_internet_of_internets.png "image_tooltip")
-
 
 Imagine a world where “YOU” are the Internet.
 

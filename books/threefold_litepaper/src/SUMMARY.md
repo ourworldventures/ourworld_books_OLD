@@ -4,10 +4,10 @@
     - [The Internet Today](./introduction/internet_today.md)
     - [Web Re-Made Architecture](./introduction/web_remade.md)
     - [Why a new internet?](./introduction/why_new_internet.md)
-    - [Regenerative planet and people first approach](./introduction/regenerative_planet.md)
+    - [Planet & People First](./ppp/ppp_threefold.md)
     - [How does it work?](./introduction/how_it_works.md)
-    - [The missing layer for a more decentralized world](./introduction/missing_layer.md)
-    - [The BTC for internet infrastructure](./introduction/like_BTC.md)
+    - [The missing layer](./introduction/missing_layer.md)
+    - [The BTC for internet.](./introduction/like_BTC.md)
 
 ---
 

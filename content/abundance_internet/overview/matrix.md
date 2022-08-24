@@ -1,6 +1,8 @@
 
 # WE ARE ALREADY IN THE MATRIX, LET'S GET OUT.
 
+![alt_text](img/matrix.png "image_tooltip")
+
 Today most of us are living as slaves in a big system without realizing. This system is based on money, money is the biggest drug in the world right now. Money by itself is not bad, it's the way we use it today as the fuel of our current limited system. We like to think about money as ‘frozen time energy’. 
 
 Today, this ‘frozen time energy’ mainly flows from the ones who don’t have enough to those who already have plenty. \
