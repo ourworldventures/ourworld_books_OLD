@@ -23,7 +23,9 @@ explained as follows...
 
 ### 1. Datafication ###
 
+By definition,  is a technological trend turning many aspects of our life into data[1] which is subsequently transferred into information realised as a new form of value
 
+In simple terms, 
 
 ### 1. VIrtualisation: ### 
 In computing terms, virtualisation is the act of creating a virtual (rather than actual) version of something at the same abstraction level.
