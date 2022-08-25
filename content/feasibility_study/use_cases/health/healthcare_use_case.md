@@ -15,9 +15,9 @@ INSERT TZN HEALTHCARE STATS HERE ****
 
 The simple answer to scaling healthcare delivery given these constraints is:
 
-### 1. DATAFICATION ##
-### 2. VIRTUALISATION ##
-### 3. TOKENISATION ##
+### 1. DATAFICATION ###
+### 2. VIRTUALISATION ###
+### 3. TOKENISATION ###
 
 explained as follows...
 
@@ -70,9 +70,13 @@ In practice, the process can be as simple as follows:
 This process of tokenisation ensures:
 - equitable distribution of value between all citizens
 - concise and immutable management of budget and resources
-- key data insights in terms of:
-  - as to how healthcare infrastructure and resources are utilised
-  - 
+- key insights and data trends such as:
+  - how healthcare infrastructure and resources are utilised
+  - spend per citizen on healthcare
+  - annual cycles in health related problems
+  - geographical data insights realtive to spending and health trends
+  - etc
+
 
 
 
