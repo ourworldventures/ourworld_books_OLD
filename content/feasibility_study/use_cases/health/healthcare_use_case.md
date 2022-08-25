@@ -34,9 +34,21 @@ In technical terms, Tokenisation is the process by which an issuer creates digit
 
 In simple terms, a token is a digital representation of something that has inherent value. This can be financial, asset based or other.
 
-In practice and relative to this context, tokenisation means the digitisation of the health budget to allow for simple and fair distribution of value. 
+Relative to this context, tokenisation means the digitisation of the health budget to allow for simple and fair distribution of value. 
 
 In this case, we refer to a ditial token, backed and representing the national health budget, remittable for the redemption of healthcare services on behalf of the government by the citizens of Tazania.
+
+In practice, the process can be as simple as follows:
+- the national healthcare budget is tokenised and minted on the blockchain in a fully automated process
+- these digital tokens, representing healthcare services by the government, are distributed electronically to the digital wallet of each citizen (typically the digital wallet is on their cellular phone) on a equitable basis.
+- citizens then have the means to redeem virtual healthcare services redeemed using the inherent value ion the digital tokens they were issued.
+
+This process of tokenisation ensures:
+- equitable distribution of value between all citizens
+- concise and immutable management of budget and resources
+- key data insights in terms of:
+  - as to how healthcare infrastructure and resources are utilised
+  - 
 
 
 
