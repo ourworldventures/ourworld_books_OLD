@@ -22,7 +22,11 @@ In computing terms, virtualisation is the act of creating a virtual (rather than
 
 In simple terms, to virtualise healthcare delivery means to digitalise the whole patient experience so far as possible. In essence, make the end to end healthcare process an online experience and minimise the need for a patient to visit a healthcare facility and see a healthcare professionals in person.
 
+In practice, this is essentially telemedicine, but in this case, with some fundamental diofferences vs  what the industry today recognises. Telemendicine has advanced our ability to deliver healthcare signifucantly by virtuakisibg the atient epxerince and essentially bringing healthcare professionals to the patient via an application. Hoiwever, whist this has realised signifuicant efficiency in healthcare service delivery, there are stiull obvious limitations in telemedicine as it is today with regards to the scope of practice that can be delivered via a virtual service.
 
+The limitations referred to above is that only minor conditions can be consulted and diagnosed via a virtual platform given the lack of data available between the patienta nd the healthcare proifessional. This lack of hiostiorical and more importantly, real time data is a major limiting factor in the types of cases that can be dealt with in an online virtual experience
+
+More on this key constraint and this can be overcome in the s ection below: ###
 
 ### Tokenisation: ###  
 
