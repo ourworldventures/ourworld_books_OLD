@@ -15,7 +15,7 @@ INSERT TZN HEALTHCARE STATS HERE ****
 
 The simple answer to scaling healthcare delivery given these constraints is:
 
-## VIRTUALISATION & TOKENISATION ###
+## VIRTUALISATION + TOKENISATION + DATAFICATION ###
 
 ### VIrtualisation: ### 
 In computing terms, virtualisation is the act of creating a virtual (rather than actual) version of something at the same abstraction level.
@@ -29,6 +29,16 @@ The limitations referred to above is that only minor conditions can be consulted
 More on this key constraint and this can be overcome in the s ection below: ###
 
 ### Tokenisation: ###  
+
+In technical terms, Tokenisation is the process by which an issuer creates digital tokens on a distributed ledger or blockchain, which represent either digital or physical assets.
+
+In simple terms, a token is a digital representation of something that has inherent value. This can be financial, asset based or other.
+
+In practice and relative to this context, tokenisation means the digitisation of the health budget to allow for simple and fair distribution of value. 
+
+In this case, we refer to a ditial token, backed and representing the national health budget, remittable for the redemption of healthcare services on behalf of the government by the citizens of Tazania.
+
+
 
 
 
