@@ -77,6 +77,21 @@ This process of tokenisation ensures:
   - geographical data insights realtive to spending and health trends
   - etc
 
+## Solution Overview ##
+
+A truly virtualised healthcare solution, including tokenisation and datafication (as above) is underpinned by the decentralised, autonomous infrastructure of TSIP.
+
+TSIP delivers on the fundamental requirements to ensure the Virtual Healthcare solution lives up to its proise of:
+
+- privacy
+- soverigenty
+- security (quantum safe)
+- immutability
+- scalability
+- ...
+
+Architecturally, the virtual healthcare solution is depicted as follows:
+
 
 
 
