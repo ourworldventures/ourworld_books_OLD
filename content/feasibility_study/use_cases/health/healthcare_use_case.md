@@ -15,9 +15,17 @@ INSERT TZN HEALTHCARE STATS HERE ****
 
 The simple answer to scaling healthcare delivery given these constraints is:
 
-## VIRTUALISATION + TOKENISATION + DATAFICATION ###
+### 1. DATAFICATION ##
+### 2. VIRTUALISATION ##
+### 3. TOKENISATION ##
 
-### VIrtualisation: ### 
+explained as follows...
+
+### 1. Datafication ###
+
+
+
+### 1. VIrtualisation: ### 
 In computing terms, virtualisation is the act of creating a virtual (rather than actual) version of something at the same abstraction level.
 
 In simple terms, to virtualise healthcare delivery means to digitalise the whole patient experience so far as possible. In essence, make the end to end healthcare process an online experience and minimise the need for a patient to visit a healthcare facility and see a healthcare professionals in person.
