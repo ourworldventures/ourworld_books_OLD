@@ -21,13 +21,27 @@ The simple answer to scaling healthcare delivery given these constraints is:
 
 explained as follows...
 
-### 1. Datafication ###
+## 1. Datafication ##
 
-By definition,  is a technological trend turning many aspects of our life into data[1] which is subsequently transferred into information realised as a new form of value
+By definition,  is a technological trend turning many aspects of our life into datail which is subsequently transferred into information realised as a new form of value
 
-In simple terms, 
+In simple terms, this is the collection of healthcare data and aggregation of medical records to establish a full patient medical history (medical 360), gain key insights and idenitfy macro health trends and unlock the value of real time data for the benefit of every citizen/ patient.
 
-### 1. VIrtualisation: ### 
+This process involves both historical data aggregation and real time data collection:
+
+### Historical Data ###
+Based on a an EMR (electronic medical record) is the aggregation of all historical data from all possible legacy data sources to establish a single and full perspective on a patient history. This single healthcare record per citizen is:
+  - guaranteed private and always in the control of the citizen who owns that data
+  - stored in quantum safe storage on the TSIP network
+  - secured and ensured immutable by the TSIP blockchain 
+  
+### Real Time Data ### 
+Based on being able to collect and diagnose real time information from patients via a cirtual healthcare platform, enabling healthecare professionals more insights and data points on which they can make a diagnosis and recommend an appropriate treatment protocol. In this case:
+  -  data collection is deviceless meaning the patient needs nothing more than a smartphone to provide this information realtime, in virtual consultation
+  - data is measured by the smartphone camera and uploaded to the patient EMR record for diagnosis by the healthcare professional
+  - data is collecte dreal time but is stored and associated to an active consultation which can be queued awaiuting the availability of a healtcare professional who can in due course, use the data to formulate a diagnosis and recommedn a treatment proitocol. 
+  
+## 1. VIrtualisation: ## 
 In computing terms, virtualisation is the act of creating a virtual (rather than actual) version of something at the same abstraction level.
 
 In simple terms, to virtualise healthcare delivery means to digitalise the whole patient experience so far as possible. In essence, make the end to end healthcare process an online experience and minimise the need for a patient to visit a healthcare facility and see a healthcare professionals in person.
@@ -38,7 +52,7 @@ The limitations referred to above is that only minor conditions can be consulted
 
 More on this key constraint and this can be overcome in the s ection below: ###
 
-### Tokenisation: ###  
+## Tokenisation: ## 
 
 In technical terms, Tokenisation is the process by which an issuer creates digital tokens on a distributed ledger or blockchain, which represent either digital or physical assets.
 
