@@ -81,7 +81,7 @@ This process of tokenisation ensures:
 
 A truly virtualised healthcare solution, including tokenisation and datafication (as above) is underpinned by the decentralised, autonomous infrastructure of TSIP.
 
-TSIP delivers on the fundamental requirements to ensure the Virtual Healthcare solution lives up to its proise of:
+TSIP delivers on the fundamental requirements to ensure the Virtual Healthcare solution lives up to its promise of:
 
 - privacy
 - soverigenty
@@ -93,6 +93,18 @@ TSIP delivers on the fundamental requirements to ensure the Virtual Healthcare s
 Architecturally, the virtual healthcare solution is depicted as follows:
 
 
+
+Layer 0: TSIP Network
+Layer 1: Threefold Blockchain
+Layer 2: Experiences layer where virtual healthcare platform is deployed
+
+## Key desigbn principles: ##
+
+- Patient Centric: conversely to the industry norm, VHP is designed around the patient, putting the patient first. Historically, the patient would always go tot he practitioner, at the halethcare facility. Medi.me is 100% patient centric and birng all practitioners, insurers, service providers to the patient
+- Verifiable Identification: all actors within the ecosystem are verified by a soveriegn identity. No BAD Actors
+- Immutable Records:
+- Tokenised Assets
+- 
 
 
 
