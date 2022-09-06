@@ -23,7 +23,7 @@
       - [River](./capabilities/river.md)
       - [Wallet Exchange](./capabilities/wallet_exchange.md)
       - [Code development](./capabilities/code_developing.md)
-- [Technology Feasibility](./technology_considerations.md)
+- [Technical Feasibility](./technology_considerations.md)
   - [Requirements](./technology/technical_requirements.md)
     - [Population density](./technology/requirements_population_density.md)
     - [Power availability and reliability](./technology/requirements_power.md)

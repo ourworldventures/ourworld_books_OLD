@@ -1,4 +1,4 @@
-## Technology Considerations {#technology-considerations}
+## Technical Considerations {#technology-considerations}
 
 - Broken down by Project - what is required, what exists, what must be built? 
 - Unbreakable Internet will require consistent, reliable electricity
