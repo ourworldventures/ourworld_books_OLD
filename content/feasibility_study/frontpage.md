@@ -1,6 +1,5 @@
 **<p style="text-align: center;">UNITED REPUBLIC OF TANZANIA</p>**
 
-test
 <div style="text-align: center;">
 
 ![alt_text](../img/tanzania_flag.png "image_tooltip")
