@@ -16,9 +16,9 @@ TSIP must enable the social upliftment of Tanzanian people and afford every citi
 
   Looking at all of us as an internet and a country citizens our identities are not linked between the physical and the digital world.  Almost every country, region, city or social community has their own requirements and way of handling identity.  This is replicated in the digital world a 100 times over where every online company, service or platform has their own digital identity requirements.
 
-  This complete fragmentation of identities leads to a lot of complexity for people (citizens) to manage their identity. Most people manage this complexity by using the same username and password everywhere.  This lowers the security of these identities and causes a lot of breaches because once one service or platform is hacked this potentialy  exposes the username and password for many other platforms as well.
+  This complete fragmentation of identities leads to a lot of complexity for people (citizens) to manage their identity. Most people manage this complexity by using the same username and password everywhere.  This lowers the security of these identities and causes a lot of breaches because once one service or platform is hacked this potentially  exposes the username and password for many other platforms as well.
 
-  One, souvereign, technically well designed and built digitial identity solves all of these issues.
+  One, sovereign, technically well designed and built digitial identity solves all of these issues.
 
 **Data Sovereignty & Privacy**
 
@@ -36,8 +36,15 @@ To make the maximum productivity impact first the value extraction from tha Tanz
 
 **Universal Digital Access**
 
-* Affording every citizen universal access to valuable content, networks and resources to promote the health, education and welfare of the people of Tanzania, including:
-    * Universal access to education
-    * Universal access to financial services
-    * Universal access to healthcare services
-    * Universal access to information in general
+As recognized by the United Nations and featuring in many of their reports:
+
+"*The Internet has become one of the most important vehicles by which individuals exercise their right to freedom of opinion and expression, and it can
+play an important role to promote human rights, democratic participation, accountability, transparency and economic development.*"
+
+Access to the Internet is widely recognized as an indispensable enabler of a broad range of human rights It is not only essential for freedom of expression, but, as digitalization advances, it is also central to the realization of the rights to education, to freedom of association and assembly, to participate in social, cultural and political life, to health, to an adequate standard of living, to work and to social and economic development, to name just a few.
+
+Affording every citizen universal access to valuable content, networks and resources to promote the health, education and welfare of the people of Tanzania, including:
+- Universal access to education
+- Universal access to financial services
+- Universal access to healthcare services
+- Universal access to information in general
