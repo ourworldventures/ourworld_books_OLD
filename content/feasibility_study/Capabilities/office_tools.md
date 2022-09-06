@@ -79,3 +79,15 @@ graph RL
 ```
 
 This way, person A is providing the Office tool from his twin and invites other people to cooperate in this office tool. The Twin can run anywhere (as determined by the operator, person A).  With this priciple we can create individuals or companies that operate and own their own office tool and datastorage platform.
+
+Screenshots of the office application capabilities:
+
+### Settings
+![onlyoffice_settings](img/onlyoffice_settings.png)
+### Document
+![onlyoffice_doc](img/onlyoffice_doc.png)
+### Spreadsheet
+![onlyoffice_calc](img/onlyoffice_calc.png)
+### Presentation
+![onlyoffice_present](img/onlyoffice_present.png)
+
