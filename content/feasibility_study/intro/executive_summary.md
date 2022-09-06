@@ -1,14 +1,14 @@
 ## Executive Summary
 
-Affordable, performant and accessible internet for everyone, empowering the people of Tanzania in 
+Affordable, performant and accessible internet for everyone, empowering the people of Tanzania and Zanzibar
 
 If the Covid-19 pandemic has taught us anything, it is that digital is a necessity. It guarantees the continuity of services in the event of a crisis, and is also essential for ensuring a country’s competitiveness and growth.
 
-To initiate Tanzania’s digital transformation and ensure the social, financial and digital inclusion of all its citizens, the country needs to embark on a digitisation strategy focused on
+To initiate Tanzania’s digital transformation and ensure the social, financial and digital inclusion of all its citizens, the country needs to embark on a digitisation strategy focused on:
 
 **Digital sovereignty and Unlocking of the Internet Economy**
-
 Today, Tanzanias digitial economy wholly relies on US, Asia and European technologies, deployed and operated in these remote areas. This is a GDP drain for Tanzania as a country, it is GDP negative.  To make Tanzanias economy GPD positive it has to start deploying, operating and creating local technology and use it to increase sovereignty of the country instead of digital dependency on the rest of the world.
+
 
 A sustainable digital transformation can only be achieved if it is founded on digital sovereignty, which is the primary reason for the PPP between the Tanzanian public sector, private sector and Threefold to unlock the Tanzanian internet eocnomy.
 
