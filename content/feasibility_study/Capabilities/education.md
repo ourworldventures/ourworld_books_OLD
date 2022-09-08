@@ -42,22 +42,22 @@ graph TD
         end
     end
 
-    VIDEOPLATFORM .-> INDIVIDUALA
-    VIDEOPLATFORM .-> INDIVIDUALB
-    VIDEOPLATFORM .-> INDIVIDUALC
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALA
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALB
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALC
 
-    VIDEOPLATFORM .-> INDIVIDUALD
-    VIDEOPLATFORM .-> INDIVIDUALE
-    VIDEOPLATFORM .-> INDIVIDUALF
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALD
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALE
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALF
 
-    VIDEOPLATFORM .-> INDIVIDUALG
-    VIDEOPLATFORM .-> INDIVIDUALH
-    VIDEOPLATFORM .-> INDIVIDUALI
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALG
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALH
+    VIDEOPLATFORM .->|Internet connectivity| INDIVIDUALI
 ```
 
-To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.
+To scale such a solution for many classrooms in many schools and in many different regions puts enormous requirements and stress on the central video sharing platform and on the internet connectivity available in the education locations.  Every individual student will initiate a single connection to the central video sharing platform.  This might overload the existing connectivity setup of a school or even a regional in a country.
 
-Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.
+Decentralized video sharing for an education platform will lower the requirements on the platform and creates, stores and distributes educational content from within a region, or even from within a school local to that location.  This allows such an education solution to educate everywhere, even if there is poor )or no) internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.
 
 
 ```mermaid
@@ -67,9 +67,9 @@ graph TD
         INDIVIDUALAC(Student ...)
         INDIVIDUALAD(Student N)
         VIDEOPLATFORMA(Local video sharing Capability)
-        VIDEOPLATFORMA .-> INDIVIDUALAA
-        VIDEOPLATFORMA .-> INDIVIDUALAC
-        VIDEOPLATFORMA .-> INDIVIDUALAD
+        VIDEOPLATFORMA .->|local Wifi| INDIVIDUALAA
+        VIDEOPLATFORMA .->|local Wifi| INDIVIDUALAC
+        VIDEOPLATFORMA .->|local Wifi| INDIVIDUALAD
     end
 
     subgraph Region B
@@ -77,9 +77,9 @@ graph TD
         INDIVIDUALBC(Student ...)
         INDIVIDUALBD(Student N)
         VIDEOPLATFORMB(Local video sharing Capability)
-        VIDEOPLATFORMB .-> INDIVIDUALBA
-        VIDEOPLATFORMB .-> INDIVIDUALBC
-        VIDEOPLATFORMB .-> INDIVIDUALBD
+        VIDEOPLATFORMB .->|local Wifi| INDIVIDUALBA
+        VIDEOPLATFORMB .->|local Wifi| INDIVIDUALBC
+        VIDEOPLATFORMB .->|local Wifi| INDIVIDUALBD
     end   
 
     subgraph Region C
@@ -87,9 +87,9 @@ graph TD
         INDIVIDUALCC(Student ...)
         INDIVIDUALCD(Student N)
         VIDEOPLATFORMC(Local Video sharing capability)
-        VIDEOPLATFORMC .-> INDIVIDUALCA
-        VIDEOPLATFORMC .-> INDIVIDUALCC
-        VIDEOPLATFORMC .-> INDIVIDUALCD
+        VIDEOPLATFORMC .->|local Wifi| INDIVIDUALCA
+        VIDEOPLATFORMC .->|local Wifi| INDIVIDUALCC
+        VIDEOPLATFORMC .->|local Wifi| INDIVIDUALCD
     end   
 
     VIDEOPLATFORMA .->|curriculum updates| VIDEOPLATFORMB
@@ -100,13 +100,42 @@ graph TD
     VIDEOPLATFORMC .->|curriculum updates| VIDEOPLATFORMA
     VIDEOPLATFORMB .->|curriculum updates| VIDEOPLATFORMA
 ```
-4BILLION  COURSES DELIVERED
 
-Our local infrastructure ensures data locality.
+Such a decentralized platform make access to a lot simpler and improves on operational and connectivity costs.
+- if decentralized platform is inside a school building normal local WiFi is all that is needed to provide the curiculum to students. 
+- relative small amount of internet connectivity is needed to synchronize and update content of the different platforms.  Students might and new materials or learnings in location A which then needs to (or can) be shared with the other individual platforms.
 
+To data such a platform has delivered 4 Billion courses to student in (predominantly) South America.  The content stored and distributed in the platform is in the order of 3000 Videos.  These videos and are stored locally on the platform and can be shared with the student by local WiFi connections.  
 
-Over 3,000 Videos
+Additional content can be submitted by students and use as additional learning material.
 
-We fuel content production through our network.
+```mermaid
+graph TD
 
+subgraph School 1
+    VIDEOPLATFORMA(Local video sharing Capability)
+    STUDENTA1(Student 1)
+    STUDENTA2(Student 2)
+    STUDENTAN(Student ....)
+    VIDEOPLATFORMA .->|Existing Curiculum| STUDENTA1(Student 1)
+    VIDEOPLATFORMA .->|Existing Curiculum| STUDENTA2(Student 2)
+    VIDEOPLATFORMA .->|Existing Curiculum| STUDENTAN(Student ....)
+end
+
+subgraph School 2
+    VIDEOPLATFORMB(Local video sharing Capability)
+    STUDENTB1(Student 1)
+    STUDENTB2(Student 2)
+    STUDENTBN(Student ....)
+    VIDEOPLATFORMB .->|Existing Curiculum| STUDENTB1(Student 1)
+    VIDEOPLATFORMB .->|Existing Curiculum| STUDENTB2(Student 2)
+    VIDEOPLATFORMB .->|Existing Curiculum| STUDENTBN(Student ....)
+
+    STUDENTB2 -->|Upload New Curiculum| VIDEOPLATFORMB
+    VIDEOPLATFORMB -->|Sync New Curiculum| VIDEOPLATFORMA
+    VIDEOPLATFORMA -->|New Curiculum| STUDENTA1(Student 1)
+    VIDEOPLATFORMA -->|New Curiculum| STUDENTA2(Student 2)
+    VIDEOPLATFORMA -->|New Curiculum| STUDENTAN(Student ....)
+end 
+```
 
