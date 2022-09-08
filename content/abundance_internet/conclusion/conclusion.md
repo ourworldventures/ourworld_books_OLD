@@ -14,12 +14,12 @@ More Info ThreeFold
 * ThreeFold Funding Intro Presentation			[http://funding777.threefold.me](http://funding777.threefold.me)
 * Some Created Experiences				[http://experiences.ourworld.tf](http://experiences.ourworld.tf) 
 
-Why:
 
+### Why:
 
 
 * ThreeFold mission					[http://mission.threefold.me](http://mission.threefold.me)
 * Opinionated Cyber Security Brief			[http://cyber_pandemic.ourworld.tf](http://cyber_pandemic.ourworld.tf) 
 
- \
+
 _Please note, to use http (not https) in the url._
