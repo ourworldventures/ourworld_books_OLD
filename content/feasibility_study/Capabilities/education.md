@@ -110,7 +110,7 @@ To data such a platform has delivered 4 Billion courses to student in (predomina
 Additional content can be submitted by students and use as additional learning material.
 
 ```mermaid
-graph TD
+graph RL
 
 subgraph School 1
     VIDEOPLATFORMA(Local video sharing Capability)
