@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 
-![alt_text](../img/tanzania_flag.png "image_tooltip")
+![alt_text](img/tanzania_flag.png "image_tooltip")
 
 </div>
 
@@ -10,7 +10,7 @@
 
 **<p style="text-align: center;">FOR</p>**
 
-**<p style="text-align: center;">TANZANIA SOVEREIGN INTERNET AND DIGITAL BACKBONE PLATFORM (“TSI”)</p>**
+**<p style="text-align: center;">ZANZIBAR DIGITAL FREEZONE</p>**
 
 **<p style="text-align: center;">BETWEEN</p>**
 
@@ -20,4 +20,4 @@
 
 **<p style="text-align: center;">THREEFOLD NV</p>**
 
-**<p style="text-align: center;">AUGUST 2022</p>**
+**<p style="text-align: center;">SEPTEMBER 2022</p>**
