@@ -15,7 +15,7 @@ There are multiple sustainable or smart city projects around the world; however,
 
 We are in contact with innovators and businesses that will help OurTown become an example self-sufficient and carbon-neutral development. The diagram below shows what technologies are planned for use in order to make the waste, material, energy, food and water processes more regenerative. Research and development on these technologies will attract talent and provide significant know-how to people in Zanzibar working on the project. 
 
-![](img/sustainable_tech.png)
+![](img/sustainableTech.png)
 
  
 ## OurTown holding balance 
