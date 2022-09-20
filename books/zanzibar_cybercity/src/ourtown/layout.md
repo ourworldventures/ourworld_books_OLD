@@ -1,3 +1,3 @@
 # First Layout
 
-> TODO:  (emre), do we have pictures, ... lets make it nice
+> TODO:  (emre), waiting for layout render from Zia
