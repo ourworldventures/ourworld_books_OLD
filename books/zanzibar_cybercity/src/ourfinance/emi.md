@@ -38,7 +38,7 @@ Note: This fee doesn't incur the initial capital nor consultancy fees and does n
 - Proof of origin and receipt of finances
 - Opening of a local office
 - Opening of a Tanzanian bank account
-- Availability of AML officer or outsource to OurFinance
+- Availability of KYC/AML officer or outsource to OurFinance
 - Impeccable reputation of the company's beneficiaries
 - A director or manager must have higher education in law or economics, management or business administration, and have an impeccable reputation, competence, and practical experience as the head of the institution.
 - There must be at least one individual among the shareholders, Zanzibar residency is required. The main requirement is the age over 18 and impeccable business reputation.

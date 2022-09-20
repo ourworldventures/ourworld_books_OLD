@@ -19,3 +19,7 @@ Imagine a sustainable city where the social needs of all are met while living in
 ## Our Town: the place where everything materialises
 
 Our Town will be the 
+
+- have a home
+- digital backbone to arrange bills, energy, communication
+- offices / co-working digital nomads

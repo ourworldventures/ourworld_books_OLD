@@ -1,7 +1,5 @@
 # Market Size
 
-> TODO: (sacha)  find nr's and pictures how big this market is for the different topics
-
 Digital transformation used to be something that’s just good to have. But since COVID-19 disrupted business operations worldwide, many organizations now see digital transformation as a necessary step in preserving their business as reflected by the most current digital transformation statistics. Fueled by speedy internet everywhere, digitization now plays a critical role in adding business value.
 
 ![](img/fintech_market_size.png)

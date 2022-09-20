@@ -1,21 +1,19 @@
 # Digital Custodian License Steps
 
-## PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)
 
-- Analysis of the documents that client have on hands
-- Review business model
-- ... 
+The Bank of Tanzania must make a decision within 1-3 months of receiving a complete application. However, the expected time to obtain a licence is expected to take about 3 months. 
 
-## PREPARATION (1 week - 2 month)
+## Preperation phase (1-2 month)
 
-- General consulting regarding the DMI licensing process
+- Preliminary assessment of project (reveiew documents on hands, etc.) 
+- General consulting regarding the Custodian licensing process
 - Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts
 - Shareholders and Group Companies Due Diligence
 - Local Company Formation and assistance with Bank account opening for share capital contribution
-- Human resource (at least 1 employee shall be in Lithuania, we can help)
+- Human resource (at least 4 employees shall be in Zanzibar)
 - Help establish local office in OURTOWN
 
-## LICENSING (1-4 months)
+## Licensing phase (1-3 months)
 
 - Preparation of legal, financial and IT documents (non-exhaustive list):
     - Description of the Management Structure
@@ -28,13 +26,14 @@
 - Practical
     - Technical handover of the technical infrastructure as required for the e-money license (see tech section)
 
-## ADDONS and MAINTENANCE 
+## Add-ons and maintenance 
 
 - Accounting services
 - Auditing
 - Opening of safeguarding accounts
-- Arrange integration with other licenses of the OurFinance services
-- IT services (how to integrate in your other systems)
-
-> TODO: localize (sacha)
+- Connection to SWIFT payment scheme
+- Agreement for the issuing own brand MasterCard cards
+- BIC/SWIFT and LEI codes acquisition
+- Reporting to Central Bank on the regularly basis
+- Consulting on the arising issues from Central Bank
 
