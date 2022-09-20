@@ -13,8 +13,10 @@ The global digital nomad community’s economic value is $787,000,000,000 per ye
 
 If the global digital nomad community were a country, it would rank #41 by population size, just after Canada (37,742,154) and Morocco (36,910,560) in population size
 
-If the global digital nomad community were a country, it would 38th most prosperous country based on gross national income per capita, ranking just after Portugal ($23,200 average annual income per person) and Saudi Arabia ($22,840 average annual income per person)
+If the global digital nomad community were a country, it would be the 38th most prosperous country based on gross national income per capita, ranking just after Portugal ($23,200 average annual income per person) and Saudi Arabia ($22,840 average annual income per person)
 
 The average digital nomad has a higher monthly budget than the average income of citizens from the top 5 countries, digital nomads prefer to nomad, and 9 of the top 10 countries for digital nomads
+
+> TODO: complete above.
 
  Taxes were reported as one of the major struggles for digital nomads.

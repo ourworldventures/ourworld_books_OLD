@@ -1,3 +1,3 @@
-# Cyber City
+# OURTOWN ZANZIBAR
 
 > TODO: intro (emre)

@@ -2,25 +2,25 @@
 
 ![](img/psp.png)  
 
-A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. In order to become a PSP one needs a license with DIGIFIN.
+DIGIFIN aims to provide PSP licences. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
 
-## Process
+## Provided architecture
 
 ![](img/psp3.png)  
 
-Payment gateways
+Payment gateways:
 - Work as direct customer intercommunication
 - Connect different systems, such as card processing platforms and point of sale (POS) systems
 - Provide the connectivity for retailers to access their payment processors
 - Allow configuring the appropriate gateways in various ways for both in-store and online businesses
 
-Payment services
+Payment services:
 - Work in the background to facilitate the interaction of payment gateways
 - Transfer financial data between merchant accounts and gateways
 - Ensure all transactions are processed properly, efficiently, and quickly
 
 
-## How does PSP work?
+## How does a PSP work?
 
 ![](img/psp_how.png)  
 
@@ -69,3 +69,7 @@ PSPs provide complete transaction reports for every one of your payment methods.
 
 
 > TODO: (vic) localize for our situation, needs to be more integrated with DIGIFIN solution
+
+## What it means for Digital Nomads.
+
+What digital nomads gain from our unique DIGIFIN solution is a fully integrated financial regulatory service within a wider package including licenses, technology, auditing services, tax reporting, and facility services. 

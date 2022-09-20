@@ -3,7 +3,7 @@
 
 ### Zero-Complexity
 
-Our unique digital twin IT system allows a digital nomad to simplify his personal business life i.
+Our unique digital twin IT system allows a digital nomad to simplify his personal business life. 
 
 ### Within the ZDF, Nomads will have the following capabilities:  
 
@@ -23,7 +23,7 @@ Whatever might happen in the nomad’s homeland, his company and its assets are 
 
 In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the DFZ should provide for its community. 
 
-Prepare for the future, digital tokens will be important
+Prepare for the future, digital tokens will become increasingly important. 
 
 ### Convenience
 
