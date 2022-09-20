@@ -1,4 +1,5 @@
 * Financial Feasibility
+
 * Business Model – value proposition, sustainability; stress value to individuals, government
 * o   <span style="text-decoration:underline;">Digital Nomads</span>
 * -  Massive market – pandemic upended the way we think about work/life balance; conflict has accelerated the world’s increasing intransigence; millions of people – and their businesses – are on the move.

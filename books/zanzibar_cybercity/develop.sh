@@ -9,6 +9,6 @@ if ! [ ${#NAME} -ge 3 ];then
     exit 1
 fi
 
-mdbook serve . -p 8884 --open
+mdbook serve . -p 8884 -n 0.0.0.0 --open
 
 popd
