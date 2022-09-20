@@ -1,10 +1,9 @@
 
-# The Recipe
+# Our Recipe
 
 ![](img/recipe.png)  
 
 Together we can make this digital dream happen, we need commitment and a good plan and most important a loyal team and partnership.
-
 
 * A government which is committed to make this work and be different. Realize that some companies and people might not want this huge step forward, we need to be ready to defend this project.
 * A sense of urgency, time is against us, the time is now. The world is changing, now is a good time to do it.

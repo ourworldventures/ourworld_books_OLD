@@ -3,7 +3,7 @@
 - [Home](intro.md)
     - [Brave New Digital World](brave_new_world/brave_new_world.md)
     - [No Painkillers](brave_new_world/no_pain_killer.md)
-    - [The Better Pill](brave_new_world/the_recipe.md)
+    - [Our Recipe](brave_new_world/the_recipe.md)
 - [DIGITAL NOMADS](digitalnomads/digitalnomads.md)
     - [Why](digitalnomads/why.md)
     - [Market](digitalnomads/market.md)
