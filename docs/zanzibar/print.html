@@ -1,0 +1,1226 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Regenerative Cyber City</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li class="chapter-item expanded "><a href="digitalnomads/digitalnomads.html"><strong aria-hidden="true">2.</strong> DIGITAL NOMADS</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalnomads/why.html"><strong aria-hidden="true">2.1.</strong> Why</a></li><li class="chapter-item expanded "><a href="digitalnomads/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="digitalnomads/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="digitalnomads/tools.html"><strong aria-hidden="true">2.4.</strong> Tools</a></li><li class="chapter-item expanded "><a href="digitalnomads/benefits.html"><strong aria-hidden="true">2.5.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="digitalnomads/security.html"><strong aria-hidden="true">2.6.</strong> Security</a></li><li class="chapter-item expanded "><a href="digitalnomads/participants.html"><strong aria-hidden="true">2.7.</strong> Participants</a></li><li class="chapter-item expanded "><a href="digitalnomads/finance.html"><strong aria-hidden="true">2.8.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="digitalnomads/bizmodel.html"><strong aria-hidden="true">2.9.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="digitalnomads/conclusion.html"><strong aria-hidden="true">2.10.</strong> Conclusion</a></li><li class="chapter-item expanded "><a href="digitalnomads/requirements_government.html"><strong aria-hidden="true">2.11.</strong> Zanzibar Requirements</a></li></ol></li><li class="chapter-item expanded "><a href="digitalfinance/digitalfinance.html"><strong aria-hidden="true">3.</strong> DIGIFIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalfinance/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalfinance/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="digitalfinance/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalfinance/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="digitalfinance/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalfinance/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="digitalfinance/custodian.html"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="digitalfinance/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="digitalfinance/crime_prevention.html"><strong aria-hidden="true">3.5.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="digitalfinance/market_size_digifin.html"><strong aria-hidden="true">3.6.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="cybercity/cybercity.html"><strong aria-hidden="true">4.</strong> ZNZ CYBER CITY</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cybercity/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="cybercity/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="cybercity/layout.html"><strong aria-hidden="true">4.3.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="cybercity/utilization.html"><strong aria-hidden="true">4.4.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="cybercity/bizmodel.html"><strong aria-hidden="true">4.5.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="cybercity/all_digital.html"><strong aria-hidden="true">4.6.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="cybercity/team.html"><strong aria-hidden="true">4.7.</strong> Team</a></li></ol></li><li class="chapter-item expanded "><a href="partnership/ppp.html"><strong aria-hidden="true">5.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="partnership/structure.html"><strong aria-hidden="true">5.1.</strong> Structure</a></li><li class="chapter-item expanded "><a href="partnership/financials.html"><strong aria-hidden="true">5.2.</strong> Financials</a></li><li class="chapter-item expanded "><a href="partnership/benefits_znz.html"><strong aria-hidden="true">5.3.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="techsolutions/techsolutions.html"><strong aria-hidden="true">6.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issues.html"><strong aria-hidden="true">6.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issue_cyberpandemic.html"><strong aria-hidden="true">6.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">6.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="solutions/issue_cbdc.html"><strong aria-hidden="true">6.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="solutions/solutions.html"><strong aria-hidden="true">6.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">6.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">6.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">6.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology/technology.html"><strong aria-hidden="true">7.</strong> Technology</a></li><li class="chapter-item expanded "><a href="ppp/ppp.html"><strong aria-hidden="true">8.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/mission.html"><strong aria-hidden="true">8.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="mission/vision.html"><strong aria-hidden="true">8.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/goals/1_concept_realization0.html"><strong aria-hidden="true">8.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">8.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">8.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Regenerative Cyber City</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="cyber-city-zanzibar"><a class="header" href="#cyber-city-zanzibar">CYBER CITY ZANZIBAR</a></h1>
+<p><img src="img/high_level_country_overview.png" alt="image alt text" /></p>
+<p><em>Albert Einstein : &quot;Insanity is doing the same thing over and over again and expecting different results.&quot;</em></p>
+<p>We believe that in the current technology ecosystem a lot of solutions are like painkillers, they layer a quick fix on a broken system. We need real solutions which go back to the root of the problem</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="zanzibar-digital-freezone"><a class="header" href="#zanzibar-digital-freezone">Zanzibar Digital Freezone</a></h1>
+<p><img src="digitalnomads/img/freezone_intro.png" alt="image alt text" /></p>
+<p>The Zanzibar Digital Nomad Business Hub model is simple, effective and compelling for everyone involved..</p>
+<p>Each person/company can create a legal entity in the Zanzibar Digital FreeZone &lt; 1 day. Onboarded with full background checks and due diligence (KYC/AML), consistent with international standards.. 100% Compliant and Secure.</p>
+<p>Start doing business the next day 100% of business tasks are automated.</p>
+<p>Simple pricing model $30-$1000 per month depending on target, person, company and it's size. </p>
+<p>Digital Nomads = first target.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="issues-digital-nomads-need-to-deal-with-today"><a class="header" href="#issues-digital-nomads-need-to-deal-with-today">Issues digital nomads need to deal with today.</a></h2>
+<p><img src="digitalnomads/img/digital_nomads_issues.png" alt="" /></p>
+<p>As a digital nomad, one of the most crucial things to ensure is that you have the proper paperwork and you are aware of your legal responsibilities. This is one of the most important things when you decide to live and work on the road, if not so, you might face some major difficulties. Combined with employment and residence, it all creates stressful and often unknown challenges for newbie digital nomads.</p>
+<p>Digital nomads have no fixed residence, which creates challenges to organizing their business affairs. </p>
+<p>As a result, most choose to live &quot;off the grid&quot; , operating informally, on a cash basis, or through pre-covid, personal online banking relationships.  . .</p>
+<p>B2B transactions can also be difficult and time-consuming due to the challenges presented by performing due diligence on digital nomads. </p>
+<p>The Zanzibar Digital Freezone (ZDF) provides digital nomads with a simple, reliable means to formalizing their businesses and facilitating commercial relationships in a manner that increases productivity and decreases risk, while at the same time generating revenue for Zanzibar..</p>
+<blockquote>
+<p>TODO: we can have some more context there of what their issues are and how we resolve it (vic)
+some info: https://www.enjiohq.com/post/what-are-the-digital-nomad-challenges-and-how-to-overcome-them</p>
+</blockquote>
+<h3 id="planet-positive"><a class="header" href="#planet-positive">Planet Positive</a></h3>
+<p>Members are encouraged to do business in a positive manner - as part of the ethos of the Digital Free Zone. </p>
+<p>Planet Positive Means</p>
+<ul>
+<li>Everyone has Equal Chances</li>
+<li>No Money Out of Nothing </li>
+<li>Respect for the Resources of Planet</li>
+<li>Sustainable (is not a short living thing, resources used as good as possible)</li>
+<li>All reasonable effort is done to be at least Carbon Neutral</li>
+<li>Tokens are created only for the benefit of a project </li>
+</ul>
+<p>A wisdom council can be used to vouch for the planet's positive nature of a project.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-nomads-is-a-big-market"><a class="header" href="#digital-nomads-is-a-big-market">Digital Nomads Is A Big Market</a></h1>
+<p><img src="digitalnomads/img/nomad_stats.png" alt="image alt text" />10.900.000 Digital Nomads from the US in 2020.</p>
+<p>Over the past three years, Emergent Research and MBO Partners have collaborated on an extensive digital nomad study. We found that the number of Americans describing themselves as digital nomads rose from 7.3 million in 2019 to 10.9 million in 2020 — an increase of 49%. And the composition of this cohort shifted. In previous years, the ranks of digital nomads were dominated by independent workers: freelancers, independent contractors, and the self-employed. But the 2020 nomad surge was driven by people with traditional jobs. Untethered from their offices, many employees decided to take to the road. In fact, the number of digital nomads with traditional jobs rose from 3.2 million in 2019 to 6.3 million in 2020 — a 96% increase. Traditional job holders now make up a majority of those pursuing this nontraditional work lifestyle.</p>
+<h3 id="some-global-statistics"><a class="header" href="#some-global-statistics">Some Global Statistics:</a></h3>
+<p>There are over 35,000,000 digital nomads across the globe of varied nationalities</p>
+<p>The global digital nomad community’s economic value is $787,000,000,000 per year, calculated as the aggregate of digital nomad spending annually.</p>
+<p>If the global digital nomad community were a country, it would rank #41 by population size, just after Canada (37,742,154) and Morocco (36,910,560) in population size</p>
+<p>If the global digital nomad community were a country, it would 38th most prosperous country based on gross national income per capita, ranking just after Portugal ($23,200 average annual income per person) and Saudi Arabia ($22,840 average annual income per person)</p>
+<p>The average digital nomad has a higher monthly budget than the average income of citizens from the top 5 countries, digital nomads prefer to nomad, and 9 of the top 10 countries for digital nomads</p>
+<p>Taxes were reported as one of the major struggles for digital nomads.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="goal"><a class="header" href="#goal">Goal</a></h1>
+<p>Be one of the First Digital Nomad Business Hub in Africa. </p>
+<p>All can be done online and remotely, of course digital nomads can meet each other in Zanzibar as well.</p>
+<p>We believe bringing +100.000 companies within 5-8 years is possible. This could bring Billions of USD in the GDP of Zanzibar and potential income of hundreds of millions per year. </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tools"><a class="header" href="#tools">Tools</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="benefits-for-the-digital-nomad"><a class="header" href="#benefits-for-the-digital-nomad">Benefits For the digital nomad</a></h2>
+<h3 id="zero-complexity"><a class="header" href="#zero-complexity">Zero-Complexity</a></h3>
+<p>Our unique digital twin IT system allows a digital nomad to simplify his personal business life i.</p>
+<h3 id="within-the-zdf-nomads-will-have-the-following-capabilities"><a class="header" href="#within-the-zdf-nomads-will-have-the-following-capabilities">Within the ZDF, Nomads will have the following capabilities:</a></h3>
+<ul>
+<li>Communication (messaging, email, video conferencing)</li>
+<li>Invoicing, Expenses, Accounting, other administrative tasks.</li>
+<li>Data Storage (all  data is stored securely onlinet)</li>
+<li>Contract management with business partners and service providers</li>
+<li>HR relations.</li>
+<li>Project management</li>
+<li>Collaboration through online project management toolsDigital Currency wallet </li>
+</ul>
+<p>Every task  is 100% automated and peer2peer with business counterparts, requiring no manual action, e.g.,  invoices are generated and sent digitally and securely (and permanently recorded on a blockchain..</p>
+<h3 id="prepare-for-an-unsure-future"><a class="header" href="#prepare-for-an-unsure-future">Prepare for an unsure future</a></h3>
+<p>Whatever might happen in the nomad’s homeland, his company and its assets are safe and secure,  well-regulated online environment . The plan is to add capabilities over time as the ZDF expands organically and its growth potential  is clear.</p>
+<p>In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the DFZ should provide for its community. </p>
+<p>Prepare for the future, digital tokens will be important</p>
+<h3 id="convenience"><a class="header" href="#convenience">Convenience</a></h3>
+<p>EASY COLLABORATION, tool-driven collaboration all hosted in Zanzibar. </p>
+<h3 id="collaboration-11--3"><a class="header" href="#collaboration-11--3">Collaboration: 1+1 = 3</a></h3>
+<p>Find like-minded innovative partners, collaborate to build bigger projects with least effort and maximum protection. Attract like-minded entrepreneurs in Zanzibar.</p>
+<p>Together create a better world. Zanzibar can be the home for a digital ecosystem of like minded digital nomad entrepreneurs.</p>
+<h1 id="benefits"><a class="header" href="#benefits">Benefits</a></h1>
+<h2 id="for-zanzibar"><a class="header" href="#for-zanzibar">For Zanzibar</a></h2>
+<p><strong>Zanzibar is a beautiful location and wants to stay as such, getting other sustainable sources of income can help.</strong></p>
+<p>Zanzibar Digital FreeZone is a sustainable business &amp; incubation center.</p>
+<p>100% sustainable, zero impact on the environment, culture or local economy.</p>
+<p>The revenue generated from the Zanzibar Digital FreeZone can be used for:</p>
+<ul>
+<li>Promotion &amp; Growth of the Digital Freezone</li>
+<li>Incubation of more projects, which creates value for Digital Freezone.</li>
+<li>Development of Sustainability projects.</li>
+<li>Government functions</li>
+</ul>
+<h3 id="high-tech-in-zanzibar"><a class="header" href="#high-tech-in-zanzibar">High Tech In Zanzibar</a></h3>
+<p>World class IT system will provide: data sovereignty, transparent reporting, productivity tools, conscious Tech Hub.</p>
+<h3 id="healthy-tourism--for-digital-nomads"><a class="header" href="#healthy-tourism--for-digital-nomads">Healthy Tourism = for digital nomads</a></h3>
+<p>x% of the digital nomads will spend some time in Zanzibar, this leads to secondary benefits for Zanzibar (Tourism).</p>
+<h3 id="modern-sustainable-physical-freezone-location-for-digital-nomads"><a class="header" href="#modern-sustainable-physical-freezone-location-for-digital-nomads">Modern Sustainable Physical FreeZone location for digital nomads</a></h3>
+<p>To Be Determined with the Government of Zanzibar, this leads to benefits...</p>
+<p>See further for more details.</p>
+<h2 id="for-the-planet"><a class="header" href="#for-the-planet">For The Planet</a></h2>
+<p>We maintain a strong set of values to make sure that we do our business to the utmost ethical standards.</p>
+<p><img src="digitalnomads/img/regenerative_zanzibar.png" alt="image alt text" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="strong-protection"><a class="header" href="#strong-protection">Strong Protection</a></h2>
+<p><img src="digitalnomads/img/security.png" alt="" /></p>
+<p>Zanzi Hub is strongly protected and compliant.</p>
+<h2 id="100-in-line-with-regulation-we-dont-wanna-be-rebels"><a class="header" href="#100-in-line-with-regulation-we-dont-wanna-be-rebels">100% in line with regulation, we don’t wanna be rebels</a></h2>
+<p>We use the legal tools available to create a full legal sandbox in line with all published regulations.</p>
+<h2 id="legal-framework"><a class="header" href="#legal-framework">Legal Framework</a></h2>
+<p>A good enough legal framework needs to be implemented, a simple set of regulations is needed, we will work together with other offshore centers to get all the starting information. Official judges and lawyers are available in Zanzibar to provide support when required, if not required Judges and Lawyers who are members of the sandbox can be certified as well to operate in Zanzibar in the sandbox.</p>
+<h2 id="no-anonymity-and-proof-of-authenticity"><a class="header" href="#no-anonymity-and-proof-of-authenticity">No Anonymity and Proof of Authenticity</a></h2>
+<p>Every party you do business with in the sandbox is registered on the blockchain and has identity verified.</p>
+<p>Every person needs to keep a profile page updated and a proof of authenticity mechanism is used to make sure the information you provide is authentic. Everyone needs to find other people who are willing to use their credibility to give you a proof of authenticity. KYC and AML are done when entering the sandbox.</p>
+<h2 id="we-should-also-offer-shariah-compliant-products"><a class="header" href="#we-should-also-offer-shariah-compliant-products">We should also offer Shariah Compliant products.</a></h2>
+<p>Our idea is that there will be option for our customers to do business in a Shariah Compliant way, this will have to be developed as we go.</p>
+<h2 id="verifiable-information"><a class="header" href="#verifiable-information">Verifiable Information</a></h2>
+<p>Source code based, all information used towards sandbox or in any business relationship is available, complete enough, version controlled and can be inspected by all involved parties at any point in time. </p>
+<p>All information is kept forever and archived, verified on blockchain in the sandbox (cannot be manipulated).</p>
+<p>What you see is what you get (proof of authenticity of all information)</p>
+<h2 id="strong-digital-backbone"><a class="header" href="#strong-digital-backbone">Strong Digital Backbone</a></h2>
+<p>Our unique technology delivers strong safety mechanism</p>
+<ul>
+<li>Every participating party is strongly identity verified.</li>
+<li>All information used is verifiable.</li>
+<li>There is approval for authenticity and completeness of information (are things understandable).</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="zanzi-hub-participants"><a class="header" href="#zanzi-hub-participants">Zanzi Hub Participants</a></h1>
+<p><img src="digitalnomads/img/participants.png" alt="" /></p>
+<p>For this doc we call the Digital Nomad Business Hub, Zanzi Hub.</p>
+<h2 id="zanzi-community"><a class="header" href="#zanzi-community">Zanzi Community</a></h2>
+<p>The sandboxed community, all members together. The sandbox authority protects the rights of the Zanzi Community. </p>
+<h2 id="zanzi-member"><a class="header" href="#zanzi-member">Zanzi Member</a></h2>
+<p>Anyone can become a member of the Zanzi Community.</p>
+<p>A member is allowed to use tokens from the sandbox and has insight into information of company's inside the sandbox. Members can use (buy) services from companies in the sandbox. All members went through KYC and AML. There is no VAT involved for the services from within the sandbox</p>
+<h2 id="zanzi-companys"><a class="header" href="#zanzi-companys">Zanzi Company's</a></h2>
+<p>There are 4 types of companies to start with, this need to be refined but just ideas to get started with.</p>
+<p>Nomad</p>
+<ul>
+<li>1 shareholder max.</li>
+<li>max revenue per year = 50.000 USD</li>
+<li>No voting structure</li>
+</ul>
+<p>Soho</p>
+<ul>
+<li>10 shareholders max</li>
+<li>max revenue per year = 200.000 USD </li>
+<li>No limitations around voting &amp; distribution of profits.</li>
+</ul>
+<p>Commercial</p>
+<ul>
+<li>Unlimited shareholders</li>
+<li>Unlimited revenue</li>
+<li>No limitations around voting &amp; distribution of profits.</li>
+</ul>
+<p>Cooperative (not for profit) </p>
+<ul>
+<li>Unlimited shareholders</li>
+<li>Unlimited revenue</li>
+<li>Good regulations around voting</li>
+<li>Money can only be used to the benefit of the cooperative, not the shareholders.</li>
+</ul>
+<p>Each company automatic monthly reporting about </p>
+<h2 id="sandbox-authority-sa"><a class="header" href="#sandbox-authority-sa">Sandbox Authority (SA)</a></h2>
+<p>The company in Zanzibar which organizes and checks the correct operation of the sandbox= Zanzi Community (is the digital freezone company)</p>
+<p>Much of this further needs to be defined as we go.</p>
+<p>The SA has following rights &amp; duties:</p>
+<ul>
+<li>Create companies in Zanzibar (need interface to Zanzibar registration office/system)</li>
+<li>Organize the Wisdom Councils (management councils, working to be further defined)</li>
+<li>Provide documentation and reporting to Zanzibar for whatever is required</li>
+</ul>
+<h2 id="zanzibar-government"><a class="header" href="#zanzibar-government">Zanzibar Government</a></h2>
+<p>The Sandbox Authority operates in a 100% legal environment as approved by the Zanzibar Government.</p>
+<h2 id="zanzi-chain"><a class="header" href="#zanzi-chain">Zanzi Chain</a></h2>
+<p>The native blockchain to the Zanzibar Sandbox. All native and wrapped required tokens are registered on this blockchain. All identity and official documents as well. So are reputation and verification proofs.</p>
+<p>The Zanzi Chain is based on opensource blockchain code and copies of the blockchain are made on a quantum safe storage system which means data can never be lost nor corrupted.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="zanzi-hub-adminfinancial-system"><a class="header" href="#zanzi-hub-adminfinancial-system">Zanzi Hub Admin/Financial System</a></h1>
+<p><img src="digitalnomads/img/finance.png" alt="" /></p>
+<h2 id="no-banks-in-phase-1"><a class="header" href="#no-banks-in-phase-1">No Banks in phase 1</a></h2>
+<p>To keep things simple, there are no banks involved in phase 1.
+Only wrapped and native tokens = digital currencies can be used (see below).</p>
+<h2 id="native-tokens"><a class="header" href="#native-tokens">Native Tokens</a></h2>
+<p>Every company can register their own tokens inside the ZaniChain.</p>
+<h2 id="gold-phase-2-optional"><a class="header" href="#gold-phase-2-optional">Gold Phase 2 (optional)</a></h2>
+<p>In 2022 work can start to see how gold tokens can be integrated in the sandbox, how people can come into the system by buying gold. Gold could potentially come from sustainable sources.</p>
+<h2 id="banks-phase-3"><a class="header" href="#banks-phase-3">Banks Phase 3</a></h2>
+<p>2023+, a real banking license can be acquired and made available to members of the sandbox.</p>
+<p>Potentially this can happen faster by means of cooperation with another bank outside of the sandbox.</p>
+<h2 id="zanzi-community-is-not-a-tax-free-zone"><a class="header" href="#zanzi-community-is-not-a-tax-free-zone">Zanzi Community is not a tax free zone</a></h2>
+<p>The tax system is super simple.</p>
+<blockquote>
+<p>TODO: align with section about tax</p>
+</blockquote>
+<ul>
+<li>Income tax = 15% for in country income, 0% for out of country</li>
+<li>Capital gains &amp; wealth tax = 0</li>
+</ul>
+<p>The tax is required to allow Zanzibar to run a sustainable government to protect the interest of the Zanzi Community.</p>
+<p>We do realize this needs to be looked at in a broader context and will need some time to establish.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="business-model"><a class="header" href="#business-model">Business Model</a></h1>
+<blockquote>
+<p>TODO: biz model (kristof)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h1>
+<p>ThreeFold and the Zanzibar Government aim to establish the world's first Digital Nomad Business Hub. Targeting the growing market of Digital Nomads, through affordable, digitally secure and transparent trade license provisioning, and at a later stage by creating physical leased offices and an incubation center powered by a decentralized cloud infrastructure. These initiatives will support the development of a tech startup environment, provide for local training, education and youth empowerment facilities within Zanzibar. The combination of scalable virtual services and sustainably implemented physical spaces will attract foreign investment as well as provide a solid economic model for the country whilst empowering Zanzibar's citizens through job creation and increased economic activity (lease and licensing). Together we are confident we can achieve this vision to create a leading, digital economic hub to empower the future of Zanzibar. </p>
+<p><img src="digitalnomads/img/hadith.png" alt="image alt text" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="what-do-we-need-from-zanizabar-government"><a class="header" href="#what-do-we-need-from-zanizabar-government">What do we need from Zanizabar government</a></h2>
+<ul>
+<li>Legal protection and official status in line with values as defined above.</li>
+<li>Give rights to our Sandbox Authority for creating companies in an automated way, 
+integrate where required with Zanzibar existing systems.</li>
+<li>Ability to use blockchain as legal tender and signing rights, 
+recognition that digital currencies can be used by the company's inside the Zanzi Hub.</li>
+<li>Piece of land we can use to build the freezone.</li>
+<li>Connection to the legal/court system when that would be required.</li>
+<li>Joint marketing power for the new Internet Project as well as Zanzi Hub Project.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digifin--digital-finance"><a class="header" href="#digifin--digital-finance">DIGIFIN = Digital Finance</a></h1>
+<p>DIGIFIN is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers.</p>
+<p>Unique for our proposition is that we combine the following in 1 easy to consume package</p>
+<ul>
+<li>required licenses</li>
+<li>required technology (ALL tech and blockchain based)</li>
+<li>auditing services &amp; automatic tax reporting</li>
+<li>facility services (office, houses for staff, ...)</li>
+</ul>
+<p><img src="digitalfinance/img/digifin1.png" alt="" /></p>
+<blockquote>
+<p>TODO: (sacha) why is this relevant, simplification...</p>
+</blockquote>
+<table><thead><tr><th></th><th style="text-align: center">Payment Service Provider (PSP)</th><th style="text-align: center">Electronic Money Institution (EMI)</th><th style="text-align: center">Digital Money Institution (DMI)</th><th style="text-align: center">Digital Custodian</th><th style="text-align: center">Full Bank</th></tr></thead><tbody>
+<tr><td>Payment services (digital/web) = accept payments</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>money In and Out to any other financial institute (fiat)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>money In and Out to own account (fiat)</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>fiat currency exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>fiat-digital, digital-digital exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td>Opening multicurrency accounts (e-wallets)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>Issuance of D-money  (digital currency/asset wallets)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td></tr>
+<tr><td>Debit Card Integration</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Holding valuable assets on behalf of customers<br>(shares,gold,tanzanite,digital and fiat currencies) .</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Security Emissions (create securities on behalf of customers)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Allow customers to exchange their assets (in the sandbox)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Investment services (help users to make investment decisions)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>Lending to businesses and individual</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td>Cost Setup &amp; License</td><td style="text-align: center">2-20 k USD</td><td style="text-align: center">50-100 k USD</td><td style="text-align: center">20-50 k USD</td><td style="text-align: center">100-200 k USD</td><td style="text-align: center">Future</td></tr>
+<tr><td>Cost Technology</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">Future</td></tr>
+<tr><td>Cost Per Year</td><td style="text-align: center">5-10 k USD</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$2-10 user/month</td><td style="text-align: center">Future</td></tr>
+</tbody></table>
+<br>
+<br>
+<blockquote>
+<p>Unique to our solution is that the tech is fully integrated for all assets of the financial solution.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="psp-license"><a class="header" href="#psp-license">PSP License</a></h1>
+<p><img src="digitalfinance/img/psp.png" alt="" /></p>
+<p>A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. In order to become a PSP one needs a license with DIGIFIN.</p>
+<h2 id="process"><a class="header" href="#process">Process</a></h2>
+<p><img src="digitalfinance/img/psp3.png" alt="" /></p>
+<p>Payment gateways</p>
+<ul>
+<li>Work as direct customer intercommunication</li>
+<li>Connect different systems, such as card processing platforms and point of sale (POS) systems</li>
+<li>Provide the connectivity for retailers to access their payment processors</li>
+<li>Allow configuring the appropriate gateways in various ways for both in-store and online businesses</li>
+</ul>
+<p>Payment services</p>
+<ul>
+<li>Work in the background to facilitate the interaction of payment gateways</li>
+<li>Transfer financial data between merchant accounts and gateways</li>
+<li>Ensure all transactions are processed properly, efficiently, and quickly</li>
+</ul>
+<h2 id="how-does-psp-work"><a class="header" href="#how-does-psp-work">How does PSP work?</a></h2>
+<p><img src="digitalfinance/img/psp_how.png" alt="" /></p>
+<ul>
+<li>After a customer enters his card details and clicks ‘pay’, a transaction request is sent to the DIGIFIN payment gateway (blockchain based).</li>
+<li>The PSP blockchain then verifies the customer’s card or digital wallet details and checks whether the customer has enough funds in their card account or digital wallet to make the payment. The PSP does this with the help of a payment processor in case of FIAT.</li>
+<li>Once the customer’s card or digital wallet details are verified and it’s been confirmed that the customer has sufficient funds in their account, the PSP initiates a transfer of funds from the customer’s bank to the merchant account you have associated with your business inside the PSP.</li>
+<li>Finally, the PSP sends a transaction notification to you and the customer about the completed payment.</li>
+<li>In the case of a declined transaction for reasons such as invalid card details or insufficient funds, the PSP will terminate the transaction and send a status message notifying you and your customer of the failed payment.</li>
+</ul>
+<p>In summary, a PSP ensures the safe and successful transfer of funds from your customer’s account to yours. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.</p>
+<h2 id="additional-advantages-of-using-a-psp"><a class="header" href="#additional-advantages-of-using-a-psp">Additional advantages of using a PSP.</a></h2>
+<h3 id="accept-multiple-payment-methods"><a class="header" href="#accept-multiple-payment-methods">Accept multiple payment methods:</a></h3>
+<p>PSPs provide support for several payment methods through a single channel, ensuring your customers can conveniently choose from a variety of options. This level of accessibility helps ensure customer satisfaction. Integrating different payment methods such as online banking, credit cards, debit cards, and e-wallets to your business can incur costs. Signing up with a payment service provider can save you from much of these. There are only two types of fees you need to pay: a one-time set-up fee, and a small monthly fee for enabling payments.</p>
+<h3 id="make-transactions-securely"><a class="header" href="#make-transactions-securely">Make transactions securely:</a></h3>
+<p>All information sent through a transaction request is controlled by the PSP. This information is heavily encrypted using SSL (Secure Socket Layer) encryption, ensuring only the customer can view their banking or financial information. This provides customers a better sense of security, and encourages them to go through with the payment.</p>
+<h3 id="prevent-fraud"><a class="header" href="#prevent-fraud">Prevent fraud:</a></h3>
+<p>PSPs only initiate transfer of funds once the customer’s card details have been verified and if it locates the sufficient funds required for the payment in the customer’s account. If not, the transaction is terminated. This helps avoid your business being compromised by fraudulent transactions.</p>
+<h3 id="accept-multiple-currencies"><a class="header" href="#accept-multiple-currencies">Accept multiple currencies:</a></h3>
+<p>In addition to multiple payment methods, PSPs also provide support for multiple currencies. This allows fast and secure payments from customers around the world. This is important if you’re planning to expand your business beyond your own country. However, this is only possible if the PSP works with a payment processor that is capable of processing the desired currencies.</p>
+<h3 id="get-monthly-reports-on-payments"><a class="header" href="#get-monthly-reports-on-payments">Get monthly reports on payments:</a></h3>
+<p>Most PSPs offer you monthly reporting features for payments and transactions made to your business. There are some PSPs who offer real-time reporting features, but these can be more expensive.</p>
+<h3 id="add-new-payment-methods-easily"><a class="header" href="#add-new-payment-methods-easily">Add new payment methods easily:</a></h3>
+<p>PSPs allow you to add new payment methods, easily. There are increasingly more new payment options being created now, which make it more convenient for customers to make payments. Keeping up-to-date with these novel payment methods ensures that your customers find it convenient and simple to purchase your product or service. PSPs remain up-to-date with the latest payment methods, and typically, automatically make them available to you.</p>
+<h3 id="opening-accounts-with-acquiring-banks"><a class="header" href="#opening-accounts-with-acquiring-banks">Opening accounts with acquiring banks:</a></h3>
+<p>Before accepting card payments, you will have to set up a merchant account for your business with an acquiring bank. PSPs can help with this application process and reduce the usual waiting period you will need to go through when opening a merchant account. PSPs can also have preexisting accounts with acquiring banks that they work with. Once signed up with a PSP, businesses can get sub-accounts under these preexisting accounts, making the process of setting up merchant accounts much easier, as these accounts are already approved and functioning.</p>
+<h3 id="reconcile-transactions-easily"><a class="header" href="#reconcile-transactions-easily">Reconcile transactions easily:</a></h3>
+<p>PSPs provide complete transaction reports for every one of your payment methods. This makes it easier for you to reconcile transactions in the future.</p>
+<blockquote>
+<p>TODO: (vic) localize for our situation, needs to be more integrated with DIGIFIN solution</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="psp-license-steps"><a class="header" href="#psp-license-steps">PSP License Steps</a></h1>
+<h2 id="preparation-1-week---1-month"><a class="header" href="#preparation-1-week---1-month">PREPARATION (1 week - 1 month)</a></h2>
+<ul>
+<li>Analysis of the documents that client have on hands</li>
+<li>General consulting regarding the PSP licensing process</li>
+<li>Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts</li>
+<li>Shareholders and Group Companies Due Diligence</li>
+<li>Local Company Formation and assistance with Bank account opening for share capital contribution</li>
+<li>Human resource (at least 1 employee shall be in Lithuania, we can help)</li>
+<li>Help establish local office in CyberCity</li>
+</ul>
+<h2 id="licensing-1-4-months"><a class="header" href="#licensing-1-4-months">LICENSING (1-4 months)</a></h2>
+<ul>
+<li>Preparation of legal, financial and IT documents (non-exhaustive list):
+<ul>
+<li>Description of the Management Structure</li>
+<li>Compliance documentation (AML/KYC/KYT etc.)</li>
+<li>Financial documentation and forecasts</li>
+<li>Operational Risk Procedures</li>
+<li>IT Procedures (as provided by default by DIGIFIN)</li>
+</ul>
+</li>
+<li>Application for the license
+<ul>
+<li>Submission of the application for the license</li>
+</ul>
+</li>
+<li>Practical
+<ul>
+<li>Technical handover of the technical infrastructure as required for the e-money license (see tech section)</li>
+</ul>
+</li>
+</ul>
+<h2 id="addons-and-maintenance"><a class="header" href="#addons-and-maintenance">ADDONS and MAINTENANCE</a></h2>
+<ul>
+<li>Accounting services</li>
+<li>Auditing</li>
+<li>Opening of safeguarding accounts</li>
+<li>Arrange integration with other licenses of the DIGIFIN services</li>
+<li>IT services (how to integrate in your other systems)</li>
+</ul>
+<blockquote>
+<p>TODO: localize (sacha)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="emi-license-electronic-money-institution"><a class="header" href="#emi-license-electronic-money-institution">EMI license (Electronic Money Institution)</a></h1>
+<p><img src="digitalfinance/img/emi1.png" alt="" /></p>
+<p>Every company engaged in issuing electronic currency in Lithuania must obtain an EMI license to legally operate in this jurisdiction. Having a license will allow offline/online payments, providing sub-accounts within a bank account, creating electronic wallets, providing individual IBANs, and transferring money to foreign accounts.</p>
+<p>Holders of a Lithuanian license are allowed to provide the above services in the European Economic Area (EEA) without having to obtain an additional license in another EEA state. This license is passported for these activities, which allows you to work in other states. In addition, an entrepreneur may obtain a limited EMI license and provide its services only in Lithuania. In this case, certain restrictions may apply to the company's turnover.</p>
+<p>The submitted documentation for the EMI license will be reviewed by the Central Bank of Lithuania within 3 months from the first day of submission. The decision to issue an EMI license will be made after the review, within the same 3 months. If there are shortcomings in the documentation related to the form of the document and its content, the regulatory authority may request corrected forms or missing data on regulatory requirements.</p>
+<h2 id="costs"><a class="header" href="#costs">Costs</a></h2>
+<blockquote>
+<p>TODO: </p>
+</blockquote>
+<h2 id="advantanges"><a class="header" href="#advantanges">Advantanges</a></h2>
+<ul>
+<li>Fast and simple procedure for obtaining an EMI license.</li>
+<li>Customers can obtain a personal IBAN</li>
+<li>Possibility of SWIFT transfers</li>
+<li>Remote opening of payment accounts for individuals and legal entities</li>
+<li>The company can issue Visa or MasterCard payment cards</li>
+<li>The company can transfer payments with global banks in different currencies</li>
+<li>The company can make its own payment decisions and open accounts. In addition, correspondent accounts around the world</li>
+<li>Providing services for cash deposit or withdrawal and all transactions necessary for payment account operation.</li>
+<li>An extremely attractive tax system with relatively low taxes ranks 6th in the international ranking of Tax competitiveness</li>
+<li>The duration of the license is not limited to time.</li>
+<li>Passporting the license to other EU countries.</li>
+<li>All documents can be submitted in English. In addition, the jurisdiction of Lithuania complies with EU norms and therefore does not require in-depth research.</li>
+<li>Ability to conduct customer checks remotely as part of KYC procedures, through video link, digital signature, or electronic copies of documentation.</li>
+</ul>
+<h2 id="requirements"><a class="header" href="#requirements">Requirements</a></h2>
+<p><img src="digitalfinance/img/emi_requirements.png" alt="" /></p>
+<ul>
+<li>The minimum share capital of 200,000 USD </li>
+<li>Proof of origin and receipt of finances</li>
+<li>Opening of a local office</li>
+<li>Opening of a Lithuanian bank account</li>
+<li>Availability of AML officer or OutSource to DIGIFIN</li>
+<li>Impeccable reputation of the company's beneficiaries</li>
+<li>A director or manager must have higher education in law or economics, management or business administration, and have an impeccable reputation, competence, and practical experience as the head of the institution.</li>
+<li>There must be at least one individual among the shareholders, Lithuanian residency is required. The main requirement is the age over 18 and impeccable business reputation.</li>
+</ul>
+<blockquote>
+<p>TODO: localize (sacha)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="emi-steps"><a class="header" href="#emi-steps">EMI STEPS</a></h1>
+<h2 id="preliminary-assessment-of-the-project-1-week"><a class="header" href="#preliminary-assessment-of-the-project-1-week">PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)</a></h2>
+<ul>
+<li>Analysis of the documents that client have on hands</li>
+<li>Review business model</li>
+<li>... </li>
+</ul>
+<h2 id="preparation-1-2-months"><a class="header" href="#preparation-1-2-months">PREPARATION (1-2 months)</a></h2>
+<ul>
+<li>General consulting regarding the EMI licensing process</li>
+<li>Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts</li>
+<li>Shareholders and Group Companies Due Diligence</li>
+<li>Local Company Formation and assistance with Bank account opening for share capital contribution</li>
+<li>Human resource (at least 4 employees shall be in Lithuania)</li>
+<li>Help establish local office in CyberCity</li>
+</ul>
+<h2 id="licensing-1-4-months-1"><a class="header" href="#licensing-1-4-months-1">LICENSING (1-4 months)</a></h2>
+<ul>
+<li>Preparation of legal, financial and IT documents (non-exhaustive list):
+<ul>
+<li>Description of the Management Structure</li>
+<li>Compliance documentation (AML/KYC/KYT etc.)</li>
+<li>Financial documentation and forecasts</li>
+<li>Operational Risk Procedures</li>
+<li>IT Procedures (as provided by default by DIGIFIN)</li>
+</ul>
+</li>
+<li>Application for the license
+<ul>
+<li>Submission of the application for the license</li>
+</ul>
+</li>
+<li>Practical
+<ul>
+<li>Technical handover of the technical infrastructure as required for the e-money license (see tech section)</li>
+</ul>
+</li>
+</ul>
+<h2 id="addons-and-maintenance-1"><a class="header" href="#addons-and-maintenance-1">ADDONS and MAINTENANCE</a></h2>
+<ul>
+<li>Accounting services</li>
+<li>Auditing</li>
+<li>Opening of safeguarding accounts</li>
+<li>Connection to SWIFT payment scheme</li>
+<li>Agreement for the issuing own brand MasterCard cards</li>
+<li>BIC/SWIFT and LEI codes acquisition</li>
+<li>Reporting to Central Bank on the regularly basis</li>
+<li>Consulting on the arising issues from Central Bank</li>
+</ul>
+<blockquote>
+<p>TODO: localize (sacha)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="d-money-license"><a class="header" href="#d-money-license">D-Money License</a></h1>
+<p><img src="digitalfinance/img/dmi.png" alt="" /></p>
+<blockquote>
+<p>TODO: (sacha) we can copy much from EMI</p>
+</blockquote>
+<ul>
+<li>some info: https://tet.lt/cryptocurrency-licence-in-lithuania/#:~:text=The%20crypto%20license%20in%20Lithuania,commission%20for%20the%20services%20provided.</li>
+<li>https://crypto-license.com/crypto-license-lithuania-en/</li>
+<li>https://gofaizen-sherle.com/crypto-license/lithuania </li>
+</ul>
+<h2 id="licenses-integrated"><a class="header" href="#licenses-integrated">Licenses Integrated</a></h2>
+<p>Cryptocurrency exchange license (Cryptocurrency exchange license). A company with such a license is able to exchange digital currency for FIAT or vice versa, or cryptocurrency for another cryptocurrency, receiving a commission for the services provided.</p>
+<p>Crypto wallet and custodian services license (Crypto wallet and custodian services license). A company with such a license may operate a customer wallet to store cryptocurrency, including generating and storing encrypted client keys.</p>
+<blockquote>
+<p>This does not give you custodian powers for that a separate license is required.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="d-money-license-steps"><a class="header" href="#d-money-license-steps">D-Money License Steps</a></h1>
+<h2 id="preliminary-assessment-of-the-project-1-week-1"><a class="header" href="#preliminary-assessment-of-the-project-1-week-1">PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)</a></h2>
+<ul>
+<li>Analysis of the documents that client have on hands</li>
+<li>Review business model</li>
+<li>... </li>
+</ul>
+<h2 id="preparation-1-week---2-month"><a class="header" href="#preparation-1-week---2-month">PREPARATION (1 week - 2 month)</a></h2>
+<ul>
+<li>General consulting regarding the DMI licensing process</li>
+<li>Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts</li>
+<li>Shareholders and Group Companies Due Diligence</li>
+<li>Local Company Formation and assistance with Bank account opening for share capital contribution</li>
+<li>Human resource (at least 4 employees shall be in Lithuania)</li>
+<li>Help establish local office in CyberCity</li>
+</ul>
+<h2 id="licensing-1-4-months-2"><a class="header" href="#licensing-1-4-months-2">LICENSING (1-4 months)</a></h2>
+<ul>
+<li>Preparation of legal, financial and IT documents (non-exhaustive list):
+<ul>
+<li>Description of the Management Structure</li>
+<li>Compliance documentation (AML/KYC/KYT etc.)</li>
+<li>Financial documentation and forecasts</li>
+<li>Operational Risk Procedures</li>
+<li>IT Procedures (as provided by default by DIGIFIN)</li>
+</ul>
+</li>
+<li>Application for the license
+<ul>
+<li>Submission of the application for the license</li>
+</ul>
+</li>
+<li>Practical
+<ul>
+<li>Technical handover of the technical infrastructure as required for the e-money license (see tech section)</li>
+</ul>
+</li>
+</ul>
+<h2 id="addons-and-maintenance-2"><a class="header" href="#addons-and-maintenance-2">ADDONS and MAINTENANCE</a></h2>
+<ul>
+<li>Accounting services</li>
+<li>Auditing</li>
+<li>Opening of safeguarding accounts</li>
+<li>Arrange integration with other licenses of the DIGIFIN services</li>
+<li>IT services (how to integrate in your other systems)</li>
+</ul>
+<blockquote>
+<p>TODO: localize (sacha)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-custodian-license-not-a-bank"><a class="header" href="#digital-custodian-license-not-a-bank">Digital Custodian License (not a bank)</a></h1>
+<p><img src="digitalfinance/img/custodian.png" alt="" /></p>
+<p>A custodian is a financial institution that holds customers' securities for safekeeping to prevent them from being stolen or lost. The custodian may hold stocks, bonds, or other assets in electronic or physical form on behalf of its customers.</p>
+<p>Often, a custodian does more than provide asset protection. It can manage customers' accounts and transactions, manage the settlement of financial transactions, account for the status of assets, and ensure compliance with tax regulations.</p>
+<p>It safeguards assets and is not engaged in &quot;traditional&quot; commercial or consumer/retail banking like lending. </p>
+<blockquote>
+<p>Specific for DIGIFIN, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registering and checking of share holdings (done by certified 3e parties).</p>
+</blockquote>
+<h2 id="what-can-a-digifin-custodian-do"><a class="header" href="#what-can-a-digifin-custodian-do">What can a DIGIFIN Custodian Do</a></h2>
+<ul>
+<li>allow their customers to create digital assets.</li>
+<li>hold in safekeeping assets/securities such as shares, commodities such as precious metals and currency (cash), domestic and foreign</li>
+<li>provide information on the securities and their issuers</li>
+<li>maintain currency/cash bank accounts (integration with financial partner e.g. an EMI from our CyberCity)</li>
+<li>perform additional services for clients such as fund accounting, administration, legal, compliance and tax support services (all automated)</li>
+<li>allow customers to sell securities (assets) to each other as long as they are both customers of the custodian.</li>
+<li>A custodian bank may have the right to take possession of assets if required, often in conjunction with a power of attorney (is digital). This allows the custodian bank to perform actions on behalf of a client, such as making payments.</li>
+</ul>
+<blockquote>
+<p>The custodian does not become at any point the owner of the securities, but is only a part of the registration chain linking the owners to the securities.</p>
+</blockquote>
+<h2 id="key-takeaways"><a class="header" href="#key-takeaways">Key Takeaways</a></h2>
+<ul>
+<li>A custodian bank holds financial assets for safekeeping to minimize the risk of theft or loss.</li>
+<li>These assets may be stored in physical or electronic form.</li>
+<li>Custodian banks can also manage financial accounts, handle settlements, and deal with compliance and tax issues (we have all automated this process).</li>
+<li>Custodian banks can serve as mutual fund custodians.</li>
+</ul>
+<h2 id="digifin-custodian-limits"><a class="header" href="#digifin-custodian-limits">DIGIFIN custodian limits:</a></h2>
+<ul>
+<li>its not a bank as such std banking services cannot be done</li>
+<li>money can only be sent/received from own account to another own account with another bank</li>
+<li>holding of assets like shares and bonds is possible but fees need to be paid to allow verification of these assets and specific legal firms/auditors will be used to verify this ownership. These verifiers will also use our blockchain technology to approve ownership. For amounts + 1m USD, 3 verifiers will be used.</li>
+<li>transactions can only happen between customers of DIGIFIN, the custodian will not do transactions on your behalf which are outside of the sandbox of DIGIFIN.</li>
+</ul>
+<h2 id="special-for-zanzibar-digifin"><a class="header" href="#special-for-zanzibar-digifin">Special for Zanzibar DIGIFIN</a></h2>
+<ul>
+<li>All assets are registered on blockchain (no exceptions)</li>
+<li>All customers are stronly verified (AML/KYC) and identity also on blockchain.</li>
+<li>All transactions done between customers is also done on blockchain and stronly protected.</li>
+<li>All logic is executed by means of smart contracts and as such super safe &amp; transparent.</li>
+<li>Blockchain is operational in Tanzania and Zanzibar (so even when there is internet cut system will keep on working)</li>
+<li>Blockchain is archived in Europe and UAE (in case of disaster we can go back to each transaction and restore).</li>
+<li>Reporting tools allow DIGIFIN to check on irregular behavior and report to Tanzania Central Bank regulatory if required.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-custodian-license-steps"><a class="header" href="#digital-custodian-license-steps">Digital Custodian License Steps</a></h1>
+<h2 id="preliminary-assessment-of-the-project-1-week-2"><a class="header" href="#preliminary-assessment-of-the-project-1-week-2">PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)</a></h2>
+<ul>
+<li>Analysis of the documents that client have on hands</li>
+<li>Review business model</li>
+<li>... </li>
+</ul>
+<h2 id="preparation-1-week---2-month-1"><a class="header" href="#preparation-1-week---2-month-1">PREPARATION (1 week - 2 month)</a></h2>
+<ul>
+<li>General consulting regarding the DMI licensing process</li>
+<li>Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts</li>
+<li>Shareholders and Group Companies Due Diligence</li>
+<li>Local Company Formation and assistance with Bank account opening for share capital contribution</li>
+<li>Human resource (at least 1 employee shall be in Lithuania, we can help)</li>
+<li>Help establish local office in CyberCity</li>
+</ul>
+<h2 id="licensing-1-4-months-3"><a class="header" href="#licensing-1-4-months-3">LICENSING (1-4 months)</a></h2>
+<ul>
+<li>Preparation of legal, financial and IT documents (non-exhaustive list):
+<ul>
+<li>Description of the Management Structure</li>
+<li>Compliance documentation (AML/KYC/KYT etc.)</li>
+<li>Financial documentation and forecasts</li>
+<li>Operational Risk Procedures</li>
+<li>IT Procedures (as provided by default by DIGIFIN)</li>
+</ul>
+</li>
+<li>Application for the license
+<ul>
+<li>Submission of the application for the license</li>
+</ul>
+</li>
+<li>Practical
+<ul>
+<li>Technical handover of the technical infrastructure as required for the e-money license (see tech section)</li>
+</ul>
+</li>
+</ul>
+<h2 id="addons-and-maintenance-3"><a class="header" href="#addons-and-maintenance-3">ADDONS and MAINTENANCE</a></h2>
+<ul>
+<li>Accounting services</li>
+<li>Auditing</li>
+<li>Opening of safeguarding accounts</li>
+<li>Arrange integration with other licenses of the DIGIFIN services</li>
+<li>IT services (how to integrate in your other systems)</li>
+</ul>
+<blockquote>
+<p>TODO: localize (sacha)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="crime-prevention"><a class="header" href="#crime-prevention">Crime Prevention</a></h1>
+<p><img src="digitalfinance/img/crimeprevention.png" alt="" /></p>
+<p>Financial crime is a threat to all of society, and it constantly seeks new ways to exploit banks and bank customers. This is why crime prevention is a vital part of our business. Although there are no perfect systems, we work relentlessly to strengthen our defenses and develop our abilities to detect, prevent and report suspected activity. Every year we report thousands of suspicious transactions to authorities and we cooperate closely with authorities, police and other banks.</p>
+<h2 id="measures-against-money-laundering"><a class="header" href="#measures-against-money-laundering">Measures against money laundering</a></h2>
+<p>Money laundering is the illegal process of criminals trying to make funds made from unlawful activity seem to have been generated legitimately. This poses a threat not just to banks, but to the entire financial system, democracy and society as a whole.</p>
+<h2 id="cyber-security-is-key"><a class="header" href="#cyber-security-is-key">Cyber security is key</a></h2>
+<p>Digitalisation is affecting every aspect of banking. Stability and reliability of the bank’s IT platform is therefore crucial. Interruptions or any kind of breaches into the systems can cause major problems, both for customers, suppliers and employees.</p>
+<h2 id="strong-identity-management"><a class="header" href="#strong-identity-management">Strong identity management</a></h2>
+<p>Blockchain based integrates with KYC/AML.
+Innovative authentication mechanisms.</p>
+<h2 id="market-abuse-and-insider-dealing"><a class="header" href="#market-abuse-and-insider-dealing">market abuse and insider dealing</a></h2>
+<p>This is very difficult in our system because everything is transparent and on blockchain.</p>
+<h2 id="terrorist-financing"><a class="header" href="#terrorist-financing">terrorist financing</a></h2>
+<p>Terrorists often control funds from a variety of sources around the world and employ increasingly sophisticated techniques to move these funds between jurisdictions. To manage their finances, they draw on the services of professionals, such as bankers, accountants and lawyers, and take advantage of a range of financial services products.</p>
+<p>Our blockchain and transparency will make us not popular and hard for them.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="market-size"><a class="header" href="#market-size">Market Size</a></h1>
+<blockquote>
+<p>TODO: (sacha)  find nr's and pictures how big this market is for the different topics</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-city"><a class="header" href="#cyber-city">Cyber City</a></h1>
+<blockquote>
+<p>TODO: intro (emre)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="world-first"><a class="header" href="#world-first">World First</a></h1>
+<blockquote>
+<p>TODO:  explain how we integrate with all the other elements</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="location"><a class="header" href="#location">Location</a></h1>
+<p><img src="cybercity/img/fumba.png" alt="" /></p>
+<p>The digital freezone and digital banking services within Zanzibar are really attractive incentives for the digital nomad community and any startup that wants to innovate here. The expected development and influx of talented individuals create the need for a digital/cyber city where businesses and their employees can live and innovate together. It is crucial that this need is met while ensuring the environmental, social and financial sustainability of the growth in the country. Sustainable cities and communities are growing trends in the world of real estate development. The Zanzibar Sustainable Cyber City is a fully fledged carbon neutral mixed use project in development that aims to create dynamic communities and destinations that drive economic growth and contribute to the diversification of the economy.</p>
+<p>The Zanzi Hub is located in Fumba on a 1 million square meters plot. Fumba is planned  to be a free economic zone with a planned government city, business center, sport centers, medical city, university and many other facilities. The government has prepared a master plan of the region with the plot of the Zanzi Hub reserved for development. The plot is 15 km from the airport and 18 km from Stone Town. </p>
+<p>The project will be a catalyst in bringing together the strength of government with the entrepreneurship of the private sector. It will also foster innovation and collaboration by housing various digital businesses and talented individuals in one location within Zanzibar. The sustainable cyber city will provide:</p>
+<p>It's not just a freezone location, it's an example in the world of how digital can be connected to physical space. How sustainability is all that matters, it's an example for the future. Eventually millions of people can call this home while maybe physically few thousands of people will live there. </p>
+<blockquote>
+<p>TODO: complete (emre)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="first-layout"><a class="header" href="#first-layout">First Layout</a></h1>
+<blockquote>
+<p>TODO:  (emre), do we have pictures, ... lets make it nice</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="space-utilization"><a class="header" href="#space-utilization">Space Utilization</a></h2>
+<p><img src="cybercity/img/utilization.png" alt="" /></p>
+<blockquote>
+<p>TODO:  (emre)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="business-model-1"><a class="header" href="#business-model-1">Business Model</a></h1>
+<blockquote>
+<p>TODO: Kristof</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="all-digital"><a class="header" href="#all-digital">All Digital</a></h1>
+<blockquote>
+<p>TODO: kristof, explain how its all digital and links to the other parts</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="team"><a class="header" href="#team">Team</a></h1>
+<blockquote>
+<p>TODO: need to mention how we will partner with world renewed partners to make it happen, that the building &amp; operations will be a partnership by itself (emre)</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="public-private-partnership"><a class="header" href="#public-private-partnership">Public Private Partnership</a></h1>
+<p>We want to design our partnership following the guidelines as described in </p>
+<ul>
+<li>https://ppp.worldbank.org/public-private-partnership/sites/ppp.worldbank.org/files/documents/Tanzania_PPP%20Policy.pdf</li>
+<li>https://pppnode.go.tz/</li>
+</ul>
+<blockquote>
+<p>TODO: is there newer one? (sacha) where zanizbar?</p>
+</blockquote>
+<h3 id="the-suggested-ppp-is-a-build-own-operate-transfer"><a class="header" href="#the-suggested-ppp-is-a-build-own-operate-transfer">The suggested PPP is a <code>Build-Own-Operate-Transfer</code></a></h3>
+<p>In this model, the government grants a franchise to a private partner to finance, design, build and operate a facility for a specified period of time. Ownership of the facility is transferred back to the public sector at the end of that period.</p>
+<p>Our period is 33 years.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="structure"><a class="header" href="#structure">Structure</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="financials"><a class="header" href="#financials">Financials</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="zanzibar-benefits"><a class="header" href="#zanzibar-benefits">Zanzibar Benefits</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="technical-solutions"><a class="header" href="#technical-solutions">Technical Solutions</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="issues"><a class="header" href="#issues">Issues</a></h1>
+<p><img src="solutions/img/issues.png" alt="" /></p>
+<p>Without loosing us in fear lets address 3 main issues we see and want to resolve.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="the-availability-of-a-real-antidote-for-the-cyber-pandemic"><a class="header" href="#the-availability-of-a-real-antidote-for-the-cyber-pandemic">THE AVAILABILITY OF A REAL ANTIDOTE FOR THE CYBER PANDEMIC</a></h2>
+<p><img src="solutions/img/data_war.png" alt="" /></p>
+<p><img src="solutions/img/cybersecurity_trillion.png" alt="image alt text" /></p>
+<p>Countries have a hard time to defend themselves against cyber security threats, the main issue is that technology available might come from compromised sources in the first place. Where better to put backdoors than in the tools which should defend you? Lots of issues have never been intended but because of history we now end up with IT infrastructure which is incredibly hard to make secure.</p>
+<p>EXISTING SOLUTIONS ARE TOO COMPLICATED AND OUTDATED.
+A NEW APPROACH IS NEEDED.</p>
+<p>Some more thoughts can be found in <a href="https://threefoldfoundation.github.io/books/cyber_security_brief">https://threefoldfoundation.github.io/books/cyber_security_brief</a> </p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="countries-dont-own-their-internet"><a class="header" href="#countries-dont-own-their-internet">Countries Don't Own Their Internet</a></h2>
+<p><img src="solutions/img/country_gdp_pos.png" alt="image alt text" /></p>
+<h3 id="data-privacy--sovereignty"><a class="header" href="#data-privacy--sovereignty">Data Privacy &amp; Sovereignty</a></h3>
+<p>Almost all data of the Country internet users is not hosted on your countries soil this leads to loss of sovereignity and poses serious data risks to the citizens of your country.</p>
+<blockquote>
+<p>Anyone who’s ever cleared a browser history feels like technology throws us back at ourselves. My Google data, combined with my bank card transactions, social media messages, health records, and more, could tell you more about me than I could. </p>
+</blockquote>
+<p><em>Most of us don’t have the time or energy to keep track of all the data we’re shedding online, or read all the terms and conditions when downloading an app. (Ten years ago</em>*, two researchers at Carnegie Mellon found it would take the average internet user 25 days per year to read every privacy policy on every website they visited.) We trust regulators and industry leaders are keeping us safe. *</p>
+<p>*But policy makers are struggling to keep up with the pace of technological advances. The number of devices collecting and *<em>analyzing information in real time, otherwise known as the internet of things, is expected to exceed 50 billion by 2020.</em></p>
+<p><em>Recent, high-profile data breaches, such as Uber’s loss of 57 million users’ information, and political firm Cambridge Analytica’s misuse of Facebook data relating to nearly 90 million users, show even when we think we’re being careful online, we’re not always safe from harm.&quot;””</em></p>
+<h3 id="for-most-countries-the-internet-is-gdp-negative"><a class="header" href="#for-most-countries-the-internet-is-gdp-negative">For Most Countries The Internet is GDP Negative</a></h3>
+<p>Internet DATA is more important than voice (minutes) these days, the main communication of the future is through data, new regulations and technical guidelines are required to secure this future trend.</p>
+<p>Most of the revenue related to Internet and Telecommunications Services does not stay in your country and as such is GDP negative, we believe that by means of practical technology and regulatory guidelines this trend can be reversed. The value of a digital life in the US is thousands of USD per year per person, imagine the potential for your country.</p>
+<h3 id="internet-is-too-centralized"><a class="header" href="#internet-is-too-centralized">Internet is too centralized</a></h3>
+<p><img src="solutions/img/centralized_dc_issues.png" alt="" /></p>
+<p>Too few participants control access to the internet, this leads to unjust pricing and possibly security risks. It's too easy for hackers to focus on the few parties delivering all access. More decentralization will lead to more security and more fair chances for everyone involved. Ledger (blockchain) technology can be used to decentralize internet access yet still give full insight to the Country government in relation to billing &amp; utilization statistics.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="cbdc-solutions-might-not-be-sovereign"><a class="header" href="#cbdc-solutions-might-not-be-sovereign">CBDC SOLUTIONS MIGHT NOT BE SOVEREIGN</a></h2>
+<p><img src="solutions/img/cbdc.png" alt="" /></p>
+<blockquote>
+<p>CBDC = Central Bank Digital Currencies</p>
+</blockquote>
+<p>CBDC’s are an incredibly exciting possible innovation for a country. But, we realize that there are serious challenges and requirements not met in relation to sovereignty, security, and scalability in many of the current project proposals.</p>
+<p>This is not only for CBDC’s, but blockchain technology in general.</p>
+<p>We want to make sure that this does not happen for your country. We want to make sure your country stays and is in control over their country's money supply. Right now in some deployments we see that this is a real risk, countries could lose control to other countries or hackers.</p>
+<p>Buying into a technology from a vendor which does not apply to following requirements is discouraged</p>
+<ul>
+<li>100% of blockchain needs to be in the country (nodes, technology, knowledge, …)</li>
+<li>The source code of the blockchain technology used needs to be understood by engineers/developers living and working in your country and working for a trusted entity (or more than one)</li>
+<li>The blockchain technology needs to be truly decentralized
+<ul>
+<li>e.g. the coders should not be able to change the blockchain operation (right now most tech companies can change blockchain through changing the code)</li>
+<li>The validator nodes cannot be hosted in datacenters out of the country or be owned by too few parties.</li>
+</ul>
+</li>
+<li>It needs to be verified that there are no backdoors in the blockchain technology.</li>
+<li>Blockchain needs to be scalable enough</li>
+<li>Even if internet backbone connections go down (e.g. between the country and the rest of the world), the blockchain should keep on working.</li>
+<li>Blockchain should be energy efficient and not based on burning of fossil fuels or energy in general.</li>
+<li>There need to be procedures to allow the legal system of your country to interfere in case that serious issues arise.</li>
+<li>There needs to be a mechanism for people to manage their identity and private keys with more user friendliness (today it's too complicated and too dangerous)</li>
+<li>Running blockchain permissioned (which means managed by people in centralized datacenters) might bring the risk of running a money chain related to a couple of people who need to be trusted, this might even be less regulated than in a typical central banking environment.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="solutions"><a class="header" href="#solutions">SOLUTIONS</a></h1>
+<p><img src="solutions/img/high_level_country_overview.png" alt="image alt text" /></p>
+<p><em>Albert Einstein : &quot;Insanity is doing the same thing over and over again and expecting different results.&quot;</em></p>
+<p>We believe that in the current technology ecosystem a lot of solutions are like painkillers, they layer a quick fix on a broken system. We need real solutions which go back to the root of the problem</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="antidote-for-cyber-pandemic--private-quantum-safe-digital-backbone"><a class="header" href="#antidote-for-cyber-pandemic--private-quantum-safe-digital-backbone">ANTIDOTE FOR CYBER PANDEMIC = PRIVATE QUANTUM SAFE DIGITAL BACKBONE</a></h2>
+<p><img src="techsolutions/img/cyberpandemmic_fix.png" alt="" /></p>
+<p>A private intranet digital backbone built with a very different approach in mind.</p>
+<p><strong>This multi Trillion USD problem</strong> will not go away by itself, we have a multitude of technology solutions at our disposal which are able to provide a real antidote for a cyber pandemic. This antidote is not a &quot;layered on&quot; painkiller quick fix, but a from the ground up re-engineered effective and break through solution.</p>
+<h3 id="solutions-which-will-be-implemented-in-the-zanzibar-cybercity"><a class="header" href="#solutions-which-will-be-implemented-in-the-zanzibar-cybercity">Solutions which will be implemented in the Zanzibar Cybercity</a></h3>
+<ul>
+<li>Liquid cooled edge distributed decentralized network of small edge datacenter nodes (can be basements or other hidden locations), decentralization leads to ability to maintain access to critical services and data at any point in time. Each location can be as small as one cubic meter. </li>
+<li>Provide a quantum safe storage system, make sure data can never get corrupted, lost or stolen. Not even a quantum computer can hack into it. Ultra scalable system.</li>
+<li>Fortify your existing web (and other) applications, to not allow access over default browsers, a standard browser is a huge security risk and needs to be avoided. We can sandbox access and hosting of these apps.</li>
+<li>Use blockchain technology (BUT in country) deployed in a decentralized way by local teams, do not rely on public blockchain technology or technology which might be compromised or owned too much by coders outside of the country. This can be used for CBDCs.</li>
+<li>Block backdoors (vulnerabilities as used by hackers) to communicate to the internet, not by means of firewalls (proven not to work), but by means of a very different approach (not available publicly today).</li>
+<li>All critical software used should be owned in the country by local experts and all needs to be opensource. This is the only way to keep backdoors out and also keep things simple and integrated.</li>
+<li>Local experts need to be able to improve, deploy and integrate all technologies used in country.</li>
+<li>All components required need to be in stock in the country and assembly happening in the country.</li>
+</ul>
+<h3 id="the-more-expensive-goodies-for-the-future"><a class="header" href="#the-more-expensive-goodies-for-the-future">The more expensive goodies for the future:</a></h3>
+<ul>
+<li>In country owned multilayer network communication encryption for government and other collaborators.</li>
+<li>An ultra private secondary meshed wireless network which will stay up and running even in harshest conditions (war, natural disasters). Is compatible with 4G devices, only authorized people can access. End2End encrypted, not interconnected with ANY existing telecom or internet infrastructure. Many paths between all endpoints can survive attacks and disasters.</li>
+<li>Quantum Safe Network (expensive but doable, not even a future quantum computer will be able to hack such a network). Data packets are cut in parts of information which cannot be intercepted by anyone or brought back together in a way it would make sense to assemble, not even by a quantum computer.</li>
+<li>A communication mechanism which is not using TCP-IP (the internet protocol). The use of FPGA based network processors allows for deployment of neutral sovereign network equipment. The FPGA components are programmable and understood by teams in the country. Because no TCP-IP is being used, backdoors have less chance and it becomes much more complicated for hackers to succeed. Is expensive though but in our opinion worth it.
+The most important requirement = sovereignty</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="sovereign-country-internet-with-many-use-cases-inside"><a class="header" href="#sovereign-country-internet-with-many-use-cases-inside">SOVEREIGN COUNTRY INTERNET with many use cases inside</a></h2>
+<p><img src="techsolutions/img/country_gdp_pos.png" alt="image alt text" /></p>
+<p><strong>Your Internet needs to be more GDP Positive</strong></p>
+<p>There needs to be a decentralized but ultra sovereign digital backbone created which can deliver on following requirements. This is for all citizens in the country (unlike as described in the previous section).</p>
+<ul>
+<li>
+<p>All data stays in country</p>
+</li>
+<li>
+<p>All users have a unique strongly authenticated identity (using novel mechanisms like proof of authenticity by means of peer review, which is much stronger compared to classic KYC/AML), this identity needs to be unique on country scale and usable for all digital services of the government as well as private sector if they would like to.</p>
+</li>
+<li>
+<p>All critical data is stored on a quantum safe storage system which means</p>
+<ul>
+<li>Data can never be lost.</li>
+<li>Data can never be corrupted.</li>
+<li>The storage system used needs to self heal in case of disaster or corruption.</li>
+<li>All history stays intact, data cannot be modified.</li>
+<li>Encryption technology is NOT enough for security, because this is not quantum safe.</li>
+<li>The system needs to be ultra scalable, support tens of millions of users and needs to be able to scale to at least 1000 petabyte to be ready for the future.</li>
+<li>Reliability policy needs to be configurable, so the data provider/user can decide the level of protection (redundancy) required.</li>
+<li>Even if the main datacenters go down, the data should stay intact &amp; uncorrupted &amp; online.</li>
+</ul>
+</li>
+<li>
+<p>Critical data means</p>
+<ul>
+<li>All billing records.</li>
+<li>Identity.</li>
+<li>Utilization records.</li>
+<li>Government information.</li>
+<li>Government archives.</li>
+<li>… to be further defined …</li>
+</ul>
+</li>
+<li>
+<p>The backbone needs to be scalable</p>
+</li>
+<li>
+<p>The backbone needs to be flexible, which means usable for all required digital services</p>
+</li>
+<li>
+<p>The backbone needs to be truly decentralized</p>
+</li>
+<li>
+<p>The backbone needs to be truly sovereign</p>
+<ul>
+<li>Delivered by local team operating in country (living &amp; working)</li>
+<li>Guided by a non corruptible entity (not for profit might be a good idea) as a supervising entity.</li>
+<li>All source code is open (open source)</li>
+<li>Enough technically skilled people in the country to work &amp; understand this code.</li>
+<li>The code is unlimited usable and there are no hidden costs (licenses, …) </li>
+<li>All improvements can be done from out of country</li>
+</ul>
+</li>
+</ul>
+<p><img src="techsolutions/img/gdp_pos2.png" alt="image alt text" /></p>
+<p>Internet &amp; datacenter services need to contribute to the GDP of Country, today the Internet probably costs more money than it brings. By using a better digital system and new regulations Country can improve its revenue collection.</p>
+<h3 id="more-decentralized-and-fair-internet-connectivity-solution"><a class="header" href="#more-decentralized-and-fair-internet-connectivity-solution">More Decentralized And Fair Internet Connectivity Solution</a></h3>
+<p>We have our own 5G capable technology available which can be made part of the INCA project model, this allows thousands if not millions of users to co-own their own Telecom Infrastructure to give them access to their future digital life.</p>
+<h3 id="digital-healthcare--digital-empowered-education-system"><a class="header" href="#digital-healthcare--digital-empowered-education-system">Digital HealthCare + Digital Empowered Education System</a></h3>
+<p>Deliver solutions which cost less than what is available today and provide more inclusion, millions of people don’t have access to decent healthcare or education, this might improve that situation. Digital future Technology is very capable to make that happen. Super important that this technology stays in line with the above requirements.</p>
+<h3 id="digital-future-life"><a class="header" href="#digital-future-life">Digital Future Life</a></h3>
+<p>Allow everyone in the country to participate in a more GDP positive inclusive internet experience. There are a vast number of projects which fit underneath this category, but it's all about providing a sovereign digital future for every Country citizen.</p>
+<h3 id="a-public-unified-and-sovereign--digital-backbone-for-zanzibar-cybercity"><a class="header" href="#a-public-unified-and-sovereign--digital-backbone-for-zanzibar-cybercity">A Public Unified and Sovereign  Digital Backbone For ZANZIBAR CYBERCITY</a></h3>
+<p>The upgraded sovereign internet digital backbone needs to be able to support:</p>
+<ul>
+<li>Digital identity.</li>
+<li>Voting and other Operational Services</li>
+<li>All Financial and Admin Services</li>
+<li>Education (deliver cost effective but capable education for everyone)</li>
+<li>Healthcare (medical records, global scalable healthcare for everyone)</li>
+</ul>
+<h2 id="possible-solutions-for-the-future"><a class="header" href="#possible-solutions-for-the-future">Possible solutions for the future</a></h2>
+<h3 id="a-public-unified-and-sovereign-country-digital-backbone"><a class="header" href="#a-public-unified-and-sovereign-country-digital-backbone">A Public Unified and Sovereign Country Digital Backbone</a></h3>
+<p>The upgraded sovereign internet digital backbone needs to be able to support:</p>
+<ul>
+<li>Digital countrywide identity.</li>
+<li>Central Bank Currency (CBDC)</li>
+<li>Voting and other Government Services</li>
+<li>Government Collaboration system with way better security and data privacy measurements</li>
+<li>Education (deliver cost effective but capable education for everyone)</li>
+<li>Healthcare (medical records, global scalable healthcare for everyone)</li>
+<li>Mining Industry (more fair redistribution for natural country resources)</li>
+<li>Land Bank (register all land)</li>
+<li>Transparent Revenue Collection</li>
+<li>Port Authorities (avoid fraud)</li>
+</ul>
+<h3 id="a-government-collaboration-system"><a class="header" href="#a-government-collaboration-system">A government collaboration system</a></h3>
+<p>Without going into detail National Cyber Security is becoming a major topic of the future, see what happened with Ukraine, first this which happened was elimination of their core digital backbone and datacenters.</p>
+<p>We believe the government needs to get a sovereign system where only opensource components are used which are understood by technical teams with deep level expertise on those components.</p>
+<p>Some ideas</p>
+<ul>
+<li>Highly secure phones running non Google or Apple OS.</li>
+<li>Compute equipment in liquid cooled nodes, <a href="https://www.govinfo.gov/content/pkg/CHRG-112hhrg80856/html/CHRG-112hhrg80856.htm">EMP</a> safe.</li>
+<li>Collaboration systems use fully decentralized but end2end encrypted infrastructure.</li>
+<li>Strong authentication.</li>
+<li>Entry points are in super safe but stateless environments, this means even if they get lost, data is never lost.</li>
+<li>Data storage is quantum safe</li>
+<li>Browsers CANNOT run Javascript in the browser on the computer (need to use a virtual browser in a secure vault environment).</li>
+</ul>
+<p>This system can be integrated in the Sovereign Internet (also public), or as part of the more expensive but highly secure and reliable PRIVATE QUANTUM SAFE DIGITAL BACKBONE.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="a-sovereign-digital-backbone-solution"><a class="header" href="#a-sovereign-digital-backbone-solution">A SOVEREIGN DIGITAL BACKBONE SOLUTION</a></h2>
+<p><img src="techsolutions/img/cbdcfix.png" alt="" /></p>
+<p>Thanks to the methodology and technology we have available we can provide a country with a solution which is </p>
+<ul>
+<li>More secure</li>
+<li>Can survive Internet Downtime</li>
+<li>Understood and Maintained in The Country (no dependencies on nodes out of country or expertise)</li>
+</ul>
+<p>We work together with some major blockchain (technology) providers to make this happen, but these providers agreed with our terms on how we have to help a country to maintain their sovereignty.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="technology"><a class="header" href="#technology">Technology</a></h1>
+<p>ThreeFold has developed a highly efficient infrastructure layer for a new internet.</p>
+<p>ThreeFold tech stack has 4 main layers</p>
+<ul>
+<li>compute - a flexible way to deploy any workload on edge cloud computers</li>
+<li>storage - a quantum safe storage system</li>
+<li>network - a planetary scalable overlay network</li>
+<li>blockchain for Smart Contract For IT</li>
+</ul>
+<p><img src="technology/img/tech_overview2.png" alt="" /></p>
+<p>A lot of capacity has been deployed in the world, ThreeFold farmers buy a computer and they connect it to the internet, as such they use our Operating system to provide Internet capacity to the world.</p>
+<p><img src="technology/img/3node_simple.png" alt="" /></p>
+<p>There are multiple ways how people can interactive without our platform (as developer or IT expert = sysadmin):</p>
+<p><img src="technology/img/architecture_usage.png" alt="" /></p>
+<p>All technology is developed by ThreeFold and is opensource, this technology is being used for the ThreeFold grid see https://www.threefold.io which is a deployment of a new internet which is green, safe and owned by all of us.</p>
+<p>This document explains how we are a missing layer for the full web2, web3 and blockchain world.</p>
+<p>This leads to a system which is highly scalable.</p>
+<p><img src="technology/img/web_remade.png" alt="" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="planet-people-profit"><a class="header" href="#planet-people-profit">PLANET, PEOPLE, PROFIT</a></h1>
+<p><img src="ppp/img/crisis_waves.jpg" alt="image alt text" /></p>
+<img src="ppp/img/planet_people_profit.png" alt="planetpeopleprofit" width="300" style="float: right"/>
+<p>We believe in:</p>
+<ul>
+<li><strong>Planet First</strong></li>
+<li><strong>People Second</strong></li>
+<li><strong>Profit As Result</strong></li>
+</ul>
+<p>Anything we do needs to improve our planet's situation (climate change, regenerative, respect resources, …) and help the people around us. As a result of doing so, we as investors of time and money will have created most value and will get the benefits from our efforts.</p>
+<p>Of course being financially healthy is the first requirement.</p>
+<p>We are in the forefront of a growing movement, more and more companies are being pushed by customers and stakeholders to prioritize sustainability and planet positive policies. We are not swimming against the stream, 
+we are part of a group of leaders of change and making real the zeitgeist of the 21st century. </p>
+<p>Together we are a movement, not just a project or company. Together we are creating the Internet of Internets:</p>
+<ul>
+<li>abundance based</li>
+<li>unlimited knowledge</li>
+<li>glocal communication and collaboration</li>
+<li>exchange of value without limitations or intermediaries. </li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="threefold-mission"><a class="header" href="#threefold-mission">Threefold Mission</a></h1>
+<h1 id=""><a class="header" href="#"><img src="mission/img/sky_surfing.png" alt="image alt text" /></a></h1>
+<p><strong>&quot;When you were born in a world where you don’t fit in, you were born to help create a new one.&quot;</strong></p>
+<p>Together we build our own future through the Internet of Internets:</p>
+<ul>
+<li>An Internet of Internets is owned by the people.</li>
+<li>It interconnects us all, directly, without anyone in the middle.</li>
+<li>We store our data in full sovereignty and privacy.</li>
+<li>On top of it, we build valuable experiences, useful experiences.</li>
+<li>Not to control. Not to addict. Not to manipulate.</li>
+<li>Rather to connect. To exchange. To share. To provide value for each other.</li>
+<li>A circular economy, to benefit the collective and, as a result, each of us individually.</li>
+<li>As believers in a better world who choose to act.</li>
+</ul>
+<p><strong><em>&quot;The fight for a better Internet is inseparable from the fight for a better world.&quot;</em></strong></p>
+<p>We can continue down the path we’re on.<br />
+But ask yourself, is it a good one? Is it the right one? Is it just?<br />
+Is the world we live in today the one we wish for our children and all those to come?</p>
+<p>If yes, please continue.<br />
+If not, we have an answer.</p>
+<p>Come on, come all. Creators. Builders. Dreamers. No need to dream anymore.</p>
+<p>This is the Internet of Internets.<br />
+It’s for you. For me. For all of us.<br />
+By you. By me. By all of us.</p>
+<p>So, are you with us? Then come along.<br />
+Together we build our own future through the Internet of Internets.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="threefold-vision"><a class="header" href="#threefold-vision">ThreeFold Vision</a></h1>
+<p><img src="mission/img/high_level_country_overview.png" alt="" /></p>
+<p>Create the infrastructure layer for an upgraded internet:</p>
+<ul>
+<li>A more reliable internet, one which can meet the challenges of the future 
+(climate change issues, possibility of unrest, financial crisis, …). </li>
+<li>A more sustainable internet, using a lot less energy</li>
+<li>A more safe internet</li>
+<li>An internet where we can be the center of our digital life with more security, less costs, no middleman, …</li>
+</ul>
+<p>Providing for</p>
+<ul>
+<li>Experiences which allow people to be free, safe and self sovereign.</li>
+<li>Any application which puts the people in the center and allows them to have full control over their data &amp; future.</li>
+<li>New financial systems (DEFI, but different than today's casino-like environment, peer2peer)</li>
+<li>Projects which want to build communities to achieve planet positive goals.</li>
+<li>Countries that choose to work in a decentralized manner</li>
+</ul>
+<p>Of course all of this can only happen by building communities and by collaborating with like minded projects/people.</p>
+<h2 id="why-an-upgraded-internet"><a class="header" href="#why-an-upgraded-internet">Why an upgraded Internet</a></h2>
+<ul>
+<li>The current internet is very unstable (too centralized fiber cables, data centers, …)</li>
+<li>The current internet is very unsafe</li>
+<li>The current internet is not distributed enough, only in a few countries.</li>
+<li>The current internet is too power hungry.</li>
+<li>The current internet is too complicated</li>
+<li>The current internet is exploitative, it turned us all into a product.</li>
+</ul>
+<h2 id="to-create-an-upgraded-abundance-based-system-we-need-to-provide-following-3-pillars"><a class="header" href="#to-create-an-upgraded-abundance-based-system-we-need-to-provide-following-3-pillars">To create an upgraded abundance based system we need to provide following 3 pillars:</a></h2>
+<ul>
+<li>a regenerative, safe, sovereign internet infrastructure layer = ThreeFold</li>
+<li>an integrated stable decentralized financial system (DEFI) </li>
+<li>a set of experiences (applications) and information to allow everyone on equal basis to learn, create, exchange, travel, … basically experience the abundance based world</li>
+</ul>
+<blockquote>
+<p>Imagine a world where communities can build their own internet, from scratch, an internet which would deliver all the needs for a different future life. Each Internet deployed by the people for the people is called an OurWorld Internet.</p>
+</blockquote>
+<p>In each Regional Internet abundance is the base:</p>
+<ul>
+<li>lots of free information, education, knowledge (books, encyclopedias), earth information (maps, videos), art (music, video, …), …</li>
+<li>Your applications required for your digital professional and personal life are all free</li>
+<li>You can find anything for free, you can promote everything for free.</li>
+<li>You can freely exchange anything to anything else (money for good, good for good, money for money, …)</li>
+</ul>
+<p>This internet is “a peer2peer people’s internet”, created and owned by all of us together. The economic principles are dramatically different. Everything is available to build your own internet, from scratch. As a starting point you only need some computers and standard network equipment, all the rest is achieved by the magic of our threefold opensource software.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="goal-1-realize-the-internet-of-internets-concept"><a class="header" href="#goal-1-realize-the-internet-of-internets-concept"><strong>Goal 1: Realize the Internet of Internets Concept</strong></a></h2>
+<p><img src="mission/goals/img/waterfall.png" alt="image alt text" /></p>
+<p>OurWorld Internet of Internets, is not one Internet as owned by the very few. It's thousands of interconnected Internets, where each Internet is founded and grown by a local community. YOU become The Internet.</p>
+<p>OurWorld Internet of Internets is our chance to create a beautiful digital world in which we are free and powerful, a world where we can co-create a better future for everyone. We need to say NO to being a product of the large centralized corporations. We need to free ourselves, even from our own brainwashing.</p>
+<p>We need a system where we:</p>
+<ul>
+<li>
+<p>Can be free and independent yet fully interconnected over all OurWorld Internet of Internets</p>
+</li>
+<li>
+<p>Learn and play, grow in awareness and learn from each other</p>
+</li>
+<li>
+<p>Don’t have to be afraid of an uncertain future where the privileged few define the next steps</p>
+</li>
+<li>
+<p>Don’t become addicted to the biggest potential drug called money (money is not bad, money can be beautiful, money should be an energy source for change)</p>
+</li>
+<li>
+<p>Protect the beautiful planet we live on</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="goal-2-help-countries-to-make-their-internet-gdp-positive"><a class="header" href="#goal-2-help-countries-to-make-their-internet-gdp-positive"><strong>Goal 2: Help Countries to make their Internet GDP Positive.</strong></a></h2>
+<p><img src="mission/goals/img/undersea_cables.png" alt="image alt text" /></p>
+<p>Many countries don’t have an internet, they have a long cable to the Internet, this leads to loss in money, data, security, and human resources. It's our aim to support countries in building their Internet and provide economic chances to the ones who have a difficult time catching up in this hectic world.</p>
+<p>Key Words:</p>
+<ul>
+<li>
+<p>Sovereignty</p>
+</li>
+<li>
+<p>Security</p>
+</li>
+<li>
+<p>Flexibility</p>
+</li>
+<li>
+<p>Cost</p>
+</li>
+</ul>
+<p>Today most countries lose money because of the Internet, e.g. their citizens using services outside of their country, having to pay a lot for expensive Internet backbone (fiber) services, monetization of citizens data, …</p>
+<p>Together with our friends we are talking to some countries who are very open about the possibilities of a sovereign country cloud.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="goal-3-realizing-web-4-for-a-better-world"><a class="header" href="#goal-3-realizing-web-4-for-a-better-world"><strong>Goal 3: Realizing Web 4 for a better world.</strong></a></h2>
+<p><img src="mission/goals/img/globe.png" alt="image alt text" /></p>
+<p>There are thousands of wonderful projects out there which want to provide value for the world but they miss a framework which helps them in achieving their goals.</p>
+<p><strong><em>”The industry is talented in creating solutions to problems that should have never been there.”</em></strong></p>
+<p>Much of the current Cloud &amp; Blockchain Industry is way too complicated and fragmented for what they need. </p>
+<p>To build something today you need 10+ different systems and integrate them all. Many believe that an ecosystem of different solutions can be stitched together to create something bigger. History has already shown that this is not the case. We call this the ‘Onion Problem’ (more about this in a document I still have to write), but basically it means that systems get so complicated that people don’t dare to change anything inside so everyone keeps on creating other layers on top of the layers which already exist. This leads to even more complicated systems which no-one seems to fully understand and allowing hackers to have a great time because there are hundreds of places to find vulnerabilities in. Blockchain did not make things easier, it became even more difficult and non transparent.</p>
+<p>It's difficult for projects to build a system which allows them to scale and work easily with their communities. The systems today are simply too complicated and unsafe (think about current wallets, exchanges, …)</p>
+<p>The current way how the internet is created is just wrong, client - server is simply wrong, the fact that we exist 100 times on the internet is wrong, we need Web 4.0. We should not spend any time on anything which is not to the benefit of our Vision and The Planet</p>
+<p>Benevolent projects need:</p>
+<ul>
+<li>
+<p>A trust based system, where people can be themselves and communicate with each other and the project in a safe container with full identity and transparency.</p>
+</li>
+<li>
+<p>A financial (funding &amp; exchange) system which is safe, fast, reliable and easy to use for everyone.</p>
+</li>
+<li>
+<p>An application and development platform which allows them to build their &quot;experience&quot; in the fastest possible way with less complexity and no need to re-invent everything (like is the case now).</p>
+</li>
+<li>
+<p>A storage system where all data &amp; information is stored by the user and owned by the user. An ultra reliable system which can never lose data and which scales to a planetary scale.</p>
+</li>
+<li>
+<p>An easy system so that less technical people can also use it.</p>
+</li>
+<li>
+<p>A system which is cost effective, we know projects who went bankrupt by doing good because they could not afford existing centralized cloud systems.</p>
+</li>
+<li>
+<p>A system which keeps the data in the country where the people live, this leads to more performance and safety.</p>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>

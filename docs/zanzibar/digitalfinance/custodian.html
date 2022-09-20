@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Custodian License - Regenerative Cyber City</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li class="chapter-item expanded "><a href="../digitalnomads/digitalnomads.html"><strong aria-hidden="true">2.</strong> DIGITAL NOMADS</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalnomads/why.html"><strong aria-hidden="true">2.1.</strong> Why</a></li><li class="chapter-item expanded "><a href="../digitalnomads/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="../digitalnomads/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="../digitalnomads/tools.html"><strong aria-hidden="true">2.4.</strong> Tools</a></li><li class="chapter-item expanded "><a href="../digitalnomads/benefits.html"><strong aria-hidden="true">2.5.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="../digitalnomads/security.html"><strong aria-hidden="true">2.6.</strong> Security</a></li><li class="chapter-item expanded "><a href="../digitalnomads/participants.html"><strong aria-hidden="true">2.7.</strong> Participants</a></li><li class="chapter-item expanded "><a href="../digitalnomads/finance.html"><strong aria-hidden="true">2.8.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="../digitalnomads/bizmodel.html"><strong aria-hidden="true">2.9.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="../digitalnomads/conclusion.html"><strong aria-hidden="true">2.10.</strong> Conclusion</a></li><li class="chapter-item expanded "><a href="../digitalnomads/requirements_government.html"><strong aria-hidden="true">2.11.</strong> Zanzibar Requirements</a></li></ol></li><li class="chapter-item expanded "><a href="../digitalfinance/digitalfinance.html"><strong aria-hidden="true">3.</strong> DIGIFIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalfinance/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalfinance/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="../digitalfinance/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalfinance/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="../digitalfinance/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalfinance/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="../digitalfinance/custodian.html" class="active"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../digitalfinance/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="../digitalfinance/crime_prevention.html"><strong aria-hidden="true">3.5.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="../digitalfinance/market_size_digifin.html"><strong aria-hidden="true">3.6.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="../cybercity/cybercity.html"><strong aria-hidden="true">4.</strong> ZNZ CYBER CITY</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cybercity/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="../cybercity/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="../cybercity/layout.html"><strong aria-hidden="true">4.3.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="../cybercity/utilization.html"><strong aria-hidden="true">4.4.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="../cybercity/bizmodel.html"><strong aria-hidden="true">4.5.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="../cybercity/all_digital.html"><strong aria-hidden="true">4.6.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="../cybercity/team.html"><strong aria-hidden="true">4.7.</strong> Team</a></li></ol></li><li class="chapter-item expanded "><a href="../partnership/ppp.html"><strong aria-hidden="true">5.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../partnership/structure.html"><strong aria-hidden="true">5.1.</strong> Structure</a></li><li class="chapter-item expanded "><a href="../partnership/financials.html"><strong aria-hidden="true">5.2.</strong> Financials</a></li><li class="chapter-item expanded "><a href="../partnership/benefits_znz.html"><strong aria-hidden="true">5.3.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="../techsolutions/techsolutions.html"><strong aria-hidden="true">6.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solutions/issues.html"><strong aria-hidden="true">6.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solutions/issue_cyberpandemic.html"><strong aria-hidden="true">6.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="../solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">6.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="../solutions/issue_cbdc.html"><strong aria-hidden="true">6.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="../solutions/solutions.html"><strong aria-hidden="true">6.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">6.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="../techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">6.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="../techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">6.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../technology/technology.html"><strong aria-hidden="true">7.</strong> Technology</a></li><li class="chapter-item expanded "><a href="../ppp/ppp.html"><strong aria-hidden="true">8.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mission/mission.html"><strong aria-hidden="true">8.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="../mission/vision.html"><strong aria-hidden="true">8.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mission/goals/1_concept_realization0.html"><strong aria-hidden="true">8.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="../mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">8.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="../mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">8.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Regenerative Cyber City</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="digital-custodian-license-not-a-bank"><a class="header" href="#digital-custodian-license-not-a-bank">Digital Custodian License (not a bank)</a></h1>
+<p><img src="img/custodian.png" alt="" /></p>
+<p>A custodian is a financial institution that holds customers' securities for safekeeping to prevent them from being stolen or lost. The custodian may hold stocks, bonds, or other assets in electronic or physical form on behalf of its customers.</p>
+<p>Often, a custodian does more than provide asset protection. It can manage customers' accounts and transactions, manage the settlement of financial transactions, account for the status of assets, and ensure compliance with tax regulations.</p>
+<p>It safeguards assets and is not engaged in &quot;traditional&quot; commercial or consumer/retail banking like lending. </p>
+<blockquote>
+<p>Specific for DIGIFIN, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registering and checking of share holdings (done by certified 3e parties).</p>
+</blockquote>
+<h2 id="what-can-a-digifin-custodian-do"><a class="header" href="#what-can-a-digifin-custodian-do">What can a DIGIFIN Custodian Do</a></h2>
+<ul>
+<li>allow their customers to create digital assets.</li>
+<li>hold in safekeeping assets/securities such as shares, commodities such as precious metals and currency (cash), domestic and foreign</li>
+<li>provide information on the securities and their issuers</li>
+<li>maintain currency/cash bank accounts (integration with financial partner e.g. an EMI from our CyberCity)</li>
+<li>perform additional services for clients such as fund accounting, administration, legal, compliance and tax support services (all automated)</li>
+<li>allow customers to sell securities (assets) to each other as long as they are both customers of the custodian.</li>
+<li>A custodian bank may have the right to take possession of assets if required, often in conjunction with a power of attorney (is digital). This allows the custodian bank to perform actions on behalf of a client, such as making payments.</li>
+</ul>
+<blockquote>
+<p>The custodian does not become at any point the owner of the securities, but is only a part of the registration chain linking the owners to the securities.</p>
+</blockquote>
+<h2 id="key-takeaways"><a class="header" href="#key-takeaways">Key Takeaways</a></h2>
+<ul>
+<li>A custodian bank holds financial assets for safekeeping to minimize the risk of theft or loss.</li>
+<li>These assets may be stored in physical or electronic form.</li>
+<li>Custodian banks can also manage financial accounts, handle settlements, and deal with compliance and tax issues (we have all automated this process).</li>
+<li>Custodian banks can serve as mutual fund custodians.</li>
+</ul>
+<h2 id="digifin-custodian-limits"><a class="header" href="#digifin-custodian-limits">DIGIFIN custodian limits:</a></h2>
+<ul>
+<li>its not a bank as such std banking services cannot be done</li>
+<li>money can only be sent/received from own account to another own account with another bank</li>
+<li>holding of assets like shares and bonds is possible but fees need to be paid to allow verification of these assets and specific legal firms/auditors will be used to verify this ownership. These verifiers will also use our blockchain technology to approve ownership. For amounts + 1m USD, 3 verifiers will be used.</li>
+<li>transactions can only happen between customers of DIGIFIN, the custodian will not do transactions on your behalf which are outside of the sandbox of DIGIFIN.</li>
+</ul>
+<h2 id="special-for-zanzibar-digifin"><a class="header" href="#special-for-zanzibar-digifin">Special for Zanzibar DIGIFIN</a></h2>
+<ul>
+<li>All assets are registered on blockchain (no exceptions)</li>
+<li>All customers are stronly verified (AML/KYC) and identity also on blockchain.</li>
+<li>All transactions done between customers is also done on blockchain and stronly protected.</li>
+<li>All logic is executed by means of smart contracts and as such super safe &amp; transparent.</li>
+<li>Blockchain is operational in Tanzania and Zanzibar (so even when there is internet cut system will keep on working)</li>
+<li>Blockchain is archived in Europe and UAE (in case of disaster we can go back to each transaction and restore).</li>
+<li>Reporting tools allow DIGIFIN to check on irregular behavior and report to Tanzania Central Bank regulatory if required.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../digitalfinance/dmi_steps.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../digitalfinance/custodian_steps.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../digitalfinance/dmi_steps.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../digitalfinance/custodian_steps.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>
