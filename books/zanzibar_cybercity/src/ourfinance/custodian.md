@@ -8,7 +8,7 @@ Often, a custodian does more than provide asset protection. It can manage custom
 
 It safeguards assets and is not engaged in "traditional" commercial or consumer/retail banking like lending. 
 
-> Specific for OurFinance, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registering and checking of share holdings (done by certified 3e parties).
+> Specific for OurFinance, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registeri §ng and checking of share holdings (done by certified 3e parties).
 
 ## What can a OurFinance Custodian Do
 

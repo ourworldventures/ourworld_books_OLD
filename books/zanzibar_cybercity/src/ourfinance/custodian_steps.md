@@ -3,15 +3,15 @@
 
 The Bank of Tanzania must make a decision within 1-3 months of receiving a complete application. However, the expected time to obtain a licence is expected to take about 3 months. 
 
-## Preperation phase (1-2 month)
+## Preperation phase (1 week - 2 month)
 
 - Preliminary assessment of project (reveiew documents on hands, etc.) 
 - General consulting regarding the Custodian licensing process
 - Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts
 - Shareholders and Group Companies Due Diligence
 - Local Company Formation and assistance with Bank account opening for share capital contribution
-- Human resource (at least 4 employees shall be in Zanzibar)
-- Help establish local office in OURTOWN
+- Human resource (at least 1 employees shall be in Zanzibar)
+- Help establish local office in OurTown
 
 ## Licensing phase (1-3 months)
 
@@ -31,9 +31,4 @@ The Bank of Tanzania must make a decision within 1-3 months of receiving a compl
 - Accounting services
 - Auditing
 - Opening of safeguarding accounts
-- Connection to SWIFT payment scheme
-- Agreement for the issuing own brand MasterCard cards
-- BIC/SWIFT and LEI codes acquisition
-- Reporting to Central Bank on the regularly basis
-- Consulting on the arising issues from Central Bank
 
