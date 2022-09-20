@@ -28,5 +28,3 @@ This is why we want to offer you a plan to create Our Town. Development has to c
 
 Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when tthe needs of both the planet and the people are met, you open the door for successful and reliable economic development.
 
-
-> TODO:  explain how we integrate with all the other elements and serves as incredible example for the world
