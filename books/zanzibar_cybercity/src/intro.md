@@ -25,6 +25,7 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 ## The Different OurWorld Projects
 
 - [OurTown](ourtown/ourtown.md) = a regenerative cybercity ready for the future
-- [OurFinance](ourfinance/ourfinance.md = a financial regulatory system
+- [OurFinance](ourfinance/ourfinance.md) = a financial regulatory system
 - [OurHub](ourhub/ourhub.md) = the place for the digital nomads to get registered and arrange their business life
 - [OurTwin](ourtwin/ourtwin.md) = the future of our new internet, you in the center of your digital life
+- [OurIncubator](ourtwin/ourincubator.md) = incubator our of which we can build a beautiful future
