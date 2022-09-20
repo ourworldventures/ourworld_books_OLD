@@ -1,4 +1,4 @@
-# EMI STEPS
+# D-Money License Steps
 
 ## PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)
 
@@ -6,9 +6,9 @@
 - Review business model
 - ... 
 
-## PREPARATION (1-2 months)
+## PREPARATION (1 week - 2 month)
 
-- General consulting regarding the EMI licensing process
+- General consulting regarding the DMI licensing process
 - Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts
 - Shareholders and Group Companies Due Diligence
 - Local Company Formation and assistance with Bank account opening for share capital contribution
@@ -22,7 +22,7 @@
     - Compliance documentation (AML/KYC/KYT etc.)
     - Financial documentation and forecasts
     - Operational Risk Procedures
-    - IT Procedures (as provided by default by DIGIFIN)
+    - IT Procedures (as provided by default by OurFinance)
 - Application for the license
     - Submission of the application for the license
 - Practical
@@ -33,11 +33,8 @@
 - Accounting services
 - Auditing
 - Opening of safeguarding accounts
-- Connection to SWIFT payment scheme
-- Agreement for the issuing own brand MasterCard cards
-- BIC/SWIFT and LEI codes acquisition
-- Reporting to Central Bank on the regularly basis
-- Consulting on the arising issues from Central Bank
+- Arrange integration with other licenses of the OurFinance services
+- IT services (how to integrate in your other systems)
 
 > TODO: localize (sacha)
 

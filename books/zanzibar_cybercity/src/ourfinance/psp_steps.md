@@ -1,18 +1,14 @@
-# D-Money License Steps
+# PSP License Steps
 
-## PRELIMINARY ASSESSMENT OF THE PROJECT (1 week)
+
+## PREPARATION (1 week - 1 month)
 
 - Analysis of the documents that client have on hands
-- Review business model
-- ... 
-
-## PREPARATION (1 week - 2 month)
-
-- General consulting regarding the DMI licensing process
+- General consulting regarding the PSP licensing process
 - Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts
 - Shareholders and Group Companies Due Diligence
 - Local Company Formation and assistance with Bank account opening for share capital contribution
-- Human resource (at least 4 employees shall be in Lithuania)
+- Human resource (at least 1 employee shall be in Lithuania, we can help)
 - Help establish local office in OURTOWN
 
 ## LICENSING (1-4 months)
@@ -22,7 +18,7 @@
     - Compliance documentation (AML/KYC/KYT etc.)
     - Financial documentation and forecasts
     - Operational Risk Procedures
-    - IT Procedures (as provided by default by DIGIFIN)
+    - IT Procedures (as provided by default by OurFinance)
 - Application for the license
     - Submission of the application for the license
 - Practical
@@ -33,7 +29,7 @@
 - Accounting services
 - Auditing
 - Opening of safeguarding accounts
-- Arrange integration with other licenses of the DIGIFIN services
+- Arrange integration with other licenses of the OurFinance services
 - IT services (how to integrate in your other systems)
 
 > TODO: localize (sacha)

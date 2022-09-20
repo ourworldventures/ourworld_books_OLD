@@ -2,7 +2,12 @@
 
 ![](img/psp.png)  
 
-DIGIFIN aims to provide PSP licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
+DIGIFIN aims to provide Payment Service Provider (PSP) licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
+
+PSP is a necessity in the digital age, offering online shopping services through electronic payments by using methods like direct debit, credit card, online bank transfer etc. while acting as a mediator between banks and customers. In simple words, it is an online payment solution for multiple channels, including mobile and online store.
+
+Currently, E-Commerce is booming around the world, and people are opting for online shopping and paying online as well. 
+PSPs are critical for any financial ecosystem and country as they provide their residents and customers with the support for their multiple payment methods and currencies.
 
 ## PSP architecture
 

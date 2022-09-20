@@ -3,7 +3,7 @@
 
 ![](img/security.png)  
 
-Zanzi Hub is strongly protected and compliant.
+OurHub is strongly protected and compliant.
 
 ## 100% in line with regulation, we don’t wanna be rebels
 

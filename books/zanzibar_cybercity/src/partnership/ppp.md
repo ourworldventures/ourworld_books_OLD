@@ -5,7 +5,7 @@ We want to design our partnership following the guidelines as described in
 - https://ppp.worldbank.org/public-private-partnership/sites/ppp.worldbank.org/files/documents/Tanzania_PPP%20Policy.pdf
 - https://pppnode.go.tz/
 
-> TODO: is there newer one? (sacha) where zanizbar?
+> TODO: is there newer one? (vic) where zanizbar? Can we do some research.
 
 ### The suggested PPP is a ```Build-Own-Operate-Transfer```
 

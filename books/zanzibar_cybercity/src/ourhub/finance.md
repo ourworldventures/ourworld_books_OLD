@@ -1,5 +1,5 @@
 
-# Zanzi Hub Admin/Financial System
+# OurHub Admin/Financial System
 
 ![](img/finance.png)  
 

@@ -37,7 +37,7 @@ The submitted documentation for the EMI license will be reviewed by the Central 
 - Proof of origin and receipt of finances
 - Opening of a local office
 - Opening of a Lithuanian bank account
-- Availability of AML officer or OutSource to DIGIFIN
+- Availability of AML officer or OutSource to OurFinance
 - Impeccable reputation of the company's beneficiaries
 - A director or manager must have higher education in law or economics, management or business administration, and have an impeccable reputation, competence, and practical experience as the head of the institution.
 - There must be at least one individual among the shareholders, Lithuanian residency is required. The main requirement is the age over 18 and impeccable business reputation.

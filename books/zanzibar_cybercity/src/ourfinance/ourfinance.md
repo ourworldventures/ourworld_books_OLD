@@ -1,8 +1,8 @@
-# DIGIFIN = Digital Finance
+# OurFinance = Digital Finance
 
 ![](img/digifin1.png)  
 
-DIGIFIN is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated, self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. 
+OurFinance is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated, self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. 
 
 What makes our proposition unique is our ability to provide the combination of the following services under 1 simple consumable package:
 - required licenses
@@ -23,7 +23,7 @@ What makes our proposition unique is our ability to provide the combination of t
 
 ## Required Licences 
 
-The following table highlights the various licences that DIGIFIN can provide needed to operate a fully comprehensive digital freezone. 
+The following table highlights the various licences that OurFinance can provide needed to operate a fully comprehensive digital freezone. 
 
 {{#include overview.md}}
 

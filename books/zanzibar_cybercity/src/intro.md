@@ -22,3 +22,9 @@ We believe the world would be a better place if we would not escape into painkil
 We believe Zanzibar has a unique chance to build a future based on digital possibilities where the root of the issues are being addressed by using systems which rething the way how things can be done. Personally we would like to help Zanzibar to make its dreams come  happen.
 
 
+## The Different OurWorld Projects
+
+- [OurTown](ourtown/ourtown.md) = a regenerative cybercity ready for the future
+- [OurFinance](ourfinance/ourfinance.md = a financial regulatory system
+- [OurHub](ourhub/ourhub.md) = the place for the digital nomads to get registered and arrange their business life
+- [OurTwin](ourtwin/ourtwin.md) = the future of our new internet, you in the center of your digital life

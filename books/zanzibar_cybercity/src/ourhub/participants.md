@@ -1,9 +1,9 @@
 
-# Zanzi Hub Participants
+# OurHub Participants
 
 ![](img/participants.png)  
 
-For this doc we call the Digital Nomad Business Hub, Zanzi Hub.
+For this doc we call the Digital Nomad Business Hub, OurHub.
 
 ## Zanzi Community
 

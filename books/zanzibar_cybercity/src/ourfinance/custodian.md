@@ -8,9 +8,9 @@ Often, a custodian does more than provide asset protection. It can manage custom
 
 It safeguards assets and is not engaged in "traditional" commercial or consumer/retail banking like lending. 
 
-> Specific for DIGIFIN, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registering and checking of share holdings (done by certified 3e parties).
+> Specific for OurFinance, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registering and checking of share holdings (done by certified 3e parties).
 
-## What can a DIGIFIN Custodian Do
+## What can a OurFinance Custodian Do
 
 - allow their customers to create digital assets.
 - hold in safekeeping assets/securities such as shares, commodities such as precious metals and currency (cash), domestic and foreign
@@ -29,12 +29,12 @@ It safeguards assets and is not engaged in "traditional" commercial or consumer/
 - Custodian banks can also manage financial accounts, handle settlements, and deal with compliance and tax issues (we have all automated this process).
 - Custodian banks can serve as mutual fund custodians.
 
-## DIGIFIN custodian limits:
+## OurFinance custodian limits:
 
 - its not a bank as such std banking services cannot be done
 - money can only be sent/received from own account to another own account with another bank
 - holding of assets like shares and bonds is possible but fees need to be paid to allow verification of these assets and specific legal firms/auditors will be used to verify this ownership. These verifiers will also use our blockchain technology to approve ownership. For amounts + 1m USD, 3 verifiers will be used.
-- transactions can only happen between customers of DIGIFIN, the custodian will not do transactions on your behalf which are outside of the sandbox of DIGIFIN.
+- transactions can only happen between customers of OurFinance, the custodian will not do transactions on your behalf which are outside of the sandbox of OurFinance.
 
 {{#include znz_special.md}}
 

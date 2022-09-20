@@ -22,7 +22,7 @@
     - Compliance documentation (AML/KYC/KYT etc.)
     - Financial documentation and forecasts
     - Operational Risk Procedures
-    - IT Procedures (as provided by default by DIGIFIN)
+    - IT Procedures (as provided by default by OurFinance)
 - Application for the license
     - Submission of the application for the license
 - Practical
@@ -33,7 +33,7 @@
 - Accounting services
 - Auditing
 - Opening of safeguarding accounts
-- Arrange integration with other licenses of the DIGIFIN services
+- Arrange integration with other licenses of the OurFinance services
 - IT services (how to integrate in your other systems)
 
 > TODO: localize (sacha)
