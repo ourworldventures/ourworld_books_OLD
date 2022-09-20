@@ -31,7 +31,7 @@ Payment services:
 
 In summary, a PSP ensures secure and efficient transfer of funds between customers and merchants. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.
 
-## Additional advantages of using a PSP
+## Additional advantages of using a PSP under DIGIFIN
 
 ### Accept multiple payment methods:
 
@@ -47,24 +47,25 @@ PSPs only initiate transfers of funds once the customer’s card details and fun
 
 ### Accept multiple currencies:
 
-In addition to multiple payment methods, PSPs also provide support for multiple currencies. This allows fast and secure payments from customers around the world. This is important if you’re planning to expand your business beyond your own country. However, this is only possible if the PSP works with a payment processor that is capable of processing the desired currencies.
+PSPs provide support for multiple currencies to enable fast and secure cross-border payments. This is important for business planning to expand their presence abroad. 
+
+DIGIFIN has access to a third-party processor with +17 global currencies integrated with VISA, Mastercard and UnionPay. By integrating them to our platform, we aim to streamline international PSP services from day 1. 
 
 ### Get monthly reports on payments:
 
-Most PSPs offer you monthly reporting features for payments and transactions made to your business. There are some PSPs who offer real-time reporting features, but these can be more expensive.
+Most PSPs offer monthly reporting features for business payments and transactions. Through automation, PSPsS can provide real-time reporting features (accounts payable, reconciliation, expense management, tax reports etc..) at an affordable cost.
 
 ### Add new payment methods easily:
 
-PSPs allow you to add new payment methods, easily. There are increasingly more new payment options being created now, which make it more convenient for customers to make payments. Keeping up-to-date with these novel payment methods ensures that your customers find it convenient and simple to purchase your product or service. PSPs remain up-to-date with the latest payment methods, and typically, automatically make them available to you.
+PSPs allow people and businesses to expand their payment methods seamlessly. New payment options are being created regularly to simplify customers and merchants experiences. Leading PSPs integrate these new options fast to remain up-to-date with the latest payment methods, automatically making them available to you.
 
 ### Opening accounts with acquiring banks:
 
-Before accepting card payments, you will have to set up a merchant account for your business with an acquiring bank. PSPs can help with this application process and reduce the usual waiting period you will need to go through when opening a merchant account. PSPs can also have preexisting accounts with acquiring banks that they work with. Once signed up with a PSP, businesses can get sub-accounts under these preexisting accounts, making the process of setting up merchant accounts much easier, as these accounts are already approved and functioning.
+Before accepting card payments, a business has to set up a merchant account with an acquiring bank. PSPs can support businesses by fast tracking their applicationss with the acquiring banks. PSPs can also have pre-existing accounts with acquiring banks, allowing businesses to get sub-accounts under the pre-existing PSP accounts. This makes the whole process of setting up a merchant's account much easier, as these accounts are already approved and functioning.
 
 ### Reconcile transactions easily:
 
-PSPs provide complete transaction reports for every one of your payment methods. This makes it easier for you to reconcile transactions in the future.
-
+PSPs provide complete transaction reports for all of your payment methods. This makes it easier for you to reconcile transactions in the future.
 
 > TODO: (vic) localize for our situation, needs to be more integrated with DIGIFIN solution
 

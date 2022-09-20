@@ -54,7 +54,7 @@ Deliver solutions which cost less than what is available today and provide more 
 
 Allow everyone in the country to participate in a more GDP positive inclusive internet experience. There are a vast number of projects which fit underneath this category, but it's all about providing a sovereign digital future for every Country citizen.
 
-### A Public Unified and Sovereign  Digital Backbone For ZANZIBAR CYBERCITY
+### A Public Unified and Sovereign  Digital Backbone For ZANZIBAR OURTOWN
 
 The upgraded sovereign internet digital backbone needs to be able to support:
 

@@ -9,7 +9,7 @@
 - Shareholders and Group Companies Due Diligence
 - Local Company Formation and assistance with Bank account opening for share capital contribution
 - Human resource (at least 1 employee shall be in Lithuania, we can help)
-- Help establish local office in CyberCity
+- Help establish local office in OURTOWN
 
 ## LICENSING (1-4 months)
 

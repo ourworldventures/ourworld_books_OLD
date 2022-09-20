@@ -15,7 +15,7 @@ It safeguards assets and is not engaged in "traditional" commercial or consumer/
 - allow their customers to create digital assets.
 - hold in safekeeping assets/securities such as shares, commodities such as precious metals and currency (cash), domestic and foreign
 - provide information on the securities and their issuers
-- maintain currency/cash bank accounts (integration with financial partner e.g. an EMI from our CyberCity)
+- maintain currency/cash bank accounts (integration with financial partner e.g. an EMI from our OURTOWN)
 - perform additional services for clients such as fund accounting, administration, legal, compliance and tax support services (all automated)
 - allow customers to sell securities (assets) to each other as long as they are both customers of the custodian.
 - A custodian bank may have the right to take possession of assets if required, often in conjunction with a power of attorney (is digital). This allows the custodian bank to perform actions on behalf of a client, such as making payments.
