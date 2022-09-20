@@ -2,9 +2,9 @@
 
 ![](img/psp.png)  
 
-DIGIFIN aims to provide PSP licences. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
+DIGIFIN aims to provide PSP licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
 
-## Provided architecture
+## PSP architecture
 
 ![](img/psp3.png)  
 
@@ -19,25 +19,23 @@ Payment services:
 - Transfer financial data between merchant accounts and gateways
 - Ensure all transactions are processed properly, efficiently, and quickly
 
-
 ## How does a PSP work?
 
 ![](img/psp_how.png)  
 
+- Each time a customer enters their card details and clicks ‘pay’, a transaction request is sent to the DIGIFIN payment gateway (blockchain based).
+- The PSP blockchain then verifies that the customer’s card or digital wallet holds the required funds to make the payment. The PSP does this with the help of a payment processor in case of FIAT.
+- Once the customer’s card or digital wallet details are verified, the PSP either confirms or declines the payment according to the funds available. If confirmed, the PSP initiates the transfer of funds from the customer’s account to the associated merchant account.
+- Finally, the PSP sends a transaction notification to the customer and the merchant to confirm the payment's completion.
+- In the case of a declined transaction due to invalid card details or insufficient funds, the PSP will terminate the transaction and send a status message notifying the customer and the merchant of the failed payment.
 
-- After a customer enters his card details and clicks ‘pay’, a transaction request is sent to the DIGIFIN payment gateway (blockchain based).
-- The PSP blockchain then verifies the customer’s card or digital wallet details and checks whether the customer has enough funds in their card account or digital wallet to make the payment. The PSP does this with the help of a payment processor in case of FIAT.
-- Once the customer’s card or digital wallet details are verified and it’s been confirmed that the customer has sufficient funds in their account, the PSP initiates a transfer of funds from the customer’s bank to the merchant account you have associated with your business inside the PSP.
-- Finally, the PSP sends a transaction notification to you and the customer about the completed payment.
-- In the case of a declined transaction for reasons such as invalid card details or insufficient funds, the PSP will terminate the transaction and send a status message notifying you and your customer of the failed payment.
+In summary, a PSP ensures secure and efficient transfer of funds between customers and merchants. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.
 
-In summary, a PSP ensures the safe and successful transfer of funds from your customer’s account to yours. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.
-
-## Additional advantages of using a PSP.
+## Additional advantages of using a PSP
 
 ### Accept multiple payment methods:
 
-PSPs provide support for several payment methods through a single channel, ensuring your customers can conveniently choose from a variety of options. This level of accessibility helps ensure customer satisfaction. Integrating different payment methods such as online banking, credit cards, debit cards, and e-wallets to your business can incur costs. Signing up with a payment service provider can save you from much of these. There are only two types of fees you need to pay: a one-time set-up fee, and a small monthly fee for enabling payments.
+PSPs provide support for several payment methods through a single channel, ensuring your customers can conveniently choose from a variety of options. This level of accessibility supports customer satisfaction. Integrating different payment methods such as online banking, credit cards, debit cards, and e-wallets to your business can incur costs, but signing up with a PSP makes the whole process hastle-free. There are only two types of fees you need to pay: a one-time set-up fee, and a small monthly fee for enabling payments.
 
 ### Make transactions securely:
 
@@ -45,7 +43,7 @@ All information sent through a transaction request is controlled by the PSP. Thi
 
 ### Prevent fraud:
 
-PSPs only initiate transfer of funds once the customer’s card details have been verified and if it locates the sufficient funds required for the payment in the customer’s account. If not, the transaction is terminated. This helps avoid your business being compromised by fraudulent transactions.
+PSPs only initiate transfers of funds once the customer’s card details and funds availability are verified. This prevents merchants and business to be compromised by fraudulent transactions.
 
 ### Accept multiple currencies:
 

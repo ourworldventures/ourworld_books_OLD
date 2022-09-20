@@ -3,12 +3,14 @@
 
 Zanzibar can be one of the first movers of a digital revolution where everyone becomes the center of their digital life.
 
+![](img/brave_new_world.png)  
+
 **This would have incredible benefits:**
 
 1. National Education would go up. 
 1. National Health would go up. 
 1. Leadership would be recognised for vision and execution capability. 
-1. Citizens would be proud & delighted to be part of a beautiful Zanzibar ready for the future.
+1. OurTown Residents would be proud & delighted to be part of a beautiful Zanzibar ready for the future.
 1. National GDP would go up. 
 1. Security would increase.
 
@@ -17,11 +19,11 @@ Rather than implementing all as a painkiller approach (see [here](no_pain_killer
 # Imagine Zanzibar government can
 
 * Have every relevant party and assets documented & authenticated in 1 country digital system
-    * Identity for each citizen (peer reviewed, kyc/aml integration if needed)
+    * Identity for each OurTown Resident (peer reviewed, kyc/aml integration if needed)
     * Land registry available to everyone and no-one can alter the information if not following the right processes and verification steps. Integrated with ultra reliable augmented reality and GPS system.
     * Every company registered and all relevant information available in a unified way. Super well protected and can only be changed with well defined processes.
     *  Every container coming in & out of the country, with purpose, parties involved, …
-* Allows every citizen (company or person) to send money to each other in most transparent way (needs help from mainland)
+* Allows every OurTown Resident (company or person) to send money to each other in most transparent way (needs help from mainland)
     * For non commercial transactions = free of charge
     * Supports offline transactions (means internet connection not there or partially there 1 party only)
     * **Can even work where there is no electricity (or limited) and no or bad internet connection.**
@@ -44,30 +46,26 @@ Rather than implementing all as a painkiller approach (see [here](no_pain_killer
 
 # What if Zanzibar is one of the first to make this happen.
 
-> Our idea is to implement all of this in 
+> Our idea is to implement all of this in OurTown and show that such a system can work end2end.
 
-
-* Implement a super efficient TAX system where everyone participates in most transparency and lowest cost
 * Implement a digital authentication system usable for every country's digital use case (like a digital passport), following standards as set by international organizations like world bank, african union, … Only one single sign on system.
-* Implement a land bank system which covers the full nation and is also kept up to date by the citizens itself but protected and audited by satellite and super correct GPS system. 
-* Implement CBDC (Central Bank Currency) as recommended by the world bank & african union.
-* Implement a country education system where every citizen can participate as teacher and/or student.
-* Implement a digital health system which can unlock primary health care to everyone at a much lower cost using means available by the citizens already (knowledge, herbs, best practices, generic medicine, …)
-* Implement a government system which is also an antidote against the cyber pandemic.
+* Implement a land bank system which covers the full nation and is also kept up to date by the OurTown Residents itself but protected and audited by satellite and super correct GPS system. 
+* Implement a super efficient TAX system where everyone participates in most transparency and lowest cost
+* Implement Complementary Digital Currencies to let OurTown Residents use this for their daily needs
+* Implement an education system where every OurTown Resident can participate as teacher and/or student.
+* Implement a digital health system which can unlock primary health care to everyone at a much lower cost using means available by the OurTown Residents already (knowledge, herbs, best practices, generic medicine, …)
 * Implement a new digital backbone (internet system) to support all above with best sovereignty and security.
 
 **All of this is not only possible, we have a plan for it and can be the first ones in the world to pull it off.**
 
-
 # Let's do it together
 
 We have ideas how this can be implemented at lowest possible cost with maximum benefit for Zanzibar. \
+
 The basis requirements:
 
-
-
-* **No corruption possible, all is transparent.**
 * All knowledge in the country. Incredible opportunities to grow.
-* All required technology (software) in the country is open source, unlimitedly usable and managed by teams in the country ready for the future.
+* All required technology (software) in the country is open source, unlimitedly usable and managed by teams in OurTownready for the future.
+* All super transparent and done by OurTown for OurTown
 
 
