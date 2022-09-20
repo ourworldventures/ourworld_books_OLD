@@ -5,7 +5,7 @@
 
 Our unique digital twin IT system allows a digital nomad to simplify his personal business life. 
 
-### Within the ZDF, Nomads will have the following capabilities:  
+### Within the OURHUB, Nomads will have the following capabilities:  
 
 * Communication (messaging, email, video conferencing)
 * Invoicing, Expenses, Accounting, other administrative tasks.
@@ -19,9 +19,9 @@ Every task  is 100% automated and peer2peer with business counterparts, requirin
 
 ### Prepare for an unsure future
 
-Whatever might happen in the nomad’s homeland, his company and its assets are safe and secure,  well-regulated online environment . The plan is to add capabilities over time as the ZDF expands organically and its growth potential  is clear.
+Whatever might happen in the nomad’s homeland, his company and its assets are safe and secure,  well-regulated online environment . The plan is to add capabilities over time as the OURHUB expands organically and its growth potential  is clear.
 
-In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the DFZ should provide for its community. 
+In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the OURHUB should provide for its community. 
 
 Prepare for the future, digital tokens will become increasingly important. 
 

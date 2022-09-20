@@ -1,3 +1,4 @@
 # OURTOWN ZANZIBAR
 
-> TODO: intro (emre)
+![](img/sus_zanzi.png)  
+

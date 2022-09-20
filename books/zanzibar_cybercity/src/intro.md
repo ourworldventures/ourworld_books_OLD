@@ -1,4 +1,4 @@
-# OURWORLD ZANZIBAR 
+# OURWORLD ZANZIBAR FEASIBILITY STUDY
 
 ![image alt text](img/high_level_country_overview.png)
 
@@ -28,4 +28,4 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 - [OurFinance](ourfinance/ourfinance.md) = a financial regulatory system
 - [OurHub](ourhub/ourhub.md) = the place for the digital nomads to get registered and arrange their business life
 - [OurTwin](ourtwin/ourtwin.md) = the future of our new internet, you in the center of your digital life
-- [OurIncubator](ourtwin/ourincubator.md) = incubator our of which we can build a beautiful future
+- [OurSource](oursource/oursource.md) = incubator our of which we can build a beautiful future

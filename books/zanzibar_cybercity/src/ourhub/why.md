@@ -12,9 +12,9 @@ Digital nomads have no fixed residence, which creates challenges to organizing t
 
 B2B transactions can also be difficult and time-consuming due to the challenges presented by performing due diligence on digital nomads. 
 
-By gaining access to the digital twin IT system, the business life of digital nomads is simplified. The capablities of the twin make it easier for them to tackle some of the challenges they face. For instance, financial tools facilitate invoicing and accounting while project management, communication and storage tools, amongst others, allow for optimal work delivery. Besides, their quality of life is increased by accessing a community of digital nomads, organically created, which will help keep feelings of loneliness at bay. Another advantage of joining the ZDF is that they will have a safe-haven to come back to when they seek a certain level of stability. 
+By gaining access to the digital twin IT system, the business life of digital nomads is simplified. The capablities of the twin make it easier for them to tackle some of the challenges they face. For instance, financial tools facilitate invoicing and accounting while project management, communication and storage tools, amongst others, allow for optimal work delivery. Besides, their quality of life is increased by accessing a community of digital nomads, organically created, which will help keep feelings of loneliness at bay. Another advantage of joining the OURHUB is that they will have a safe-haven to come back to when they seek a certain level of stability. 
 
-All in all, the Zanzibar Digital Freezone (ZDF) provides digital nomads with a simple, reliable means to formalizing their businesses and facilitating commercial relationships in a manner that increases productivity and decreases risk, while at the same time generating revenue for Zanzibar.. 
+All in all, the Zanzibar Digital Freezone (OURHUB) provides digital nomads with a simple, reliable means to formalizing their businesses and facilitating commercial relationships in a manner that increases productivity and decreases risk, while at the same time generating revenue for Zanzibar.. 
 
 ### Planet Positive
 
