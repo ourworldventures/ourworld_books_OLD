@@ -8,7 +8,7 @@ We believe that following tax might be feasible.
 
 ## Private Person Tax For Each Resident In OurTown 
 
-- No Income tax on worldwide income and wealth
+- No Income tax on worldwide income and wealth (means no wealth tax, no capital gain tax)
 - Income tax is halved only on local income 15% instead of 30% (applicable to foreigners only)
 - Repatriation of profit is allowed after tax
 

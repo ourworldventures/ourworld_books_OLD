@@ -7,6 +7,8 @@ we can also pick some content from what we used for mama samia but we cannot dup
 - see here https://docs.google.com/document/d/1v5C4YQ3yvBWQEMFOqKiDJJIiQ9vSBYWGl1olxa5HzxM/edit
 
 
+> TODO: (sacha) don't spent too much time, max 1-2h on full oursource
+
 # OurSource Intro
 
 Our beautiful world has become a crazy place with lots of changes – not all of them for the greater good. 

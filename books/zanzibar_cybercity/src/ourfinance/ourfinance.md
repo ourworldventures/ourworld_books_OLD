@@ -8,11 +8,8 @@ What makes our proposition unique is our ability to provide the combination of t
 - required licenses
 - required technology (All infrastructure and blockchain tech)
 - thrid-party processing with global fiat currencies 
-- Delivery VISA, Mastercard and UnionPay services
 - auditing services & automatic tax reporting
 - facility services (office, houses for staff, ...)
-
-> TODO: (sacha) why is this relevant, simplification...
 
 ## The timing is ideal
 
@@ -27,7 +24,7 @@ The following table highlights the various licences that OurFinance can provide 
 
 {{#include overview.md}}
 
-</ -- --/>
+
 
 
 
