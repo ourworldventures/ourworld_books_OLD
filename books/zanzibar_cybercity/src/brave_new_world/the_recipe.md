@@ -5,7 +5,7 @@
 
 Together we can make this digital dream happen; we need commitment, a good plan and most importantly a loyal team and a strong partnership:
 
-> To clarify: Is the partnership with the government or is it supposed to be partnerships with various parties
+> <span style="color:red">**To Clarify:**</span> Is the partnership with the government or is it supposed to be partnerships with various parties
 
 * A government which is committed to make this work and be different. Some companies and individuals might not want this huge step forward and so we need to be ready to defend this project.
 * A sense of urgency, time is against us, the time is now. The world is changing; now is the best time to reach for our dreams.

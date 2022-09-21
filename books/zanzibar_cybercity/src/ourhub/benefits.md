@@ -1,67 +1,67 @@
 
-## Benefits For the digital nomad
+## Benefits for Digital Nomads
 
-### Zero-Complexity
+### Zero Complexity
 
-Our unique digital twin IT system allows a digital nomad to simplify his personal business life. 
+Our unique digital twin IT system allows a digital nomad to simplify his personal business life.
 
-### Within the OURHUB, Nomads will have the following capabilities:  
+### Quality of Life
+
+Within OurHub, nomads will have the following capabilities:  
 
 * Communication (messaging, email, video conferencing)
-* Invoicing, Expenses, Accounting, other administrative tasks.
+* Invoicing, Expenses, Accounting and other administrative tasks
 * Data Storage (all  data is stored securely online)
-* Contract management with business partners and service providers
-* HR relations.
-* Project management
-* Collaboration through online project management tools
-* Digital Currency wallet 
+* Contract management with employers, business partners and service providers
+* HR relations
+* Personal and collaborative project management
+* Digital currency wallet 
 
-Every task  is 100% automated and peer2peer with business counterparts, requiring no manual action, e.g.,  invoices are generated and sent digitally and securely (and permanently recorded on a blockchain.
+Every task  is 100% automated and peer-to-peer with business counterparts, requiring no manual action. For example, invoices are generated and sent digitally and securely (and permanently recorded on a blockchain).ß
 
-### Prepare for an unsure future
+### Preparation for an unsure future
 
-Whatever might happen in the nomad’s homeland, his company and its assets are safe and secure,  well-regulated online environment . The plan is to add capabilities over time as the OURHUB expands organically and its growth potential  is clear.
+Whatever might happen in the nomad’s homeland, their company and assets are safe and secure in a well-regulated online environment. New capabilities will be added over time as OurHub expands organically and its growth potential  is clear.
 
-In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the OURHUB should provide for its community. 
+In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, OurHub will provide this capability for its communities. 
 
 Prepare for the future, digital tokens will become increasingly important. 
 
-### Convenience
-
-EASY COLLABORATION, tool-driven collaboration all hosted in Zanzibar. 
-
-### Collaboration: 1+1 = 3
+### Convenience and Collaboration: Multiplying efforts, not adding them
 
 Find like-minded innovative partners, collaborate to build bigger projects with least effort and maximum protection. Attract like-minded entrepreneurs in Zanzibar.
 
-Together create a better world. Zanzibar can be the home for a digital ecosystem of like minded digital nomad entrepreneurs.
+Together create a better world. Zanzibar can be the home for a digital ecosystem of like minded digital nomad entrepreneurs. Use powerful collaborative Ourworld tools all hosted in Zanzibar.
 
-# Benefits
+## Benefits for Zanzibar
 
-## For Zanzibar
+**Zanzibar is beautiful and that quality needs to be preserved; getting other sustainable sources of income can help that process.**
 
-**Zanzibar is a beautiful location and wants to stay as such, getting other sustainable sources of income can help.**
+Zanzibar OurHub will be a sustainable business & incubation center.
 
-Zanzibar Digital FreeZone is a sustainable business & incubation center.
-
-100% sustainable, zero impact on the environment, culture or local economy.
+100% sustainable, with zero damage to the local environment, culture or economy.
 
 The revenue generated from the Zanzibar Digital FreeZone can be used for:
 
-* Promotion & Growth of the Digital Freezone
-* Incubation of more projects, which creates value for Digital Freezone.
-* Development of Sustainability projects.
+* Promotion & growth of the Digital Freezone
+* Incubation of more projects, which creates value for the Digital Freezone.
+* Development of sustainability projects.
+* Support of local community around the Digital Freezone
 * Government functions
 
 ### High Tech In Zanzibar
 
-World class IT system will provide: data sovereignty, transparent reporting, productivity tools, conscious Tech Hub.
+World class IT systems will provide: data sovereignty, transparent reporting, productivity tools and a conscious tech hub.
 
 ### Healthy Tourism = for digital nomads
+
+> <span style="color:red">**To Clarify:**</span> What should x be?
 
 x% of the digital nomads will spend some time in Zanzibar, this leads to secondary benefits for Zanzibar (Tourism).
 
 ### Modern Sustainable Physical FreeZone location for digital nomads
+
+> <span style="color:red">**To Clarify:**</span> What location?
 
 To Be Determined with the Government of Zanzibar, this leads to benefits...
 

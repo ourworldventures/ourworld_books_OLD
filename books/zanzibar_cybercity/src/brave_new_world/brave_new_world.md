@@ -24,7 +24,7 @@ Rather than implementing all as a painkiller approach (see [here](no_pain_killer
     * Companies: Universal company registration with all relevant information available in a unified way. Data super well protected and only modifiable with well-defined processes.
     * Products: Records of every container coming in & out of the country with contents, purpose, parties involved, …
 * Allow every OurTown Resident (company or person) to send money to each other in the most transparent way (needs help from mainland):
-> To clarify: Should we remove 'needs help from mainland'
+> <span style="color:red">**To Clarify:**</span> Should we remove 'needs help from mainland'
     * Free of charge for non commercial transactions
     * Supports offline transactions where either one or zero parties involved are connected to the internet
     * **Can even function where there is no (or limited) electricity!**
@@ -65,7 +65,7 @@ Aims:
 We have ideas how this can be implemented at lowest possible cost with maximum benefit for Zanzibar. \
 
 The basic requirements:
-> To clarify: Do we already have this technology, what does all knowledge in the country mean?
+> <span style="color:red">**To Clarify:**</span> Do we already have this technology, what does all knowledge in the country mean?
 * All knowledge in the country. Incredible opportunities to grow
 * All required technology (software) in the country is open source, unlimitedly usable and managed by teams in OurTown ready for the future
 * All super transparent and done by OurTown, for OurTown
