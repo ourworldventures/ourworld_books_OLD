@@ -7,12 +7,12 @@ Zanzibar can be one of the first movers of a digital revolution where everyone b
 
 **This would have incredible benefits:**
 
-1. National Education would go up. 
-1. National Health would go up. 
-1. Leadership would be recognised for vision and execution capability. 
-1. OurTown Residents would be proud & delighted to be part of a beautiful Zanzibar ready for the future.
-1. National GDP would go up. 
-1. Security would increase.
+1. National Education would go up 
+1. National Health would go up 
+1. Leadership would be recognised for vision and execution capability
+1. OurTown Residents would be proud & delighted to be part of a beautiful Zanzibar ready for the future
+1. National GDP would go up
+1. Security would increase
 
 Rather than implementing all as a painkiller approach (see [here](no_pain_killer.md)), why not go to the root and build a new digital backbone which is done in such a way it resolves the majority of requirements for a country's digital transformation.
 
