@@ -100,3 +100,6 @@
         - [Internet of Internets](mission/goals/1_concept_realization0.md)
         - [Internet GDP Positivity](mission/goals/2_internet_GDP_positivity.md)
         - [Realizing Web 4.0](mission/goals/3_realizing_web_4.md)
+
+
+> todo: (vic) see with Timur we can print it properly

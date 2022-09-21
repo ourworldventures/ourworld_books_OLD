@@ -16,3 +16,5 @@ Goals of the project:
 
 The target market of the city are start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech & IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. 
 
+> TODO: (vic) get first version done today which is good enough
+
