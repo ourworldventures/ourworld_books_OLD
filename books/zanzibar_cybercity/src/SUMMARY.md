@@ -5,7 +5,7 @@
     - [No Painkillers](brave_new_world/no_pain_killer.md)
     - [Our Recipe](brave_new_world/the_recipe.md)
 - [OURHUB](ourhub/ourhub.md)
-    - [Why](ourhub/why.md)
+    - [Why?](ourhub/why.md)
     - [Market](ourhub/market.md)
     - [Goal](ourhub/goal.md)
     - [Tools](ourhub/tools.md)

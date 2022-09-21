@@ -9,13 +9,14 @@ Our unique digital twin IT system allows a digital nomad to simplify his persona
 
 * Communication (messaging, email, video conferencing)
 * Invoicing, Expenses, Accounting, other administrative tasks.
-* Data Storage (all  data is stored securely onlinet)
+* Data Storage (all  data is stored securely online)
 * Contract management with business partners and service providers
 * HR relations.
 * Project management
-* Collaboration through online project management toolsDigital Currency wallet 
+* Collaboration through online project management tools
+* Digital Currency wallet 
 
-Every task  is 100% automated and peer2peer with business counterparts, requiring no manual action, e.g.,  invoices are generated and sent digitally and securely (and permanently recorded on a blockchain..
+Every task  is 100% automated and peer2peer with business counterparts, requiring no manual action, e.g.,  invoices are generated and sent digitally and securely (and permanently recorded on a blockchain.
 
 ### Prepare for an unsure future
 
