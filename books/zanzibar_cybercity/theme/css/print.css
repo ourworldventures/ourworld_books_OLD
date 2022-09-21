@@ -39,11 +39,17 @@ a, a:visited, a:active, a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     page-break-inside: avoid;
-    page-break-before: always;
-    /* page-break-after: avoid; */
+    page-break-after: avoid;
 }
+
+h3, h4, h5, h6 {
+    page-break-inside: avoid;
+    /* page-break-before: avoid; */
+    page-break-after: avoid;
+}
+
 
 pre, code {
     page-break-inside: avoid;
@@ -59,7 +65,7 @@ body {
 }
 
 @media print {
-    h2 { 
+    h1 { 
       page-break-before: always;
     }
 }
