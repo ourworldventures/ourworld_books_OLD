@@ -1,6 +1,6 @@
 # Team
 
-Threefold has a dedicated team working on the development. Our team is working on designs for the city and contacting innovators for planning the advanced engineering systems within the city and people that will implement these solutions. The partnerships created through this research and development process can later be products themselves within the incubation center. We are also in contact with **world renowed sustainable architecture and engineering organizations** that have the same values with us. These relations will help that  buildings and operations of the city become a partnership itself that will serve as means for further partnerships and a PR opportunity. 
+Threefold has a dedicated team working on the development. Our team is working on designs for the city and contacting innovators for planning the advanced engineering systems within the city and people that will implement these solutions. The partnerships created through this research and development process can later be products themselves within the incubation center. We are also in contact with **world renowed sustainable architecture and engineering organizations** that have the same values with us. These relations will help the  buildings and operations of the city become a partnership itself that will serve as means for further partnerships in Zanzibar and PR opportunity. 
 
 
 ## Experience from previous sustainable developments
