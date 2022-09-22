@@ -14,10 +14,12 @@ We believe that following tax might be feasible.
 
 ## OurTown Company Tax
 
-- Companies as registered in OurTown by the OurTown Digital Registry System (DRS)
+- Companies as registered in OurTown by the OurTown Community Digital Backbone (CDB)
 - Foreign ownership is allowed 
-- No business licence fees appart from DRS Monthly Fee
-- Company tax: Income tax free for first five years. After the first five years: 50% (Income Tax is 30% so it will onlybe 15%)
+- No business licence fees appart from OurHub Monthly License Fee
+- Company Income Tax: 
+    - For Resident companies: Income tax free for first five years. After the first five years: 50% (Income Tax is 30% so it will onlybe 15%)
+    - For Non Resident companies: Income tax free till end 2025. 5% sustainability tax after.
 - Repatriation of profit allowed after tax
 - 100% exemption on withholding tax on interest paid to foreign banks
 - Deduction of depreciation rate of 100% within five years

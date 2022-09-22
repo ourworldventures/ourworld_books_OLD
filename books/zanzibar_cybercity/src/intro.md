@@ -23,10 +23,10 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 
 ## The Different OurWorld Projects
 
-> TODO:  Should we have an intro of how the different pieces fit together here?
+> TODO:  Should we have an intro of how the different pieces fit together here? YES:  (jonathan)
 
 - [OurTown](ourtown/ourtown.md) = a regenerative cybercity ready for the future
-- [OurFinance](ourfinance/ourfinance.md) = a financial regulatory system
+- [OurFintech](ourfintech/ourfintech.md) = a financial regulatory system
 - [OurHub](ourhub/ourhub.md) = the place for the digital nomads to get registered and arrange their business life
 - [OurTwin](ourtwin/ourtwin.md) = the future of our new internet, you in the center of your digital life
 - [OurSource](oursource/oursource.md) = incubator our of which we can build a beautiful future

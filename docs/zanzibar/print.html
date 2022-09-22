@@ -35,13 +35,13 @@
     </head>
     <body>
         <!-- Provide site root to javascript -->
-        <script>
+        <script type="text/javascript">
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
+        <script type="text/javascript">
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
+        <script type="text/javascript">
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -69,7 +69,7 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
+        <script type="text/javascript">
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="brave_new_world/brave_new_world.html"><strong aria-hidden="true">1.1.</strong> Brave New Digital World</a></li><li class="chapter-item expanded "><a href="brave_new_world/no_pain_killer.html"><strong aria-hidden="true">1.2.</strong> No Painkillers</a></li><li class="chapter-item expanded "><a href="brave_new_world/the_recipe.html"><strong aria-hidden="true">1.3.</strong> Our Recipe</a></li></ol></li><li class="chapter-item expanded "><a href="ourhub/ourhub.html"><strong aria-hidden="true">2.</strong> OURHUB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourhub/why.html"><strong aria-hidden="true">2.1.</strong> Why</a></li><li class="chapter-item expanded "><a href="ourhub/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="ourhub/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="ourhub/tools.html"><strong aria-hidden="true">2.4.</strong> Tools</a></li><li class="chapter-item expanded "><a href="ourhub/benefits.html"><strong aria-hidden="true">2.5.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="ourhub/security.html"><strong aria-hidden="true">2.6.</strong> Security</a></li><li class="chapter-item expanded "><a href="ourhub/participants.html"><strong aria-hidden="true">2.7.</strong> Participants</a></li><li class="chapter-item expanded "><a href="ourhub/finance.html"><strong aria-hidden="true">2.8.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="ourhub/bizmodel.html"><strong aria-hidden="true">2.9.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourhub/conclusion.html"><strong aria-hidden="true">2.10.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/ourfinance.html"><strong aria-hidden="true">3.</strong> OURFINANCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/custodian.html"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/crime_prevention.html"><strong aria-hidden="true">3.5.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="ourfinance/market_size_digifin.html"><strong aria-hidden="true">3.6.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="ourtown/ourtown.html"><strong aria-hidden="true">4.</strong> OURTOWN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtown/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="ourtown/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="ourtown/utilization.html"><strong aria-hidden="true">4.3.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="ourtown/layout.html"><strong aria-hidden="true">4.4.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="ourtown/artist_rendition.html"><strong aria-hidden="true">4.5.</strong> Artist Rendition</a></li><li class="chapter-item expanded "><a href="ourtown/bizmodel.html"><strong aria-hidden="true">4.6.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourtown/all_digital.html"><strong aria-hidden="true">4.7.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="ourtown/team.html"><strong aria-hidden="true">4.8.</strong> Team</a></li><li class="chapter-item expanded "><a href="ourtown/tax.html"><strong aria-hidden="true">4.9.</strong> TAX</a></li><li class="chapter-item expanded "><a href="ourtown/community_digital_backbone.html"><strong aria-hidden="true">4.10.</strong> Community Digital Backbone</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin.html"><strong aria-hidden="true">5.</strong> OURTWIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/intro/internet_sovereignity.html"><strong aria-hidden="true">5.1.</strong> Own Your Digital Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/how_does_it_work.html"><strong aria-hidden="true">5.2.</strong> How Does It Work</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/funny_comparison.html"><strong aria-hidden="true">5.3.</strong> Funny Comparison With Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/twin_architecture.html"><strong aria-hidden="true">5.4.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/myskills.html"><strong aria-hidden="true">5.5.</strong> Our Twin Is Powerfull</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/communicate.html"><strong aria-hidden="true">5.5.1.</strong> Communicate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/chat.html"><strong aria-hidden="true">5.5.1.1.</strong> chat</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/extra/videoconference.html"><strong aria-hidden="true">5.5.1.2.</strong> video conference</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity.html"><strong aria-hidden="true">5.5.2.</strong> Create</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_metaverse.html"><strong aria-hidden="true">5.5.2.1.</strong> expand the metaverse</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_web.html"><strong aria-hidden="true">5.5.2.2.</strong> websites</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_education.html"><strong aria-hidden="true">5.5.2.3.</strong> education content</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/share.html"><strong aria-hidden="true">5.5.3.</strong> Share</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/video_share.html"><strong aria-hidden="true">5.5.3.1.</strong> Video Share</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/discover.html"><strong aria-hidden="true">5.5.4.</strong> Discover</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/browse.html"><strong aria-hidden="true">5.5.4.1.</strong> browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/economy.html"><strong aria-hidden="true">5.5.5.</strong> Economy-Business</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/organize.html"><strong aria-hidden="true">5.5.6.</strong> Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/protect.html"><strong aria-hidden="true">5.5.7.</strong> Protect</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/collaborate.html"><strong aria-hidden="true">5.5.8.</strong> Collaborate</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/coding/creativity_coder.html"><strong aria-hidden="true">5.5.9.</strong> Develop and Expand</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/experiences.html"><strong aria-hidden="true">5.6.</strong> First Zanzibar Experiences</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/ourlife.html"><strong aria-hidden="true">5.6.1.</strong> our digital life - ourlife</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/chat.html"><strong aria-hidden="true">5.6.1.1.</strong> Chat</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/meet.html"><strong aria-hidden="true">5.6.1.2.</strong> Meet</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/share_organize.html"><strong aria-hidden="true">5.6.1.3.</strong> Share/Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/officedocs.html"><strong aria-hidden="true">5.6.1.4.</strong> Office Docs</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/browser.html"><strong aria-hidden="true">5.6.1.5.</strong> Browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/floweavers/floweavers.html"><strong aria-hidden="true">5.6.2.</strong> sharing economoy - floweaver</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourverse/ourverse.html"><strong aria-hidden="true">5.6.3.</strong> metaverse - ourverse</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/sikana/sikana.html"><strong aria-hidden="true">5.6.4.</strong> learning system - sikana</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="oursource/oursource.html"><strong aria-hidden="true">6.</strong> OURSOURCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="oursource/history.html"><strong aria-hidden="true">6.1.</strong> previous successes</a></li><li class="chapter-item expanded "><a href="oursource/how_we_work.html"><strong aria-hidden="true">6.2.</strong> how we work</a></li><li class="chapter-item expanded "><a href="oursource/opensource.html"><strong aria-hidden="true">6.3.</strong> opensource</a></li></ol></li><li class="chapter-item expanded "><a href="partnership/partnership.html"><strong aria-hidden="true">7.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="partnership/ppp_ourtown.html"><strong aria-hidden="true">7.1.</strong> OurTown</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourhub.html"><strong aria-hidden="true">7.2.</strong> OurHub</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourfinance.html"><strong aria-hidden="true">7.3.</strong> OurFinance</a></li><li class="chapter-item expanded "><a href="partnership/financials.html"><strong aria-hidden="true">7.4.</strong> Financials</a></li><li class="chapter-item expanded "><a href="partnership/benefits_znz.html"><strong aria-hidden="true">7.5.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="feasibility/feasibility.html"><strong aria-hidden="true">8.</strong> Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="feasibility/regulatory.html"><strong aria-hidden="true">8.1.</strong> Regulatory</a></li><li class="chapter-item expanded "><a href="feasibility/technical.html"><strong aria-hidden="true">8.2.</strong> Technical</a></li><li class="chapter-item expanded "><a href="feasibility/operational.html"><strong aria-hidden="true">8.3.</strong> Operational</a></li><li class="chapter-item expanded "><a href="feasibility/financial.html"><strong aria-hidden="true">8.4.</strong> Financial</a></li><li class="chapter-item expanded "><a href="feasibility/feasibility_tax.html"><strong aria-hidden="true">8.5.</strong> Tax</a></li></ol></li><li class="chapter-item expanded "><a href="techsolutions/techsolutions.html"><strong aria-hidden="true">9.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issues.html"><strong aria-hidden="true">9.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issue_cyberpandemic.html"><strong aria-hidden="true">9.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">9.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="solutions/issue_cbdc.html"><strong aria-hidden="true">9.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="solutions/solutions.html"><strong aria-hidden="true">9.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">9.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">9.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">9.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology/technology.html"><strong aria-hidden="true">10.</strong> Technology</a></li><li class="chapter-item expanded "><a href="ppp/ppp.html"><strong aria-hidden="true">11.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/mission.html"><strong aria-hidden="true">11.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="mission/vision.html"><strong aria-hidden="true">11.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/goals/1_concept_realization0.html"><strong aria-hidden="true">11.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">11.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">11.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="brave_new_world/brave_new_world.html"><strong aria-hidden="true">1.1.</strong> Brave New Digital World</a></li><li class="chapter-item expanded "><a href="brave_new_world/no_pain_killer.html"><strong aria-hidden="true">1.2.</strong> No Painkillers</a></li><li class="chapter-item expanded "><a href="brave_new_world/the_recipe.html"><strong aria-hidden="true">1.3.</strong> Our Recipe</a></li></ol></li><li class="chapter-item expanded "><a href="ourhub/ourhub.html"><strong aria-hidden="true">2.</strong> OURHUB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourhub/why.html"><strong aria-hidden="true">2.1.</strong> Why?</a></li><li class="chapter-item expanded "><a href="ourhub/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="ourhub/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="ourhub/benefits.html"><strong aria-hidden="true">2.4.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="ourhub/security.html"><strong aria-hidden="true">2.5.</strong> Security</a></li><li class="chapter-item expanded "><a href="ourhub/participants.html"><strong aria-hidden="true">2.6.</strong> Participants</a></li><li class="chapter-item expanded "><a href="ourhub/finance.html"><strong aria-hidden="true">2.7.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="ourhub/bizmodel.html"><strong aria-hidden="true">2.8.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourhub/conclusion.html"><strong aria-hidden="true">2.9.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><a href="ourfintech/ourfintech.html"><strong aria-hidden="true">3.</strong> OURFINTECH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfintech/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfintech/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfintech/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfintech/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfintech/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfintech/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfintech/custodian.html"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfintech/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfintech/bizmodel_fintech.html"><strong aria-hidden="true">3.5.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourfintech/crime_prevention.html"><strong aria-hidden="true">3.6.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="ourfintech/market_size_fintech.html"><strong aria-hidden="true">3.7.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="ourtown/ourtown.html"><strong aria-hidden="true">4.</strong> OURTOWN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtown/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="ourtown/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="ourtown/utilization.html"><strong aria-hidden="true">4.3.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="ourtown/layout.html"><strong aria-hidden="true">4.4.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="ourtown/artist_rendition.html"><strong aria-hidden="true">4.5.</strong> Artist Rendition</a></li><li class="chapter-item expanded "><a href="ourtown/bizmodel.html"><strong aria-hidden="true">4.6.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourtown/all_digital.html"><strong aria-hidden="true">4.7.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="ourtown/team.html"><strong aria-hidden="true">4.8.</strong> Team</a></li><li class="chapter-item expanded "><a href="ourtown/tax.html"><strong aria-hidden="true">4.9.</strong> TAX</a></li><li class="chapter-item expanded "><a href="ourtown/community_digital_backbone.html"><strong aria-hidden="true">4.10.</strong> Community Digital Backbone</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin.html"><strong aria-hidden="true">5.</strong> OURTWIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/intro/internet_sovereignity.html"><strong aria-hidden="true">5.1.</strong> Own Your Digital Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/how_does_it_work.html"><strong aria-hidden="true">5.2.</strong> How Does It Work</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/funny_comparison.html"><strong aria-hidden="true">5.3.</strong> Funny Comparison With Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/twin_architecture.html"><strong aria-hidden="true">5.4.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/myskills.html"><strong aria-hidden="true">5.5.</strong> Our Twin Is Powerfull</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/communicate.html"><strong aria-hidden="true">5.5.1.</strong> Communicate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/chat.html"><strong aria-hidden="true">5.5.1.1.</strong> chat</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/extra/videoconference.html"><strong aria-hidden="true">5.5.1.2.</strong> video conference</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity.html"><strong aria-hidden="true">5.5.2.</strong> Create</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_metaverse.html"><strong aria-hidden="true">5.5.2.1.</strong> expand the metaverse</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_web.html"><strong aria-hidden="true">5.5.2.2.</strong> websites</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_education.html"><strong aria-hidden="true">5.5.2.3.</strong> education content</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/share.html"><strong aria-hidden="true">5.5.3.</strong> Share</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/video_share.html"><strong aria-hidden="true">5.5.3.1.</strong> Video Share</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/discover.html"><strong aria-hidden="true">5.5.4.</strong> Discover</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/browse.html"><strong aria-hidden="true">5.5.4.1.</strong> browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/economy.html"><strong aria-hidden="true">5.5.5.</strong> Economy-Business</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/organize.html"><strong aria-hidden="true">5.5.6.</strong> Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/protect.html"><strong aria-hidden="true">5.5.7.</strong> Protect</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/collaborate.html"><strong aria-hidden="true">5.5.8.</strong> Collaborate</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/coding/creativity_coder.html"><strong aria-hidden="true">5.5.9.</strong> Develop and Expand</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/experiences.html"><strong aria-hidden="true">5.6.</strong> First Zanzibar Experiences</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/ourlife.html"><strong aria-hidden="true">5.6.1.</strong> our digital life - ourlife</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/chat.html"><strong aria-hidden="true">5.6.1.1.</strong> Chat</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/meet.html"><strong aria-hidden="true">5.6.1.2.</strong> Meet</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/share_organize.html"><strong aria-hidden="true">5.6.1.3.</strong> Share/Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/officedocs.html"><strong aria-hidden="true">5.6.1.4.</strong> Office Docs</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/browser.html"><strong aria-hidden="true">5.6.1.5.</strong> Browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/floweavers/floweavers.html"><strong aria-hidden="true">5.6.2.</strong> sharing economoy - floweaver</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourverse/ourverse.html"><strong aria-hidden="true">5.6.3.</strong> metaverse - ourverse</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/sikana/sikana.html"><strong aria-hidden="true">5.6.4.</strong> learning system - sikana</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="oursource/oursource.html"><strong aria-hidden="true">6.</strong> OURSOURCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="oursource/history.html"><strong aria-hidden="true">6.1.</strong> previous successes</a></li><li class="chapter-item expanded "><a href="oursource/how_we_work.html"><strong aria-hidden="true">6.2.</strong> how we work</a></li><li class="chapter-item expanded "><a href="oursource/opensource.html"><strong aria-hidden="true">6.3.</strong> opensource</a></li></ol></li><li class="chapter-item expanded "><a href="partnership/partnership.html"><strong aria-hidden="true">7.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="partnership/ppp_ourtown.html"><strong aria-hidden="true">7.1.</strong> OurTown</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourhub.html"><strong aria-hidden="true">7.2.</strong> OurHub</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourfinance.html"><strong aria-hidden="true">7.3.</strong> OurFintech</a></li><li class="chapter-item expanded "><a href="partnership/financials.html"><strong aria-hidden="true">7.4.</strong> Financials</a></li><li class="chapter-item expanded "><a href="partnership/benefits_znz.html"><strong aria-hidden="true">7.5.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="feasibility/feasibility.html"><strong aria-hidden="true">8.</strong> Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="feasibility/regulatory.html"><strong aria-hidden="true">8.1.</strong> Regulatory</a></li><li class="chapter-item expanded "><a href="feasibility/technical.html"><strong aria-hidden="true">8.2.</strong> Technical</a></li><li class="chapter-item expanded "><a href="feasibility/operational.html"><strong aria-hidden="true">8.3.</strong> Operational</a></li><li class="chapter-item expanded "><a href="feasibility/financial.html"><strong aria-hidden="true">8.4.</strong> Financial</a></li><li class="chapter-item expanded "><a href="feasibility/feasibility_tax.html"><strong aria-hidden="true">8.5.</strong> Tax</a></li></ol></li><li class="chapter-item expanded "><a href="techsolutions/techsolutions.html"><strong aria-hidden="true">9.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issues.html"><strong aria-hidden="true">9.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issue_cyberpandemic.html"><strong aria-hidden="true">9.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">9.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="solutions/issue_cbdc.html"><strong aria-hidden="true">9.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="solutions/solutions.html"><strong aria-hidden="true">9.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">9.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">9.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">9.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology/technology.html"><strong aria-hidden="true">10.</strong> Technology</a></li><li class="chapter-item expanded "><a href="ppp/ppp.html"><strong aria-hidden="true">11.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/mission.html"><strong aria-hidden="true">11.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="mission/vision.html"><strong aria-hidden="true">11.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/goals/1_concept_realization0.html"><strong aria-hidden="true">11.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">11.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">11.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -133,7 +133,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
+                <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -153,9 +153,12 @@
 </div> 
 <p>We believe Zanzibar has a unique chance to build a future based on digital possibilities where the root of the issues are being addressed by using systems which rething the way how things can be done. Personally we would like to help Zanzibar to make its dreams come  happen.</p>
 <h2 id="the-different-ourworld-projects"><a class="header" href="#the-different-ourworld-projects">The Different OurWorld Projects</a></h2>
+<blockquote>
+<p>TODO:  Should we have an intro of how the different pieces fit together here? YES:  (jonathan)</p>
+</blockquote>
 <ul>
 <li><a href="ourtown/ourtown.html">OurTown</a> = a regenerative cybercity ready for the future</li>
-<li><a href="ourfinance/ourfinance.html">OurFinance</a> = a financial regulatory system</li>
+<li><a href="ourfintech/ourfintech.html">OurFintech</a> = a financial regulatory system</li>
 <li><a href="ourhub/ourhub.html">OurHub</a> = the place for the digital nomads to get registered and arrange their business life</li>
 <li><a href="ourtwin/ourtwin.html">OurTwin</a> = the future of our new internet, you in the center of your digital life</li>
 <li><a href="oursource/oursource.html">OurSource</a> = incubator our of which we can build a beautiful future</li>
@@ -165,179 +168,220 @@
 <p><img src="brave_new_world/img/brave_new_world.png" alt="" /></p>
 <p><strong>This would have incredible benefits:</strong></p>
 <ol>
-<li>National Education would go up </li>
-<li>National Health would go up </li>
+<li>National education would improve</li>
+<li>National health would improve</li>
 <li>Leadership would be recognised for vision and execution capability</li>
-<li>OurTown Residents would be proud &amp; delighted to be part of a beautiful Zanzibar ready for the future</li>
+<li>OurTown residents would be proud &amp; delighted to be part of a beautiful Zanzibar ready for the future</li>
 <li>National GDP would go up</li>
 <li>Security would increase</li>
 </ol>
 <p>Rather than implementing all as a painkiller approach (see <a href="brave_new_world/no_pain_killer.html">here</a>), why not go to the root and build a new digital backbone which is done in such a way it resolves the majority of requirements for a country's digital transformation.</p>
-<h1 id="imagine-zanzibar-government-can"><a class="header" href="#imagine-zanzibar-government-can">Imagine Zanzibar government can</a></h1>
+<h2 id="imagine-if-the-zanzibar-government-can"><a class="header" href="#imagine-if-the-zanzibar-government-can">Imagine if the Zanzibar government can</a></h2>
 <ul>
-<li>Have every relevant party and assets documented &amp; authenticated in 1 country digital system
+<li>Ensure  every relevant party and all assets are documented &amp; authenticated in one national digital system:
 <ul>
-<li>Identity for each OurTown Resident (peer reviewed, kyc/aml integration if needed)</li>
-<li>Land registry available to everyone and no-one can alter the information if not following the right processes and verification steps. Integrated with ultra reliable augmented reality and GPS system.</li>
-<li>Every company registered and all relevant information available in a unified way. Super well protected and can only be changed with well defined processes.</li>
-<li>Every container coming in &amp; out of the country, with purpose, parties involved, …</li>
+<li>People: Identity for each OurTown Resident (peer reviewed, with KYC/AML integration if needed)</li>
+<li>Land: Land registry available to everyone where no-one can alter the information if they are not following the right processes and verification steps. Integrated with ultra reliable augmented reality and GPS systems.</li>
+<li>Companies: Universal company registration with all relevant information available in a unified way. Data super well protected and only modifiable with well-defined processes.</li>
+<li>Products: Records of every container coming in &amp; out of the country with contents, purpose, parties involved, …</li>
 </ul>
 </li>
-<li>Allows every OurTown Resident (company or person) to send money to each other in most transparent way (needs help from mainland)
+<li>Allow every OurTown Resident (company or person) to send money to each other in the most transparent way (needs help from mainland):</li>
+</ul>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> Should we remove 'needs help from mainland'
+* Free of charge for non commercial transactions
+* Supports offline transactions where either one or zero parties involved are connected to the internet
+* <strong>Can even function where there is no (or limited) electricity!</strong></p>
+</blockquote>
 <ul>
-<li>For non commercial transactions = free of charge</li>
-<li>Supports offline transactions (means internet connection not there or partially there 1 party only)</li>
-<li><strong>Can even work where there is no electricity (or limited) and no or bad internet connection.</strong></li>
+<li>Have insights on every <span style="text-decoration:underline;">commercial</span> transaction which occurs in Zanzibar:
+<ul>
+<li>Parties involved in the transaction (at least one needs to be commercial)</li>
+<li>Purpose of the transaction</li>
+<li>Specific information for example in a port; tax, sales of goods, … </li>
 </ul>
 </li>
-<li>Have insight on every <span style="text-decoration:underline;">commercial</span> transaction which happens in the country if using digital version of  TZS
-<ul>
-<li>Transaction between which parties (at least one of them needs to be commercial)</li>
-<li>Purpose of transaction</li>
-<li>Link to specific info e.g. in case of port, tax, sales of goods, …</li>
-</ul>
-</li>
-<li>Allow  companies in the country to save 10-30% in operational costs
+<li>Allow  companies in the country to save 10-30% on operational costs
 <ul>
 <li>No need to pay to companies like airbnb, bookings.com, tripadvisor, … </li>
-<li>No need for marketing on platforms like google</li>
+<li>No need for marketing on platforms like google, facebook</li>
 <li>Integration &amp; Automation: no need for complicated accounting systems, integrated tax reporting, …</li>
 <li>Hotels: help them get insight about their sales, which waiter does what, … </li>
 </ul>
 </li>
-<li>Have all transactions and other relevant information logged in a system which cannot be corrupted
+<li>Have all transactions and other relevant information logged in a system which cannot be corrupted:
 <ul>
-<li>Information is stored on a quantum safe archive system with blockchain capabilities.</li>
-<li>Date can never be lost, nor corrupted, nor changed. A perfect audit trail for the future.</li>
-<li>This system is unlimitedly scalable.</li>
+<li>Information is stored on a quantum safe archive system with blockchain capabilities</li>
+<li>Date can never be lost, corrupted or changed; a perfect audit trail for the future</li>
+<li>Unlimitedly scalable</li>
 </ul>
 </li>
 <li>Be at the forefront of the digital revolution and be recognized for it on a global scale.</li>
 </ul>
-<h1 id="what-if-zanzibar-is-one-of-the-first-to-make-this-happen"><a class="header" href="#what-if-zanzibar-is-one-of-the-first-to-make-this-happen">What if Zanzibar is one of the first to make this happen.</a></h1>
+<h2 id="what-if-zanzibar-is-one-of-the-first-to-make-this-happen"><a class="header" href="#what-if-zanzibar-is-one-of-the-first-to-make-this-happen">What if Zanzibar is one of the first to make this happen.</a></h2>
 <blockquote>
 <p>Our idea is to implement all of this in OurTown and show that such a system can work end2end.</p>
 </blockquote>
+<p>Aims:</p>
 <ul>
-<li>Implement a digital authentication system usable for every country's digital use case (like a digital passport), following standards as set by international organizations like world bank, african union, … Only one single sign on system.</li>
-<li>Implement a land bank system which covers the full nation and is also kept up to date by the OurTown Residents itself but protected and audited by satellite and super correct GPS system. </li>
-<li>Implement a super efficient TAX system where everyone participates in most transparency and lowest cost</li>
-<li>Implement Complementary Digital Currencies to let OurTown Residents use this for their daily needs</li>
-<li>Implement an education system where every OurTown Resident can participate as teacher and/or student.</li>
-<li>Implement a digital health system which can unlock primary health care to everyone at a much lower cost using means available by the OurTown Residents already (knowledge, herbs, best practices, generic medicine, …)</li>
-<li>Implement a new digital backbone (internet system) to support all above with best sovereignty and security.</li>
+<li>Implement a single sign-on digital authentication system usable for all of a country's digital use cases (like a digital passport) and following standards set by international organizations like world bank, african union, … </li>
+<li>Implement a land bank system which covers the full nation and is updated by OurTown Residents, but protected and audited by satellite and a super accurate GPS system</li>
+<li>Implement a super efficient TAX system where everyone participates with maximum transparency and minimum cost</li>
+<li>Implement Complementary Digital Currencies which OurTown Residents can use for their daily needs</li>
+<li>Implement an education system where every OurTown Resident can participate as a teacher and/or a student</li>
+<li>Implement a digital health system which can unlock primary health care for everyone at a much lower cost using means already made available by OurTown Residents (knowledge, herbs, best practices, generic medicine, …)</li>
+<li>Implement a new digital backbone (internet system) to support all the above with total sovereignty and security</li>
 </ul>
-<p><strong>All of this is not only possible, we have a plan for it and can be the first ones in the world to pull it off.</strong></p>
-<h1 id="lets-do-it-together"><a class="header" href="#lets-do-it-together">Let's do it together</a></h1>
+<p><strong>All of this is not only possible, we have a plan for it and we can be the first ones in the world to pull it off.</strong></p>
+<h2 id="lets-do-it-together"><a class="header" href="#lets-do-it-together">Let's do it together</a></h2>
 <p>We have ideas how this can be implemented at lowest possible cost with maximum benefit for Zanzibar. </p>
-<p>The basis requirements:</p>
+<p>The basic requirements:</p>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> Do we already have this technology, what does all knowledge in the country mean?</p>
+</blockquote>
 <ul>
-<li>All knowledge in the country. Incredible opportunities to grow.</li>
-<li>All required technology (software) in the country is open source, unlimitedly usable and managed by teams in OurTownready for the future.</li>
-<li>All super transparent and done by OurTown for OurTown</li>
+<li>All knowledge in the country. Incredible opportunities to grow</li>
+<li>All required technology (software) in the country is open source, unlimitedly usable and managed by teams in OurTown ready for the future</li>
+<li>All super transparent and done by OurTown, for OurTown</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="painkillers-are-not-a-real-solution"><a class="header" href="#painkillers-are-not-a-real-solution">Painkillers are not a real solution.</a></h1>
 <p><img src="brave_new_world/img/painkillers.png" alt="" /></p>
-<p>Right now most countries develop their digital future by implementing many independent projects which all act as a painkiller to problems a country has. While a painkiller might resolve an issue it's rarely a real solution.</p>
-<p>A country like Zanzibar has the opportunity to leapfrog and go right away to a solution which is easier to implement and resolves most of their issues in one go.</p>
-<p>This has huge benefits</p>
+<p>Currently, most countries develop their digital future by implementing many independent projects which all act as painkillers to their problems. While a painkiller might fix symptoms, it rarely solves the root issue.</p>
+<p>A country like Zanzibar has the opportunity to leapfrog straight to a solution which is both easier to implement and solves most of their issues all at once.</p>
+<p>This has huge benefits:</p>
 <ul>
-<li>It's much more cost effective.</li>
-<li>It's easier and more integrated which results in many benefits for the users.</li>
-<li>It will be safer (think about cyber pandemic happening right now)</li>
-<li>It is more ready for the future</li>
-<li>It's more green (such a system will use upto 100 times less energy).</li>
+<li>It's much more cost effective</li>
+<li>It's easier and more integrated which results in many benefits for the users</li>
+<li>It will be safer (think about the cyber pandemic happening right now)</li>
+<li>It is more prepared for the future</li>
+<li>It's greener (such a system will use up to 100 times less energy)</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="our-recipe"><a class="header" href="#our-recipe">Our Recipe</a></h1>
 <p><img src="brave_new_world/img/recipe.png" alt="" /></p>
-<p>Together we can make this digital dream happen, we need commitment and a good plan and most important a loyal team and partnership.</p>
+<p>Together we can make this digital dream happen; we need commitment, a good plan and most importantly a loyal team and a strong partnership:</p>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> Is the partnership with the government or is it supposed to be partnerships with various parties</p>
+</blockquote>
 <ul>
-<li>A government which is committed to make this work and be different. Realize that some companies and people might not want this huge step forward, we need to be ready to defend this project.</li>
-<li>A sense of urgency, time is against us, the time is now. The world is changing, now is a good time to do it.</li>
-<li>Being different, being at the forefront means we need to dare to be different and do something else than what everyone else is doing and clearly not working. As Einstein said “we cannot resolve issues by thinking the same way as when the issues got created”. </li>
-<li>Put a structure in place out of which all of this can be executed. </li>
-<li>Be safe, don’t take risks when not needed, don’t run before walking, go iterative, but starting from the ground up with a newly sovereign designed system, not based on hype but on proof.</li>
-<li>A solid committed team willing to put all what they have to make it happen and which has the knowledge and drive and passion. We believe ThreeFold is ready to make the step and make it happen. </li>
+<li>A government which is committed to make this work and be different. Some companies and individuals might not want this huge step forward and so we need to be ready to defend this project.</li>
+<li>A sense of urgency, time is against us, the time is now. The world is changing; now is the best time to reach for our dreams.</li>
+<li>Being different, being at the forefront means we need to dare to be different. We can't continue to do what everyone else is doing. It clearly isn't working! As Einstein said, <em>“We cannot solve our problems with the same thinking we used to create them.”</em>. </li>
+<li>Put a structure in place from which all of this can be executed. </li>
+<li>Be safe, don’t take unnecessary risks, don’t run before walking, go iterative but  from the ground up with a newly designed sovereign system, based not on hype but on proof.</li>
+<li>A solid committed team with all the necessary knowledge, drive and passion, and willing to put in their all to make it happen. We believe ThreeFold is step forward and make it happen. </li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ourhub"><a class="header" href="#ourhub">OURHUB</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="issues-digital-nomads-need-to-deal-with-today"><a class="header" href="#issues-digital-nomads-need-to-deal-with-today">Issues digital nomads need to deal with today.</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="why"><a class="header" href="#why">Why?</a></h1>
+<h2 id="helping-digital-nomads-overcome-the-issues-they-face"><a class="header" href="#helping-digital-nomads-overcome-the-issues-they-face">Helping digital nomads overcome the issues they face</a></h2>
 <p><img src="ourhub/img/digital_nomads_issues.png" alt="" /></p>
-<p>As a digital nomad, one of the most crucial things to ensure is that you have the proper paperwork and you are aware of your legal responsibilities. This is one of the most important things when you decide to live and work on the road, if not so, you might face some major difficulties. Combined with employment and residence, it all creates stressful and often unknown challenges for newbie digital nomads.</p>
-<p>A few of the common challenges digital nomads face include the following: keeping finances in check; being able to deliver quality work all the time; loneliness and homesickness; a non-existant or always changing routine; a lack of work-life balance; and the constant traveling that wears one down. </p>
-<p>Digital nomads have no fixed residence, which creates challenges to organizing their business affairs. As a result, most choose to live &quot;off the grid&quot; , operating informally, on a cash basis, or through pre-covid, personal online banking relationships.  . .</p>
-<p>B2B transactions can also be difficult and time-consuming due to the challenges presented by performing due diligence on digital nomads. </p>
-<p>By gaining access to the digital twin IT system, the business life of digital nomads is simplified. The capablities of the twin make it easier for them to tackle some of the challenges they face. For instance, financial tools facilitate invoicing and accounting while project management, communication and storage tools, amongst others, allow for optimal work delivery. Besides, their quality of life is increased by accessing a community of digital nomads, organically created, which will help keep feelings of loneliness at bay. Another advantage of joining the OURHUB is that they will have a safe-haven to come back to when they seek a certain level of stability. </p>
-<p>All in all, the Zanzibar Digital Freezone (OURHUB) provides digital nomads with a simple, reliable means to formalizing their businesses and facilitating commercial relationships in a manner that increases productivity and decreases risk, while at the same time generating revenue for Zanzibar.. </p>
-<h3 id="planet-positive"><a class="header" href="#planet-positive">Planet Positive</a></h3>
-<p>Members are encouraged to do business in a positive manner - as part of the ethos of the Digital Free Zone. </p>
-<p>Planet Positive Means</p>
+<p>As a digital nomad, one of the most crucial things to ensure is that you have the proper paperwork and that you are aware of your legal responsibilities. This is one of the most important things when you decide to live and work on the road. If they are neglected, you might face some major difficulties. Combined with concerns over employment and residence, it can create many stressful and often unknown challenges for newbie digital nomads.</p>
+<p>A few of the most common challenges that digital nomads face include: </p>
 <ul>
-<li>Everyone has Equal Chances</li>
-<li>No Money Out of Nothing </li>
-<li>Respect for the Resources of Planet</li>
-<li>Sustainable (is not a short living thing, resources used as good as possible)</li>
-<li>All reasonable effort is done to be at least Carbon Neutral</li>
+<li>keeping finances in check</li>
+<li>being able to deliver quality work all the time</li>
+<li>loneliness and homesickness</li>
+<li>a non-existant or always changing routine</li>
+<li>a lack of work-life balance</li>
+<li>constant traveling that wears one down. </li>
+</ul>
+<p>Digital nomads have no fixed residence, which complicates the organizing of their business affairs. As a result, most choose to live &quot;off the grid&quot;, operating informally and on a cash basis or through personal, pre-pandemic online banking relationships.</p>
+<p>B2B transactions can also be difficult and time-consuming due to the challenges presented by performing due diligence on digital nomads. </p>
+<p>By gaining access to the Digital Twin IT system, the business life of digital nomads is simplified. The capablities of the twin make it easier for nomads to tackle many of the challenges they face. For instance, Digital Twin financial tools would facilitate invoicing and accounting while project management, communication and storage tools, amongst others, would optimise work delivery. Besides, having access to a community of digital nomads, organically created, would help keep feelings of loneliness at bay and improve quality of life. Another advantage of joining OURHUB is that they will have a safe-haven to return to when they need a greater level of stability.</p>
+<p>All in all, the Zanzibar Digital Freezone (OURHUB) will provide digital nomads with a simple, reliable means to formalizing their businesses and facilitating commercial relationships in a manner that increases productivity and decreases risk, while at the same time generating revenue for Zanzibar.</p>
+<h2 id="be-planet-positive"><a class="header" href="#be-planet-positive">Be Planet Positive</a></h2>
+<p>Members are encouraged to do business in a positive manner - as part of the ethos of the Digital Freezone. </p>
+<p>Planet Positive Means:</p>
+<ul>
+<li>Everyone has equal chances</li>
+<li>No money out of nothing </li>
+<li>Respect for the resources of the planet</li>
+<li>Sustainable (don't think today, think tomorrow)</li>
+<li>All reasonable effort is done to be Carbon Neutral at least</li>
 <li>Tokens are created only for the benefit of a project </li>
 </ul>
-<p>A wisdom council can be used to vouch for the planet's positive nature of a project.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-nomads-is-a-big-market"><a class="header" href="#digital-nomads-is-a-big-market">Digital Nomads Is A Big Market</a></h1>
-<p><img src="ourhub/img/nomad_stats.png" alt="image alt text" />10.900.000 Digital Nomads from the US in 2020.</p>
+<p>A wisdom council can be used to evaluate and vouch for the planet positive nature of a project.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-nomads-are-a-big-market"><a class="header" href="#digital-nomads-are-a-big-market">Digital Nomads are a big market</a></h1>
+<p><img src="ourhub/img/nomad_stats.png" alt="image alt text" />10,900,000 Digital Nomads from the US in 2020.</p>
 <p>Over the past three years, Emergent Research and MBO Partners have collaborated on an extensive digital nomad study. We found that the number of Americans describing themselves as digital nomads rose from 7.3 million in 2019 to 10.9 million in 2020 — an increase of 49%. And the composition of this cohort shifted. In previous years, the ranks of digital nomads were dominated by independent workers: freelancers, independent contractors, and the self-employed. But the 2020 nomad surge was driven by people with traditional jobs. Untethered from their offices, many employees decided to take to the road. In fact, the number of digital nomads with traditional jobs rose from 3.2 million in 2019 to 6.3 million in 2020 — a 96% increase. Traditional job holders now make up a majority of those pursuing this nontraditional work lifestyle.</p>
 <h3 id="some-global-statistics"><a class="header" href="#some-global-statistics">Some Global Statistics:</a></h3>
-<p>There are over 35,000,000 digital nomads across the globe of varied nationalities</p>
-<p>The global digital nomad community’s economic value is $787,000,000,000 per year, calculated as the aggregate of digital nomad spending annually.</p>
-<p>If the global digital nomad community were a country, it would rank #41 by population size, just after Canada (37,742,154) and Morocco (36,910,560) in population size</p>
+<ul>
+<li>
+<p>There are over 35,000,000 digital nomads across the globe of varied nationalities.</p>
+</li>
+<li>
+<p>The global digital nomad community’s economic value is $787 billion per year, calculated as the aggregate of digital nomad spending annually.</p>
+</li>
+<li>
+<p>If the global digital nomad community were a country, it would rank #41 by population size, just after Canada (37,742,154) and Morocco (36,910,560).</p>
+</li>
+<li>
 <p>If the global digital nomad community were a country, it would be the 38th most prosperous country based on gross national income per capita, ranking just after Portugal ($23,200 average annual income per person) and Saudi Arabia ($22,840 average annual income per person)</p>
-<p>The average digital nomad has a higher monthly budget than the average income of citizens from the top 5 countries, digital nomads prefer to nomad, and 9 of the top 10 countries for digital nomads</p>
+</li>
+<li>
+<p>The average digital nomad has a higher monthly budget than the average income of citizens from the top 5 countries.</p>
+</li>
+</ul>
 <blockquote>
 <p>TODO: complete above.</p>
+<blockquote>
+<p>Do you want more statistics? https://abrotherabroad.com/digital-nomad-statistics/</p>
 </blockquote>
-<p>Taxes were reported as one of the major struggles for digital nomads.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="goal"><a class="header" href="#goal">Goal</a></h1>
-<p>Be one of the First Digital Nomad Business Hub in Africa. </p>
-<p>All can be done online and remotely, of course digital nomads can meet each other in Zanzibar as well.</p>
-<p>We believe bringing +100.000 companies within 5-8 years is possible. This could bring Billions of USD in the GDP of Zanzibar and potential income of hundreds of millions per year. </p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="tools"><a class="header" href="#tools">Tools</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="benefits-for-the-digital-nomad"><a class="header" href="#benefits-for-the-digital-nomad">Benefits For the digital nomad</a></h2>
-<h3 id="zero-complexity"><a class="header" href="#zero-complexity">Zero-Complexity</a></h3>
-<p>Our unique digital twin IT system allows a digital nomad to simplify his personal business life. </p>
-<h3 id="within-the-ourhub-nomads-will-have-the-following-capabilities"><a class="header" href="#within-the-ourhub-nomads-will-have-the-following-capabilities">Within the OURHUB, Nomads will have the following capabilities:</a></h3>
+</blockquote>
+<p>As such, taxes were reported as one of the major struggles for digital nomads.</p>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> Should I move this to the why section?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="our-goal"><a class="header" href="#our-goal">Our Goal</a></h1>
+<p><img src="ourhub/img/digital_nomad_hub.png" alt="image alt text" /></p>
+<p><strong>To be one of the First Digital Nomad Business Hub in Africa.</strong></p>
+<p>Digital nomads can manage their entire presence online and remotely and of course they can also meet each other in Zanzibar.</p>
+<p>We believe that we can bring over 100,000 companies within 5-8 years. This could bring billions of USD to the GDP of Zanzibar and the income of hundreds of millions of its citizens per year. </p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="benefits-for-digital-nomads"><a class="header" href="#benefits-for-digital-nomads">Benefits for Digital Nomads</a></h2>
+<h3 id="zero-complexity"><a class="header" href="#zero-complexity">Zero Complexity</a></h3>
+<p>Our unique digital twin IT system allows a digital nomad to simplify his personal business life.</p>
+<h3 id="quality-of-life"><a class="header" href="#quality-of-life">Quality of Life</a></h3>
+<p>Within OurHub, nomads will have the following capabilities:</p>
 <ul>
 <li>Communication (messaging, email, video conferencing)</li>
-<li>Invoicing, Expenses, Accounting, other administrative tasks.</li>
-<li>Data Storage (all  data is stored securely onlinet)</li>
-<li>Contract management with business partners and service providers</li>
-<li>HR relations.</li>
-<li>Project management</li>
-<li>Collaboration through online project management toolsDigital Currency wallet </li>
+<li>Invoicing, Expenses, Accounting and other administrative tasks</li>
+<li>Data Storage (all  data is stored securely online)</li>
+<li>Contract management with employers, business partners and service providers</li>
+<li>HR relations</li>
+<li>Personal and collaborative project management</li>
+<li>Digital currency wallet </li>
 </ul>
-<p>Every task  is 100% automated and peer2peer with business counterparts, requiring no manual action, e.g.,  invoices are generated and sent digitally and securely (and permanently recorded on a blockchain..</p>
-<h3 id="prepare-for-an-unsure-future"><a class="header" href="#prepare-for-an-unsure-future">Prepare for an unsure future</a></h3>
-<p>Whatever might happen in the nomad’s homeland, his company and its assets are safe and secure,  well-regulated online environment . The plan is to add capabilities over time as the OURHUB expands organically and its growth potential  is clear.</p>
-<p>In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, this is a capability the OURHUB should provide for its community. </p>
+<p>Every task  is 100% automated and peer-to-peer with business counterparts, requiring no manual action. For example, invoices are generated and sent digitally and securely (and permanently recorded on a blockchain).ß</p>
+<h3 id="preparation-for-an-unsure-future"><a class="header" href="#preparation-for-an-unsure-future">Preparation for an unsure future</a></h3>
+<p>Whatever might happen in the nomad’s homeland, their company and assets are safe and secure in a well-regulated online environment. New capabilities will be added over time as OurHub expands organically and its growth potential  is clear.</p>
+<p>In particular, as the use of token-based currency models (security tokens, utility tokens, digital currencies) grows, OurHub will provide this capability for its communities. </p>
 <p>Prepare for the future, digital tokens will become increasingly important. </p>
-<h3 id="convenience"><a class="header" href="#convenience">Convenience</a></h3>
-<p>EASY COLLABORATION, tool-driven collaboration all hosted in Zanzibar. </p>
-<h3 id="collaboration-11--3"><a class="header" href="#collaboration-11--3">Collaboration: 1+1 = 3</a></h3>
+<h3 id="convenience-and-collaboration-multiplying-efforts-not-adding-them"><a class="header" href="#convenience-and-collaboration-multiplying-efforts-not-adding-them">Convenience and Collaboration: Multiplying efforts, not adding them</a></h3>
 <p>Find like-minded innovative partners, collaborate to build bigger projects with least effort and maximum protection. Attract like-minded entrepreneurs in Zanzibar.</p>
-<p>Together create a better world. Zanzibar can be the home for a digital ecosystem of like minded digital nomad entrepreneurs.</p>
-<h1 id="benefits"><a class="header" href="#benefits">Benefits</a></h1>
-<h2 id="for-zanzibar"><a class="header" href="#for-zanzibar">For Zanzibar</a></h2>
-<p><strong>Zanzibar is a beautiful location and wants to stay as such, getting other sustainable sources of income can help.</strong></p>
-<p>Zanzibar Digital FreeZone is a sustainable business &amp; incubation center.</p>
-<p>100% sustainable, zero impact on the environment, culture or local economy.</p>
+<p>Together create a better world. Zanzibar can be the home for a digital ecosystem of like minded digital nomad entrepreneurs. Use powerful collaborative Ourworld tools all hosted in Zanzibar.</p>
+<h2 id="benefits-for-zanzibar"><a class="header" href="#benefits-for-zanzibar">Benefits for Zanzibar</a></h2>
+<p><strong>Zanzibar is beautiful and that quality needs to be preserved; getting other sustainable sources of income can help that process.</strong></p>
+<p>Zanzibar OurHub will be a sustainable business &amp; incubation center.</p>
+<p>100% sustainable, with zero damage to the local environment, culture or economy.</p>
 <p>The revenue generated from the Zanzibar Digital FreeZone can be used for:</p>
 <ul>
-<li>Promotion &amp; Growth of the Digital Freezone</li>
-<li>Incubation of more projects, which creates value for Digital Freezone.</li>
-<li>Development of Sustainability projects.</li>
+<li>Promotion &amp; growth of the Digital Freezone</li>
+<li>Incubation of more projects, which creates value for the Digital Freezone.</li>
+<li>Development of sustainability projects.</li>
+<li>Support of local community around the Digital Freezone</li>
 <li>Government functions</li>
 </ul>
 <h3 id="high-tech-in-zanzibar"><a class="header" href="#high-tech-in-zanzibar">High Tech In Zanzibar</a></h3>
-<p>World class IT system will provide: data sovereignty, transparent reporting, productivity tools, conscious Tech Hub.</p>
+<p>World class IT systems will provide: data sovereignty, transparent reporting, productivity tools and a conscious tech hub.</p>
 <h3 id="healthy-tourism--for-digital-nomads"><a class="header" href="#healthy-tourism--for-digital-nomads">Healthy Tourism = for digital nomads</a></h3>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> What should x be?</p>
+</blockquote>
 <p>x% of the digital nomads will spend some time in Zanzibar, this leads to secondary benefits for Zanzibar (Tourism).</p>
 <h3 id="modern-sustainable-physical-freezone-location-for-digital-nomads"><a class="header" href="#modern-sustainable-physical-freezone-location-for-digital-nomads">Modern Sustainable Physical FreeZone location for digital nomads</a></h3>
+<blockquote>
+<p><span style="color:red"><strong>To Clarify:</strong></span> What location?</p>
+</blockquote>
 <p>To Be Determined with the Government of Zanzibar, this leads to benefits...</p>
 <p>See further for more details.</p>
 <h2 id="for-the-planet"><a class="header" href="#for-the-planet">For The Planet</a></h2>
@@ -345,22 +389,22 @@
 <p><img src="ourhub/img/regenerative_zanzibar.png" alt="image alt text" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="strong-protection"><a class="header" href="#strong-protection">Strong Protection</a></h2>
 <p><img src="ourhub/img/security.png" alt="" /></p>
-<p>OurHub is strongly protected and compliant.</p>
-<h2 id="100-in-line-with-regulation-we-dont-wanna-be-rebels"><a class="header" href="#100-in-line-with-regulation-we-dont-wanna-be-rebels">100% in line with regulation, we don’t wanna be rebels</a></h2>
+<p>OurHub is strongly protected against many types of threats and compliant with all necessary legislation</p>
+<h3 id="100-in-line-with-regulation-we-dont-want-to-be-rebels"><a class="header" href="#100-in-line-with-regulation-we-dont-want-to-be-rebels">100% in line with regulation, we don’t want to be rebels</a></h3>
 <p>We use the legal tools available to create a full legal sandbox in line with all published regulations.</p>
-<h2 id="legal-framework"><a class="header" href="#legal-framework">Legal Framework</a></h2>
+<h3 id="legal-framework"><a class="header" href="#legal-framework">Legal Framework</a></h3>
 <p>A good enough legal framework needs to be implemented, a simple set of regulations is needed, we will work together with other offshore centers to get all the starting information. Official judges and lawyers are available in Zanzibar to provide support when required, if not required Judges and Lawyers who are members of the sandbox can be certified as well to operate in Zanzibar in the sandbox.</p>
-<h2 id="no-anonymity-and-proof-of-authenticity"><a class="header" href="#no-anonymity-and-proof-of-authenticity">No Anonymity and Proof of Authenticity</a></h2>
+<h3 id="proof-of-authenticity-and-no-anonymity"><a class="header" href="#proof-of-authenticity-and-no-anonymity">Proof of Authenticity and No Anonymity</a></h3>
 <p>Every party you do business with in the sandbox is registered on the blockchain and has identity verified.</p>
 <p>Every person needs to keep a profile page updated and a proof of authenticity mechanism is used to make sure the information you provide is authentic. Everyone needs to find other people who are willing to use their credibility to give you a proof of authenticity. KYC and AML are done when entering the sandbox.</p>
-<h2 id="we-should-also-offer-shariah-compliant-products"><a class="header" href="#we-should-also-offer-shariah-compliant-products">We should also offer Shariah Compliant products.</a></h2>
+<h3 id="shariah-compliant-products"><a class="header" href="#shariah-compliant-products">Shariah Compliant products.</a></h3>
 <p>Our idea is that there will be option for our customers to do business in a Shariah Compliant way, this will have to be developed as we go.</p>
-<h2 id="verifiable-information"><a class="header" href="#verifiable-information">Verifiable Information</a></h2>
+<h3 id="verifiable-information"><a class="header" href="#verifiable-information">Verifiable Information</a></h3>
 <p>Source code based, all information used towards sandbox or in any business relationship is available, complete enough, version controlled and can be inspected by all involved parties at any point in time. </p>
 <p>All information is kept forever and archived, verified on blockchain in the sandbox (cannot be manipulated).</p>
 <p>What you see is what you get (proof of authenticity of all information)</p>
-<h2 id="strong-digital-backbone"><a class="header" href="#strong-digital-backbone">Strong Digital Backbone</a></h2>
-<p>Our unique technology delivers strong safety mechanism</p>
+<h3 id="strong-digital-backbone"><a class="header" href="#strong-digital-backbone">Strong Digital Backbone</a></h3>
+<p>Our <a href="ourhub/../ourtown/community_digital_backbone.html">unique technology</a> delivers strong safety mechanism</p>
 <ul>
 <li>Every participating party is strongly identity verified.</li>
 <li>All information used is verifiable.</li>
@@ -422,83 +466,84 @@
 <p>To keep things simple, there are no banks involved in phase 1.
 Only wrapped and native tokens = digital currencies can be used (see below).</p>
 <h2 id="native-tokens"><a class="header" href="#native-tokens">Native Tokens</a></h2>
-<p>Every company can register their own tokens inside the ZaniChain.</p>
-<h2 id="gold-phase-2-optional"><a class="header" href="#gold-phase-2-optional">Gold Phase 2 (optional)</a></h2>
-<p>In 2022 work can start to see how gold tokens can be integrated in the sandbox, how people can come into the system by buying gold. Gold could potentially come from sustainable sources.</p>
-<h2 id="banks-phase-3"><a class="header" href="#banks-phase-3">Banks Phase 3</a></h2>
-<p>2023+, a real banking license can be acquired and made available to members of the sandbox.</p>
-<p>Potentially this can happen faster by means of cooperation with another bank outside of the sandbox.</p>
-<h2 id="zanzi-community-is-not-a-tax-free-zone"><a class="header" href="#zanzi-community-is-not-a-tax-free-zone">Zanzi Community is not a tax free zone</a></h2>
-<p>The tax system is super simple.</p>
-<blockquote>
-<p>TODO: align with section about tax</p>
-</blockquote>
-<ul>
-<li>Income tax = 15% for in country income, 0% for out of country</li>
-<li>Capital gains &amp; wealth tax = 0</li>
-</ul>
-<p>The tax is required to allow Zanzibar to run a sustainable government to protect the interest of the Zanzi Community.</p>
-<p>We do realize this needs to be looked at in a broader context and will need some time to establish.</p>
+<p>Every company can register their own tokens inside the CDB Ledger.</p>
+<h2 id="integration-in-ourfintech-services"><a class="header" href="#integration-in-ourfintech-services">Integration in OurFinTech Services</a></h2>
+<p>E.g. in 2023 work can start to see how gold tokens can be integrated in the sandbox, how people can come into the system by buying gold. Gold could potentially come from sustainable sources.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="business-model"><a class="header" href="#business-model">Business Model</a></h1>
+<p><img src="ourhub/img/bizmodel1.png" alt="" /></p>
+<p>Shows the market and how the revenue streams might be per category.</p>
+<p><img src="ourhub/img/bizmodel2.png" alt="" /></p>
+<p>Income model for OurHub</p>
+<p><img src="ourhub/img/bizmodel3.png" alt="" /></p>
+<p>Benefits for Zanzibar</p>
 <blockquote>
-<p>TODO: biz model (kristof)</p>
+<blockquote>
+<p>Zanzibar might add 6 Billion to its GDP</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Zanzibar mught have +600.000.000 USD additional income in 6-7 years from now</p>
+</blockquote>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h1>
 <p>ThreeFold and the Zanzibar Government aim to establish the world's first Digital Nomad Business Hub. Targeting the growing market of Digital Nomads, through affordable, digitally secure and transparent trade license provisioning, and at a later stage by creating physical leased offices and an incubation center powered by a decentralized cloud infrastructure. These initiatives will support the development of a tech startup environment, provide for local training, education and youth empowerment facilities within Zanzibar. The combination of scalable virtual services and sustainably implemented physical spaces will attract foreign investment as well as provide a solid economic model for the country whilst empowering Zanzibar's citizens through job creation and increased economic activity (lease and licensing). Together we are confident we can achieve this vision to create a leading, digital economic hub to empower the future of Zanzibar. </p>
 <p><img src="ourhub/img/hadith.png" alt="image alt text" /></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="ourfinance--digital-finance"><a class="header" href="#ourfinance--digital-finance">OurFinance = Digital Finance</a></h1>
-<p><img src="ourfinance/img/digifin1.png" alt="" /></p>
-<p>OurFinance is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated, self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ourfintech--digital-finance"><a class="header" href="#ourfintech--digital-finance">OurFinTech = Digital Finance</a></h1>
+<p><img src="ourfintech/img/digifin1.png" alt="" /></p>
+<p>OurFinTech is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated, self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. </p>
 <p>What makes our proposition unique is our ability to provide the combination of the following services under 1 simple consumable package:</p>
 <ul>
-<li>required licenses</li>
-<li>required technology (All infrastructure and blockchain tech)</li>
-<li>thrid-party processing with global fiat currencies </li>
-<li>auditing services &amp; automatic tax reporting</li>
-<li>facility services (office, houses for staff, ...)</li>
+<li>Any required licenses</li>
+<li>Much required technology (All infrastructure and blockchain tech)</li>
+<li>Auditing services &amp; automatic tax reporting</li>
+<li>Facility services (office, houses for staff, ...)</li>
 </ul>
 <h2 id="the-timing-is-ideal"><a class="header" href="#the-timing-is-ideal">The timing is ideal</a></h2>
 <ul>
-<li>There is a large and fast growing market for digital banking Internationally: The global digital banking market size was valued at $8 trillion in 2020 and is growing at a CAGR of 5% from 2021 to 2027. The E-Bank (Neo/Challenger Bank) market size was valued at USD 28.73 Billion in 2020 and is projected to reach USD 627.99 Billion by 2028, growing at a CAGR of 47.17% from 2021 to 2028.</li>
-<li>There are no financial systems globally that provide the KYC/ AML and residency requirements for digital nomads.</li>
+<li>There is a large and fast growing international market for digital banking: The global digital banking market size was valued at $8 trillion in 2020 and is growing at a CAGR of 5% from 2021 to 2027. The E-Bank (Neo/Challenger Bank) market size was valued at USD 28.73 Billion in 2020 and is projected to reach USD 627.99 Billion by 2028, growing at a CAGR of 47.17% from 2021 to 2028.</li>
+<li>There are no financial systems globally that provide the KYC/AML and residency requirements of digital nomads.</li>
 <li>The tokenization of various assets such as precious metals, land and more represents a substantial opportunity to rapidly build an international customer base.</li>
-<li>Peer-to-peer, autonomous financial systems also provide the ideal platform for affordable, simple and efficient credit union disbursement platforms and remittence markets for the world. </li>
+<li>The advent of peer-to-peer, autonomous financial systems provide the ideal platform for affordable, simple and efficient credit-union disbursement-platforms and remittence transactions across the world. </li>
 </ul>
 <h2 id="required-licences"><a class="header" href="#required-licences">Required Licences</a></h2>
-<p>The following table highlights the various licences that OurFinance can provide needed to operate a fully comprehensive digital freezone. </p>
-<div class="table-wrapper"><table><thead><tr><th></th><th style="text-align: center">Payment Service Provider (PSP)</th><th style="text-align: center">Electronic Money Institution (EMI)</th><th style="text-align: center">Digital Money Institution (DMI)</th><th style="text-align: center">Digital Custodian</th><th style="text-align: center">Full Bank</th></tr></thead><tbody>
-<tr><td>Payment services (digital/web) = accept payments</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Money In and Out to any other financial institute (fiat)</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Money In and Out to own account (fiat)</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Fiat currency exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Fiat-digital, digital-digital exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td>Opening multicurrency accounts (e-wallets)</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Issuance of D-money  (digital currency / asset wallets)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td></tr>
-<tr><td>Debit Card Integration</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Holding valuable assets on behalf of customers<br>(shares, gold, tanzanite, digital and fiat currencies)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Security Emissions (create securities on behalf of customers)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Allow customers to exchange their assets (in the sandbox)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Investment services (help users to make investment decisions)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
-<tr><td>Lending to businesses and individual</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<p>The following table highlights the various licences that OurFinTech can provide and are needed to operate a fully comprehensive digital freezone. </p>
+<table><thead><tr><th></th><th style="text-align: center">Payment Service Provider (PSP)</th><th style="text-align: center">Electronic Money Institution (EMI)</th><th style="text-align: center">Digital Money Institution (DMI)</th><th style="text-align: center">Digital Custodian</th><th style="text-align: center">Full Bank</th></tr></thead><tbody>
+<tr><td>Payment services (digital/web) = accept payments</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>money In and Out to any other financial institute (fiat)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>money In and Out to own account (fiat)</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>fiat currency exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>fiat-digital, digital-digital exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td>Opening multicurrency accounts (e-wallets)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Issuance of D-money  (digital currency/asset wallets)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td></tr>
+<tr><td>Debit Card Integration</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>Holding valuable assets on behalf of customers<br>(shares,gold,tanzanite,digital and fiat currencies) .</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Security Emissions (create securities on behalf of customers)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Allow customers to exchange their assets (in the sandbox)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
+<tr><td>Investment services (help users to make investment decisions)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<tr><td>Lending to businesses and individual</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td>Cost Setup &amp; License</td><td style="text-align: center">2-20 k USD</td><td style="text-align: center">50-100 k USD</td><td style="text-align: center">20-50 k USD</td><td style="text-align: center">100-200 k USD</td><td style="text-align: center">Future</td></tr>
 <tr><td>Cost Technology</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">Future</td></tr>
 <tr><td>Cost Per Year</td><td style="text-align: center">5-10 k USD</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$2-10 user/month</td><td style="text-align: center">Future</td></tr>
 </tbody></table>
-</div><br>
+<br>
 <br>
 <blockquote>
 <p>Unique to our solution is that the tech is fully integrated for all assets of the financial solution.</p>
 </blockquote>
+<blockquote>
+<p>TODO: Add how it ties with DT for full financial suite e.g. financial education tips and tricks etc.. </p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="psp-license"><a class="header" href="#psp-license">PSP License</a></h1>
-<p><img src="ourfinance/img/psp.png" alt="" /></p>
-<p>OurFinance aims to provide Payment Service Provider (PSP) licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. </p>
+<p><img src="ourfintech/img/psp.png" alt="" /></p>
+<p>OurFintech aims to provide Payment Service Provider (PSP) licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. </p>
 <p>PSP is a necessity in the digital age, offering online shopping services through electronic payments by using methods like direct debit, credit card, online bank transfer etc. while acting as a mediator between banks and customers. In simple words, it is an online payment solution for multiple channels, including mobile and online store.</p>
 <p>Currently, E-Commerce is booming around the world, and people are opting for online shopping and paying online as well. 
 PSPs are critical for any financial ecosystem and country as they provide their residents and customers with the support for their multiple payment methods and currencies.</p>
 <h2 id="psp-architecture"><a class="header" href="#psp-architecture">PSP architecture</a></h2>
-<p><img src="ourfinance/img/psp3.png" alt="" /></p>
+<p><img src="ourfintech/img/psp3.png" alt="" /></p>
 <p>Payment gateways:</p>
 <ul>
 <li>Work as direct customer intercommunication</li>
@@ -513,16 +558,16 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Ensure all transactions are processed properly, efficiently, and quickly</li>
 </ul>
 <h2 id="how-does-a-psp-work"><a class="header" href="#how-does-a-psp-work">How does a PSP work?</a></h2>
-<p><img src="ourfinance/img/psp_how.png" alt="" /></p>
+<p><img src="ourfintech/img/psp_how.png" alt="" /></p>
 <ul>
-<li>Each time a customer enters their card details and clicks ‘pay’, a transaction request is sent to the OurFinance payment gateway (blockchain based).</li>
+<li>Each time a customer enters their card details and clicks ‘pay’, a transaction request is sent to the OurFintech payment gateway (blockchain based).</li>
 <li>The PSP blockchain then verifies that the customer’s card or digital wallet holds the required funds to make the payment. The PSP does this with the help of a payment processor in case of FIAT.</li>
 <li>Once the customer’s card or digital wallet details are verified, the PSP either confirms or declines the payment according to the funds available. If confirmed, the PSP initiates the transfer of funds from the customer’s account to the associated merchant account.</li>
 <li>Finally, the PSP sends a transaction notification to the customer and the merchant to confirm the payment's completion.</li>
 <li>In the case of a declined transaction due to invalid card details or insufficient funds, the PSP will terminate the transaction and send a status message notifying the customer and the merchant of the failed payment.</li>
 </ul>
 <p>In summary, a PSP ensures secure and efficient transfer of funds between customers and merchants. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.</p>
-<h2 id="additional-advantages-of-using-a-psp-under-ourfinance"><a class="header" href="#additional-advantages-of-using-a-psp-under-ourfinance">Additional advantages of using a PSP under OurFinance</a></h2>
+<h2 id="additional-advantages-of-using-a-psp-under-ourfintech"><a class="header" href="#additional-advantages-of-using-a-psp-under-ourfintech">Additional advantages of using a PSP under OurFintech</a></h2>
 <h3 id="accept-multiple-payment-methods"><a class="header" href="#accept-multiple-payment-methods">Accept multiple payment methods:</a></h3>
 <p>PSPs provide support for several payment methods through a single channel, ensuring your customers can conveniently choose from a variety of options. This level of accessibility supports customer satisfaction. Integrating different payment methods such as online banking, credit cards, debit cards, and e-wallets to your business can incur costs, but signing up with a PSP makes the whole process hastle-free. There are only two types of fees you need to pay: a one-time set-up fee, and a small monthly fee for enabling payments.</p>
 <h3 id="make-transactions-securely"><a class="header" href="#make-transactions-securely">Make transactions securely:</a></h3>
@@ -531,7 +576,7 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <p>PSPs only initiate transfers of funds once the customer’s card details and funds availability are verified. This prevents merchants and business to be compromised by fraudulent transactions.</p>
 <h3 id="accept-multiple-currencies"><a class="header" href="#accept-multiple-currencies">Accept multiple currencies:</a></h3>
 <p>PSPs provide support for multiple currencies to enable fast and secure cross-border payments. This is important for business planning to expand their presence abroad. </p>
-<p>OurFinance has access to a third-party processor with +17 global currencies integrated with VISA, Mastercard and UnionPay. By integrating them to our platform, we aim to streamline international PSP services from day 1. </p>
+<p>OurFintech has access to a third-party processor with +17 global currencies integrated with VISA, Mastercard and UnionPay. By integrating them to our platform, we aim to streamline international PSP services from day 1. </p>
 <h3 id="get-monthly-reports-on-payments"><a class="header" href="#get-monthly-reports-on-payments">Get monthly reports on payments:</a></h3>
 <p>Most PSPs offer monthly reporting features for business payments and transactions. Through automation, PSPsS can provide real-time reporting features (accounts payable, reconciliation, expense management, tax reports etc..) at an affordable cost.</p>
 <h3 id="add-new-payment-methods-easily"><a class="header" href="#add-new-payment-methods-easily">Add new payment methods easily:</a></h3>
@@ -541,9 +586,9 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <h3 id="reconcile-transactions-easily"><a class="header" href="#reconcile-transactions-easily">Reconcile transactions easily:</a></h3>
 <p>PSPs provide complete transaction reports for all of your payment methods. This makes it easier for you to reconcile transactions in the future.</p>
 <h2 id="what-it-means-for-digital-nomads"><a class="header" href="#what-it-means-for-digital-nomads">What it means for Digital Nomads.</a></h2>
-<p>What digital nomads gain from OurFinance solution is a fully integrated financial regulatory service within a wider package including licenses, technology, auditing services, tax reporting, and facility services. </p>
+<p>What digital nomads gain from OurFintech solution is a fully integrated financial regulatory service within a wider package including licenses, technology, auditing services, tax reporting, and facility services. </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="psp-license-steps"><a class="header" href="#psp-license-steps">PSP License Steps</a></h1>
-<p>To obtain a PSP License under OurFinance, the applicant has to meet a few requirements:</p>
+<p>To obtain a PSP License under OurFintech, the applicant has to meet a few requirements:</p>
 <ul>
 <li>The applicant should be located in Zanzibar physically or digitally.</li>
 <li>The applicant has to prove that it has the required experience and personnel to deal with digital payment services.</li>
@@ -557,7 +602,7 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Preparation of (a) Business plan (b) Program of Operations (c) preliminary Financial Forecasts</li>
 <li>Shareholders and Group Companies Due Diligence</li>
 <li>Local Company Formation and assistance with Bank account opening for share capital contribution</li>
-<li>Human resource (at least 1 employee shall be in Zanzibar - OurFinance can help)</li>
+<li>Human resource (at least 1 employee shall be in Zanzibar - OurFintech can help)</li>
 <li>Help establish local office in OURTOWN</li>
 </ul>
 <h2 id="licensing-phase-1-4-months"><a class="header" href="#licensing-phase-1-4-months">Licensing phase (1-4 months)</a></h2>
@@ -568,7 +613,7 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Compliance documentation (AML/KYC/KYT etc.)</li>
 <li>Financial documentation and forecasts</li>
 <li>Operational Risk Procedures</li>
-<li>IT Procedures (as provided by default by OurFinance)</li>
+<li>IT Procedures (as provided by default by OurFintech)</li>
 </ul>
 </li>
 <li>Application for the license
@@ -587,11 +632,11 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Accounting services</li>
 <li>Auditing</li>
 <li>Opening of safeguarding accounts</li>
-<li>Arrange integration with other licenses of the OurFinance services</li>
+<li>Arrange integration with other licenses of the OurFintech services</li>
 <li>IT services (how to integrate in your other systems)</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="emi-license-electronic-money-institution"><a class="header" href="#emi-license-electronic-money-institution">EMI license (Electronic Money Institution)</a></h1>
-<p><img src="ourfinance/img/emi1.png" alt="" /></p>
+<p><img src="ourfintech/img/emi1.png" alt="" /></p>
 <p>Every company engaged in issuing electronic currencies in Zanzibar should obtain an E-money license to legally operate in this jurisdiction. Having a license will allow offline/online payments, providing sub-accounts within a bank account, creating electronic wallets, providing individual IBANs, and transferring money to foreign accounts.</p>
 <p>Holders of a Zanzibar e-money license are allowed to provide the above services in the different country unions of Tanzania  such as Africa Union, SADEC and COMESA without having to obtain an additional license in another African state. This license is passported for these activities, which allows you to work in other countries of the region. In addition, an entrepreneur may obtain a limited EMI license and provide its services only in Zanzibar. In this case, certain restrictions may apply to the company's turnover.</p>
 <p>The submitted documentation for the EMI license will be reviewed by the Central Bank of Tanzania within 3 months from the first day of submission. The decision to issue an EMI license will be made after the review, within the same 3 months. If there are shortcomings in the documentation related to the form of the document and its content, the regulatory authority may request corrected forms or missing data on regulatory requirements.</p>
@@ -615,13 +660,13 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Ability to conduct customer checks remotely as part of KYC procedures, through video link, digital signature, or electronic copies of documentation.</li>
 </ul>
 <h2 id="requirements"><a class="header" href="#requirements">Requirements</a></h2>
-<p><img src="ourfinance/img/emi_requirements.png" alt="" /></p>
+<p><img src="ourfintech/img/emi_requirements.png" alt="" /></p>
 <ul>
 <li>The minimum share capital of 200,000 USD </li>
 <li>Proof of origin and receipt of finances</li>
 <li>Opening of a local office</li>
 <li>Opening of a Tanzanian bank account</li>
-<li>Availability of KYC/AML officer or outsource to OurFinance</li>
+<li>Availability of KYC/AML officer or outsource to OurFintech</li>
 <li>Impeccable reputation of the company's beneficiaries</li>
 <li>A director or manager must have higher education in law or economics, management or business administration, and have an impeccable reputation, competence, and practical experience as the head of the institution.</li>
 <li>There must be at least one individual among the shareholders, Zanzibar residency is required. The main requirement is the age over 18 and impeccable business reputation.</li>
@@ -646,7 +691,7 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Compliance documentation (AML/KYC/KYT etc.)</li>
 <li>Financial documentation and forecasts</li>
 <li>Operational Risk Procedures</li>
-<li>IT Procedures (as provided by default by OurFinance)</li>
+<li>IT Procedures (as provided by default by OurFintech)</li>
 </ul>
 </li>
 <li>Application for the license
@@ -672,7 +717,7 @@ PSPs are critical for any financial ecosystem and country as they provide their 
 <li>Consulting on the arising issues from Central Bank</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="d-money-license"><a class="header" href="#d-money-license">D-Money License</a></h1>
-<p><img src="ourfinance/img/dmi.png" alt="" /></p>
+<p><img src="ourfintech/img/dmi.png" alt="" /></p>
 <p>Every company engaged in issuing digital currencies in Zanzibar should obtain an D-money license to legally operate in this jurisdiction. Having a license will allow:</p>
 <ul>
 <li>The exchange of digital currencies for FIAT and vice versa.</li>
@@ -707,13 +752,13 @@ Compliance fee: $10,000.</p>
 <li>Ability to conduct customer checks remotely as part of KYC procedures, through video link, digital signature, or electronic copies of documentation.</li>
 </ul>
 <h2 id="requirements-1"><a class="header" href="#requirements-1">Requirements</a></h2>
-<p><img src="ourfinance/img/emi_requirements.png" alt="" /></p>
+<p><img src="ourfintech/img/emi_requirements.png" alt="" /></p>
 <ul>
 <li>The minimum share capital of 2,500 USD </li>
 <li>Proof of origin and receipt of finances</li>
 <li>Opening of a local office</li>
 <li>Opening of a Tanzanian bank account</li>
-<li>Availability of KYC/AML officer or outsource to OurFinance</li>
+<li>Availability of KYC/AML officer or outsource to OurFintech</li>
 <li>Impeccable reputation of the company's beneficiaries</li>
 <li>A director or manager must have higher education in law or economics, management or business administration, and have an impeccable reputation, competence, and practical experience as the head of the institution.</li>
 <li>There must be at least one individual among the shareholders, Zanzibar residency is required. The main requirement is the age over 18 and impeccable business reputation.</li>
@@ -738,7 +783,7 @@ Compliance fee: $10,000.</p>
 <li>Compliance documentation (AML/KYC/KYT etc.)</li>
 <li>Financial documentation and forecasts</li>
 <li>Operational Risk Procedures</li>
-<li>IT Procedures (as provided by default by OurFinance)</li>
+<li>IT Procedures (as provided by default by OurFintech)</li>
 </ul>
 </li>
 <li>Application for the license
@@ -764,14 +809,14 @@ Compliance fee: $10,000.</p>
 <li>Consulting on the arising issues from Central Bank</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="digital-custodian-license-not-a-bank"><a class="header" href="#digital-custodian-license-not-a-bank">Digital Custodian License (not a bank)</a></h1>
-<p><img src="ourfinance/img/custodian.png" alt="" /></p>
+<p><img src="ourfintech/img/custodian.png" alt="" /></p>
 <p>A custodian is a financial institution that holds customers' securities for safekeeping to prevent them from being stolen or lost. The custodian may hold stocks, bonds, or other assets in electronic or physical form on behalf of its customers.</p>
 <p>Often, a custodian does more than provide asset protection. It can manage customers' accounts and transactions, manage the settlement of financial transactions, account for the status of assets, and ensure compliance with tax regulations.</p>
 <p>It safeguards assets and is not engaged in &quot;traditional&quot; commercial or consumer/retail banking like lending. </p>
 <blockquote>
-<p>Specific for OurFinance, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registeri §ng and checking of share holdings (done by certified 3e parties).</p>
+<p>Specific for OurFintech, our digital custodian services are digital only and 99% automated, they do not giving banking powers to the operator nor do they allow the operator to provide financial investment services. The only non automated functions are storing commodities like precious metals and registeri §ng and checking of share holdings (done by certified 3e parties).</p>
 </blockquote>
-<h2 id="what-can-a-ourfinance-custodian-do"><a class="header" href="#what-can-a-ourfinance-custodian-do">What can a OurFinance Custodian Do</a></h2>
+<h2 id="what-can-a-ourfintech-custodian-do"><a class="header" href="#what-can-a-ourfintech-custodian-do">What can a OurFintech Custodian Do</a></h2>
 <ul>
 <li>allow their customers to create digital assets.</li>
 <li>hold in safekeeping assets/securities such as shares, commodities such as precious metals and currency (cash), domestic and foreign</li>
@@ -791,14 +836,14 @@ Compliance fee: $10,000.</p>
 <li>Custodian banks can also manage financial accounts, handle settlements, and deal with compliance and tax issues (we have all automated this process).</li>
 <li>Custodian banks can serve as mutual fund custodians.</li>
 </ul>
-<h2 id="ourfinance-custodian-limits"><a class="header" href="#ourfinance-custodian-limits">OurFinance custodian limits:</a></h2>
+<h2 id="ourfintech-custodian-limits"><a class="header" href="#ourfintech-custodian-limits">OurFintech custodian limits:</a></h2>
 <ul>
 <li>its not a bank as such std banking services cannot be done</li>
 <li>money can only be sent/received from own account to another own account with another bank</li>
 <li>holding of assets like shares and bonds is possible but fees need to be paid to allow verification of these assets and specific legal firms/auditors will be used to verify this ownership. These verifiers will also use our blockchain technology to approve ownership. For amounts + 1m USD, 3 verifiers will be used.</li>
-<li>transactions can only happen between customers of OurFinance, the custodian will not do transactions on your behalf which are outside of the sandbox of OurFinance.</li>
+<li>transactions can only happen between customers of OurFintech, the custodian will not do transactions on your behalf which are outside of the sandbox of OurFintech.</li>
 </ul>
-<h2 id="special-for-zanzibar-ourfinance"><a class="header" href="#special-for-zanzibar-ourfinance">Special for Zanzibar OurFinance</a></h2>
+<h2 id="special-for-zanzibar-ourfintech"><a class="header" href="#special-for-zanzibar-ourfintech">Special for Zanzibar OurFintech</a></h2>
 <ul>
 <li>All assets are registered on blockchain (no exceptions)</li>
 <li>All customers are stronly verified (AML/KYC) and identity also on blockchain.</li>
@@ -806,7 +851,7 @@ Compliance fee: $10,000.</p>
 <li>All logic is executed by means of smart contracts and as such super safe &amp; transparent.</li>
 <li>Blockchain is operational in Tanzania and Zanzibar (so even when there is internet cut system will keep on working)</li>
 <li>Blockchain is archived in Europe and UAE (in case of disaster we can go back to each transaction and restore).</li>
-<li>Reporting tools allow OurFinance to check on irregular behavior and report to Tanzania Central Bank regulatory if required.</li>
+<li>Reporting tools allow OurFintech to check on irregular behavior and report to Tanzania Central Bank regulatory if required.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="digital-custodian-license-steps"><a class="header" href="#digital-custodian-license-steps">Digital Custodian License Steps</a></h1>
 <p>The Bank of Tanzania must make a decision within 1-3 months of receiving a complete application. However, the expected time to obtain a licence is expected to take about 3 months. </p>
@@ -828,7 +873,7 @@ Compliance fee: $10,000.</p>
 <li>Compliance documentation (AML/KYC/KYT etc.)</li>
 <li>Financial documentation and forecasts</li>
 <li>Operational Risk Procedures</li>
-<li>IT Procedures (as provided by default by OurFinance)</li>
+<li>IT Procedures (as provided by default by OurFintech)</li>
 </ul>
 </li>
 <li>Application for the license
@@ -848,8 +893,12 @@ Compliance fee: $10,000.</p>
 <li>Auditing</li>
 <li>Opening of safeguarding accounts</li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="business-model-1"><a class="header" href="#business-model-1">Business Model</a></h1>
+<p><img src="ourfintech/img/bizmodel_fintech1.png" alt="" /></p>
+<p>this results in following possible income stream for OurFintech</p>
+<p><img src="ourfintech/img/bizmodel_fintech2.png" alt="" />  </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="crime-prevention"><a class="header" href="#crime-prevention">Crime Prevention</a></h1>
-<p><img src="ourfinance/img/crimeprevention.png" alt="" /></p>
+<p><img src="ourfintech/img/crimeprevention.png" alt="" /></p>
 <p>Financial crime is a threat to all of society, and it constantly seeks new ways to exploit banks and bank customers. This is why crime prevention is a vital part of our business. Although there are no perfect systems, we work relentlessly to strengthen our defenses and develop our abilities to detect, prevent and report suspected activity. Every year we report thousands of suspicious transactions to authorities and we cooperate closely with authorities, police and other banks.</p>
 <h2 id="measures-against-money-laundering"><a class="header" href="#measures-against-money-laundering">Measures against money laundering</a></h2>
 <p>Money laundering is the illegal process of criminals trying to make funds made from unlawful activity seem to have been generated legitimately. This poses a threat not just to banks, but to the entire financial system, democracy and society as a whole.</p>
@@ -865,7 +914,7 @@ Innovative authentication mechanisms.</p>
 <p>Our blockchain and transparency will make us not popular and hard for them.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="market-size"><a class="header" href="#market-size">Market Size</a></h1>
 <p>Digital transformation used to be something that’s just good to have. But since COVID-19 disrupted business operations worldwide, many organizations now see digital transformation as a necessary step in preserving their business as reflected by the most current digital transformation statistics. Fueled by speedy internet everywhere, digitization now plays a critical role in adding business value.</p>
-<p><img src="ourfinance/img/fintech_market_size.png" alt="" /></p>
+<p><img src="ourfintech/img/fintech_market_size.png" alt="" /></p>
 <p>The global Fintech industry is growing at an exponential rate: </p>
 <ul>
 <li>The global fintech market is estimated to be worth $131.95 billion</li>
@@ -875,11 +924,11 @@ Innovative authentication mechanisms.</p>
 <li>In total, an estimated $8.49 trillion of digital payments will be made in 2022</li>
 <li>The global digital banking market size was valued at $8 trillion in 2020 and is growing at a CAGR of 5% from 2021 to 2027</li>
 </ul>
-<p><img src="ourfinance/img/fintech_market_growth.png" alt="" /></p>
+<p><img src="ourfintech/img/fintech_market_growth.png" alt="" /></p>
 <p>By 2026, this fintech industry is projected to grow to $324 billion at a compound annual growth rate (CAGR) of 25.18%. </p>
 <p>There are several key factors behind the continued rapid growth within the fintech space. Advancing automation tech and an ever-growing array of online and app-based services are perhaps the most important factor driving fintech’s growth. Improved accessibility and reduced costs mean fintech solutions are more readily available to would-be consumers.</p>
 <p>In addition, lenient regulations in the space and changing consumer demands/expectations have further boosted the market.</p>
-<p><img src="ourfinance/img/digital_banking_market.png" alt="" /></p>
+<p><img src="ourfintech/img/digital_banking_market.png" alt="" /></p>
 <p>The E-Bank (Neo/Challenger Bank) market size was valued at USD 28.73 Billion in 2020 and is projected to reach USD 627.99 Billion by 2028, growing at a CAGR of 47.17% from 2021 to 2028.1</p>
 <p>An estimated $8.49 trillion of digital payments will be processed globally during the course of this year. Increasing at a CAGR of 12.31% until 2027.</p>
 <h3 id="some-global-statistics-1"><a class="header" href="#some-global-statistics-1">Some global statistics:</a></h3>
@@ -898,7 +947,8 @@ Innovative authentication mechanisms.</p>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ourtown-sustainable-cyber-city"><a class="header" href="#ourtown-sustainable-cyber-city">OurTown Sustainable Cyber City</a></h1>
 <p><img src="ourtown/img/cybercity.png" alt="" /></p>
-<p>The digital freezone and digital banking services within Zanzibar are really attractive incentives for the digital nomad community and any startup that wants to innovate here. The expected development and influx of talented individuals create the need for a digital/cyber city where businesses and their employees can live and innovate together. It is crucial that this need is met while ensuring the environmental, social and financial sustainability of the growth in the country. Sustainable cities and communities are growing trends in the world of real estate development. OurTown is a fully fledged carbon neutral mixed use project in development that aims to create dynamic communities and destinations that drive economic growth and contribute to the diversification of the economy. The sustainability aspect of the project will attract digital nomads and eco-tourists while helping to set a national sustainability agenda for Zanzibar. Many engineers and technicians will be trained on how to build sustainable communities and foster further sustainability in Zanzibar. </p>
+<p>The digital freezone and digital banking services within Zanzibar are really attractive incentives for the digital nomad community and any startup that wants to innovate here. The expected development and influx of talented individuals create the need for a digital/cyber city where businesses and their employees can live and innovate together. It is crucial that this need is met while ensuring the environmental, social and financial sustainability of the growth in the country. Sustainable cities and communities are growing trends in the world of real estate development. </p>
+<p>OurTown is a fully fledged carbon neutral mixed use project in development that aims to create dynamic communities and destinations that drive economic growth and contribute to the diversification of the economy. The sustainability aspect of the project will attract digital nomads and eco-tourists while helping to set a national sustainability agenda for Zanzibar. Many engineers and technicians will be trained on how to build sustainable communities and foster further sustainability in Zanzibar. </p>
 <p>Goals of the project:</p>
 <ul>
 <li>
@@ -914,39 +964,36 @@ Innovative authentication mechanisms.</p>
 <p>Sustainable development: Creating fully fledged carbon negative, mixed use, futuristic communities and destinations that drive economic growth and contribute to the diversification of the economy</p>
 </li>
 </ul>
-<p>The target market of the city are start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech &amp; IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. </p>
+<p>The target market of the city include start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech &amp; IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="world-first"><a class="header" href="#world-first">World First</a></h1>
 <p>The development of OurTown Sustainable City represents the political will to work towards a sustainable future. Commitment to regenerative practices will result in sustainable and equitable growth which will become an example for the rest of the world. The development will showcase how sustainable development can be achieved while reflecting the values of the local communities and their culture.</p>
-<p>The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. The digital freezone will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use the city as a physical or digital home. </p>
-<h2 id="ourtown-the-place-where-everything-materialises"><a class="header" href="#ourtown-the-place-where-everything-materialises">OurTown: the place where everything materialises</a></h2>
-<p>There are multiple sustainable or smart city projects around the world; however, OurTown will be truely revolutionary by providing all digital services needed by businesses and individuals such as digital nomads. These services include a sovereign internet, digital bank and a convenient tax system. The development is also be revolutionary because OurTown itself will serve as a co-owned data-center providing the following advantages:</p>
+<p>The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. OurHub will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use OurTown as a physical or digital home. </p>
+<p><img src="ourtown/img/goals.png" alt="" /></p>
+<h2 id="ourtown-unlike-any-other-sustainable-city-project"><a class="header" href="#ourtown-unlike-any-other-sustainable-city-project">OurTown: Unlike any other Sustainable City Project</a></h2>
+<p>Sustainable cities and communities are growing trends in the world of real estate development. One of the core members of the development team is one of the co-founders and engineers of the Dubai Sustainable City, which is the first ever net zero energy community in the world of its size. It provides high standards of eco-living and a healthy lifestyle. It was selected as the happiest community in Dubai 3 years in a row. Sustainable development projects in Dubai and all around the world proves the financial, social and environmental feasibility of the concept. Other large-scale sustainable city projects are being developed in Canada, USA, Saudi Arabia, UAE, Malaysia, Egypt, Mexico, Maldives and China. </p>
+<p>While there are multiple sustainable or smart city projects around the world, OurTown will be truely revolutionary by providing all digital services needed by businesses and individuals such as digital nomads. These services include a sovereign internet, digital bank and a convenient tax system. The development is also be revolutionary because OurTown itself will serve as a co-owned data-center providing the following advantages:</p>
 <ul>
 <li>OurTown is equipped with Threefold’s 3Nodes providing digital sovereignty to its inhabitants</li>
 <li>The city and its citizens will add value to the development from the capacity provided</li>
 <li>The city will include micro-datacenters that helps power the regional internet of Zanzibar</li>
 </ul>
+<p>​​Moreover, OurTown has a climate advantage over many of the similar projects. It will exceed projects of similar scale at much lower costs. Zanzibar climate is compatible with sustainable development in comparison to many other cities such as Dubai and Abu Dhabi. The city has an ambitious goal of being carbon neutral. </p>
 <h2 id="green-technology"><a class="header" href="#green-technology">Green technology</a></h2>
 <p>We are in contact with innovators and businesses that will help OurTown become an example self-sufficient and carbon-neutral development. The diagram below shows what technologies are planned for use in order to make the waste, material, energy, food and water processes more regenerative. Research and development on these technologies will attract talent and provide significant know-how to people in Zanzibar working on the project. </p>
 <p><img src="ourtown/img/sustainableTech.png" alt="" /></p>
 <h2 id="ourtown-holding-balance"><a class="header" href="#ourtown-holding-balance">OurTown holding balance</a></h2>
-<p>Zanzibar seeks to develop further, but developing with no clear direction and goals will lead to nowhere. By going forward blindly, you risk endangering the fragile balance that holds your society and your ecosystems together. </p>
-<p>This is why we want to offer you a plan to create Our Town. Development has to cater for the social needs of the people, the ecological needs of ecosystems and the economic needs of the island. </p>
+<p>Zanzibar seeks to develop further, but developing with no clear direction and goals will lead to nowhere. By going forward blindly, you risk endangering the fragile balance that holds your society and your ecosystems together. This is why we want to offer you a plan to create Our Town. Development has to cater for the social needs of the people, the ecological needs of ecosystems and the economic needs of the island. </p>
 <p><img src="ourtown/img/sustainable_dev.png" alt="" /></p>
-<p>Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when tthe needs of both the planet and the people are met, you open the door for successful and reliable economic development.</p>
+<p>Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when the needs of both the planet and the people are met, you open the door for successful and reliable economic development.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="location"><a class="header" href="#location">Location</a></h1>
 <p><img src="ourtown/img/location.png" alt="" /></p>
-<p>OurTown is located in Fumba on a 1 million square meters plot. Fumba is planned  to be a free economic zone with a planned government city, business center, sport centers, medical city, university and many other facilities. The government has prepared a master plan of the region with the plot of OurTown reserved for development. The plot is 15 km from the airport and 18 km from Stone Town. </p>
-<p>The project will be a catalyst in bringing together the strength of government with the entrepreneurship of the private sector. It will also foster innovation and collaboration by housing various digital businesses and talented individuals in one location within Zanzibar. It's not just a freezone location, it's an example in the world of how digital can be connected to physical space. How sustainability is all that matters, it's an example for the future. Eventually millions of people can call this home while maybe physically few thousands of people will live there. </p>
-<p>The city is expected to attract local communities and other people around the world. There are frequent flights from the Middle East and Europe into Zanzibar. The city is located in Fumba, expected to be a developed region of Zanzibar after planned government investments in the area. This will attract anyone wanting to own a property in Fumba and Zanzibar in general. </p>
-<h2 id="the-advantage-of-zanzibar-over-other-sustainable-cities"><a class="header" href="#the-advantage-of-zanzibar-over-other-sustainable-cities">The advantage of Zanzibar over other sustainable cities</a></h2>
-<p>Sustainable development projects all around the world proves the financial, social and environmental feasibility of the concept. Other large-scale sustainable city projects are being developed in Canada, USA, Saudi Arabia, UAE, Malaysia, Egypt, Mexico, Maldives and China. 
-​​
-OurTown has a climate advantage over many of the similar projects. It will exceed projects of similar scale at much lower costs due to temperate climate conditions. Zanzibar climate is well-suited for sustainable development in comparison to many other cities with large scale sustainable developments such as Dubai and Abu Dhabi. </p>
+<p>OurTown is located in Fumba on a 1 million square meters plot. The government has prepared a master plan of the region with the plot of OurTown reserved for development includng a business center, sport centers, medical center, university and many other facilities. The plot is 15 km from the airport and 18 km from Stone Town. Fumba is expected to be a developed region of Zanzibar after planned government investments in the area. This will attract anyone wanting to own a property in Fumba and Zanzibar in general. </p>
+<p>OurTown will be a catalyst in bringing together the strength of government with the entrepreneurship of the private sector. It will also foster innovation and collaboration by housing various digital businesses and talented individuals in one location within Zanzibar. As such, OurHub wll not stand on its own, and OurTown is an example in the world of how digital can be connected to physical space. With sustainability at the core of the project, OurTown sets an example for the future. Eventually millions of people can call this home while maybe physically few thousands of people will live there. OurTown is expected to attract local communities and other people around the world. There are frequent flights from the Middle East and Europe into Zanzibar. </p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="space-utilization"><a class="header" href="#space-utilization">Space Utilization</a></h2>
 <p><img src="ourtown/img/utilization.png" alt="" /></p>
-<p>The city will contain everything that its citizens need. Majority of the land is allocated to nature and recreation areas. The citizens of the city will have a complete eco-living experience with designated parks, bioretenetion areas, work&amp;play environments, and themed gardens. The nature parks will showcase plants that are native to Zanzibar. These environments will be supported by technologies that aim to minimize waste to provide authentic eco-living. Residential areas will be dispersed among the nature and recreation areas to blend the buildings into the greenery. There will be various residential options for the large audience of the project ranging from digital nomads to families of the employess working within the city. </p>
-<p>The digital freezone will attract many digital businesses to the city and its commercial amenities. The city will have a business center with office spaces and co-working environments to meet this demand. The large number of people within the city, whether they are residents, employees or visitors, will be able to shop from many organic and local sourced shops. Moreover, all services needed by the citizens of the city will be provided locally. </p>
-<p>The city will feature the following charactersitics:</p>
+<p>OurTown will contain everything that its citizens need. Majority of the land is allocated to nature and recreation areas. The citizens of OurTown will have a complete eco-living experience with designated parks, bioretenetion areas, work&amp;play environments, and themed gardens. The nature parks will showcase plants that are native to Zanzibar. These environments will be supported by technologies that aim to minimize waste to provide authentic eco-living. Residential areas will be dispersed among the nature and recreation areas to blend the buildings into the greenery. There will be various residential options for the large audience of the project ranging from digital nomads to families of the employess working within the city. </p>
+<p>OurHub will attract many digital businesses to OurTown and its commercial amenities. OurTown will have a business center with office spaces and co-working environments to meet this demand. The large number of people within OurTown, whether they are residents, employees or visitors, will be able to shop from many organic and local sourced shops. Moreover, all services needed by the citizens of OurTown will be provided locally. </p>
+<h2 id="the-city-will-feature-the-following-charactersitics"><a class="header" href="#the-city-will-feature-the-following-charactersitics">The city will feature the following charactersitics:</a></h2>
 <p><img src="ourtown/img/characteristics1.png" alt="" /> 
 <img src="ourtown/img/characteristics2.png" alt="" /> </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="first-layout"><a class="header" href="#first-layout">First Layout</a></h1>
@@ -979,7 +1026,7 @@ OurTown has a climate advantage over many of the similar projects. It will excee
 <p><img src="ourtown/img/render12.jpg" alt="" /></p>
 <p><img src="ourtown/img/render13.jpg" alt="" /></p>
 <p><img src="ourtown/img/render14.jpg" alt="" /></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="business-model-1"><a class="header" href="#business-model-1">Business Model</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="business-model-2"><a class="header" href="#business-model-2">Business Model</a></h1>
 <blockquote>
 <p>TODO: Kristof</p>
 </blockquote>
@@ -988,7 +1035,7 @@ OurTown has a climate advantage over many of the similar projects. It will excee
 <p>TODO: kristof, explain how its all digital and links to the other parts</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="team"><a class="header" href="#team">Team</a></h1>
-<p>Threefold has a dedicated team working on the development. Our team is working on designs for the city and contacting innovators for planning the advanced engineering systems within the city and people that will implement these solutions. The partnerships created through this research and development process can later be products themselves within the incubation center. We are also in contact with <strong>world renowed sustainable architecture and engineering organizations</strong> that have the same values with us. These relations will help that  buildings and operations of the city become a partnership itself that will serve as means for further partnerships and a PR opportunity. </p>
+<p>Threefold has a dedicated team working on the development. Our team is working on designs for the city and contacting innovators for planning the advanced engineering systems within the city and people that will implement these solutions. The partnerships created through this research and development process can later be products themselves within the incubation center. We are also in contact with <strong>world renowed sustainable architecture and engineering organizations</strong> that have the same values with us. These relations will help the  buildings and operations of the city become a partnership itself that will serve as means for further partnerships in Zanzibar and PR opportunity. </p>
 <h2 id="experience-from-previous-sustainable-developments"><a class="header" href="#experience-from-previous-sustainable-developments">Experience from previous sustainable developments</a></h2>
 <p>One of the core members of the development team is one of the co-founders and engineers of the Dubai Sustainable City, which is the first ever net zero energy community in the world of its size. It provides high standards of eco-living and a healthy lifestyle. The city in Dubai trained more than 250 engineers and technicians on how to build sustainable communities while creating more than 3000 jobs. It introduced new solutions and fostered innovation. Having the experience from the previous developments is really valuable for reaching that standard and exceeding it. Zanzibar's unique and hospitable climate will make it easier and cheaper to achieve a self-sufficient and carbon-neutral living. </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ourtown-tax-situation"><a class="header" href="#ourtown-tax-situation">OurTown TAX Situation</a></h1>
@@ -1005,10 +1052,15 @@ We believe that following tax might be feasible.</p>
 </ul>
 <h2 id="ourtown-company-tax"><a class="header" href="#ourtown-company-tax">OurTown Company Tax</a></h2>
 <ul>
-<li>Companies as registered in OurTown by the OurTown Digital Registry System (DRS)</li>
+<li>Companies as registered in OurTown by the OurTown Community Digital Backbone (CDB)</li>
 <li>Foreign ownership is allowed </li>
-<li>No business licence fees appart from DRS Monthly Fee</li>
-<li>Company tax: Income tax free for first five years. After the first five years: 50% (Income Tax is 30% so it will onlybe 15%)</li>
+<li>No business licence fees appart from OurHub Monthly License Fee</li>
+<li>Company Income Tax: 
+<ul>
+<li>For Resident companies: Income tax free for first five years. After the first five years: 50% (Income Tax is 30% so it will onlybe 15%)</li>
+<li>For Non Resident companies: Income tax free till end 2025. 5% sustainability tax after.</li>
+</ul>
+</li>
 <li>Repatriation of profit allowed after tax</li>
 <li>100% exemption on withholding tax on interest paid to foreign banks</li>
 <li>Deduction of depreciation rate of 100% within five years</li>
@@ -1036,16 +1088,16 @@ We believe that following tax might be feasible.</p>
 <p>OurTown has access to technology as developed by ThreeFold to make this happen.</p>
 <h2 id="functions"><a class="header" href="#functions">Functions</a></h2>
 <ul>
-<li>Multiple Local Digital Currencies for OurTown on a blockchain called OurLedger.
+<li>Multiple Local Digital Currencies for OurTown on a blockchain called the Community Digital Backbone (CDB).
 <ul>
 <li>One of them is a digital TSH, but only useable for now in OurTown</li>
 </ul>
 </li>
 <li>Integrated Revenue Collection for ZNZ (TAX)</li>
-<li>Each commercial transaction in OurTown is registered on OurLedger
+<li>Each commercial transaction in OurTown is registered on the CDB
 <ul>
 <li>This gives full insight in money spent and transfered between parties</li>
-<li>Each commercial service/product delivered is tracked on OurLedger</li>
+<li>Each commercial service/product delivered is tracked on the CDB</li>
 <li>This allows allows automatic revenue collection e.g. for VAT but can be for other elements as well</li>
 </ul>
 </li>
@@ -1368,7 +1420,7 @@ We believe that following tax might be feasible.</p>
 <p>All the communication skills eventually will be available in all experiences.</p>
 <h2 id="roadmap-vs-experiences"><a class="header" href="#roadmap-vs-experiences">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Chat</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Video Conferencing</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Messaging</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td></tr>
@@ -1377,7 +1429,7 @@ We believe that following tax might be feasible.</p>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
 <p><img src="ourtwin/skills/extra/img/chat_people_invite.png" alt="groups_and_contacts" /></p>
 <p>Private version of the chat:</p>
 <p><img src="ourtwin/skills/extra/img/chat_overview.png" alt="private_chat" /></p>
@@ -1662,7 +1714,7 @@ mermaid source in: ./includes/private_video.md
 <p>For more info see <a href="ourtwin/skills/creativity/creativity_web.html">creativity web publishing</a></p>
 <h2 id="roadmap-vs-experiences-2"><a class="header" href="#roadmap-vs-experiences-2">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Share All Information relevant to experience in generic way</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">now</td></tr>
 <tr><td>Promote Services &amp; Products</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Integration with Proof of Authenticity</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1673,7 +1725,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
 <p><img src="ourtwin/skills/extra/img/video_share.png" alt="" /></p>
 <blockquote>
 <p>TODO: explain more</p>
@@ -1772,7 +1824,7 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-3"><a class="header" href="#roadmap-vs-experiences-3">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1781,7 +1833,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td>Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
 <p><img src="ourtwin/skills/extra/img/search.png" alt="surf safe" /></p>
 </div>
 <h2 id="my-private-safe-browser"><a class="header" href="#my-private-safe-browser">My Private Safe Browser</a></h2>
@@ -1865,7 +1917,7 @@ mermaid source in: ./includes/private_video.md
 <p>This is a capability your twin will have, FreeFlow Developers are working on it, stay tuned.</p>
 <h2 id="roadmap-vs-experiences-4"><a class="header" href="#roadmap-vs-experiences-4">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Integrated FreeFlow Wallet</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Integrated Exchange</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>eCommerce Integration</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1874,7 +1926,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
 <p><img src="ourtwin/skills/img/organie.png" alt="" /></p>
 <p>Your twin can help you to organize your digital life.</p>
 <ul>
@@ -1885,7 +1937,7 @@ mermaid source in: ./includes/private_video.md
 </ul>
 <h2 id="roadmap-vs-experiences-5"><a class="header" href="#roadmap-vs-experiences-5">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>task &amp; project management</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>deal with my time, personal agenda...</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>manage all my file based data for multiple experiences</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1894,7 +1946,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
 <ul>
 <li>Make sure that only the right people have access to my digital assets</li>
 <li>What happens if I die, make sure my loved once can inherit my digital assets</li>
@@ -1906,7 +1958,7 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-6"><a class="header" href="#roadmap-vs-experiences-6">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Twin Authentication</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td></tr>
 <tr><td>Integrated Circles</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Quantum Safe Storage</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
@@ -1915,7 +1967,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td>ACL = Access Control List on all Digital Assets</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>End2end Encrypted Messaging-planetary network</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
 <h2 id="task--project-management-2023"><a class="header" href="#task--project-management-2023">Task &amp; Project Management (2023)</a></h2>
 <ul>
 <li>Alternative to tools like Ansana, Trello, ...</li>
@@ -1928,13 +1980,13 @@ mermaid source in: ./includes/private_video.md
 <p>Other collaboration tools are coming soon.</p>
 <h2 id="roadmap-vs-experiences-7"><a class="header" href="#roadmap-vs-experiences-7">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Project Management</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td>Agenda/Task mgmt</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">code</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">code</a></h1>
 <p>Develop directly in your private cloud, invite your friends to develop together with you.</p>
 <p><img src="ourtwin/skills/creativity/coding/img/coder.png" alt="" /></p>
 <p>Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
@@ -2271,12 +2323,12 @@ The benefits of this system are huge. We had to write an operating system from s
 <p>TODO: write something about why opensource in relation to sovereignity and other benefits... (vic)</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="partnership"><a class="header" href="#partnership">Partnership</a></h1>
-<h2 id="ourtown--ourhub--ourfinance"><a class="header" href="#ourtown--ourhub--ourfinance">OurTown / OurHub / OurFinance</a></h2>
+<h2 id="ourtown--ourhub--ourfintech"><a class="header" href="#ourtown--ourhub--ourfintech">OurTown / OurHub / OurFintech</a></h2>
 <p>See the following pages</p>
 <ul>
 <li><a href="partnership/ppp_ourtown.html">OurTown</a></li>
 <li><a href="partnership/ppp_ourhub.html">OurHub</a></li>
-<li><a href="partnership/ppp_ourfinance.html">OurFinance</a></li>
+<li><a href="partnership/ppp_ourfinance.html">OurFintech</a></li>
 </ul>
 <h2 id="oursource--the-incubator"><a class="header" href="#oursource--the-incubator">OurSource = The Incubator</a></h2>
 <ul>
@@ -2353,7 +2405,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <p>all money is collected digitally on the CDB and transfered to ZNZ once a month, ZNZ can at any point in time audit the CDB and has full insight in all information on CDB, nice reporting tools will be created to give good insight to ZNZ government.</p>
 </blockquote>
 <h3 id="responsibilities"><a class="header" href="#responsibilities">Responsibilities</a></h3>
-<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>create and deliver the technical system as required for OurTown functions like digital ownership</td><td>recognize tokenized ownership (through blockchain) of property, resell of homes has no tax implication.</td></tr>
 <tr><td>make sure that the CDB (Community Digital Backbone) automatically collects all tax</td><td>approval of tax structure as identified in this document, tax is collected in digital way through CDB and once a month send to government using real TSH.</td></tr>
 <tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurTown Strategic Investment Status</td></tr>
@@ -2367,7 +2419,6 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td>Find best possible sustainable architect and project developer (we have already some friends to execute but need to formalize)</td><td>Help us to create the company OurTown and award the land to it in 2022.</td></tr>
 <tr><td>Grown presence through startup company 4OurWorld in ZNZ, is our startup facility.</td><td>Would be best to also have Strategic Investment Status for 4OurWorld and Tax Incentives to make it easier for us to get started</td></tr>
 </tbody></table>
-</div>
 <h3 id="timeline"><a class="header" href="#timeline">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2444,7 +2495,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <li>OurTown shares will be tokenized digitally (legalized STO) which might provide liquidity of the shares and value increase towards the future.</li>
 </ul>
 <h3 id="responsibilities-1"><a class="header" href="#responsibilities-1">Responsibilities</a></h3>
-<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>create and deliver the technical system as required for OurHub functions like registration, money collection</td><td>recognize digital signatures and blockchain company ownership</td></tr>
 <tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurHub Strategic Investment Status. Tax Free Status for 5 years to import goods as well as income tax exemption.</td></tr>
 <tr><td>deploy systems and operationally run the Community Digital Backbone system</td><td>endorsement of Community Digital Backbone Functions (tax collection, identity, electronic signatures ...)</td></tr>
@@ -2456,7 +2507,6 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 </tbody></table>
-</div>
 <h3 id="timeline-1"><a class="header" href="#timeline-1">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2470,16 +2520,16 @@ The benefits of this system are huge. We had to write an operating system from s
 <blockquote>
 <p>TODO: Kristof, Nuru improve...</p>
 </blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="ourfinance"><a class="header" href="#ourfinance">OurFinance</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="ourfintech"><a class="header" href="#ourfintech">OurFintech</a></h2>
 <h3 id="highlights-of-service-2"><a class="header" href="#highlights-of-service-2">highlights of service</a></h3>
 <ul>
-<li>provide digital financial licenses as defined <a href="partnership/../ourfinance/overview.html">in our overview</a> to the world.</li>
+<li>provide digital financial licenses as defined <a href="partnership/../ourfintech/overview.html">in our overview</a> to the world.</li>
 <li>operate the <a href="partnership/../ourtown/community_digital_backbone.html">CDB</a> = Community Digital Backbone </li>
 <li>audit the parties (using the CBD capabilities)</li>
 <li>help the detection of crimimal or other unregular activities if that would happen</li>
 <li>be a global recognized example of how a fintech environment can be build in a sandbox (OurTown)</li>
 <li>promotion to attract fintech startups into OurTown and provide huge promotion value that way for TNZ</li>
-<li>do expositions and organze events to show how the OurFinance/OurHub/OurTown model works</li>
+<li>do expositions and organze events to show how the OurFintech/OurHub/OurTown model works</li>
 </ul>
 <h3 id="model"><a class="header" href="#model">Model</a></h3>
 <ul>
@@ -2494,9 +2544,9 @@ The benefits of this system are huge. We had to write an operating system from s
 <li>OurTown shares will be tokenized digitally (legalized STO) which might provide liquidity of the shares and value increase towards the future.</li>
 </ul>
 <h3 id="responsibilities-2"><a class="header" href="#responsibilities-2">Responsibilities</a></h3>
-<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>finish feasibility study</td><td>sign agreements for collaboration</td></tr>
-<tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurFinance Strategic Investment Status. Tax Free Status for 5 years to import goods as well as income tax exemption.</td></tr>
+<tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurFintech Strategic Investment Status. Tax Free Status for 5 years to import goods as well as income tax exemption.</td></tr>
 <tr><td>Prepare all legal docs to create a financial center like this (is huge effort, we have the people for it)</td><td>help to communicate with CB and get approvals done for the legal documents</td></tr>
 <tr><td>Research to make sure that all legal docs are 100% compliant with global standards</td><td></td></tr>
 <tr><td></td><td></td></tr>
@@ -2506,7 +2556,6 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 </tbody></table>
-</div>
 <h3 id="timeline-2"><a class="header" href="#timeline-2">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2532,7 +2581,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <p>...</p>
 <h2 id="ourhub-2"><a class="header" href="#ourhub-2">OurHub</a></h2>
 <p>...</p>
-<h2 id="ourfinance-1"><a class="header" href="#ourfinance-1">OurFinance</a></h2>
+<h2 id="ourfintech-1"><a class="header" href="#ourfintech-1">OurFintech</a></h2>
 <p>...</p>
 <h2 id="oursource"><a class="header" href="#oursource">OurSource</a></h2>
 <p>...</p>
@@ -2925,24 +2974,24 @@ Together we build our own future through the Internet of Internets.</p>
 
 
 
-        <script>
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js" charset="utf-8"></script>
-        <script src="mark.min.js" charset="utf-8"></script>
-        <script src="searcher.js" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="clipboard.min.js" charset="utf-8"></script>
-        <script src="highlight.js" charset="utf-8"></script>
-        <script src="book.js" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        <script src="mermaid.min.js"></script>
-        <script src="mermaid-init.js"></script>
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
 
-        <script>
+        <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });

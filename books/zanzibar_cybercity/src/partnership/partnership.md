@@ -1,12 +1,12 @@
 # Partnership
 
-## OurTown / OurHub / OurFinance
+## OurTown / OurHub / OurFintech
 
 See the following pages
 
 - [OurTown](ppp_ourtown.md)
 - [OurHub](ppp_ourhub.md)
-- [OurFinance](ppp_ourfinance.md)
+- [OurFintech](ppp_ourfinance.md)
 
 
 ## OurSource = The Incubator

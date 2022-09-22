@@ -13,7 +13,7 @@
 
 ...
 
-## OurFinance
+## OurFintech
 
 ...
 
