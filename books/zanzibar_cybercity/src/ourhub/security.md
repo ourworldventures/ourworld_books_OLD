@@ -34,8 +34,8 @@ All information is archived forever and verified on the blockchain in the sandbo
 
 Our [unique technology](../ourtown/community_digital_backbone.md) delivers strong safety mechanism
 
-* Every participating party is vigourously identity-verified.
+* Every participating party is vigorously identity-verified.
 * All information used is verifiable.
 * There is approval for authenticity and completeness of information (are things understandable).
 
-> <span style="color:red">**To Clarify:**</span> Not entirely sure. Is this peer reviewing or a more algorithmic review?
+> TODO: (anyone) Not entirely sure. Is this peer reviewing or a more algorithmic review?

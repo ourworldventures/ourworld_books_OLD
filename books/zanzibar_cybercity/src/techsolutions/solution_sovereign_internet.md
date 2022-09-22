@@ -4,7 +4,7 @@
 
 **Your Internet needs to be more GDP Positive**
 
-There needs to be a decentralized but ultra sovereign digital backbone created which can deliver on following requirements. This is for all citizens in the country (unlike as described in the previous section).
+There needs to be a decentralized but ultra sovereign [digital backbone](../ourtown/community_digital_backbone.md) created which can deliver on following requirements. This is for all citizens in the country (unlike as described in the previous section).
 
 * All data stays in country
 

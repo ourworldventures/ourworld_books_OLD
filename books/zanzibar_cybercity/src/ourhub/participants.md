@@ -3,9 +3,11 @@
 
 ![](img/participants.png)  
 
-> <span style="color:red">**To Clarify:**</span> I don't think it is entirely clear what the sandbox is.
+> TODO: (anyone) I don't think it is entirely clear what the sandbox is.
 
 For this doc we call the Digital Nomad Business Hub, OurHub.
+
+> TODO: (anyone) What should we name these terms? They used to be Zanzi Community, Zanzi... but Zanzi has negative connotations.
 
 ## OurCommunity
 
@@ -17,11 +19,11 @@ Anyone can become a member of OurCommunity.
 
 A member can use tokens from the sandbox and has insight into the information of companies within the sandbox. Members can use (buy) services from companies in the sandbox. All members are required to go through KYC and AML. There is no VAT involved for the services within the sandbox.
 
-> <span style="color:red">**To Clarify:**</span> Isn't there a flat 15% tax rate, which is effectively a VAT?
+> TODO: (anyone) Isn't there a flat 15% tax rate, which is effectively a VAT?
 
 ## OurHub Companies
 
-> <span style="color:red">**To Clarify:**</span> this need to be refined but just ideas to get started with.
+> TODO: (anyone) this need to be refined but just ideas to get started with.
  
 There are 4 types of companies to start with:
 
@@ -34,13 +36,13 @@ There are 4 types of companies to start with:
 
 Each company automatic monthly reporting about 
 
-> <span style="color:red">**To Clarify:**</span> This idea needs to be finished.
+> TODO: (anyone) This idea needs to be finished.
 
 ## Sandbox Authority (SA)
 
 The company in Zanzibar which organizes and checks the correct operation of the sandbox = OurCommunity (is the digital freezone company)
 
-> <span style="color:red">**To Clarify:**</span> Much of this further needs to be defined as we go.
+> TODO: (anyone) Much of this further needs to be defined as we go.
 
 The SA has following rights & duties:
 

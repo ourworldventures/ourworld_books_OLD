@@ -3,7 +3,7 @@
 ![](img/cbdcfix.png)  
 
 
-Thanks to the methodology and technology we have available we can provide a country with a solution which is 
+Thanks to the methodology and technology we have available we can provide a country with a [solution](../ourtown/community_digital_backbone.md) which is 
 
 * More secure
 * Can survive Internet Downtime

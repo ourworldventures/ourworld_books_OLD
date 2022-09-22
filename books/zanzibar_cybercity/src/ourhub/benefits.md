@@ -55,13 +55,13 @@ World class IT systems will provide: data sovereignty, transparent reporting, pr
 
 ### Healthy Tourism = for digital nomads
 
-> <span style="color:red">**To Clarify:**</span> What should x be?
+> TODO: (anyone) What should x be?
 
 x% of the digital nomads will spend some time in Zanzibar, this leads to secondary benefits for Zanzibar (Tourism).
 
 ### Modern Sustainable Physical FreeZone location for digital nomads
 
-> <span style="color:red">**To Clarify:**</span> What location?
+> TODO: (anyone) What location?
 
 To Be Determined with the Government of Zanzibar, this leads to benefits...
 

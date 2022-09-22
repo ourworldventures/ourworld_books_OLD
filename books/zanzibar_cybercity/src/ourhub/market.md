@@ -21,4 +21,4 @@ Over the past three years, Emergent Research and MBO Partners have collaborated 
 >> Do you want more statistics? https://abrotherabroad.com/digital-nomad-statistics/
 
 As such, taxes were reported as one of the major struggles for digital nomads.
-> <span style="color:red">**To Clarify:**</span> Should I move this to the why section?
+> TODO: (anyone) Should I move this to the why section?

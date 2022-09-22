@@ -1,23 +1,26 @@
 
 # Business Model
 
+### Projected revenue streams per market category in USD
+
 ![](img/bizmodel1.png)  
 
 
-Shows the market and how the revenue streams might be per category.
-
+### Projected income model for OurHub in USD
 
 ![](img/bizmodel2.png)  
 
-Income model for OurHub
+
+### Projected additional income for Zanzibar in USD
 
 
 ![](img/bizmodel3.png)  
+\
+\
+\
 
-Benefits for Zanzibar
 
->> Zanzibar might add 6 Billion to its GDP
-
->> Zanzibar mught have +600.000.000 USD additional income in 6-7 years from now
+|**OurHub can add 6 Billion USD to Zanzibar's GDP and increase the country's income by +600,000,000 USD within 6-7 years!**|
+|:--:|
 
 
