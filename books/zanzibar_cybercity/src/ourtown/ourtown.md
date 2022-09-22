@@ -2,7 +2,9 @@
 
 ![](img/cybercity.png)
 
-The digital freezone and digital banking services within Zanzibar are really attractive incentives for the digital nomad community and any startup that wants to innovate here. The expected development and influx of talented individuals create the need for a digital/cyber city where businesses and their employees can live and innovate together. It is crucial that this need is met while ensuring the environmental, social and financial sustainability of the growth in the country. Sustainable cities and communities are growing trends in the world of real estate development. OurTown is a fully fledged carbon neutral mixed use project in development that aims to create dynamic communities and destinations that drive economic growth and contribute to the diversification of the economy. The sustainability aspect of the project will attract digital nomads and eco-tourists while helping to set a national sustainability agenda for Zanzibar. Many engineers and technicians will be trained on how to build sustainable communities and foster further sustainability in Zanzibar. 
+The digital freezone and digital banking services within Zanzibar are really attractive incentives for the digital nomad community and any startup that wants to innovate here. The expected development and influx of talented individuals create the need for a digital/cyber city where businesses and their employees can live and innovate together. It is crucial that this need is met while ensuring the environmental, social and financial sustainability of the growth in the country. Sustainable cities and communities are growing trends in the world of real estate development. 
+
+OurTown is a fully fledged carbon neutral mixed use project in development that aims to create dynamic communities and destinations that drive economic growth and contribute to the diversification of the economy. The sustainability aspect of the project will attract digital nomads and eco-tourists while helping to set a national sustainability agenda for Zanzibar. Many engineers and technicians will be trained on how to build sustainable communities and foster further sustainability in Zanzibar. 
 
 
 Goals of the project:
@@ -14,7 +16,6 @@ Goals of the project:
 
 - Sustainable development: Creating fully fledged carbon negative, mixed use, futuristic communities and destinations that drive economic growth and contribute to the diversification of the economy
 
-The target market of the city are start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech & IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. 
+The target market of the city include start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech & IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. 
 
-> TODO: (vic) get first version done today which is good enough
 

@@ -10,7 +10,7 @@ What makes our proposition unique is our ability to provide the combination of t
 - thrid-party processing with global fiat currencies 
 - auditing services & automatic tax reporting
 - facility services (office, houses for staff, ...)
-
+ 
 ## The timing is ideal
 
 - There is a large and fast growing market for digital banking Internationally: The global digital banking market size was valued at $8 trillion in 2020 and is growing at a CAGR of 5% from 2021 to 2027. The E-Bank (Neo/Challenger Bank) market size was valued at USD 28.73 Billion in 2020 and is projected to reach USD 627.99 Billion by 2028, growing at a CAGR of 47.17% from 2021 to 2028.
@@ -24,6 +24,7 @@ The following table highlights the various licences that OurFinance can provide 
 
 {{#include overview.md}}
 
+> TODO: Add how it ties with DT for full financial suite e.g. financial education tips and tricks etc.. 
 
 
 

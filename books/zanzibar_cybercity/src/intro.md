@@ -8,7 +8,6 @@ We believe the world would be a better place if we would not escape into painkil
 
 
 
-
 <div style="text-align: center;">
 
 ## Revolutionary Government of Zanzibar
