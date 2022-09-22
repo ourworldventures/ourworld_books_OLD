@@ -27,7 +27,9 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 
 OurWorld represents a new way of existing, both digitally and physically in a rapidly changing reality. It will solve many of our digital needs and introduce us to a new sovereign life in an abundance-based world.
 
-We want to build the first OurHub in Zanzibar, an instance of an OurWorld community. It will be physically grounded in OurTown, a partially self-governing physical location, a new cybercity. OurFintech and OurTwin are crucial components for the existence of a digitally-advanced modern community, representing vital financial and digital tools respectively. They will exist on the Community Digital Backbone, the decentralised internet infrastructure built throughout the Zanzibar OurTown. Finally, we will create OurSource, an incubator for pioneering new startups, from both OurHub and the local community. All together, this constitutes the Zanzibar OurHub, the spearhead of OurWorld.
+> TODO: (jonathan) Add explanation of what ourworld and all the components are
+
+
 
 *graphical depiction*
 
