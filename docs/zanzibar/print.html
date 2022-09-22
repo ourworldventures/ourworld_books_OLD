@@ -35,13 +35,13 @@
     </head>
     <body>
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -69,7 +69,7 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="brave_new_world/brave_new_world.html"><strong aria-hidden="true">1.1.</strong> Brave New Digital World</a></li><li class="chapter-item expanded "><a href="brave_new_world/no_pain_killer.html"><strong aria-hidden="true">1.2.</strong> No Painkillers</a></li><li class="chapter-item expanded "><a href="brave_new_world/the_recipe.html"><strong aria-hidden="true">1.3.</strong> Our Recipe</a></li></ol></li><li class="chapter-item expanded "><a href="ourhub/ourhub.html"><strong aria-hidden="true">2.</strong> OURHUB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourhub/why.html"><strong aria-hidden="true">2.1.</strong> Why</a></li><li class="chapter-item expanded "><a href="ourhub/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="ourhub/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="ourhub/tools.html"><strong aria-hidden="true">2.4.</strong> Tools</a></li><li class="chapter-item expanded "><a href="ourhub/benefits.html"><strong aria-hidden="true">2.5.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="ourhub/security.html"><strong aria-hidden="true">2.6.</strong> Security</a></li><li class="chapter-item expanded "><a href="ourhub/participants.html"><strong aria-hidden="true">2.7.</strong> Participants</a></li><li class="chapter-item expanded "><a href="ourhub/finance.html"><strong aria-hidden="true">2.8.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="ourhub/bizmodel.html"><strong aria-hidden="true">2.9.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourhub/conclusion.html"><strong aria-hidden="true">2.10.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/ourfinance.html"><strong aria-hidden="true">3.</strong> OURFINANCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/custodian.html"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/crime_prevention.html"><strong aria-hidden="true">3.5.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="ourfinance/market_size_digifin.html"><strong aria-hidden="true">3.6.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="ourtown/ourtown.html"><strong aria-hidden="true">4.</strong> OURTOWN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtown/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="ourtown/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="ourtown/layout.html"><strong aria-hidden="true">4.3.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="ourtown/utilization.html"><strong aria-hidden="true">4.4.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="ourtown/bizmodel.html"><strong aria-hidden="true">4.5.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourtown/all_digital.html"><strong aria-hidden="true">4.6.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="ourtown/team.html"><strong aria-hidden="true">4.7.</strong> Team</a></li><li class="chapter-item expanded "><a href="ourtown/tax.html"><strong aria-hidden="true">4.8.</strong> TAX</a></li><li class="chapter-item expanded "><a href="ourtown/community_digital_backbone.html"><strong aria-hidden="true">4.9.</strong> Community Digital Backbone</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin.html"><strong aria-hidden="true">5.</strong> OURTWIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/intro/internet_sovereignity.html"><strong aria-hidden="true">5.1.</strong> Own Your Digital Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/how_does_it_work.html"><strong aria-hidden="true">5.2.</strong> How Does It Work</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/funny_comparison.html"><strong aria-hidden="true">5.3.</strong> Funny Comparison With Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/twin_architecture.html"><strong aria-hidden="true">5.4.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/myskills.html"><strong aria-hidden="true">5.5.</strong> Our Twin Is Powerfull</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/communicate.html"><strong aria-hidden="true">5.5.1.</strong> Communicate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/chat.html"><strong aria-hidden="true">5.5.1.1.</strong> chat</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/extra/videoconference.html"><strong aria-hidden="true">5.5.1.2.</strong> video conference</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity.html"><strong aria-hidden="true">5.5.2.</strong> Create</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_metaverse.html"><strong aria-hidden="true">5.5.2.1.</strong> expand the metaverse</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_web.html"><strong aria-hidden="true">5.5.2.2.</strong> websites</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_education.html"><strong aria-hidden="true">5.5.2.3.</strong> education content</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/share.html"><strong aria-hidden="true">5.5.3.</strong> Share</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/video_share.html"><strong aria-hidden="true">5.5.3.1.</strong> Video Share</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/discover.html"><strong aria-hidden="true">5.5.4.</strong> Discover</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/browse.html"><strong aria-hidden="true">5.5.4.1.</strong> browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/economy.html"><strong aria-hidden="true">5.5.5.</strong> Economy-Business</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/organize.html"><strong aria-hidden="true">5.5.6.</strong> Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/protect.html"><strong aria-hidden="true">5.5.7.</strong> Protect</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/collaborate.html"><strong aria-hidden="true">5.5.8.</strong> Collaborate</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/coding/creativity_coder.html"><strong aria-hidden="true">5.5.9.</strong> Develop and Expand</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/experiences.html"><strong aria-hidden="true">5.6.</strong> First Zanzibar Experiences</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/ourlife.html"><strong aria-hidden="true">5.6.1.</strong> our digital life - ourlife</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/chat.html"><strong aria-hidden="true">5.6.1.1.</strong> Chat</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/meet.html"><strong aria-hidden="true">5.6.1.2.</strong> Meet</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/share_organize.html"><strong aria-hidden="true">5.6.1.3.</strong> Share/Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/officedocs.html"><strong aria-hidden="true">5.6.1.4.</strong> Office Docs</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/browser.html"><strong aria-hidden="true">5.6.1.5.</strong> Browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/floweavers/floweavers.html"><strong aria-hidden="true">5.6.2.</strong> sharing economoy - floweaver</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourverse/ourverse.html"><strong aria-hidden="true">5.6.3.</strong> metaverse - ourverse</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/sikana/sikana.html"><strong aria-hidden="true">5.6.4.</strong> learning system - sikana</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="oursource/oursource.html"><strong aria-hidden="true">6.</strong> OURSOURCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="oursource/history.html"><strong aria-hidden="true">6.1.</strong> previous successes</a></li><li class="chapter-item expanded "><a href="oursource/how_we_work.html"><strong aria-hidden="true">6.2.</strong> how we work</a></li><li class="chapter-item expanded "><a href="oursource/opensource.html"><strong aria-hidden="true">6.3.</strong> opensource</a></li></ol></li><li class="chapter-item expanded "><a href="partnership/partnership.html"><strong aria-hidden="true">7.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="partnership/ppp_ourtown.html"><strong aria-hidden="true">7.1.</strong> OurTown</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourhub.html"><strong aria-hidden="true">7.2.</strong> OurHub</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourfinance.html"><strong aria-hidden="true">7.3.</strong> OurFinance</a></li><li class="chapter-item expanded "><a href="partnership/financials.html"><strong aria-hidden="true">7.4.</strong> Financials</a></li><li class="chapter-item expanded "><a href="partnership/benefits_znz.html"><strong aria-hidden="true">7.5.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="feasibility/feasibility.html"><strong aria-hidden="true">8.</strong> Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="feasibility/regulatory.html"><strong aria-hidden="true">8.1.</strong> Regulatory</a></li><li class="chapter-item expanded "><a href="feasibility/technical.html"><strong aria-hidden="true">8.2.</strong> Technical</a></li><li class="chapter-item expanded "><a href="feasibility/operational.html"><strong aria-hidden="true">8.3.</strong> Operational</a></li><li class="chapter-item expanded "><a href="feasibility/financial.html"><strong aria-hidden="true">8.4.</strong> Financial</a></li><li class="chapter-item expanded "><a href="feasibility/feasibility_tax.html"><strong aria-hidden="true">8.5.</strong> Tax</a></li></ol></li><li class="chapter-item expanded "><a href="techsolutions/techsolutions.html"><strong aria-hidden="true">9.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issues.html"><strong aria-hidden="true">9.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issue_cyberpandemic.html"><strong aria-hidden="true">9.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">9.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="solutions/issue_cbdc.html"><strong aria-hidden="true">9.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="solutions/solutions.html"><strong aria-hidden="true">9.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">9.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">9.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">9.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology/technology.html"><strong aria-hidden="true">10.</strong> Technology</a></li><li class="chapter-item expanded "><a href="ppp/ppp.html"><strong aria-hidden="true">11.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/mission.html"><strong aria-hidden="true">11.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="mission/vision.html"><strong aria-hidden="true">11.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/goals/1_concept_realization0.html"><strong aria-hidden="true">11.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">11.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">11.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Home</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="brave_new_world/brave_new_world.html"><strong aria-hidden="true">1.1.</strong> Brave New Digital World</a></li><li class="chapter-item expanded "><a href="brave_new_world/no_pain_killer.html"><strong aria-hidden="true">1.2.</strong> No Painkillers</a></li><li class="chapter-item expanded "><a href="brave_new_world/the_recipe.html"><strong aria-hidden="true">1.3.</strong> Our Recipe</a></li></ol></li><li class="chapter-item expanded "><a href="ourhub/ourhub.html"><strong aria-hidden="true">2.</strong> OURHUB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourhub/why.html"><strong aria-hidden="true">2.1.</strong> Why</a></li><li class="chapter-item expanded "><a href="ourhub/market.html"><strong aria-hidden="true">2.2.</strong> Market</a></li><li class="chapter-item expanded "><a href="ourhub/goal.html"><strong aria-hidden="true">2.3.</strong> Goal</a></li><li class="chapter-item expanded "><a href="ourhub/tools.html"><strong aria-hidden="true">2.4.</strong> Tools</a></li><li class="chapter-item expanded "><a href="ourhub/benefits.html"><strong aria-hidden="true">2.5.</strong> Benefits</a></li><li class="chapter-item expanded "><a href="ourhub/security.html"><strong aria-hidden="true">2.6.</strong> Security</a></li><li class="chapter-item expanded "><a href="ourhub/participants.html"><strong aria-hidden="true">2.7.</strong> Participants</a></li><li class="chapter-item expanded "><a href="ourhub/finance.html"><strong aria-hidden="true">2.8.</strong> Financial System</a></li><li class="chapter-item expanded "><a href="ourhub/bizmodel.html"><strong aria-hidden="true">2.9.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourhub/conclusion.html"><strong aria-hidden="true">2.10.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/ourfinance.html"><strong aria-hidden="true">3.</strong> OURFINANCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp.html"><strong aria-hidden="true">3.1.</strong> PSP License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/psp_steps.html"><strong aria-hidden="true">3.1.1.</strong> PSP License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/emi.html"><strong aria-hidden="true">3.2.</strong> E-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/emi_steps.html"><strong aria-hidden="true">3.2.1.</strong> E-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/dmi.html"><strong aria-hidden="true">3.3.</strong> D-Money License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/dmi_steps.html"><strong aria-hidden="true">3.3.1.</strong> D-Money License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/custodian.html"><strong aria-hidden="true">3.4.</strong> Custodian License</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourfinance/custodian_steps.html"><strong aria-hidden="true">3.4.1.</strong> Custodian License Steps</a></li></ol></li><li class="chapter-item expanded "><a href="ourfinance/crime_prevention.html"><strong aria-hidden="true">3.5.</strong> Crime Prevention</a></li><li class="chapter-item expanded "><a href="ourfinance/market_size_digifin.html"><strong aria-hidden="true">3.6.</strong> Market Size</a></li></ol></li><li class="chapter-item expanded "><a href="ourtown/ourtown.html"><strong aria-hidden="true">4.</strong> OURTOWN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtown/world_first.html"><strong aria-hidden="true">4.1.</strong> World First</a></li><li class="chapter-item expanded "><a href="ourtown/location.html"><strong aria-hidden="true">4.2.</strong> Location</a></li><li class="chapter-item expanded "><a href="ourtown/utilization.html"><strong aria-hidden="true">4.3.</strong> Space Utilization</a></li><li class="chapter-item expanded "><a href="ourtown/layout.html"><strong aria-hidden="true">4.4.</strong> First Layout</a></li><li class="chapter-item expanded "><a href="ourtown/artist_rendition.html"><strong aria-hidden="true">4.5.</strong> Artist Rendition</a></li><li class="chapter-item expanded "><a href="ourtown/bizmodel.html"><strong aria-hidden="true">4.6.</strong> Business Model</a></li><li class="chapter-item expanded "><a href="ourtown/all_digital.html"><strong aria-hidden="true">4.7.</strong> All Digital</a></li><li class="chapter-item expanded "><a href="ourtown/team.html"><strong aria-hidden="true">4.8.</strong> Team</a></li><li class="chapter-item expanded "><a href="ourtown/tax.html"><strong aria-hidden="true">4.9.</strong> TAX</a></li><li class="chapter-item expanded "><a href="ourtown/community_digital_backbone.html"><strong aria-hidden="true">4.10.</strong> Community Digital Backbone</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin.html"><strong aria-hidden="true">5.</strong> OURTWIN</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/intro/internet_sovereignity.html"><strong aria-hidden="true">5.1.</strong> Own Your Digital Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/how_does_it_work.html"><strong aria-hidden="true">5.2.</strong> How Does It Work</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/funny_comparison.html"><strong aria-hidden="true">5.3.</strong> Funny Comparison With Life</a></li><li class="chapter-item expanded "><a href="ourtwin/intro/twin_architecture.html"><strong aria-hidden="true">5.4.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/myskills.html"><strong aria-hidden="true">5.5.</strong> Our Twin Is Powerfull</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/communicate.html"><strong aria-hidden="true">5.5.1.</strong> Communicate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/chat.html"><strong aria-hidden="true">5.5.1.1.</strong> chat</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/extra/videoconference.html"><strong aria-hidden="true">5.5.1.2.</strong> video conference</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity.html"><strong aria-hidden="true">5.5.2.</strong> Create</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_metaverse.html"><strong aria-hidden="true">5.5.2.1.</strong> expand the metaverse</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_web.html"><strong aria-hidden="true">5.5.2.2.</strong> websites</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/creativity_education.html"><strong aria-hidden="true">5.5.2.3.</strong> education content</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/share.html"><strong aria-hidden="true">5.5.3.</strong> Share</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/video_share.html"><strong aria-hidden="true">5.5.3.1.</strong> Video Share</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/discover.html"><strong aria-hidden="true">5.5.4.</strong> Discover</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/skills/extra/browse.html"><strong aria-hidden="true">5.5.4.1.</strong> browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/skills/economy.html"><strong aria-hidden="true">5.5.5.</strong> Economy-Business</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/organize.html"><strong aria-hidden="true">5.5.6.</strong> Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/protect.html"><strong aria-hidden="true">5.5.7.</strong> Protect</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/collaborate.html"><strong aria-hidden="true">5.5.8.</strong> Collaborate</a></li><li class="chapter-item expanded "><a href="ourtwin/skills/creativity/coding/creativity_coder.html"><strong aria-hidden="true">5.5.9.</strong> Develop and Expand</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/experiences.html"><strong aria-hidden="true">5.6.</strong> First Zanzibar Experiences</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/ourlife.html"><strong aria-hidden="true">5.6.1.</strong> our digital life - ourlife</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/chat.html"><strong aria-hidden="true">5.6.1.1.</strong> Chat</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/meet.html"><strong aria-hidden="true">5.6.1.2.</strong> Meet</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/share_organize.html"><strong aria-hidden="true">5.6.1.3.</strong> Share/Organize</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/officedocs.html"><strong aria-hidden="true">5.6.1.4.</strong> Office Docs</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourlife/browser.html"><strong aria-hidden="true">5.6.1.5.</strong> Browse</a></li></ol></li><li class="chapter-item expanded "><a href="ourtwin/experiences/floweavers/floweavers.html"><strong aria-hidden="true">5.6.2.</strong> sharing economoy - floweaver</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/ourverse/ourverse.html"><strong aria-hidden="true">5.6.3.</strong> metaverse - ourverse</a></li><li class="chapter-item expanded "><a href="ourtwin/experiences/sikana/sikana.html"><strong aria-hidden="true">5.6.4.</strong> learning system - sikana</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="oursource/oursource.html"><strong aria-hidden="true">6.</strong> OURSOURCE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="oursource/history.html"><strong aria-hidden="true">6.1.</strong> previous successes</a></li><li class="chapter-item expanded "><a href="oursource/how_we_work.html"><strong aria-hidden="true">6.2.</strong> how we work</a></li><li class="chapter-item expanded "><a href="oursource/opensource.html"><strong aria-hidden="true">6.3.</strong> opensource</a></li></ol></li><li class="chapter-item expanded "><a href="partnership/partnership.html"><strong aria-hidden="true">7.</strong> Public Private Partnership</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="partnership/ppp_ourtown.html"><strong aria-hidden="true">7.1.</strong> OurTown</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourhub.html"><strong aria-hidden="true">7.2.</strong> OurHub</a></li><li class="chapter-item expanded "><a href="partnership/ppp_ourfinance.html"><strong aria-hidden="true">7.3.</strong> OurFinance</a></li><li class="chapter-item expanded "><a href="partnership/financials.html"><strong aria-hidden="true">7.4.</strong> Financials</a></li><li class="chapter-item expanded "><a href="partnership/benefits_znz.html"><strong aria-hidden="true">7.5.</strong> Zanzibar Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="feasibility/feasibility.html"><strong aria-hidden="true">8.</strong> Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="feasibility/regulatory.html"><strong aria-hidden="true">8.1.</strong> Regulatory</a></li><li class="chapter-item expanded "><a href="feasibility/technical.html"><strong aria-hidden="true">8.2.</strong> Technical</a></li><li class="chapter-item expanded "><a href="feasibility/operational.html"><strong aria-hidden="true">8.3.</strong> Operational</a></li><li class="chapter-item expanded "><a href="feasibility/financial.html"><strong aria-hidden="true">8.4.</strong> Financial</a></li><li class="chapter-item expanded "><a href="feasibility/feasibility_tax.html"><strong aria-hidden="true">8.5.</strong> Tax</a></li></ol></li><li class="chapter-item expanded "><a href="techsolutions/techsolutions.html"><strong aria-hidden="true">9.</strong> Technical Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issues.html"><strong aria-hidden="true">9.1.</strong> Issues</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="solutions/issue_cyberpandemic.html"><strong aria-hidden="true">9.1.1.</strong> cyberpandemic</a></li><li class="chapter-item expanded "><a href="solutions/issues_countries_dont_own_internet.html"><strong aria-hidden="true">9.1.2.</strong> Internet Broken</a></li><li class="chapter-item expanded "><a href="solutions/issue_cbdc.html"><strong aria-hidden="true">9.1.3.</strong> CBDC not sovereign</a></li></ol></li><li class="chapter-item expanded "><a href="solutions/solutions.html"><strong aria-hidden="true">9.2.</strong> Solutions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="techsolutions/solution_cyberpandemic.html"><strong aria-hidden="true">9.2.1.</strong> antidote cyberpandemic</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_internet.html"><strong aria-hidden="true">9.2.2.</strong> Sovereign Internet</a></li><li class="chapter-item expanded "><a href="techsolutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">9.2.3.</strong> sovereign digital backbone</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology/technology.html"><strong aria-hidden="true">10.</strong> Technology</a></li><li class="chapter-item expanded "><a href="ppp/ppp.html"><strong aria-hidden="true">11.</strong> Planet First</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/mission.html"><strong aria-hidden="true">11.1.</strong> Mission</a></li><li class="chapter-item expanded "><a href="mission/vision.html"><strong aria-hidden="true">11.2.</strong> ThreeFold Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mission/goals/1_concept_realization0.html"><strong aria-hidden="true">11.2.1.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">11.2.2.</strong> Internet GDP Positivity</a></li><li class="chapter-item expanded "><a href="mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">11.2.3.</strong> Realizing Web 4.0</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -133,7 +133,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -165,12 +165,12 @@
 <p><img src="brave_new_world/img/brave_new_world.png" alt="" /></p>
 <p><strong>This would have incredible benefits:</strong></p>
 <ol>
-<li>National Education would go up. </li>
-<li>National Health would go up. </li>
-<li>Leadership would be recognised for vision and execution capability. </li>
-<li>OurTown Residents would be proud &amp; delighted to be part of a beautiful Zanzibar ready for the future.</li>
-<li>National GDP would go up. </li>
-<li>Security would increase.</li>
+<li>National Education would go up </li>
+<li>National Health would go up </li>
+<li>Leadership would be recognised for vision and execution capability</li>
+<li>OurTown Residents would be proud &amp; delighted to be part of a beautiful Zanzibar ready for the future</li>
+<li>National GDP would go up</li>
+<li>Security would increase</li>
 </ol>
 <p>Rather than implementing all as a painkiller approach (see <a href="brave_new_world/no_pain_killer.html">here</a>), why not go to the root and build a new digital backbone which is done in such a way it resolves the majority of requirements for a country's digital transformation.</p>
 <h1 id="imagine-zanzibar-government-can"><a class="header" href="#imagine-zanzibar-government-can">Imagine Zanzibar government can</a></h1>
@@ -466,27 +466,27 @@ Only wrapped and native tokens = digital currencies can be used (see below).</p>
 </ul>
 <h2 id="required-licences"><a class="header" href="#required-licences">Required Licences</a></h2>
 <p>The following table highlights the various licences that OurFinance can provide needed to operate a fully comprehensive digital freezone. </p>
-<table><thead><tr><th></th><th style="text-align: center">Payment Service Provider (PSP)</th><th style="text-align: center">Electronic Money Institution (EMI)</th><th style="text-align: center">Digital Money Institution (DMI)</th><th style="text-align: center">Digital Custodian</th><th style="text-align: center">Full Bank</th></tr></thead><tbody>
-<tr><td>Payment services (digital/web) = accept payments</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
-<tr><td>money In and Out to any other financial institute (fiat)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
-<tr><td>money In and Out to own account (fiat)</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
-<tr><td>fiat currency exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
-<tr><td>fiat-digital, digital-digital exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td>Opening multicurrency accounts (e-wallets)</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
-<tr><td>Issuance of D-money  (digital currency/asset wallets)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td><td style="text-align: center"></td></tr>
-<tr><td>Debit Card Integration</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
-<tr><td>Holding valuable assets on behalf of customers<br>(shares,gold,tanzanite,digital and fiat currencies) .</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
-<tr><td>Security Emissions (create securities on behalf of customers)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
-<tr><td>Allow customers to exchange their assets (in the sandbox)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td><td style="text-align: center">V</td></tr>
-<tr><td>Investment services (help users to make investment decisions)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
-<tr><td>Lending to businesses and individual</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">V</td></tr>
+<div class="table-wrapper"><table><thead><tr><th></th><th style="text-align: center">Payment Service Provider (PSP)</th><th style="text-align: center">Electronic Money Institution (EMI)</th><th style="text-align: center">Digital Money Institution (DMI)</th><th style="text-align: center">Digital Custodian</th><th style="text-align: center">Full Bank</th></tr></thead><tbody>
+<tr><td>Payment services (digital/web) = accept payments</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Money In and Out to any other financial institute (fiat)</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Money In and Out to own account (fiat)</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Fiat currency exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Fiat-digital, digital-digital exchange</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td>Opening multicurrency accounts (e-wallets)</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Issuance of D-money  (digital currency / asset wallets)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td></tr>
+<tr><td>Debit Card Integration</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Holding valuable assets on behalf of customers<br>(shares, gold, tanzanite, digital and fiat currencies)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Security Emissions (create securities on behalf of customers)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Allow customers to exchange their assets (in the sandbox)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Investment services (help users to make investment decisions)</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
+<tr><td>Lending to businesses and individual</td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center">:heavy_check_mark:</td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td>Cost Setup &amp; License</td><td style="text-align: center">2-20 k USD</td><td style="text-align: center">50-100 k USD</td><td style="text-align: center">20-50 k USD</td><td style="text-align: center">100-200 k USD</td><td style="text-align: center">Future</td></tr>
 <tr><td>Cost Technology</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">integrated</td><td style="text-align: center">Future</td></tr>
 <tr><td>Cost Per Year</td><td style="text-align: center">5-10 k USD</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$0.5-2 user/month</td><td style="text-align: center">$2-10 user/month</td><td style="text-align: center">Future</td></tr>
 </tbody></table>
-<br>
+</div><br>
 <br>
 <blockquote>
 <p>Unique to our solution is that the tech is fully integrated for all assets of the financial solution.</p>
@@ -915,9 +915,6 @@ Innovative authentication mechanisms.</p>
 </li>
 </ul>
 <p>The target market of the city are start-ups, digital nomads, eco-tourists, employees and families. The digital businesses in the city will have a focus on cyber security, internet, AI, green tech &amp; IT, agritech, communication, software and gaming. The amenities within the city will serve the mentioned target market. </p>
-<blockquote>
-<p>TODO: (vic) get first version done today which is good enough</p>
-</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="world-first"><a class="header" href="#world-first">World First</a></h1>
 <p>The development of OurTown Sustainable City represents the political will to work towards a sustainable future. Commitment to regenerative practices will result in sustainable and equitable growth which will become an example for the rest of the world. The development will showcase how sustainable development can be achieved while reflecting the values of the local communities and their culture.</p>
 <p>The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. The digital freezone will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use the city as a physical or digital home. </p>
@@ -945,10 +942,6 @@ Innovative authentication mechanisms.</p>
 <p>Sustainable development projects all around the world proves the financial, social and environmental feasibility of the concept. Other large-scale sustainable city projects are being developed in Canada, USA, Saudi Arabia, UAE, Malaysia, Egypt, Mexico, Maldives and China. 
 ​​
 OurTown has a climate advantage over many of the similar projects. It will exceed projects of similar scale at much lower costs due to temperate climate conditions. Zanzibar climate is well-suited for sustainable development in comparison to many other cities with large scale sustainable developments such as Dubai and Abu Dhabi. </p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="first-layout"><a class="header" href="#first-layout">First Layout</a></h1>
-<blockquote>
-<p>TODO:  (emre), waiting for layout render from Zia</p>
-</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="space-utilization"><a class="header" href="#space-utilization">Space Utilization</a></h2>
 <p><img src="ourtown/img/utilization.png" alt="" /></p>
 <p>The city will contain everything that its citizens need. Majority of the land is allocated to nature and recreation areas. The citizens of the city will have a complete eco-living experience with designated parks, bioretenetion areas, work&amp;play environments, and themed gardens. The nature parks will showcase plants that are native to Zanzibar. These environments will be supported by technologies that aim to minimize waste to provide authentic eco-living. Residential areas will be dispersed among the nature and recreation areas to blend the buildings into the greenery. There will be various residential options for the large audience of the project ranging from digital nomads to families of the employess working within the city. </p>
@@ -956,6 +949,36 @@ OurTown has a climate advantage over many of the similar projects. It will excee
 <p>The city will feature the following charactersitics:</p>
 <p><img src="ourtown/img/characteristics1.png" alt="" /> 
 <img src="ourtown/img/characteristics2.png" alt="" /> </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="first-layout"><a class="header" href="#first-layout">First Layout</a></h1>
+<p><img src="ourtown/img/first_layout.png" alt="" /></p>
+<p>The plan above was developed with limited information on the exact size and shape of the land. It shows different residential and commercial options within the project as well as the services offered within the city. </p>
+<p>Our team has started making initial designs for the city that can be used once the size and shape of the land are confirmed. Planning of the movement within the city and infrastructure of the development is also underway. We are in contact with multiple possible partners for partnerships on this aspect of the project as well. </p>
+<h2 id="initial-designs-of-ourtown"><a class="header" href="#initial-designs-of-ourtown">Initial designs of OurTown</a></h2>
+<p>The images used here are for illustrative and showcasing purposes only. After discussing in length with the appropriate authorities, final and more specific renders will be presented.</p>
+<h2 id="sustainable-residences"><a class="header" href="#sustainable-residences">Sustainable residences</a></h2>
+<p>The residences will be placed within greenery and nature. Inner roads of the city will dsiscourage cars to provide clean air and provide reduced noise pollution levels within then residential areas. Amenities such gyms, swimming pools, walking paths and cycling trails are located close to these areas for comfortable living and convenient access to other parts of the city.</p>
+<p><img src="ourtown/img/residence1.png" alt="" /></p>
+<p><img src="ourtown/img/residence2.png" alt="" /> </p>
+<h2 id="sustainable-offices"><a class="header" href="#sustainable-offices">Sustainable offices</a></h2>
+<p>All of the commercial operators in OurTown will also be encouraged to follow planet-friendly practices. They will be able to use all of the green-technology available in OurTown to make their operations regenerative and sustainable. The concept renditions below depict the the commercial areas and how they blend in with the residential areas and nature. </p>
+<p><img src="ourtown/img/commercial1.png" alt="" /></p>
+<p><img src="ourtown/img/commercial2.png" alt="" /> </p>
+<h2 id="regenerative-practices"><a class="header" href="#regenerative-practices">Regenerative practices</a></h2>
+<p>OurTown has a commitment to be a carbon-neutral development, meaning renewable energy systems will be integrated into the city in many locations. There will be areas designated to energy generation and solar potential from roofs will also be realized. Using thermal insulating construction materials and windows, smart home automation, water-saving appliances, energy-saving electrical fittings and rooftop solar PVC installations, the new residents of Zanzibar’s  Sustainable City are projected to enjoy savings of up to 50% on their electricity and water bills.</p>
+<p><img src="ourtown/img/solar.png" alt="" /></p>
+<p>The food supply of the city will be supported by regenerative farming practives within and and outside the city. Integrated farming zones within the city will provide produce to the residents while serving as an educational tool for the youth. The regenerative farming locations that are close to Fumba will provide additional support to the food suply. </p>
+<p><img src="ourtown/img/farming.png" alt="" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="artist-rendition"><a class="header" href="#artist-rendition">Artist Rendition</a></h1>
+<p>The shown rendered images depict some of the initial models our team have been developing. The development is expected to display more greenery and nature. The designs are also expected to develop as the project progresses. </p>
+<p><img src="ourtown/img/render4.jpg" alt="" /></p>
+<p><img src="ourtown/img/render6.jpg" alt="" /></p>
+<p><img src="ourtown/img/render5.jpg" alt="" /></p>
+<p><img src="ourtown/img/render11.jpg" alt="" /></p>
+<p><img src="ourtown/img/render9.jpg" alt="" /></p>
+<p><img src="ourtown/img/render8.jpg" alt="" /></p>
+<p><img src="ourtown/img/render12.jpg" alt="" /></p>
+<p><img src="ourtown/img/render13.jpg" alt="" /></p>
+<p><img src="ourtown/img/render14.jpg" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="business-model-1"><a class="header" href="#business-model-1">Business Model</a></h1>
 <blockquote>
 <p>TODO: Kristof</p>
@@ -1345,7 +1368,7 @@ We believe that following tax might be feasible.</p>
 <p>All the communication skills eventually will be available in all experiences.</p>
 <h2 id="roadmap-vs-experiences"><a class="header" href="#roadmap-vs-experiences">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Chat</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Video Conferencing</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Messaging</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td></tr>
@@ -1354,7 +1377,7 @@ We believe that following tax might be feasible.</p>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
+</div><div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
 <p><img src="ourtwin/skills/extra/img/chat_people_invite.png" alt="groups_and_contacts" /></p>
 <p>Private version of the chat:</p>
 <p><img src="ourtwin/skills/extra/img/chat_overview.png" alt="private_chat" /></p>
@@ -1639,7 +1662,7 @@ mermaid source in: ./includes/private_video.md
 <p>For more info see <a href="ourtwin/skills/creativity/creativity_web.html">creativity web publishing</a></p>
 <h2 id="roadmap-vs-experiences-2"><a class="header" href="#roadmap-vs-experiences-2">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Share All Information relevant to experience in generic way</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">now</td></tr>
 <tr><td>Promote Services &amp; Products</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Integration with Proof of Authenticity</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1650,7 +1673,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
 <p><img src="ourtwin/skills/extra/img/video_share.png" alt="" /></p>
 <blockquote>
 <p>TODO: explain more</p>
@@ -1749,7 +1772,7 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-3"><a class="header" href="#roadmap-vs-experiences-3">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1758,7 +1781,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td>Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+</div><div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
 <p><img src="ourtwin/skills/extra/img/search.png" alt="surf safe" /></p>
 </div>
 <h2 id="my-private-safe-browser"><a class="header" href="#my-private-safe-browser">My Private Safe Browser</a></h2>
@@ -1842,7 +1865,7 @@ mermaid source in: ./includes/private_video.md
 <p>This is a capability your twin will have, FreeFlow Developers are working on it, stay tuned.</p>
 <h2 id="roadmap-vs-experiences-4"><a class="header" href="#roadmap-vs-experiences-4">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Integrated FreeFlow Wallet</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Integrated Exchange</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>eCommerce Integration</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1851,7 +1874,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
 <p><img src="ourtwin/skills/img/organie.png" alt="" /></p>
 <p>Your twin can help you to organize your digital life.</p>
 <ul>
@@ -1862,7 +1885,7 @@ mermaid source in: ./includes/private_video.md
 </ul>
 <h2 id="roadmap-vs-experiences-5"><a class="header" href="#roadmap-vs-experiences-5">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>task &amp; project management</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>deal with my time, personal agenda...</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>manage all my file based data for multiple experiences</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -1871,7 +1894,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
 <ul>
 <li>Make sure that only the right people have access to my digital assets</li>
 <li>What happens if I die, make sure my loved once can inherit my digital assets</li>
@@ -1883,7 +1906,7 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-6"><a class="header" href="#roadmap-vs-experiences-6">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Twin Authentication</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td></tr>
 <tr><td>Integrated Circles</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Quantum Safe Storage</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
@@ -1892,7 +1915,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td>ACL = Access Control List on all Digital Assets</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>End2end Encrypted Messaging-planetary network</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
 <h2 id="task--project-management-2023"><a class="header" href="#task--project-management-2023">Task &amp; Project Management (2023)</a></h2>
 <ul>
 <li>Alternative to tools like Ansana, Trello, ...</li>
@@ -1905,13 +1928,13 @@ mermaid source in: ./includes/private_video.md
 <p>Other collaboration tools are coming soon.</p>
 <h2 id="roadmap-vs-experiences-7"><a class="header" href="#roadmap-vs-experiences-7">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Project Management</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td>Agenda/Task mgmt</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">code</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">code</a></h1>
 <p>Develop directly in your private cloud, invite your friends to develop together with you.</p>
 <p><img src="ourtwin/skills/creativity/coding/img/coder.png" alt="" /></p>
 <p>Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
@@ -2330,7 +2353,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <p>all money is collected digitally on the CDB and transfered to ZNZ once a month, ZNZ can at any point in time audit the CDB and has full insight in all information on CDB, nice reporting tools will be created to give good insight to ZNZ government.</p>
 </blockquote>
 <h3 id="responsibilities"><a class="header" href="#responsibilities">Responsibilities</a></h3>
-<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>create and deliver the technical system as required for OurTown functions like digital ownership</td><td>recognize tokenized ownership (through blockchain) of property, resell of homes has no tax implication.</td></tr>
 <tr><td>make sure that the CDB (Community Digital Backbone) automatically collects all tax</td><td>approval of tax structure as identified in this document, tax is collected in digital way through CDB and once a month send to government using real TSH.</td></tr>
 <tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurTown Strategic Investment Status</td></tr>
@@ -2344,6 +2367,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td>Find best possible sustainable architect and project developer (we have already some friends to execute but need to formalize)</td><td>Help us to create the company OurTown and award the land to it in 2022.</td></tr>
 <tr><td>Grown presence through startup company 4OurWorld in ZNZ, is our startup facility.</td><td>Would be best to also have Strategic Investment Status for 4OurWorld and Tax Incentives to make it easier for us to get started</td></tr>
 </tbody></table>
+</div>
 <h3 id="timeline"><a class="header" href="#timeline">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2420,7 +2444,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <li>OurTown shares will be tokenized digitally (legalized STO) which might provide liquidity of the shares and value increase towards the future.</li>
 </ul>
 <h3 id="responsibilities-1"><a class="header" href="#responsibilities-1">Responsibilities</a></h3>
-<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>create and deliver the technical system as required for OurHub functions like registration, money collection</td><td>recognize digital signatures and blockchain company ownership</td></tr>
 <tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurHub Strategic Investment Status. Tax Free Status for 5 years to import goods as well as income tax exemption.</td></tr>
 <tr><td>deploy systems and operationally run the Community Digital Backbone system</td><td>endorsement of Community Digital Backbone Functions (tax collection, identity, electronic signatures ...)</td></tr>
@@ -2432,6 +2456,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h3 id="timeline-1"><a class="header" href="#timeline-1">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2469,7 +2494,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <li>OurTown shares will be tokenized digitally (legalized STO) which might provide liquidity of the shares and value increase towards the future.</li>
 </ul>
 <h3 id="responsibilities-2"><a class="header" href="#responsibilities-2">Responsibilities</a></h3>
-<table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>OurHub/4OurWorld/ThreeFold</strong></th><th><strong>Zanzibar Government</strong></th></tr></thead><tbody>
 <tr><td>finish feasibility study</td><td>sign agreements for collaboration</td></tr>
 <tr><td>make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022</td><td>give OurFinance Strategic Investment Status. Tax Free Status for 5 years to import goods as well as income tax exemption.</td></tr>
 <tr><td>Prepare all legal docs to create a financial center like this (is huge effort, we have the people for it)</td><td>help to communicate with CB and get approvals done for the legal documents</td></tr>
@@ -2481,6 +2506,7 @@ The benefits of this system are huge. We had to write an operating system from s
 <tr><td></td><td></td></tr>
 <tr><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h3 id="timeline-2"><a class="header" href="#timeline-2">Timeline</a></h3>
 <ul>
 <li>summer 2022, initial team on the ground (done)</li>
@@ -2557,61 +2583,10 @@ The benefits of this system are huge. We had to write an operating system from s
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="technical-solutions"><a class="header" href="#technical-solutions">Technical Solutions</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="issues"><a class="header" href="#issues">Issues</a></h1>
-<p><img src="solutions/img/issues.png" alt="" /></p>
-<p>Without loosing us in fear lets address 3 main issues we see and want to resolve.</p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="the-availability-of-a-real-antidote-for-the-cyber-pandemic"><a class="header" href="#the-availability-of-a-real-antidote-for-the-cyber-pandemic">THE AVAILABILITY OF A REAL ANTIDOTE FOR THE CYBER PANDEMIC</a></h2>
-<p><img src="solutions/img/data_war.png" alt="" /></p>
-<p><img src="solutions/img/cybersecurity_trillion.png" alt="image alt text" /></p>
-<p>Countries have a hard time to defend themselves against cyber security threats, the main issue is that technology available might come from compromised sources in the first place. Where better to put backdoors than in the tools which should defend you? Lots of issues have never been intended but because of history we now end up with IT infrastructure which is incredibly hard to make secure.</p>
-<p>EXISTING SOLUTIONS ARE TOO COMPLICATED AND OUTDATED.
-A NEW APPROACH IS NEEDED.</p>
-<p>Some more thoughts can be found in <a href="https://threefoldfoundation.github.io/books/cyber_security_brief">https://threefoldfoundation.github.io/books/cyber_security_brief</a> </p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="countries-dont-own-their-internet"><a class="header" href="#countries-dont-own-their-internet">Countries Don't Own Their Internet</a></h2>
-<p><img src="solutions/img/country_gdp_pos.png" alt="image alt text" /></p>
-<h3 id="data-privacy--sovereignty"><a class="header" href="#data-privacy--sovereignty">Data Privacy &amp; Sovereignty</a></h3>
-<p>Almost all data of the Country internet users is not hosted on your countries soil this leads to loss of sovereignity and poses serious data risks to the citizens of your country.</p>
-<blockquote>
-<p>Anyone who’s ever cleared a browser history feels like technology throws us back at ourselves. My Google data, combined with my bank card transactions, social media messages, health records, and more, could tell you more about me than I could. </p>
-</blockquote>
-<p><em>Most of us don’t have the time or energy to keep track of all the data we’re shedding online, or read all the terms and conditions when downloading an app. (Ten years ago</em>*, two researchers at Carnegie Mellon found it would take the average internet user 25 days per year to read every privacy policy on every website they visited.) We trust regulators and industry leaders are keeping us safe. *</p>
-<p>*But policy makers are struggling to keep up with the pace of technological advances. The number of devices collecting and *<em>analyzing information in real time, otherwise known as the internet of things, is expected to exceed 50 billion by 2020.</em></p>
-<p><em>Recent, high-profile data breaches, such as Uber’s loss of 57 million users’ information, and political firm Cambridge Analytica’s misuse of Facebook data relating to nearly 90 million users, show even when we think we’re being careful online, we’re not always safe from harm.&quot;””</em></p>
-<h3 id="for-most-countries-the-internet-is-gdp-negative"><a class="header" href="#for-most-countries-the-internet-is-gdp-negative">For Most Countries The Internet is GDP Negative</a></h3>
-<p>Internet DATA is more important than voice (minutes) these days, the main communication of the future is through data, new regulations and technical guidelines are required to secure this future trend.</p>
-<p>Most of the revenue related to Internet and Telecommunications Services does not stay in your country and as such is GDP negative, we believe that by means of practical technology and regulatory guidelines this trend can be reversed. The value of a digital life in the US is thousands of USD per year per person, imagine the potential for your country.</p>
-<h3 id="internet-is-too-centralized"><a class="header" href="#internet-is-too-centralized">Internet is too centralized</a></h3>
-<p><img src="solutions/img/centralized_dc_issues.png" alt="" /></p>
-<p>Too few participants control access to the internet, this leads to unjust pricing and possibly security risks. It's too easy for hackers to focus on the few parties delivering all access. More decentralization will lead to more security and more fair chances for everyone involved. Ledger (blockchain) technology can be used to decentralize internet access yet still give full insight to the Country government in relation to billing &amp; utilization statistics.</p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="cbdc-solutions-might-not-be-sovereign"><a class="header" href="#cbdc-solutions-might-not-be-sovereign">CBDC SOLUTIONS MIGHT NOT BE SOVEREIGN</a></h2>
-<p><img src="solutions/img/cbdc.png" alt="" /></p>
-<blockquote>
-<p>CBDC = Central Bank Digital Currencies</p>
-</blockquote>
-<p>CBDC’s are an incredibly exciting possible innovation for a country. But, we realize that there are serious challenges and requirements not met in relation to sovereignty, security, and scalability in many of the current project proposals.</p>
-<p>This is not only for CBDC’s, but blockchain technology in general.</p>
-<p>We want to make sure that this does not happen for your country. We want to make sure your country stays and is in control over their country's money supply. Right now in some deployments we see that this is a real risk, countries could lose control to other countries or hackers.</p>
-<p>Buying into a technology from a vendor which does not apply to following requirements is discouraged</p>
-<ul>
-<li>100% of blockchain needs to be in the country (nodes, technology, knowledge, …)</li>
-<li>The source code of the blockchain technology used needs to be understood by engineers/developers living and working in your country and working for a trusted entity (or more than one)</li>
-<li>The blockchain technology needs to be truly decentralized
-<ul>
-<li>e.g. the coders should not be able to change the blockchain operation (right now most tech companies can change blockchain through changing the code)</li>
-<li>The validator nodes cannot be hosted in datacenters out of the country or be owned by too few parties.</li>
-</ul>
-</li>
-<li>It needs to be verified that there are no backdoors in the blockchain technology.</li>
-<li>Blockchain needs to be scalable enough</li>
-<li>Even if internet backbone connections go down (e.g. between the country and the rest of the world), the blockchain should keep on working.</li>
-<li>Blockchain should be energy efficient and not based on burning of fossil fuels or energy in general.</li>
-<li>There need to be procedures to allow the legal system of your country to interfere in case that serious issues arise.</li>
-<li>There needs to be a mechanism for people to manage their identity and private keys with more user friendliness (today it's too complicated and too dangerous)</li>
-<li>Running blockchain permissioned (which means managed by people in centralized datacenters) might bring the risk of running a money chain related to a couple of people who need to be trusted, this might even be less regulated than in a typical central banking environment.</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="solutions"><a class="header" href="#solutions">SOLUTIONS</a></h1>
-<p><img src="solutions/img/high_level_country_overview.png" alt="image alt text" /></p>
-<p><em>Albert Einstein : &quot;Insanity is doing the same thing over and over again and expecting different results.&quot;</em></p>
-<p>We believe that in the current technology ecosystem a lot of solutions are like painkillers, they layer a quick fix on a broken system. We need real solutions which go back to the root of the problem</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyberpandemic"><a class="header" href="#cyberpandemic">cyberpandemic</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="internet-broken"><a class="header" href="#internet-broken">Internet Broken</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cbdc-not-sovereign"><a class="header" href="#cbdc-not-sovereign">CBDC not sovereign</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="solutions"><a class="header" href="#solutions">Solutions</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="antidote-for-cyber-pandemic--private-quantum-safe-digital-backbone"><a class="header" href="#antidote-for-cyber-pandemic--private-quantum-safe-digital-backbone">ANTIDOTE FOR CYBER PANDEMIC = PRIVATE QUANTUM SAFE DIGITAL BACKBONE</a></h2>
 <p><img src="techsolutions/img/cyberpandemmic_fix.png" alt="" /></p>
 <p>A private intranet digital backbone built with a very different approach in mind.</p>
@@ -2950,24 +2925,24 @@ Together we build our own future through the Internet of Internets.</p>
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" charset="utf-8"></script>
+        <script src="mark.min.js" charset="utf-8"></script>
+        <script src="searcher.js" charset="utf-8"></script>
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" charset="utf-8"></script>
+        <script src="highlight.js" charset="utf-8"></script>
+        <script src="book.js" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="mermaid.min.js"></script>
-        <script type="text/javascript" src="mermaid-init.js"></script>
+        <script src="mermaid.min.js"></script>
+        <script src="mermaid-init.js"></script>
 
-        <script type="text/javascript">
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });

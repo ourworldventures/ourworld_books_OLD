@@ -1,7 +1,10 @@
-# Goal
+# Our Goal
 
-Be one of the First Digital Nomad Business Hub in Africa. 
+![image alt text](img/digital_nomad_hub.png)
 
-All can be done online and remotely, of course digital nomads can meet each other in Zanzibar as well.
+**To be one of the First Digital Nomad Business Hub in Africa.**
 
-We believe bringing +100.000 companies within 5-8 years is possible. This could bring Billions of USD in the GDP of Zanzibar and potential income of hundreds of millions per year. 
+Digital nomads can manage their entire presence online and remotely and of course they can also meet each other in Zanzibar.
+
+We believe that we can bring over 100,000 companies within 5-8 years. This could bring billions of USD to the GDP of Zanzibar and the income of hundreds of millions of its citizens per year. 
+
