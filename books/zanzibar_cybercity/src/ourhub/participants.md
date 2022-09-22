@@ -3,55 +3,44 @@
 
 ![](img/participants.png)  
 
+> <span style="color:red">**To Clarify:**</span> I don't think it is entirely clear what the sandbox is.
+
 For this doc we call the Digital Nomad Business Hub, OurHub.
 
-## Zanzi Community
+## OurCommunity
 
-The sandboxed community, all members together. The sandbox authority protects the rights of the Zanzi Community. 
+The sandboxed community, all members together. The rights of OurCommunity and its constituents are protected by the Sandbox Authority. 
 
-## Zanzi Member
+## OurHub Member
 
-Anyone can become a member of the Zanzi Community.
+Anyone can become a member of OurCommunity.
 
-A member is allowed to use tokens from the sandbox and has insight into information of company's inside the sandbox. Members can use (buy) services from companies in the sandbox. All members went through KYC and AML. There is no VAT involved for the services from within the sandbox
+A member can use tokens from the sandbox and has insight into the information of companies within the sandbox. Members can use (buy) services from companies in the sandbox. All members are required to go through KYC and AML. There is no VAT involved for the services within the sandbox.
 
-## Zanzi Company's
+> <span style="color:red">**To Clarify:**</span> Isn't there a flat 15% tax rate, which is effectively a VAT?
 
-There are 4 types of companies to start with, this need to be refined but just ideas to get started with.
+## OurHub Companies
 
+> <span style="color:red">**To Clarify:**</span> this need to be refined but just ideas to get started with.
  
-Nomad
+There are 4 types of companies to start with:
 
-* 1 shareholder max.
-* max revenue per year = 50.000 USD
-* No voting structure
-
-Soho
-
-* 10 shareholders max
-* max revenue per year = 200.000 USD 
-* No limitations around voting & distribution of profits.
-
-Commercial
-
-* Unlimited shareholders
-* Unlimited revenue
-* No limitations around voting & distribution of profits.
-
-Cooperative (not for profit) 
-
-* Unlimited shareholders
-* Unlimited revenue
-* Good regulations around voting
-* Money can only be used to the benefit of the cooperative, not the shareholders.
+|     |Shareholders|Revenue|Voting & Profit Regulation|
+|-----|:-----:|:-----:|:-----:|
+|Nomad|1 max|50,000 USD per annum|No voting structure|
+|Soho|10 max|200,000 USD per annum|No limitations|
+|Commercial|Unlimited|Unlimited|No limitations|
+|Cooperative (not for profit) |Unlimited|Unlimited|Good voting regulations & profits used only for the benefit of the cooperative|
 
 Each company automatic monthly reporting about 
 
+> <span style="color:red">**To Clarify:**</span> This idea needs to be finished.
+
 ## Sandbox Authority (SA)
 
-The company in Zanzibar which organizes and checks the correct operation of the sandbox= Zanzi Community (is the digital freezone company)
+The company in Zanzibar which organizes and checks the correct operation of the sandbox = OurCommunity (is the digital freezone company)
 
-Much of this further needs to be defined as we go.
+> <span style="color:red">**To Clarify:**</span> Much of this further needs to be defined as we go.
 
 The SA has following rights & duties:
 
@@ -63,8 +52,8 @@ The SA has following rights & duties:
 
 The Sandbox Authority operates in a 100% legal environment as approved by the Zanzibar Government.
 
-## Zanzi Chain
+## OurChain
 
 The native blockchain to the Zanzibar Sandbox. All native and wrapped required tokens are registered on this blockchain. All identity and official documents as well. So are reputation and verification proofs.
 
-The Zanzi Chain is based on opensource blockchain code and copies of the blockchain are made on a quantum safe storage system which means data can never be lost nor corrupted.
+OurChain is based on opensource blockchain code and copies of the blockchain are made on a quantum safe storage system which means data can never be lost nor corrupted.
