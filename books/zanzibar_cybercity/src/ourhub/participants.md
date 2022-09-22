@@ -9,6 +9,8 @@ For this doc we call the Digital Nomad Business Hub, OurHub.
 
 > TODO: (anyone) What should we name these terms? They used to be Zanzi Community, Zanzi... but Zanzi has negative connotations.
 
+> TODO: Should we distinguish physical residents from digital residents?
+
 ## OurCommunity
 
 The sandboxed community, all members together. The rights of OurCommunity and its constituents are protected by the Sandbox Authority. 

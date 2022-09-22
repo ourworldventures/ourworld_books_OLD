@@ -2,15 +2,17 @@
 
 ![](img/digifin1.png)  
 
-OurFinTech is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated, self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. 
+OurFinTech is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated financial framework for the self-sovereign and sustainable [digital freezone](../ourhub/ourhub.md) bridging Africa and the rest of the world. 
 
-Our unique proposition is that we will become a license and service provider which uses twin technology to aggregate all the following features into a single, very simple, consumable package:
+Our unique proposition is that we will become a license and service provider which uses twin technology to aggregate all the following features into a single, very simple, consumable package including:
 - Any required licenses
 - Much required technology (All infrastructure and blockchain tech)
 - Third-party processing with global fiat currencies 
 > TODO: (anyone) What does 'third-party processing with global fiat currencies' mean?
 - Auditing services & automatic tax reporting
 - Facility services (office, houses for staff, ...)
+
+All these features will be provided by and hosted on OurHub's [Community Digital Backbone](../ourtown/community_digital_backbone.md), the decentralised internet infrastucture of the new [cybercity](../ourtown/ourtown.md). 
 
 ## The timing is ideal
 
@@ -25,7 +27,12 @@ The following table highlights the various licences that OurFinTech can provide 
 
 {{#include overview.md}}
 
+> Unique to our solution is that the tech is fully integrated for all assets of the financial solution.
+
 > TODO: Add how it ties with DT for full financial suite e.g. financial education tips and tricks etc.. 
+>> good enough?
+
+All elements of the full financial suite displayed in the table will be seamlessly integrated into the Digital Twins, allowing for OurHub Members to access all those tools with ease. Moreover, the Digital Twins will provide access to important auxiliary services and information, such as financial education, tips & tricks and support networks.
 
 
 

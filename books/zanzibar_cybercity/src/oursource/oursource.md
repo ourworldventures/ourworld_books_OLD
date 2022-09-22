@@ -30,6 +30,7 @@ With the help of more than 80 investors and thousands of project supporters we h
 - A Digital Twin system which is the base of Banking and Web 4.0, a new way to communicate, share, collaborate
 - A decentralized healthcare & education system
 
+> TODO: The above seems to be a repetition of whats been said previously. Delete or keep and add links?
 
 More than 50m USD has been invested so far, we have a very active community of hundreds of contributors and we are working with some governments to deploy the system in their country. We are excited about a future where we can together create a more safe platform, based on values, transparency and love. Not in a talking way, in a super practical can do mentality with concrete plan. We are doing it, join us… become part of our movement.
 

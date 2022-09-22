@@ -11,15 +11,13 @@ See the following pages
 
 ## OurSource = The Incubator
 
-- benefit comes because of startups being created in ZNZ and providing income of capital and smart people as well as allow local talented people to grow
-- also some large exits can bring large amounts of money into ZNZ
-- with the wealth of startups we are thinking about it might well be possible to bring billions of USD into ZNZ
-- we are looking for Zanzibar to provide us with an initial building in StoneTown to start from next to the Mbwuini Ruins we are already operating from.
+The massive increase in successful startups will create unique technology in Zanzibar, cause an influx of capital and highly competent expats and grow the talentand skills of the citizens of Zanzibar. Moreover, large exits will bring substantial amounts of money into Zanzibar. With the wealth of startups, it might  be possible to bring billions of USD into Zanzibar per year.
 
+We are looking for Zanzibar to provide us with an initial building in StoneTown next to the Mbweni Ruins, from where we are already operating, in order to accelerate and launch this project.
 
 ### Requirements
 
-Help us to get registration done and required tax help for first startups. We don't want to wait till the larger OurTown / OurHub has been finished, together we can get started now.
+Help us to complete our registration and support the first startups with the required tax administration. We don't want to wait till the larger physical OurTown has been finished. Together, we can get started now.
 
 > TODO: (jonathan) describe what we need from local org's
 

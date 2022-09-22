@@ -1,10 +1,10 @@
 |                                                                                                         | Payment Service Provider (PSP) | Electronic Money Institution (EMI) | Digital Money Institution (DMI) |  Digital Custodian  | Full Bank |
 | ------------------------------------------------------------------------------------------------------- | :----------------------------: | :--------------------------------: | :-----------------------------: | :--------------: | :-------: |
 | Payment services (digital/web) = accept payments                                                        |               V                |                 V                  |                V                |                  |     V     |
-| money In and Out to any other financial institute (fiat)                                                |                                |                 V                  |                                 |                  |     V     |
-| money In and Out to own account (fiat)                                                                  |               V                |                 V                  |                V                |        V         |     V     |
-| fiat currency exchange                                                                                  |                                |                                    |                                 |                  |     V     |
-| fiat-digital, digital-digital exchange                                                                  |                                |                                    |                V                |                  |           |
+| Money In and Out to any other financial institute (fiat)                                                |                                |                 V                  |                                 |                  |     V     |
+| Money In and Out to own account (fiat)                                                                  |               V                |                 V                  |                V                |        V         |     V     |
+| Fiat currency exchange                                                                                  |                                |                                    |                                 |                  |     V     |
+| Fiat-digital, digital-digital exchange                                                                  |                                |                                    |                V                |                  |           |
 | Opening multicurrency accounts (e-wallets)                                                              |                                |                 V                  |                V                |        V         |     V     |
 | Issuance of D-money  (digital currency/asset wallets)                                                   |                                |                                    |                V                |        V         |           |
 | Debit Card Integration                                                                                  |                                |                 V                  |                                 |                  |     V     |
@@ -22,4 +22,3 @@
 <br>
 <br>
 
-> Unique to our solution is that the tech is fully integrated for all assets of the financial solution.

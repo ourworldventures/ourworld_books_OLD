@@ -42,7 +42,7 @@
     - [How Does It Work](ourtwin/intro/how_does_it_work.md) 
     - [Funny Comparison With Life](ourtwin/intro/funny_comparison.md)
     - [Architecture](ourtwin/intro/twin_architecture.md) 
-    - [Our Twin Is Powerfull](ourtwin/skills/myskills.md) 
+    - [Our Twin Is Powerful](ourtwin/skills/myskills.md) 
         - [Communicate](ourtwin/skills/communicate.md)
             - [Chat](ourtwin/skills/extra/chat.md) 
             - [Video Conference](ourtwin/skills/extra/videoconference.md) 
