@@ -3,16 +3,17 @@
 
 ![](img/finance.png)  
 
-## No Banks in phase 1
+## No banks in Phase 1
 
-To keep things simple, there are no banks involved in phase 1.
-Only wrapped and native tokens = digital currencies can be used (see below).
+To keep things simple, there are no banks involved in phase 1, however we do provide many powerful [financial tools and licenses](../ourfintech/ourfintech.md).
+Initially, only wrapped and native tokens / digital currencies can be used.
 
 ## Native Tokens
 
-Every company can register their own tokens inside the CDB Ledger.
+Every company will have the ability to register their own tokens inside the CDB Ledger using our powerful tools.
 
 ## Integration in OurFinTech Services
 
-E.g. in 2023 work can start to see how gold tokens can be integrated in the sandbox, how people can come into the system by buying gold. Gold could potentially come from sustainable sources.
+We will provide the capability to integrate many digital currencies and tokens into the sandbox, for example gold tokens. In 2023, it could be possible for people to enter the sandbox by buying gold. This gold could come from sustainable sources to ensure that our integrations match our ethos. 
+
 

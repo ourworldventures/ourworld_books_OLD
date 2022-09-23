@@ -18,11 +18,19 @@ OurSource (formerly referred to as Incubaid), an incubator with experience build
 
 At the core of this partnership, a capacity building comprehensive program will be structured with the government of Zanzibar where ThreeFold will deploy it's knowledge and know-how for the upskilling of current government and private individuals, and seek to roll out a training program by utilizing current tools (e.g. Sikana) and bespoke knowledge related to the deliverables of the projects, therefore creating a human resource infrastructure that can scale in parralel to achieving the milestones of the projects. This will:
 
+The massive increase in successful startups will create unique technology in Zanzibar, cause an influx of capital and highly competent expats and grow the talentand skills of the citizens of Zanzibar. Moreover, large exits will bring substantial amounts of money into Zanzibar. With the wealth of startups, it might  be possible to bring billions of USD into Zanzibar per year.
+
+We are looking for Zanzibar to provide us with an initial building in StoneTown next to the Mbweni Ruins, from where we are already operating, in order to accelerate and launch this project.
+
 - Support the incorporation of startups in ZNZ, attracting capital and talent to the country. 
 - Provide a platform to identify and develop local talent in partnership with Zictia (Zanzibar ICT infrastructure agency).
 - Develop startups towards further stages and exits will attract further capital to ZNZ.
 
 ## OurTwin = Our Digital Life
+
+> TODO: why is twin here?
+
+Help us to complete our registration and support the first startups with the required tax administration. We don't want to wait till the larger physical OurTown has been finished. Together, we can get started now.
 
 OurTwin is a blockchain based project that will be operated by ThreeFold to support all the FinTech requirements of the project. 
 
