@@ -1,6 +1,6 @@
 # OurWorld Company Services
 
-![image alt text](img/freezone_intro.png)
+![](img/freezone_services.png)  
 
 {{#include ow_comp_services_include.md}}
 

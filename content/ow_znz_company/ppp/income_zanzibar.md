@@ -15,3 +15,5 @@
     - 20% owned by Zanzibar Goverment
 
 
+> we expect that this initiative can bring +500m USD of income for Zanzibar within 5 years (tax and licenses)
+

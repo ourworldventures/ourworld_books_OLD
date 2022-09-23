@@ -1,5 +1,5 @@
 
-# Business Model Corporate Licenses
+# Business Model Corporate Licenses for OurWorld ZNZ
 
 As given from our Foundational Layer.
 
@@ -17,12 +17,8 @@ As given from our Foundational Layer.
 
 
 ![](img/bizmodel3.png)  
-\
-\
-\
 
+> OurHub can add 6 Billion USD to Zanzibar's GDP and increase the country's income by +600,000,000 USD within 6-7 years!
 
-|**OurHub can add 6 Billion USD to Zanzibar's GDP and increase the country's income by +600,000,000 USD within 6-7 years!**|
-|:--:|
 
 

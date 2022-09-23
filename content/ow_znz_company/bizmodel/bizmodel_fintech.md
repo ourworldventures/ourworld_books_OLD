@@ -1,4 +1,4 @@
-# Business Model FinTech Licenses
+# Business Model FinTech Licenses for OurWorld ZNZ
 
 As given from our Foundational Layer.
 

@@ -1,11 +1,5 @@
-# Business Model
+# Business Model Personal Licenses for OurWorld ZNZ
 
-As given from our Foundational Layer.
 
-> TODO: Explain what this means and give unit
+> TODO: Explain what this means 
 
-![](img/bizmodel_fintech1.png)  
-
-### Resulting project income stream for OurFintech
-
-![](img/bizmodel_fintech2.png)  
