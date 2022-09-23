@@ -29,7 +29,7 @@ OurWorld represents a new way of existing, both digitally and physically in a ra
 
 > TODO: (jonathan) Add explanation of what ourworld and all the components are
 
-
+To build OurWorld, 
 
 *graphical depiction*
 
