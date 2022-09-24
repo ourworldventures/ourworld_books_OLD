@@ -1,1 +1,1 @@
-export NAME='zanzibar'
+export NAME='ourworld_zanzibar'
