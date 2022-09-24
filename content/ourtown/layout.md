@@ -6,7 +6,7 @@ The plan above was developed with limited information on the exact size and shap
 
 Our team has started making initial designs for the city that can be used once the size and shape of the land are confirmed. Planning of the movement within the city and infrastructure of the development is also underway. We are in contact with multiple possible partners for partnerships on this aspect of the project as well. 
 
-## Initial designs of OurTown 
+# Initial designs of OurTown 
 
 The images used here are for illustrative and showcasing purposes only. After discussing in length with the appropriate authorities, final and more specific renders will be presented.
 

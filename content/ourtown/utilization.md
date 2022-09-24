@@ -1,4 +1,4 @@
-## Space Utilization
+# Space Utilization
 
 ![](img/utilization.png)  
 

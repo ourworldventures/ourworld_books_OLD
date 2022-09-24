@@ -63,6 +63,7 @@
     - [Space Utilization](ourtown/utilization.md)
     - [First Layout](ourtown/layout.md)
     - [Artist Rendering](ourtown/artist_Rendering.md)
+    - [Team](ourtown/team.md)
     - [All Digital](ourtown/all_digital.md)
 - [OURSOURCE](oursource/oursource.md)
     - [Previous Success](oursource/history.md)
