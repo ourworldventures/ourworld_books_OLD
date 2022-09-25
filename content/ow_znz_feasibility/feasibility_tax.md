@@ -21,7 +21,7 @@ Real estate investors should be able to acquire a residency permit as an investo
 - No minimum stay is required to claim benefits
 - Business investors wanting to invest in venturessuch as restaurants, bars, watersports and retail operations will receive similar benefits as real estate investors through approved “Strategic Investment” projects only.
 
-## Here is a list of new tax and residency benefits for business investors:
+## New tax and residency benefits for business investors:
 
 - Foreign ownership is allowed
 - No business licence fees for the first three months
@@ -32,4 +32,4 @@ Real estate investors should be able to acquire a residency permit as an investo
 - Residence and work permits for investor and employees. 
 - 
 
-> TODO: refer to acts as found in ZNZ which show that the tax we ask for is doable and has already been done (sacha)
+> TODO: (na) refer to acts as found in ZNZ which show that the tax we ask for is doable and has already been done (sacha)

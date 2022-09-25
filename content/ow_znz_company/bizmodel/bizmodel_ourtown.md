@@ -1,4 +1,4 @@
 # Business Model OurTown
 
-> TODO: Kristof
+> TODO: (kristof)
 

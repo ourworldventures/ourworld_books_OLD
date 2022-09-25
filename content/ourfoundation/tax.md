@@ -1,10 +1,6 @@
-# OurTown TAX Situation
+# TAX Situation
 
-
-In line to the Investments Act of 2018 provided procedures and criteria for Strategic Investment Status (SIS) projects.
-We believe that following tax might be feasible.
-
-> OurTown is looking for Strategic Investment Status (SIS).
+In line to the Investments Act of 2018 provided procedures and criteria for Strategic Investment Status (SIS) projects. We believe that following tax might be feasible.
 
 ## Private Person Tax For Each Resident In OurTown 
 
@@ -14,7 +10,7 @@ We believe that following tax might be feasible.
 
 ## OurTown Company Tax
 
-- Companies as registered in OurTown by the OurTown Community Digital Backbone (CDB)
+- Companies as registered in OurTown by the OurTown Community Digital Backbone (OurLedger)
 - Foreign ownership is allowed 
 - No business licence fees appart from OurHub Monthly License Fee
 - Company Income Tax: 
@@ -43,3 +39,8 @@ We believe that following tax might be feasible.
 - Foreign ownership allowed
 - Registration of ownership to be done by OurTown under supervision of Investment Promotion Authority (ZIPA)
 - No VAT on unit rental or sales
+
+
+## OurWorld Zanzibar, OurTown Zanzibar and ThreeFold Zanibar
+
+There are 3 operational companies in relation to this project each are looking for Strategic Investment Status (SIS).

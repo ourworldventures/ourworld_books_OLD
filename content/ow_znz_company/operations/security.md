@@ -38,4 +38,4 @@ Our [unique technology](/ourinternet/ourledger/ourledger.md) delivers strong saf
 * All information used is verifiable.
 * There is approval for authenticity and completeness of information (are things understandable).
 
-> TODO: (anyone) Not entirely sure. Is this peer reviewing or a more algorithmic review?
+> TODO: (na) Not entirely sure. Is this peer reviewing or a more algorithmic review?

@@ -11,7 +11,7 @@ Our unique proposition is that we will become a license and service provider whi
 - Any required licenses
 - Much required technology (All infrastructure and blockchain tech)
 - Third-party processing with global fiat currencies 
-> TODO: (anyone) What does 'third-party processing with global fiat currencies' mean?
+> TODO: (na) What does 'third-party processing with global fiat currencies' mean?
 - Auditing services & automatic tax reporting
 - Facility services (office, houses for staff, ...)
 
@@ -28,7 +28,7 @@ All these features will be provided by and hosted on OurHub's [Community Digital
 
 The following table highlights the various licences that OurFinTech can provide and are needed to operate a fully comprehensive digital freezone. 
 
-> TODO: link to foundation licenses
+> TODO: (na) link to foundation licenses
 
 > Unique to our solution is that the tech is fully integrated for all assets of the financial solution.
 

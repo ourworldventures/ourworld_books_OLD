@@ -36,5 +36,4 @@ It safeguards assets and is not engaged in "traditional" commercial or consumer/
 - holding of assets like shares and bonds is possible but fees need to be paid to allow verification of these assets and specific legal firms/auditors will be used to verify this ownership. These verifiers will also use our blockchain technology to approve ownership. For amounts + 1m USD, 3 verifiers will be used.
 - transactions can only happen between customers of OurFintech, the custodian will not do transactions on your behalf which are outside of the sandbox of OurFintech.
 
-{{#include znz_special.md}}
 

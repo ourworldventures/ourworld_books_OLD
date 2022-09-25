@@ -2,12 +2,12 @@
 
 ## Corporate Licences
 
-### highlights of service
+### Highlights of service
 
 - establishments of companies in a sandbox (OurTown) in most automated way
 - full TAX revenue collection done in automatic way
 - registration automated as much as possible
-- OurHub automates the workpermits, company and resident registration system on the [CDB Ledger](/ourinternet/ourledger/ourledger.md)
+- OurHub automates the workpermits, company and resident registration system on the [OurLedger Ledger](/ourinternet/ourledger/ourledger.md)
     - Aim is to allow new residents to be registered < 1 week
     - Each new resident gets checked (fraud, ...): cost +-1000 USD for normal person
     - Need to see how to integrate with ZNZ existing systems...
@@ -37,7 +37,7 @@
 | deploy systems and operationally run the Community Digital Backbone system                                     | endorsement of Community Digital Backbone Functions (tax collection, identity, electronic signatures ...)                                                        |
 | Realize timing: preparation work 2022, first nomads found in H1 2023                                           | Finalize the required paper work as soon as possible to allow us to get started in 2022.                                                                         |
 | Collaborate on Global Promotion for the concept and attract investors and likeminded companies in ZNZ          | Collaborate on Global Promotion for the concept and attract investors and likeminded companies in ZNZ                                                            |
-| make sure that the CDB (Community Digital Backbone) automatically collects all tax                             | approval of tax structure as identified in this document, tax is collected in digital way through CDB and once a month send to government using real TSH.        |
+| make sure that the OurLedger (Community Digital Backbone) automatically collects all tax                             | approval of tax structure as identified in this document, tax is collected in digital way through OurLedger and once a month send to government using real TSH.        |
 | integrate blockchain functions for OurHub with Digital Systems of ZNZ for residency, company registration, ... | allow us to establish integration with ZNZ backend together with Softnet, if we want to allow many thousands of digital nomads to come we will have to automate. |
 |                                                                                                                |                                                                                                                                                                  |
 |                                                                                                                |                                                                                                                                                                  |
@@ -51,9 +51,10 @@
 - summer 2022, first OurWorld location (innovation center & first startup location) (done)
 - september 2022, feasibility study completed (almost done)
 - october 2022, sign agreement between ZNZ Government & 4OurWorld (initial organization in Zanzibar) & ThreeFold SA
-- Q1 2023, [CDB Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
+- Q1 2023, [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
 - H2 2023, first digital nomads can register and get their digital presence here in ZNZ
 - H1 2024, +10.000 digital nomads activated
 
 
-> TODO: Kristof, Nuru improve...
+> TODO: (kristof) improve...
+> TODO: (nuru) improve...

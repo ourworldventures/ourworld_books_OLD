@@ -10,4 +10,4 @@ OurWorld ZNZ is the company in which we provide following services
 
 It is physically based in [OurTown](ourtown/ourtown.md), the Zanzibar cybercity and digital community. Moreover, [OurFinTech](../ourfintech/ourfintech.md) is available to those corporations looking for legislative and technology solutions to their needs. -->
 
-> TODO: update, check links
+> TODO: (na) update, check links

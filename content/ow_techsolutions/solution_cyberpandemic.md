@@ -7,7 +7,7 @@ A private intranet digital backbone built with a very different approach in mind
 
 **This multi Trillion USD problem** will not go away by itself, we have a multitude of technology solutions at our disposal which are able to provide a real antidote for a cyber pandemic. This antidote is not a "layered on" painkiller quick fix, but a from the ground up re-engineered effective and break through solution.
 
-### Solutions which will be implemented in the Zanzibar OurTown
+### Solutions to be implemented
 
 * Liquid cooled edge distributed decentralized network of small edge datacenter nodes (can be basements or other hidden locations), decentralization leads to ability to maintain access to critical services and data at any point in time. Each location can be as small as one cubic meter. 
 * Provide a quantum safe storage system, make sure data can never get corrupted, lost or stolen. Not even a quantum computer can hack into it. Ultra scalable system.

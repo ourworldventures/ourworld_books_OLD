@@ -2,7 +2,7 @@
 
 As given from our Foundational Layer.
 
-> TODO: Explain what this means and give unit
+> TODO: (na) Explain what this means and give unit
 
 ![](img/bizmodel_fintech1.png)  
 

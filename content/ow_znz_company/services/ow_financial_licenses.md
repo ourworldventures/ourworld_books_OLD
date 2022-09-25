@@ -8,7 +8,7 @@ Our unique proposition is that we will become a license and service provider whi
 - Any required licenses
 - Much required technology (All infrastructure and blockchain tech)
 - Third-party processing with global fiat currencies 
-> TODO: (anyone) What does 'third-party processing with global fiat currencies' mean?
+> TODO: (na) What does 'third-party processing with global fiat currencies' mean?
 - Auditing services & automatic tax reporting
 - Facility services (office, houses for staff, ...)
 
@@ -29,7 +29,7 @@ The following table highlights the various licences that OurFinTech can provide 
 
 > Unique to our solution is that the tech is fully integrated for all assets of the financial solution.
 
-> TODO: Add how it ties with DT for full financial suite e.g. financial education tips and tricks etc.. 
+> TODO: (na) Add how it ties with DT for full financial suite e.g. financial education tips and tricks etc.. 
 >> good enough?
 
 All elements of the full financial suite displayed in the table will be seamlessly integrated into the Digital Twins, allowing for OurHub Members to access all those tools with ease. Moreover, the Digital Twins will provide access to important auxiliary services and information, such as financial education, tips & tricks and support networks.

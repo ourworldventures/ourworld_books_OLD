@@ -38,6 +38,6 @@ see [this table](ourfoundation/licenses/finance/finance_licenses_table.md)
 - summer 2022, first OurWorld location (innovation center & first startup location) (done)
 - september 2022, feasibility study completed (almost done)
 - october 2022, sign agreement between ZNZ Government & 4OurWorld (initial organization in Zanzibar) & ThreeFold SA
-- Q1 2023, [CDB Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
+- Q1 2023, [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
 - H2 2023, legal documentation in order (all legal docs written ready to be submitted to CB TNZ)
 - to be further defined ...

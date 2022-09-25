@@ -6,36 +6,36 @@
 - (re)sell of homes or commercial properties (not as straight property, is through tokenized structure)
 - rental of homes/commercial property (offices, resto, ...)
 - deliver all required commodities for a small city (electricity, water, some local food production to demonstrate, telecom, ...)
-- operate the [CDB](/ourinternet/ourledger/ourledger.md) = Community Digital Backbone 
+- operate the [OurLedger](/ourinternet/ourledger/ourledger.md) = Community Digital Backbone 
 - be a global recognized example of how a digital community based can be run on larger scale by using digital tools
 - promotion to attract startups into OurTown and provide value that way for TNZ
 - do expositions and organze events to show how the OurTown model works and provides prosperity for government as well as citizens.
 
-Once all of this is proven and is working on larger scale we can consider to roll our parts of this model e.g. CDB to rest of Zanzibar with ofcourse 100% collaboration of government.
+Once all of this is proven and is working on larger scale we can consider to roll our parts of this model e.g. OurLedger to rest of Zanzibar with ofcourse 100% collaboration of government.
 
 ### Partnership model
 
 - the land is separated in common area's (owned by OurTown e.g. for rentals) or as owned (fractional by members)
-    - all land is registered in [CDB Ledger](/ourinternet/ourledger/ourledger.md) and serves as example how land and property can be managed
+    - all land is registered in [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) and serves as example how land and property can be managed
 - for land as owned by citizens of OurTown
     - 2000 USD per hectare (10.000m2) per year, only once used & sold
-    - all is registered in [CDB Ledger](/ourinternet/ourledger/ourledger.md)
+    - all is registered in [OurLedger Ledger](/ourinternet/ourledger/ourledger.md)
 - for land as owned by OurTown
     - 15% of all rent -> ZNZ (offices as well as residential) and utilities
-    - all is registered in [CDB Ledger](/ourinternet/ourledger/ourledger.md)
+    - all is registered in [OurLedger Ledger](/ourinternet/ourledger/ourledger.md)
 - VAT of 15% on services & goods
     - for all goods & services sold in OurTown Locations
-    - all is registered on [CDB Ledger](/ourinternet/ourledger/ourledger.md) and serves as example how Revenue Collection can be automated.
+    - all is registered on [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) and serves as example how Revenue Collection can be automated.
     - this allows for incredible automation & transparancy
 
-> all money is collected digitally on the CDB and transfered to ZNZ once a month, ZNZ can at any point in time audit the CDB and has full insight in all information on CDB, nice reporting tools will be created to give good insight to ZNZ government.
+> all money is collected digitally on the OurLedger and transfered to ZNZ once a month, ZNZ can at any point in time audit the OurLedger and has full insight in all information on OurLedger, nice reporting tools will be created to give good insight to ZNZ government.
 
 ### Responsibilities
 
 | **OurHub/4OurWorld/ThreeFold**                                                                                                                       | **Zanzibar Government**                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | create and deliver the technical system as required for OurTown functions like digital ownership                                              | recognize tokenized ownership (through blockchain) of property, resell of homes has no tax implication.                                                                                          |
-| make sure that the CDB (Community Digital Backbone) automatically collects all tax                                                            | approval of tax structure as identified in this document, tax is collected in digital way through CDB and once a month send to government using real TSH.                                        |
+| make sure that the OurLedger (Community Digital Backbone) automatically collects all tax                                                            | approval of tax structure as identified in this document, tax is collected in digital way through OurLedger and once a month send to government using real TSH.                                        |
 | make sure required funds are found to realize this project, we start small in Mbweni Ruins still in 2022                                      | give OurTown Strategic Investment Status                                                                                                                                                         |
 | deploy systems and operationally run the Community Digital Backbone system                                                                    | endorsement of Community Digital Backbone Functions (tax collection, identity, ...)                                                                                                              |
 | Deploy local fiber network in OurTown                                                                                                         | Give OurTown license to run local 4G network (for telco frequency) in OurTown area.                                                                                                              |
@@ -57,8 +57,8 @@ Once all of this is proven and is working on larger scale we can consider to rol
 - october 2022, take over Mbweni Ruins from current owner through 4OurWorld, get tax status in order for at least 5 years, to help us to get started
 - december 2022, OurTown company created in ZNZ and all paperwork in order
 - Q1 2023, initial VR model (metaverse) for city available
-- Q1 2023, [CDB Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
-- Q1 2023, initial registration of interest on the [CDB Ledger](/ourinternet/ourledger/ourledger.md) with money (reservation fee of e.g. 50k USD)
+- Q1 2023, [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
+- Q1 2023, initial registration of interest on the [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) with money (reservation fee of e.g. 50k USD)
 - Q1 2023, all paperwork and necessary permits in order from ZNZ for OurTown
 - Q1 2023, selection done of promotor and project developer for OurTown
 - Q2 2023, result of contest for architecture of project, selection of Architects for project, will be a global community event with promotion

@@ -22,4 +22,7 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 
 ## The Different OurWorld Projects
 
-> TODO:
+[OurTown]() - Property development and maintenance
+[OurInternet]() - physical internet capacity, distributed ledger and Twin's primitives, protocol.me
+[OurExperience]() - Digital interface of OurTown, how physical and virtual residents interact with each other and the rest of the world.
+[OurFoundation]() - The legal and corporate connection with Zanzibar and the rest of the world. It provides all the necessary licensing and information.

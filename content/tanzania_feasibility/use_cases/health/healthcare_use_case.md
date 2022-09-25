@@ -101,7 +101,7 @@ Layer 2: Experiences layer where virtual healthcare platform is deployed
 ## Key desigbn principles: ##
 
 - Patient Centric: conversely to the industry norm, VHP is designed around the patient, putting the patient first. Historically, the patient would always go tot he practitioner, at the halethcare facility. Medi.me is 100% patient centric and birng all practitioners, insurers, service providers to the patient
-- Verifiable Identification: all actors within the ecosystem are verified by a soveriegn identity. No BAD Actors
+- Verifiable Identification: all actors within the ecosystem are verified by a Sovereign identity. No BAD Actors
 - Immutable Records:
 - Tokenised Assets
 - 

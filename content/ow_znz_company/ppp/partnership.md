@@ -26,15 +26,11 @@ We are looking for Zanzibar to provide us with an initial building in StoneTown 
 - Provide a platform to identify and develop local talent in partnership with Zictia (Zanzibar ICT infrastructure agency).
 - Develop startups towards further stages and exits will attract further capital to ZNZ.
 
-## OurTwin = Our Digital Life
+## MyTwin = Our Digital Life
 
-> TODO: why is twin here?
+ThreeFold delivers the MyTwin concept which is a super powerful tool which allows all residents from the Zanzibar OurTown and all users of OurFoundation to deal with all the elements of the provided solution.
 
-Help us to complete our registration and support the first startups with the required tax administration. We don't want to wait till the larger physical OurTown has been finished. Together, we can get started now.
-
-OurTwin is a blockchain based project that will be operated by ThreeFold to support all the FinTech requirements of the project. 
-
-OurTwin will provide all the required tools to operate a complete digital experience to the digital and physical residents of OurWorld such as:
+Some of the capabilities:
 
 - Self-sovereign identity solutions 
 - Self-sovereign data storage solutions
@@ -57,10 +53,10 @@ We want to design our partnership following the guidelines as described by:
 - Government support to fast track the registrations and tax requirements for the first startups prior to the completion of OurTown and OurHub. 
 - Government to provide +1,000,000m2 in a prime location in Zanzibar to start the OurTown project.
 - Government to provide OurWorld with an initial building in StoneTown close to the Mbwuini Ruins where OurWorld started it's operations already. 
-- Partnership with Zictia to build the decentralized, self-sovereign digital backbone infrastructure.
+- Partnership with Zanzibar ICT Infrastructures Agency (ZICTIA) to build the decentralized, self-sovereign digital backbone infrastructure.
 
 
 > TODO: (jonathan) describe what we need from local org's
 > TODO: (jonathan) what is name of shukru org, and his name proper? we need to explain how we will work together
 > TODO: (sacha) review the full partnership section
-> TODO: is there newer one? (vic) where zanizbar? Can we do some research.
+> TODO: (vic) is there newer one? (vic) where zanizbar? Can we do some research.

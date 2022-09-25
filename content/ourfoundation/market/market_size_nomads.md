@@ -20,8 +20,8 @@ Over the past three years, Emergent Research and MBO Partners have collaborated 
 
 * The average digital nomad has a higher monthly budget than the average income of citizens from the top 5 countries.
 
-> TODO: complete above.
+> TODO: (na) complete above.
 >> Do you want more statistics? https://abrotherabroad.com/digital-nomad-statistics/
 
 As such, taxes were reported as one of the major struggles for digital nomads.
-> TODO: (anyone) Should I move this to the why section?
+> TODO: (na) Should I move this to the why section?

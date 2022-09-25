@@ -1,5 +1,4 @@
 # Business Model Personal Licenses for OurWorld ZNZ
 
-
-> TODO: Explain what this means 
+> TODO: (na) Fill out this section
 

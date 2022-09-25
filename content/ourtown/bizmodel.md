@@ -1,4 +1,0 @@
-# Business Model
-
-> TODO: Kristof
-

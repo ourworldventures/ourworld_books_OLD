@@ -15,8 +15,8 @@ Note: A global objective analysis in perceived prime locations in the past two d
 
 ## OurFintech
 
+- OurFintech will create revenue for the government of Zanzibar in the form of licence costs and taxes, supporting Zanzibar's objective to grow the country's GDP and FDI. 
 - The regulatory framework provided by OurFintech will position Zanzibar as a leader within the “Digital Transformation of Africa Strategy (2020-2030)” of the African Union, being the first unified platform that places the sovereignty and independence of Tanzania at the forefront of its operations. 
-- The attractive regulatory framework will support Zanzibar's objective to grow the country's GDP and FDI.
 - Through a simple yet effective regulatory approach, OurFintech will be in a unique position to attract international financial experts to further develop Zanzibar's financial frameworks and ease-of-doing business.
 
 ## OurSource 
@@ -24,9 +24,9 @@ Note: A global objective analysis in perceived prime locations in the past two d
 - OurSource will bring the technology, investments and know how to support the government of Zanzibar in it's digital inclusion and skills development vision.
 - OurSource will have the necessary technologies and know how to launch projects that will tackle the inclusion of SMEs via the creation of E-Commerce platforms and Banking solutions to scale digital inclusion of citizens and SMEs.
 
-## OurTwin
+## MyTwin
 
-- Through OurTwin, OurWorld will be equiped with the technology required to bridge the digital divide in Tanzania and the region, providing communication, education and upskilling capabilities in line with programs such as the “ Online Digital Skills for All Programme”.
+- Through MyTwin, OurWorld will be equiped with the technology required to bridge the digital divide in Tanzania and the region, providing communication, education and upskilling capabilities in line with programs such as the “ Online Digital Skills for All Programme”.
 
 
 

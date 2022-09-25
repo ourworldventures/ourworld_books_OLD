@@ -5,7 +5,7 @@
 {{#include ow_comp_services_include.md}}
 
 
-> TODO: change pic, from master slides TF
+> TODO: (na) change pic, from master slides TF
 
 
 

@@ -1,7 +1,7 @@
 
 ## Benefits for Digital Nomads
 
-> TODO: this section needs to be better structured around benefits
+> TODO: (na) this section needs to be better structured around benefits
 
 ### Zero Complexity
 
@@ -57,13 +57,13 @@ World class IT systems will provide: data sovereignty, transparent reporting, pr
 
 ### Healthy Tourism = for digital nomads
 
-> TODO: (anyone) What should x be?
+> TODO: (na) What should x be?
 
 x% of the digital nomads will spend some time in Zanzibar, this leads to secondary benefits for Zanzibar (Tourism).
 
 ### Modern Sustainable Physical FreeZone location for digital nomads
 
-> TODO: (anyone) What location?
+> TODO: (naa) What location?
 
 To Be Determined with the Government of Zanzibar, this leads to benefits...
 

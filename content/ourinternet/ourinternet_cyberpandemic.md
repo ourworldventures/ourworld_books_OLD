@@ -7,12 +7,12 @@ A private intranet digital backbone built with a very different approach in mind
 
 **This multi Trillion USD problem** will not go away by itself, we have a multitude of technology solutions at our disposal which are able to provide a real antidote for a cyber pandemic. This antidote is not a "layered on" painkiller quick fix, but a from the ground up re-engineered effective and break through solution.
 
-### Solutions which will be implemented in the Zanzibar OurTown
+### Solutions which will be implemented
 
 * Liquid cooled edge distributed decentralized network of small edge datacenter nodes (can be basements or other hidden locations), decentralization leads to ability to maintain access to critical services and data at any point in time. Each location can be as small as one cubic meter. 
 * Provide a quantum safe storage system, make sure data can never get corrupted, lost or stolen. Not even a quantum computer can hack into it. Ultra scalable system.
 * Fortify your existing web (and other) applications, to not allow access over default browsers, a standard browser is a huge security risk and needs to be avoided. We can sandbox access and hosting of these apps.
-* Use blockchain technology (BUT in country) deployed in a decentralized way by local teams, do not rely on public blockchain technology or technology which might be compromised or owned too much by coders outside of the country. This can be used for OurLedgerCs.
+* Use blockchain technology (BUT in country) deployed in a decentralized way by local teams, do not rely on public blockchain technology or technology which might be compromised or owned too much by coders outside of the country. This can be used for OurLedger.
 * Block backdoors (vulnerabilities as used by hackers) to communicate to the internet, not by means of firewalls (proven not to work), but by means of a very different approach (not available publicly today).
 * All critical software used should be owned in the country by local experts and all needs to be opensource. This is the only way to keep backdoors out and also keep things simple and integrated.
 * Local experts need to be able to improve, deploy and integrate all technologies used in country.

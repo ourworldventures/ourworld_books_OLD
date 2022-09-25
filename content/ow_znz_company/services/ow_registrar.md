@@ -7,5 +7,5 @@ We also monitor the OurLedger make sure all tax is collected and all money goes 
 Companies can be resident or not.
 
 
-> TODO:
+> TODO: (na) Fill out this section
 

@@ -10,7 +10,7 @@ Initially, only wrapped and native tokens / digital currencies can be used.
 
 ## Native Tokens
 
-Every company will have the ability to register their own tokens inside the CDB Ledger using our powerful tools.
+Every company will have the ability to register their own tokens inside the OurLedger Ledger using our powerful tools.
 
 ## Integration in OurFinTech Services
 

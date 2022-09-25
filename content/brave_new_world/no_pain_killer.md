@@ -1,4 +1,4 @@
-# Painkillers are not a real solution.
+# Painkillers are not a solution.
 
 ![](img/painkillers.png)  
 
