@@ -4,15 +4,16 @@ Digital nomads have no fixed residence and choose exciting locations as temporar
 
 ![](img/digital_nomad.png)  
 
-## Convenience for digital nomads
-
-## Sustainable living 
-
 ## Unique co-ownership structure of a diverse real-estate portfolio
-The initial investment portfolio in the planned co-ownership structure features real estate developments and assets of various kinds in safe locations across the world. The different kinds of assets that the DAO will hold include buildings, boats, equipment and farmlands located in the Zanzibar archipelago, mainland Tanzania, Dubai, Egypt and Turkey. There are a total of 6 locations planned for co-living/working environments designed according to the needs of digital nomads. There are also many farming locations in Tanzania, which provides a diversified investment portfolio while helping us learn how to feed our communities in the premises of the DAO. 
+The initial investment portfolio in the planned co-ownership structure features real estate developments and assets of various kinds in safe locations across the world. The different kinds of assets that the DAO will hold include buildings, boats, equipment and farmlands located in the Zanzibar archipelago, mainland Tanzania, Dubai, Egypt and Turkey. There are a total of 6 locations planned for co-living/working environments designed according to the needs of digital nomads. There are also many farming locations in Tanzania, which provides a diversified investment portfolio while helping us learn how to feed our communities with locally grown organic foods. 
+
+## Convenience for digital nomads
+This project provides a lot of convenient accomodation options for the digital nomad community. A participating digital nomad will be able to choose a place to live and work from the different properties owned by the DAO. The processes for digital nomads to live in the premises can be streamlined and incentivized by tokenomics of the DAO. Visitors can move between different locations and still benefit from the established and trusted standards of living. The appealing locations of the assets and customized experience for digital nomads will ensure continued demand on the assets by digital nomads. 
+
+Then sustainability of operations of the assets are a priority. Many of the identified assets feature sustainable living options such as the boats in the Nile having electricty generation from installed solar panels, planned carbon-negative developments in Tanzania, and eco-living development in Turkey. All locations will strive to grow their food locally to provide organic food supply that meets the expectations of the resident digital nomad community. 
 
 
->: TODO: complete
+>: TODO: complete (with visuals from Zia)
 
 info see
 https://docs.google.com/document/d/1Zg3o1wrIc-0dj7n14gP0MxMedtiLMAd2ywbhNygDtfM/edit
