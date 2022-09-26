@@ -2,7 +2,7 @@
 
 - [Intro](nomads/nomads_intro.md)
 - [Locations](nomads/locations.md)
-    - [Zanzibar West - JP](nomads/zanzibar_west/zazibar_west_intro.md)
+    - [Zanzibar West - JP](nomads/zanzibar_west/zanzibar_west_intro.md)
     - [Zanzibar South - Fun](nomads/zanzibar_south/zanzibar_south_intro.md)
     - [Tanzania Dar](nomads/tanzania_dar/tanzania_dar_intro.md)
     - [Nile Luxor](nomads/nile/nile_intro.md)
