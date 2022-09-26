@@ -4,9 +4,7 @@ The development of OurTown Sustainable City represents the political will to wor
 
 The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. OurHub will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use OurTown as a physical or digital home. 
 
-
 ![](img/goals.png)
-
 
 ## OurTown: Unlike any other Sustainable City Project
 
