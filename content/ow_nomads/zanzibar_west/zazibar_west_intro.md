@@ -22,6 +22,8 @@ Jungle Paradise is located in Mbweni, Zanzibar, Tanzania. It provides quick acce
 ![overview3](img/overview3.jpeg)
 ![pier1](img/pier1.jpeg)
 ![pier2](img/pier2.jpeg)
+![bar1](img/bar1.jpeg)
+![bar2](img/bar2.jpeg)
 ![beach1](img/beach1.jpeg)
 ![beach2](img/beach2.jpeg)
 ![pool1](img/pool1.jpeg)
@@ -34,8 +36,6 @@ Jungle Paradise is located in Mbweni, Zanzibar, Tanzania. It provides quick acce
 ![bedroom2](img/bedroom2.jpeg)
 ![bedroom3](img/bedroom3.jpeg)
 ![bathroom1](img/bathroom1.jpeg)
-![bar1](img/bar1.jpeg)
-![bar2](img/bar2.jpeg)
 ![ruins1](img/ruins1.jpeg)
 ![ruins2](img/ruins2.jpeg)
 
