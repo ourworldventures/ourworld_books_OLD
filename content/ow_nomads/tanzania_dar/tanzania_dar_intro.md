@@ -1,4 +1,4 @@
-# Tanzania Dar
+# The City of Peace
 
 We have a unique opportunity to acquire 2 million square metres of beachfront land just south of Dar-es-Salaam and turn it into a new home for digital nomads. 
 
@@ -10,9 +10,20 @@ The plot is 30km south-east of Dar-es-Salaam. It provides a refuge for digital n
 
 ![map_location](img/map_location.png)  
 
-## Amenities
+## Built-up Area
 
-This as of yet undevelopped land has unlimited potential to be designed as the ideal haven for digital nomads. Current expectations are that 100 rooms will be created, massively increasing the value of the property.
+There are 32 hectares of built-up land in the plot, consisting of 10 bungalows with thatched roofs. These bungalows have Wi-Fi, TVs, living areas, safes,  tea & coffeemaking facilities and they all have terraces with ocean views.
+
+This laid-back, rustic hotel is 2 km from Bakhresa Beach along the Indian Ocean. It's 14 km from the National Museum and House of Culture, and 18 km from Julius Nyerere International Airport.
+
+There's a steakhouse, and a restaurant set in a garden. A lounge features a billiards table. An outdoor pool has views of the ocean. Other amenities consist of breakfast and parking.
+
+> TODO: Is this referring to the Marriott or is this on the plot of land that we want to build?
+
+
+## Non built-up Area
+
+These 2,000,000 square metres of yet undeveloped land has unlimited potential to be designed as the ideal haven for digital nomads. Current expectations are that around 100 rooms will be created, massively increasing the value of the property.
 
 ## Financials
 
@@ -27,32 +38,5 @@ This as of yet undevelopped land has unlimited potential to be designed as the i
 ![beach5](img/beach5.png)  
 ![beach6](img/beach6.png)  
 ![greenery1](img/greenery1.png)  
-
-NEW:
-
-# The City of Peace
-
-![](img/dar.png)  
-
-## Build Up Area
-
-In buildings with thatched roofs set on 32 hectares, this laid-back, rustic hotel is 2 km from Bakhresa Beach along the Indian Ocean. It's 14 km from the National Museum and House of Culture, and 18 km from Julius Nyerere International Airport.
-The 10 understated bungalows provide Wi-Fi, TVs, living areas and safes, plus tea and coffeemaking facilities. All have terraces with ocean views. Room service is available.
-There's a steakhouse, and a restaurant set in a garden. A lounge features a billiards table. An outdoor pool has views of the ocean. Other amenities consist of breakfast and parking.
-
-
-## Non Build Up Area
-
-- 2.000.000 m2
-
-## Mix
-
-{{#include ../investment/mix.md}}
-
-## TODO: copy nice pictures
-
-> TODO: put them all in img/... lots of them ..., we can then use for website too, as many pictures as are nice and we can find all in img/... use 10 or so on a markdown do, the rest is for website
-
-https://www.marriott.com/en-us/hotels/darpr-protea-hotel-dar-es-salaam-amani-beach/photos/
 
 
