@@ -30,3 +30,6 @@ You can calculate the net operating income by subtracting operating expenses fro
 
 
 *Info From https://www.upstay.tech/room-revenue-multiplier-a-quick-hotel-valuation-method*
+
+
+gdoc: https://docs.google.com/spreadsheets/d/1HCxEPhTSqB31DZamY2HFoqamsakNRT0X190fahPoJZY/edit#gid=0
