@@ -158,4 +158,5 @@ _docs/
 node_modules/
 
 book/
+.DS_Store
 
