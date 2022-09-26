@@ -6,7 +6,6 @@
     - [Zanzibar South - Fun](nomads/zanzibar_south/zanzibar_south_intro.md)
     - [Tanzania Dar](nomads/tanzania_dar/tanzania_dar_intro.md)
     - [Nile Luxor](nomads/nile/nile_intro.md)
-        - [Gallery](nomads/nile/nile_gallery.md)
     - [Turkey Crystal Mountain](nomads/turkey/turkey_intro)
     - [Dubai Paradise Hills](nomads/dubai_paradise/dubai_paradise_intro)
 - [Farms](nomads/farms/farms_intro.md)
