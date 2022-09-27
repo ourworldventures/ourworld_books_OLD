@@ -15,7 +15,7 @@
 - do expositions and organze events to show how the OurTown/OurHub model works.
 
 
-> TODO: (jonathan) what is name of org here in ZNZ, need more info here, check with Ali/Nuru, what is there already, is it realistic to automate this
+> TODO: (jonathan) Check with Ali and Nuru if there is a pre-existing company in Zanzibar which is able to give out corporate licenses and how we might work with them. If not, describe how we might approach creating 
 
 ### Pricing
 
