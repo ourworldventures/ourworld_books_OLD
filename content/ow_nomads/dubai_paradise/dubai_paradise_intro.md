@@ -2,6 +2,8 @@
 
 Paradise Hills is located right within the heart of Dubai and offers a unique luxurious experience. It is an ultra-modern gated community housing 170 pent suites and townhouses, accompanied with stellar amenities and remarkable landscaping in the extensive estate grounds.
 
+![overview1](img/overview1.jpeg)
+
 ## Location
 
 The residences are located on Sheikh Zayed Bin Hamdan Street in Dubai, minutes away from some of Dubai's most valuable locations.
@@ -46,6 +48,5 @@ Inspired by the ultra-modern architecture, Paradise Hills is a true representati
 ![living1](img/living1.jpeg)
 ![living2](img/living2.jpeg)
 ![living3](img/living3.jpeg)
-![overview1](img/overview1.jpeg)
 ![terrace1](img/terrace1.jpeg)
 
