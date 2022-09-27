@@ -1,17 +1,39 @@
-# Turkey Crystal Mountain
+# Turkey Yenice Valley
+The concept of Yenice Valle grew from a love of traditional Turkish village life and the desire to sustain our natural environment.
+Yenice Valley has come to reality in a secluded valley, surrounded by tree-covered mountains, with accommodation built using traditional local materials, to include a treehouse, stone cottages, and a log cabin, each in plenty of space, well-furnished and fully equipped. The focal point is a stunning stone-built boutique hotel, which fits perfectly with the surrounding countryside.
+
+![](img/garden.png)  
 
 ## Location
 
-![](img/crystal_mountain.png)  
+Yenice Vadi is located within a quiet Turkish valley, providing the perfect escape, offering superb accommodation nestled amongst trees and mountains with easy access to the coast.The valley is surrounded by an abundance of trees including pine, almond, olives and fruit trees, all of which attract a wonderful range of wildlife including birds, boars, squirrels, hares, tortoises and goats. Hiding away in the valley gives everyone a wonderful opportunity to experience nature at its best.  Waking up to the sound of bird song, peaceful evenings on the verandas and exploring the amazing countryside whether on foot or by car provide the perfect sanctuary.
 
+Many communal areas are present in the space that can be customized according to visitor's needs. It's located in Mentese, Mugla in the south of Turkey. It is 80 minutes away from two airports and close to many other Turkish coastal towns that attract digital nomads. 
 
-## TODO: copy nice pictures from:
+![](img/turkey_location.png)  
 
-https://www.google.com/maps/place/Yenice+Vadi/@37.1227554,28.3009491,3a,83.6y,90t/data=!3m8!1e2!3m6!1sAF1QipOIl0mGwlSG_8zoiWlN1GI8pmdaj3fSGha-Ng2Y!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOIl0mGwlSG_8zoiWlN1GI8pmdaj3fSGha-Ng2Y%3Dw203-h135-k-no!7i1349!8i899!4m18!1m9!3m8!1s0x14bf6f0000000001:0x739c94f28acf295!2sYenice+Vadi!5m2!4m1!1i2!8m2!3d37.1227492!4d28.3009709!3m7!1s0x14bf6f0000000001:0x739c94f28acf295!5m2!4m1!1i2!8m2!3d37.1227492!4d28.3009709?hl=en-TR
+## Amenities
+Yenice Valley has 55 modern and authentic rooms. There are various room options for different audiences. In order to be as close as possible to traditional Turkish village life, the valley includes organically grown vegetables, with a greenhouse to lengthen the season. At various times of the year you will find tomatoes, peppers, aubergines, okra, broccoli, cabbage, onions and spinach to name but a few! The development has their own special olive oil is pressed from the harvest of our family owned olive grove.
+![](img/pool.png)  
 
-https://www.instagram.com/p/CP5ospPJprn/?igshid=NzNkNDdiOGI=
-https://www.instagram.com/p/Ca7oxzVo7qz/?igshid=NzNkNDdiOGI=
-https://www.instagram.com/p/CVDNteEIDj6/?igshid=NzNkNDdiOGI=
-https://www.instagram.com/p/CQTd5rfJhIh/?igshid=NzNkNDdiOGI=
+## Gallery
+![](img/room5.png)  
+![](img/pool2.png)  
+![](img/deck.png)  
+![](img/stone_building.png)  
+![](img/hall.png)  
+![](img/garden2.png)  
+![](img/garden3.png)  
+![](img/room.png)  
+![](img/garden4.png)  
+![](img/room2.png)  
+![](img/treehouse.png)  
+![](img/kitchen.png)  
+![](img/garden5.png)  
+![](img/room3.png)  
+![](img/room4.png)  
 
-put them all in img/... lots of them ..., we can then use for website too
+## Financials
+
+>: TODO: complete
+
