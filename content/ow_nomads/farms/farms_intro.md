@@ -6,6 +6,11 @@ The farm lands across Zanzibar and mainland Tanzania are cheap and don't reflect
 - As an education facility, we want to show farming communities and education facilities how such a way of farming is effective and good local communities, people and planet.
 We will create and test solutions in line to organic fertilizer, water recuperation, food forests, natural defense mechanisms, and organic pest control . All the best practices will be documented with video and documents, these documents will be made available for everyone as well as kept opensource.
 
-**These projects to be developed on the land ensures the continued demand of the purchased farmlands.** They will also help our communities in other locations localize their food supply. The food produced in Zanzibar will be used by the living community but also sold to local markets and if surplus exported. The knowledge gathered from the farming activities will be shared and can be used in other locations to make our communities more self-sufficient.
+These projects to be developed on the land ensures the continued demand of the purchased farmlands.They will also help our communities in other locations localize their food supply. The food produced in Zanzibar will be used by the living community but also sold to local markets and if surplus exported. The knowledge gathered from the farming activities will be shared and can be used in other locations to make our communities more self-sufficient.
 
->: TODO: explain how farming relates to digital nomads for this project
+## Food Security
+Being a part of OurWorld Nomads is also an investment into solutions that go against the trend shown in the inforgraphic below. Our developments will strive for food self-sufficiency and regenerative living in harmony with nature. Acquisition of farmlands supports this goal by reserving space and for regenerative farming and allowing us to feed our community from our own gardens. 
+
+![](img/food_security.png)  
+
+

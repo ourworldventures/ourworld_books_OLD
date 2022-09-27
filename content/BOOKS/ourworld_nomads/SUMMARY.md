@@ -13,3 +13,4 @@
     - [Tanzania - Mainland](nomads/farms/mainland.md)
 - [Investment](nomads/investment/investor.md)
     - [Valuation Excercise](nomads/investment/value.md)
+    - [DAO & Token Mix](nomads/investment/DAO_tokenomics.md)

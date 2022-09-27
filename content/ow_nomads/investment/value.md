@@ -1,4 +1,4 @@
 # Valuation Excercise
 
-![](img/value.png)  
+![](img/value_new.png)  
 

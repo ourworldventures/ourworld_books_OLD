@@ -14,6 +14,4 @@ We are looking for co-founders in our project. We have been working on this for 
 - Places where digital nomads like to come
 
 
-{{#include value.md}}
 
-{{#include mix.md}}
