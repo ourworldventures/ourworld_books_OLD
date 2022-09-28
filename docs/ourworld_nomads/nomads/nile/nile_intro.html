@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Nile Luxor - OurWorld Nomads</title>
+        <title>Egyptian Nile - Luxor - OurWorld Nomads</title>
 
 
         <!-- Custom HTML head -->
@@ -34,13 +34,13 @@
     </head>
     <body>
         <!-- Provide site root to javascript -->
-        <script>
+        <script type="text/javascript">
             var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
+        <script type="text/javascript">
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
+        <script type="text/javascript">
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,7 +68,7 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
+        <script type="text/javascript">
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../../nomads/nomads_intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="../../nomads/locations.html"><strong aria-hidden="true">2.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/zanzibar_west/zazibar_west_intro.html"><strong aria-hidden="true">2.1.</strong> Zanzibar West - JP</a></li><li class="chapter-item expanded "><a href="../../nomads/zanzibar_south/zanzibar_south_intro.html"><strong aria-hidden="true">2.2.</strong> Zanzibar South - Fun</a></li><li class="chapter-item expanded "><a href="../../nomads/tanzania_dar/tanzania_dar_intro.html"><strong aria-hidden="true">2.3.</strong> Tanzania Dar</a></li><li class="chapter-item expanded "><a href="../../nomads/nile/nile_intro.html" class="active"><strong aria-hidden="true">2.4.</strong> Nile Luxor</a></li><li class="chapter-item expanded "><a href="../../nomads/turkey/turkey_intro.html"><strong aria-hidden="true">2.5.</strong> Turkey Crystal Mountain</a></li><li class="chapter-item expanded "><a href="../../nomads/dubai_paradise/dubai_paradise_intro.html"><strong aria-hidden="true">2.6.</strong> Dubai Paradise Hills</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/farms/farms_intro.html"><strong aria-hidden="true">3.</strong> Farms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/farms/bambi.html"><strong aria-hidden="true">3.1.</strong> Bambi - Zanzibar</a></li><li class="chapter-item expanded "><a href="../../nomads/farms/mainland.html"><strong aria-hidden="true">3.2.</strong> Mainland - Tanzania</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/investment/investor.html"><strong aria-hidden="true">4.</strong> Investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/investment/value.html"><strong aria-hidden="true">4.1.</strong> Valuation Excercise</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../nomads/nomads_intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="../../nomads/locations.html"><strong aria-hidden="true">2.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/zanzibar_west/zanzibar_west_intro.html"><strong aria-hidden="true">2.1.</strong> Zanzibar West - JP</a></li><li class="chapter-item expanded "><a href="../../nomads/zanzibar_south/zanzibar_south_intro.html"><strong aria-hidden="true">2.2.</strong> Zanzibar South - Fun</a></li><li class="chapter-item expanded "><a href="../../nomads/tanzania_dar/tanzania_dar_intro.html"><strong aria-hidden="true">2.3.</strong> Tanzania - Mainland City of Peace</a></li><li class="chapter-item expanded "><a href="../../nomads/nile/nile_intro.html" class="active"><strong aria-hidden="true">2.4.</strong> Egyptian Nile - Luxor</a></li><li class="chapter-item expanded "><a href="../../nomads/turkey/turkey_intro.html"><strong aria-hidden="true">2.5.</strong> Turkey Crystal Mountain</a></li><li class="chapter-item expanded "><a href="../../nomads/dubai_paradise/dubai_paradise_intro.html"><strong aria-hidden="true">2.6.</strong> Dubai Paradise Hills</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/farms/farms_intro.html"><strong aria-hidden="true">3.</strong> Farms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/farms/bambi.html"><strong aria-hidden="true">3.1.</strong> Zanzibar - Bambi</a></li><li class="chapter-item expanded "><a href="../../nomads/farms/mainland.html"><strong aria-hidden="true">3.2.</strong> Tanzania - Mainland</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/investment/investor.html"><strong aria-hidden="true">4.</strong> Investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/investment/value.html"><strong aria-hidden="true">4.1.</strong> Valuation Excercise</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -132,7 +132,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
+                <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -143,6 +143,46 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="nile-luxor"><a class="header" href="#nile-luxor">Nile Luxor</a></h1>
+<p>Dahabiyas are traditional sailing boats used on the Nile river. This location includes four dahabiyas that offer peaceful and organic platforms for its visitors. </p>
+<p><img src="img/vedas.jpg" alt="" /></p>
+<h2 id="location"><a class="header" href="#location">Location</a></h2>
+<p>The boats are located on the Nile River in Luxor, Egypt. They are originally designed for private trips along the Nile offering a unique and authentic experience with organic food, green energy, and a warm-hearted crew. </p>
+<p><img src="img/nile.png" alt="" /></p>
+<p>The dahabiyas can host visitors in Luxor or host them on trips along the Nile. </p>
+<h2 id="amenities"><a class="header" href="#amenities">Amenities</a></h2>
+<p>The four dahabiyas total have 29 rooms and 10 suites that can host up to 78 people. Each room has a private bathroom. All boats have clean, modern and authentic communal areas for relaxation and co-working. </p>
+<p><img src="img/veda_rooms.jpg" alt="" /> </p>
+<p><img src="img/veda_deck.jpg" alt="" /> </p>
+<h3 id="veda-1"><a class="header" href="#veda-1">Veda 1</a></h3>
+<p><img src="img/veda1.jpg" alt="" /> </p>
+<p>This 50-meter dahabiya has 6 rooms and 4 suites with private balconies. It has two air conditioned meeting space for up to 50 people including an upper deck meeting room with a 360 degree panoramic view of the Nile. There are multiple places for relaxation, for workshops / yoga or meditation. It also includes a nice library with a collection of Egyptian history and awareness books. </p>
+<h3 id="veda-2"><a class="header" href="#veda-2">Veda 2</a></h3>
+<p><img src="img/veda2.jpg" alt="" /> </p>
+<p>Veda 2 has 8 rooms and 2 suites with private balconies. It has a large and cozy upper deck divided into several areas: sun bathing, beduin corner, and dining area. The sun deck space is fully customisable according to the needs of the visitors such as digital nomads. </p>
+<h3 id="veda-3"><a class="header" href="#veda-3">Veda 3</a></h3>
+<p><img src="img/veda3.jpg" alt="" /> </p>
+<p>Veda 3 is a cozy 18-meter dahabiya offering a peaceful floating home for smaller groups of people. It has a total of 5 rooms and can host 10 people. It has amazing Nile views on a cozy upper deck. This dahabiya can also be customized according to the needs of the visitor. </p>
+<h3 id="veda-4"><a class="header" href="#veda-4">Veda 4</a></h3>
+<p><img src="img/veda_deck2.jpg" alt="" /> </p>
+<p>Veda 4 is the newest addition to the dahabiyas. It is a 55-meter dahabiya with 10 rooms and 4 suites.  It has a large upper-deck and meeting rooms as well as several relaxation areas. </p>
+<p>More information about the dahabiyas can be found in https://veda-egypt.com/index.html. </p>
+<h2 id="finances"><a class="header" href="#finances">Finances</a></h2>
+<blockquote>
+<p>: TODO</p>
+</blockquote>
+<h2 id="gallery"><a class="header" href="#gallery">Gallery</a></h2>
+<p><img src="img/veda_view2.jpg" alt="" /></p>
+<p><img src="img/veda_inside.jpg" alt="" /></p>
+<p><img src="img/veda3_deck.jpg" alt="" /></p>
+<p><img src="img/veda_view.jpg" alt="" /></p>
+<p><img src="img/veda_deck2.jpeg" alt="" /></p>
+<p><img src="img/veda_desk.jpg" alt="" /></p>
+<p><img src="img/veda_bar.jpg" alt="" /></p>
+<p><img src="img/veda_meeting.jpg" alt="" /></p>
+<p><img src="img/veda_room2.jpg" alt="" /></p>
+<p><img src="img/veda_room3.jpg" alt="" /></p>
+<p><img src="img/veda_room4.jpg" alt="" /></p>
+<p><img src="img/veda_communal_area.jpg" alt="" /></p>
 
                     </main>
 
@@ -176,22 +216,22 @@
 
 
 
-        <script>
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../elasticlunr.min.js" charset="utf-8"></script>
-        <script src="../../mark.min.js" charset="utf-8"></script>
-        <script src="../../searcher.js" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="../../clipboard.min.js" charset="utf-8"></script>
-        <script src="../../highlight.js" charset="utf-8"></script>
-        <script src="../../book.js" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        <script src="../../mermaid.min.js"></script>
-        <script src="../../mermaid-init.js"></script>
+        <script type="text/javascript" src="../../mermaid.min.js"></script>
+        <script type="text/javascript" src="../../mermaid-init.js"></script>
 
 
     </body>

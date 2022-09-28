@@ -9,7 +9,7 @@
 - country GDP goes up dramatically thanks to benefits of a sovereign internet and lots of new economic digital possibilities.
 - everyone has access to super cost effective
     - quality and reliable internet with lots of localized applications
-    - quality education
+    - quality education (farming, school, ...)
     - quality healthcare
 - unified way how to pay for your services
 - tax is paid in fair way to the benefit of the country we live in

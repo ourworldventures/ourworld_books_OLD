@@ -35,13 +35,13 @@
     </head>
     <body>
         <!-- Provide site root to javascript -->
-        <script>
+        <script type="text/javascript">
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
+        <script type="text/javascript">
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
+        <script type="text/javascript">
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -69,7 +69,7 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
+        <script type="text/javascript">
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="nomads/nomads_intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="nomads/locations.html"><strong aria-hidden="true">2.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/zanzibar_west/zazibar_west_intro.html"><strong aria-hidden="true">2.1.</strong> Zanzibar West - JP</a></li><li class="chapter-item expanded "><a href="nomads/zanzibar_south/zanzibar_south_intro.html"><strong aria-hidden="true">2.2.</strong> Zanzibar South - Fun</a></li><li class="chapter-item expanded "><a href="nomads/tanzania_dar/tanzania_dar_intro.html"><strong aria-hidden="true">2.3.</strong> Tanzania Dar</a></li><li class="chapter-item expanded "><a href="nomads/nile/nile_intro.html"><strong aria-hidden="true">2.4.</strong> Nile Luxor</a></li><li class="chapter-item expanded "><a href="nomads/turkey/turkey_intro.html"><strong aria-hidden="true">2.5.</strong> Turkey Crystal Mountain</a></li><li class="chapter-item expanded "><a href="nomads/dubai_paradise/dubai_paradise_intro.html"><strong aria-hidden="true">2.6.</strong> Dubai Paradise Hills</a></li></ol></li><li class="chapter-item expanded "><a href="nomads/farms/farms_intro.html"><strong aria-hidden="true">3.</strong> Farms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/farms/bambi.html"><strong aria-hidden="true">3.1.</strong> Bambi - Zanzibar</a></li><li class="chapter-item expanded "><a href="nomads/farms/mainland.html"><strong aria-hidden="true">3.2.</strong> Mainland - Tanzania</a></li></ol></li><li class="chapter-item expanded "><a href="nomads/investment/investor.html"><strong aria-hidden="true">4.</strong> Investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/investment/value.html"><strong aria-hidden="true">4.1.</strong> Valuation Excercise</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="nomads/nomads_intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="nomads/locations.html"><strong aria-hidden="true">2.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/zanzibar_west/zanzibar_west_intro.html"><strong aria-hidden="true">2.1.</strong> Zanzibar West - JP</a></li><li class="chapter-item expanded "><a href="nomads/zanzibar_south/zanzibar_south_intro.html"><strong aria-hidden="true">2.2.</strong> Zanzibar South - Fun</a></li><li class="chapter-item expanded "><a href="nomads/tanzania_dar/tanzania_dar_intro.html"><strong aria-hidden="true">2.3.</strong> Tanzania - Mainland City of Peace</a></li><li class="chapter-item expanded "><a href="nomads/nile/nile_intro.html"><strong aria-hidden="true">2.4.</strong> Egyptian Nile - Luxor</a></li><li class="chapter-item expanded "><a href="nomads/turkey/turkey_intro.html"><strong aria-hidden="true">2.5.</strong> Turkey Crystal Mountain</a></li><li class="chapter-item expanded "><a href="nomads/dubai_paradise/dubai_paradise_intro.html"><strong aria-hidden="true">2.6.</strong> Dubai Paradise Hills</a></li></ol></li><li class="chapter-item expanded "><a href="nomads/farms/farms_intro.html"><strong aria-hidden="true">3.</strong> Farms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/farms/bambi.html"><strong aria-hidden="true">3.1.</strong> Zanzibar - Bambi</a></li><li class="chapter-item expanded "><a href="nomads/farms/mainland.html"><strong aria-hidden="true">3.2.</strong> Tanzania - Mainland</a></li></ol></li><li class="chapter-item expanded "><a href="nomads/investment/investor.html"><strong aria-hidden="true">4.</strong> Investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="nomads/investment/value.html"><strong aria-hidden="true">4.1.</strong> Valuation Excercise</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -133,7 +133,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
+                <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -143,21 +143,281 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>info see
+                        <h1 id="ourworld-digital-nomad"><a class="header" href="#ourworld-digital-nomad">OurWorld Digital Nomad</a></h1>
+<p>Digital nomads have no fixed residence and choose exciting locations as temporary residences while they work remotely. The choice of where to go usually depends on a lot of factors such as but not limitied safety, convenience, expenses and social life. The proposed Decentralized Autonomous Organization(DAO) aims to form a co-ownership structure for existing and planned real estate developments that can appeal any digital nomads. The number of digital nomads have increased exponentially in the last years making the industry really valuable. The infographic below shows some statistics about the growing trend of living as a digital nomad.</p>
+<p><img src="nomads/img/digital_nomad.png" alt="" /></p>
+<h2 id="unique-co-ownership-structure-of-a-diverse-real-estate-portfolio"><a class="header" href="#unique-co-ownership-structure-of-a-diverse-real-estate-portfolio">Unique co-ownership structure of a diverse real-estate portfolio</a></h2>
+<p>The initial investment portfolio in the planned co-ownership structure features real estate developments and assets of various kinds in safe locations across the world. The different kinds of assets that the DAO will hold include buildings, boats, equipment and farmlands located in the Zanzibar archipelago, mainland Tanzania, Dubai, Egypt and Turkey. There are a total of 6 locations planned for co-living/working environments designed according to the needs of digital nomads. There are also many farming locations in Tanzania, which provides a diversified investment portfolio while helping us learn how to feed our communities with locally grown organic foods. </p>
+<h2 id="convenience-for-digital-nomads"><a class="header" href="#convenience-for-digital-nomads">Convenience for digital nomads</a></h2>
+<p>This project provides a lot of convenient accomodation options for the digital nomad community. A participating digital nomad will be able to choose a place to live and work from the different properties owned by the DAO. The processes for digital nomads to live in the premises can be streamlined and incentivized by tokenomics of the DAO. Visitors can move between different locations and still benefit from the established and trusted standards of living. The appealing locations of the assets and customized experience for digital nomads will ensure continued demand on the assets by digital nomads. </p>
+<p>Then sustainability of operations of the assets are a priority. Many of the identified assets feature sustainable living options such as the boats in the Nile having electricty generation from installed solar panels, planned carbon-negative developments in Tanzania, and eco-living development in Turkey. All locations will strive to grow their food locally to provide organic food supply that meets the expectations of the resident digital nomad community. </p>
+<blockquote>
+<p>: TODO: complete (with visuals from Zia)</p>
+</blockquote>
+<p>info see
 https://docs.google.com/document/d/1Zg3o1wrIc-0dj7n14gP0MxMedtiLMAd2ywbhNygDtfM/edit</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="locations"><a class="header" href="#locations">Locations</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zanzibar-west---jp"><a class="header" href="#zanzibar-west---jp">Zanzibar West - JP</a></h1>
+<p>Jungle Paradise is based at Mbweni in Zanzibar and is home to a super nice boutique hotel, botanical gardens and ruins with a rich history.</p>
+<p>The location was instrumental in abolishing slavery and had a school where mainly slave children had a chance to get educated and become free.</p>
+<p>Mbweni was a Universities Mission to Central Africa (UMCA) base and settlement for former slaves in the 19th century. The ruins of St Mary’s School for Girls, built by missionaries for girls freed from slave ships, is now set amid the lush gardens of Mbweni Ruins.</p>
+<p>The Historic Ruins of the Mbweni School for freed slaves was founded in 1874, with associations with Sir John Kirk, Zanzibar’s first scientific botanist. </p>
+<h2 id="location"><a class="header" href="#location">Location</a></h2>
+<p>Jungle Paradise is located in Mbweni, Zanzibar. This location in the capital is ideal for digital nomads as they have quick access to Zanzibar's business district and airport, while being in a remote and peaceful neighbourhood.</p>
+<ul>
+<li>5 mins to International School of Zanzibar</li>
+<li>7 mins to Karume Institute of Science and Technology</li>
+<li>11 mins to Abeid Amani Karume International Airport</li>
+<li>15 mins to Stone Town</li>
+<li>20 mins to Tawakal Hospital</li>
+</ul>
+<p><img src="nomads/zanzibar_west/img/map_location.png" alt="map_location" /></p>
+<p>Mbweni, 5km south of Zanzibar Town,</p>
+<h2 id="amenities"><a class="header" href="#amenities">Amenities</a></h2>
+<h4 id="existing-hotel"><a class="header" href="#existing-hotel">Existing Hotel</a></h4>
+<p>Jungle paradise features exclusive and cozy, air-conditioned beachfront suites with a very high service standard. Each of the 13 existing rooms are fully furnished with balconies facing the ocean, beach and pool area, with it all interleaved in the jungle of the botanical garden. </p>
+<h4 id="restaurant"><a class="header" href="#restaurant">Restaurant</a></h4>
+<p>Jungle Paradise's “Ocean Breeze” Restaurant offers some of the best food in Zanzibar, along with a view of the sunset in the evenings. Jungle Paradise provides evening entertainment, including live music, based on several themes and artists and with a variety of cocktails mixed at “JP’s Beach Bar”. Jungle Paradise has all the rest of the amenities you would expect at such a high quality hotel. </p>
+<h4 id="developments"><a class="header" href="#developments">Developments</a></h4>
+<p>We have plans to extend this wonderful location:</p>
+<ul>
+<li>Restoration of the Ruins to create our co-creation, education and healing center.</li>
+<li>Add more rooms, we are adding 10 rooms as we speak and aim to have a total of 46 rooms.</li>
+<li>Restore the Ruins chapel to be able to be used as a multifunctional area (co-creation zone, events, …)</li>
+<li>Restore the botanical garden.</li>
+<li>Create a healing center and other related facilites.</li>
+</ul>
+<h4 id="mbweni-gardens"><a class="header" href="#mbweni-gardens">Mbweni Gardens</a></h4>
+<p>The ruins are surrounded by a beautiful botanic garden which supports over 600 different kinds of tree species. Many mature trees that were propagated from the original garden of Kirk, which is now the nearby residence of the former Zanzibar President Amani Abeid Karume.</p>
+<p>It has a mature rainforest atmosphere, only found in a few other places in Zanzibar and Pemba. It has many areas of native plants, including the coral rag forest on the cliff and mangroves on the shoreline.</p>
+<h2 id="financials"><a class="header" href="#financials">Financials</a></h2>
+<blockquote>
+<p>TODO:</p>
+</blockquote>
+<h2 id="aesthetics"><a class="header" href="#aesthetics">Aesthetics</a></h2>
+<p><img src="nomads/zanzibar_west/img/overview1.jpeg" alt="overview1" />
+<img src="nomads/zanzibar_west/img/overview2.jpeg" alt="overview2" />
+<img src="nomads/zanzibar_west/img/overview3.jpeg" alt="overview3" />
+<img src="nomads/zanzibar_west/img/pier1.jpeg" alt="pier1" />
+<img src="nomads/zanzibar_west/img/pier2.jpeg" alt="pier2" />
+<img src="nomads/zanzibar_west/img/bar1.jpeg" alt="bar1" />
+<img src="nomads/zanzibar_west/img/bar2.jpeg" alt="bar2" />
+<img src="nomads/zanzibar_west/img/beach1.jpeg" alt="beach1" />
+<img src="nomads/zanzibar_west/img/beach2.jpeg" alt="beach2" />
+<img src="nomads/zanzibar_west/img/beach3.png" alt="beach3" />
+<img src="nomads/zanzibar_west/img/pool1.jpeg" alt="pool1" />
+<img src="nomads/zanzibar_west/img/pool2.jpeg" alt="pool2" />
+<img src="nomads/zanzibar_west/img/restaurant1.jpeg" alt="restaurant1" />
+<img src="nomads/zanzibar_west/img/restaurant2.jpeg" alt="restaurant2" />
+<img src="nomads/zanzibar_west/img/exterior1.jpeg" alt="exterior1" />
+<img src="nomads/zanzibar_west/img/living1.jpeg" alt="living1" />
+<img src="nomads/zanzibar_west/img/bedroom1.jpeg" alt="bedroom1" />
+<img src="nomads/zanzibar_west/img/bedroom2.jpeg" alt="bedroom2" />
+<img src="nomads/zanzibar_west/img/bedroom3.jpeg" alt="bedroom3" />
+<img src="nomads/zanzibar_west/img/bathroom1.jpeg" alt="bathroom1" />
+<img src="nomads/zanzibar_west/img/ruins1.jpeg" alt="ruins1" />
+<img src="nomads/zanzibar_west/img/ruins2.jpeg" alt="ruins2" />
+<img src="nomads/zanzibar_west/img/ruins3.png" alt="ruins3" />
+<img src="nomads/zanzibar_west/img/ruins4.png" alt="ruins4" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zanzibar-south---fun"><a class="header" href="#zanzibar-south---fun">Zanzibar South - Fun</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="tanzania-dar"><a class="header" href="#tanzania-dar">Tanzania Dar</a></h1>
+<p>Fun Beach is a beachfront property in the south-east of Zanzibar which provides a far more relaxed, holiday vibe. </p>
+<h2 id="location-1"><a class="header" href="#location-1">Location</a></h2>
+<p>Fun Beach is located between Jambiani and Paje in Zanzibar, an ideal location in close proximity to the Zanzibar nightlife but sufficiently far from the busy tourist hot spots, therefore a perfect fit for digital nomads.</p>
+<p><img src="nomads/zanzibar_south/img/map_location.png" alt="map_location" /></p>
+<h2 id="amenities-1"><a class="header" href="#amenities-1">Amenities</a></h2>
+<p>At the Fun Beach location, there are 42 rooms available to be used.</p>
+<p>The top class restaurant offers breakfast, lunch and dinner in a range of cuisines - international, Indian, Arabian and more. </p>
+<p>There are two pools, sized 26m and 27m, on the beach front of the property flowing into each other. They provide a full view of the Indian Ocean. There is also a pool in the centre with small islands and sitting areas.</p>
+<p>The games room features billiards, ping pong, and a football table in addition to a TV and library area. Throughout Fun Beach there is ultra-fast wifi connectivity.</p>
+<p>A range of spa treatments are provided by the oceanside against a therapeutic backdrop of light, wind and waves. Individual treatments, or packages with treatments ranging from massages (deep tissue, gentle and relaxing) to facials and manicures are available.</p>
+<p>Below is a sitemap, showcasing the different facilities in the property.</p>
+<p><img src="nomads/zanzibar_south/img/sitemap.jpeg" alt="sitemap" /></p>
+<h2 id="financials-1"><a class="header" href="#financials-1">Financials</a></h2>
+<blockquote>
+<p>TODO:</p>
+</blockquote>
+<h2 id="aesthetics-1"><a class="header" href="#aesthetics-1">Aesthetics</a></h2>
+<p><img src="nomads/zanzibar_south/img/overview1.jpeg" alt="overview1" />
+<img src="nomads/zanzibar_south/img/hut1.jpeg" alt="hut1" />
+<img src="nomads/zanzibar_south/img/hut2.jpeg" alt="hut2" />
+<img src="nomads/zanzibar_south/img/hammock1.jpeg" alt="hammock1" />
+<img src="nomads/zanzibar_south/img/hammock2.jpeg" alt="hammock2" />
+<img src="nomads/zanzibar_south/img/hammock3.jpeg" alt="hammock3" />
+<img src="nomads/zanzibar_south/img/beach1.jpeg" alt="beach1" />
+<img src="nomads/zanzibar_south/img/pool1.jpeg" alt="pool1" />
+<img src="nomads/zanzibar_south/img/pool2.jpeg" alt="pool2" />
+<img src="nomads/zanzibar_south/img/pool3.jpeg" alt="pool3" />
+<img src="nomads/zanzibar_south/img/pool4.jpeg" alt="pool4" />
+<img src="nomads/zanzibar_south/img/pool5.jpeg" alt="pool5" />
+<img src="nomads/zanzibar_south/img/pool6.jpeg" alt="pool6" />
+<img src="nomads/zanzibar_south/img/lounge1.jpeg" alt="lounge1" />
+<img src="nomads/zanzibar_south/img/lounge2.jpeg" alt="lounge2" />
+<img src="nomads/zanzibar_south/img/lounge3.jpeg" alt="lounge3" />
+<img src="nomads/zanzibar_south/img/lounge4.jpeg" alt="lounge4" />
+<img src="nomads/zanzibar_south/img/lounge5.jpeg" alt="lounge5" />
+<img src="nomads/zanzibar_south/img/games1.jpeg" alt="games1" />
+<img src="nomads/zanzibar_south/img/games2.jpeg" alt="games2" />
+<img src="nomads/zanzibar_south/img/exterior1.jpeg" alt="exterior1" />
+<img src="nomads/zanzibar_south/img/bedroom1.jpeg" alt="bedroom1" />
+<img src="nomads/zanzibar_south/img/bedroom2.jpeg" alt="bedroom2" />
+<img src="nomads/zanzibar_south/img/bedroom3.jpeg" alt="bedroom3" />
+<img src="nomads/zanzibar_south/img/bedroom3.jpeg" alt="bedroom4" />
+<img src="nomads/zanzibar_south/img/bedroom3.jpeg" alt="bedroom5" />
+<img src="nomads/zanzibar_south/img/bathroom1.jpeg" alt="bathroom1" />
+<img src="nomads/zanzibar_south/img/bathroom2.jpeg" alt="bathroom2" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-city-of-peace"><a class="header" href="#the-city-of-peace">The City of Peace</a></h1>
+<p>We have a unique opportunity to acquire 2 million square metres of beachfront land just south of Dar-es-Salaam and turn it into a new home for digital nomads. </p>
+<h2 id="location-2"><a class="header" href="#location-2">Location</a></h2>
+<p>The plot is 30km south-east of Dar-es-Salaam. It provides a refuge for digital nomads who wish to be away from city life and a staging point for those who want to visit the famous Serengeti National Park or Ngorongoro Crater, Lake Manyara, Sealous Game Reserve and Zanzibar. However, it is not unreasonably far from the business hub of Dar-es-Salaam and the airport. </p>
+<ul>
+<li>75 min to Julius Nyerere International Airport</li>
+<li>75 min to Dar-es-Salaam city centre</li>
+</ul>
+<p><img src="nomads/tanzania_dar/img/map_location.png" alt="map_location" /></p>
+<h2 id="built-up-area"><a class="header" href="#built-up-area">Built-up Area</a></h2>
+<p>There are 32 hectares of built-up land in the plot, consisting of 10 bungalows with thatched roofs. These bungalows have Wi-Fi, TVs, living areas, safes,  tea &amp; coffeemaking facilities and they all have terraces with ocean views.</p>
+<p>This laid-back, rustic hotel is 2 km from Bakhresa Beach along the Indian Ocean. It's 14 km from the National Museum and House of Culture, and 18 km from Julius Nyerere International Airport.</p>
+<p>There's a steakhouse, and a restaurant set in a garden. A lounge features a billiards table. An outdoor pool has views of the ocean. Other amenities consist of breakfast and parking.</p>
+<blockquote>
+<p>TODO: Is this referring to the Marriott or is this on the plot of land that we want to build?</p>
+</blockquote>
+<h2 id="non-built-up-area"><a class="header" href="#non-built-up-area">Non built-up Area</a></h2>
+<p>These 2,000,000 square metres of yet undeveloped land has unlimited potential to be designed as the ideal haven for digital nomads. Current expectations are that around 100 rooms will be created, massively increasing the value of the property.</p>
+<h2 id="financials-2"><a class="header" href="#financials-2">Financials</a></h2>
+<blockquote>
+<p>TODO:</p>
+</blockquote>
+<h2 id="aesthetics-2"><a class="header" href="#aesthetics-2">Aesthetics</a></h2>
+<p><img src="nomads/tanzania_dar/img/beach1.png" alt="beach1" /><br />
+<img src="nomads/tanzania_dar/img/beach2.png" alt="beach2" /><br />
+<img src="nomads/tanzania_dar/img/beach3.png" alt="beach3" /><br />
+<img src="nomads/tanzania_dar/img/beach4.png" alt="beach4" /><br />
+<img src="nomads/tanzania_dar/img/beach5.png" alt="beach5" /><br />
+<img src="nomads/tanzania_dar/img/beach6.png" alt="beach6" /><br />
+<img src="nomads/tanzania_dar/img/greenery1.png" alt="greenery1" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="nile-luxor"><a class="header" href="#nile-luxor">Nile Luxor</a></h1>
+<p>Dahabiyas are traditional sailing boats used on the Nile river. This location includes four dahabiyas that offer peaceful and organic platforms for its visitors. </p>
+<p><img src="nomads/nile/img/vedas.jpg" alt="" /></p>
+<h2 id="location-3"><a class="header" href="#location-3">Location</a></h2>
+<p>The boats are located on the Nile River in Luxor, Egypt. They are originally designed for private trips along the Nile offering a unique and authentic experience with organic food, green energy, and a warm-hearted crew. </p>
+<p><img src="nomads/nile/img/nile.png" alt="" /></p>
+<p>The dahabiyas can host visitors in Luxor or host them on trips along the Nile. </p>
+<h2 id="amenities-2"><a class="header" href="#amenities-2">Amenities</a></h2>
+<p>The four dahabiyas total have 29 rooms and 10 suites that can host up to 78 people. Each room has a private bathroom. All boats have clean, modern and authentic communal areas for relaxation and co-working. </p>
+<p><img src="nomads/nile/img/veda_rooms.jpg" alt="" /> </p>
+<p><img src="nomads/nile/img/veda_deck.jpg" alt="" /> </p>
+<h3 id="veda-1"><a class="header" href="#veda-1">Veda 1</a></h3>
+<p><img src="nomads/nile/img/veda1.jpg" alt="" /> </p>
+<p>This 50-meter dahabiya has 6 rooms and 4 suites with private balconies. It has two air conditioned meeting space for up to 50 people including an upper deck meeting room with a 360 degree panoramic view of the Nile. There are multiple places for relaxation, for workshops / yoga or meditation. It also includes a nice library with a collection of Egyptian history and awareness books. </p>
+<h3 id="veda-2"><a class="header" href="#veda-2">Veda 2</a></h3>
+<p><img src="nomads/nile/img/veda2.jpg" alt="" /> </p>
+<p>Veda 2 has 8 rooms and 2 suites with private balconies. It has a large and cozy upper deck divided into several areas: sun bathing, beduin corner, and dining area. The sun deck space is fully customisable according to the needs of the visitors such as digital nomads. </p>
+<h3 id="veda-3"><a class="header" href="#veda-3">Veda 3</a></h3>
+<p><img src="nomads/nile/img/veda3.jpg" alt="" /> </p>
+<p>Veda 3 is a cozy 18-meter dahabiya offering a peaceful floating home for smaller groups of people. It has a total of 5 rooms and can host 10 people. It has amazing Nile views on a cozy upper deck. This dahabiya can also be customized according to the needs of the visitor. </p>
+<h3 id="veda-4"><a class="header" href="#veda-4">Veda 4</a></h3>
+<p><img src="nomads/nile/img/veda_deck2.jpg" alt="" /> </p>
+<p>Veda 4 is the newest addition to the dahabiyas. It is a 55-meter dahabiya with 10 rooms and 4 suites.  It has a large upper-deck and meeting rooms as well as several relaxation areas. </p>
+<p>More information about the dahabiyas can be found in https://veda-egypt.com/index.html. </p>
+<h2 id="finances"><a class="header" href="#finances">Finances</a></h2>
+<blockquote>
+<p>: TODO</p>
+</blockquote>
+<h2 id="gallery"><a class="header" href="#gallery">Gallery</a></h2>
+<p><img src="nomads/nile/img/veda_view2.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_inside.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda3_deck.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_view.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_deck2.jpeg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_desk.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_bar.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_meeting.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_room2.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_room3.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_room4.jpg" alt="" /></p>
+<p><img src="nomads/nile/img/veda_communal_area.jpg" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="turkey-crystal-mountain"><a class="header" href="#turkey-crystal-mountain">Turkey Crystal Mountain</a></h1>
+<h2 id="location-4"><a class="header" href="#location-4">Location</a></h2>
+<p><img src="nomads/turkey/img/crystal_mountain.png" alt="" /></p>
+<h2 id="todo-copy-nice-pictures-from"><a class="header" href="#todo-copy-nice-pictures-from">TODO: copy nice pictures from:</a></h2>
+<p>https://www.google.com/maps/place/Yenice+Vadi/@37.1227554,28.3009491,3a,83.6y,90t/data=!3m8!1e2!3m6!1sAF1QipOIl0mGwlSG_8zoiWlN1GI8pmdaj3fSGha-Ng2Y!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOIl0mGwlSG_8zoiWlN1GI8pmdaj3fSGha-Ng2Y%3Dw203-h135-k-no!7i1349!8i899!4m18!1m9!3m8!1s0x14bf6f0000000001:0x739c94f28acf295!2sYenice+Vadi!5m2!4m1!1i2!8m2!3d37.1227492!4d28.3009709!3m7!1s0x14bf6f0000000001:0x739c94f28acf295!5m2!4m1!1i2!8m2!3d37.1227492!4d28.3009709?hl=en-TR</p>
+<p>https://www.instagram.com/p/CP5ospPJprn/?igshid=NzNkNDdiOGI=
+https://www.instagram.com/p/Ca7oxzVo7qz/?igshid=NzNkNDdiOGI=
+https://www.instagram.com/p/CVDNteEIDj6/?igshid=NzNkNDdiOGI=
+https://www.instagram.com/p/CQTd5rfJhIh/?igshid=NzNkNDdiOGI=</p>
+<p>put them all in img/... lots of them ..., we can then use for website too</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dubai-paradise-hills"><a class="header" href="#dubai-paradise-hills">Dubai Paradise Hills</a></h1>
+<p>Paradise Hills is located right within the heart of Dubai and offers a unique luxurious experience. It is an ultra-modern gated community housing 170 pent suites and townhouses, accompanied with stellar amenities and remarkable landscaping in the extensive estate grounds.</p>
+<h2 id="location-5"><a class="header" href="#location-5">Location</a></h2>
+<p>The residences are located on Sheikh Zayed Bin Hamdan Street in Dubai, minutes away from some of Dubai's most valuable locations.</p>
+<ul>
+<li>5 mins to Jebel Ali School</li>
+<li>7 mins to Dubai Autodrome</li>
+<li>7 mins to Aster Clinic Center</li>
+<li>7 mins to First Avenue Mall</li>
+<li>10 mins to IMG World of Adventure</li>
+<li>14 mins to Mall of The Emirates</li>
+<li>15 mins to NMC Royal Hospital</li>
+<li>20 mins to Palm Jumeirah</li>
+<li>20 mins to Al Maktoum Intl Airport</li>
+<li>25 mins to Downtown Dubai</li>
+<li>25 mins to Burj Khalifa</li>
+</ul>
+<p><img src="nomads/dubai_paradise/img/map_location.png" alt="map_location" /></p>
+<h2 id="amenities-3"><a class="header" href="#amenities-3">Amenities</a></h2>
+<p>There are three suites and townhouses, containing 15 rooms, available for digital nomads. Paradise Hills' state-of-the-art amenities include, but are not limited to; community center with retail shops and services, 24-hour security, kids play areas, spacious green areas with water features, jogging tracks, and a dedicated multi-purpose building hall for various occasions and functions such as weddings, international conferences, and events.</p>
+<p><img src="nomads/dubai_paradise/img/amenities.png" alt="amenities" /></p>
+<h2 id="financials-3"><a class="header" href="#financials-3">Financials</a></h2>
+<blockquote>
+<p>TODO:</p>
+</blockquote>
+<h2 id="aesthetics-3"><a class="header" href="#aesthetics-3">Aesthetics</a></h2>
+<p>Inspired by the ultra-modern architecture, Paradise Hills is a true representation of fine landscape craftsmanship at work. The lush and open landscapes amplify the common theme of tranquility and luxury within the community.</p>
+<p><img src="nomads/dubai_paradise/img/bedroom1.jpeg" alt="bedroom1" />
+<img src="nomads/dubai_paradise/img/bedroom2.jpeg" alt="bedroom2" />
+<img src="nomads/dubai_paradise/img/bedroom3.jpeg" alt="bedroom3" />
+<img src="nomads/dubai_paradise/img/dining1.jpeg" alt="dining1" />
+<img src="nomads/dubai_paradise/img/exterior1.jpeg" alt="exterior1" />
+<img src="nomads/dubai_paradise/img/exterior2.jpeg" alt="exterior2" />
+<img src="nomads/dubai_paradise/img/exterior3.jpeg" alt="exterior3" />
+<img src="nomads/dubai_paradise/img/kitchen1.jpeg" alt="kitchen1" />
+<img src="nomads/dubai_paradise/img/living1.jpeg" alt="living1" />
+<img src="nomads/dubai_paradise/img/living2.jpeg" alt="living2" />
+<img src="nomads/dubai_paradise/img/living3.jpeg" alt="living3" />
+<img src="nomads/dubai_paradise/img/overview1.jpeg" alt="overview1" />
+<img src="nomads/dubai_paradise/img/terrace1.jpeg" alt="terrace1" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="farms"><a class="header" href="#farms">Farms</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="bambi"><a class="header" href="#bambi">Bambi</a></h1>
+<p>The farm lands across Zanzibar and mainland Tanzania are cheap and don't reflect their potential. Through our efforts and incentives, these lands will be used as regenerative farming zones. A large part of the land will be used to demonstrate how farming can be done which</p>
+<ul>
+<li>Only uses organic fertilizers, which can mainly also be produced on land</li>
+<li>Has a high yield (good output), in relation to size of land yet still completely organic and in line with nature.</li>
+<li>As an education facility, we want to show farming communities and education facilities how such a way of farming is effective and good local communities, people and planet.
+We will create and test solutions in line to organic fertilizer, water recuperation, food forests, natural defense mechanisms, and organic pest control . All the best practices will be documented with video and documents, these documents will be made available for everyone as well as kept opensource.</li>
+</ul>
+<p><strong>These projects to be developed on the land ensures the continued demand of the purchased farmlands.</strong> They will also help our communities in other locations localize their food supply. The food produced in Zanzibar will be used by the living community but also sold to local markets and if surplus exported. The knowledge gathered from the farming activities will be shared and can be used in other locations to make our communities more self-sufficient.</p>
+<blockquote>
+<p>: TODO: explain how farming relates to digital nomads for this project</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="zanzibar-farmlands"><a class="header" href="#zanzibar-farmlands">Zanzibar Farmlands</a></h1>
+<p>Up to 500000 square meters of land is planned to be acquired. Our team is still scouting for more farmlands across the Zanzibar archipelago. Many pieces of land are identified and we are in contact with the relevant authorities for further steps. </p>
+<h2 id="location-6"><a class="header" href="#location-6">Location</a></h2>
+<p>Even though the identified farming lands are in many locations in Zanzibar, we plan to acquire a majority of the land from Bambi in Unguja Island and Pemba Island. <strong>The first land in Bambi has already been purchased.</strong> The first land is a small 2-acre land that allowed our team to get familiar with the Zanzibar regulations around land transfer. This location will also serve as a test ground for the expected farming activities on the acquired farming lands. </p>
+<h3 id="bambi"><a class="header" href="#bambi">Bambi</a></h3>
+<p>Bambi is one of the most fertile regions of Zanzibar for agriculture. It is located roughly in the middle of the island. It is 25 km from Stone Town and is close to many other touristic facilities.</p>
+<p><img src="nomads/farms/img/bambi.png" alt="" /></p>
+<p><img src="nomads/farms/img/bambi_zoom.png" alt="" /></p>
+<h3 id="pemba"><a class="header" href="#pemba">Pemba</a></h3>
+<p>Pemba Island is the second largest island in the Zanzibar archipelago. Similar to Unguja Island, Pemba also has many fertile regions suitable for farming. Our team has visited multiple plots in Pemba and identified fitting plots. </p>
+<p><img src="nomads/farms/img/pemba.png" alt="" /></p>
 <blockquote>
 <p>TODO: some pictures (can be from other plots), size, ...</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="mainland---tanzania"><a class="header" href="#mainland---tanzania">Mainland - Tanzania</a></h1>
+<p>Located in the middle of Lake Victoria, Lake Malawi and Lake Tanganyika, Tanzania has one of Africa's most fertile lands. The farm lands in Tanzania are significantly cheaper than lands in Zanzibar. We aim to acquire a total of 5 million square meters of land in mainland Tanzania. This acquisition will be done in phases based on the priorities of the project at the time.</p>
+<p><img src="nomads/farms/img/tanzania.png" alt="" /></p>
+<blockquote>
+<p>: TODO: more details </p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="become-an-co-founder-in-ourworld-nomads"><a class="header" href="#become-an-co-founder-in-ourworld-nomads">Become an co-founder in OurWorld Nomads</a></h1>
 <p>We are looking for co-founders in our project.</p>
 <p>We are working on this for +3 years and have now access to beautiful properties.</p>
@@ -202,24 +462,24 @@ https://docs.google.com/document/d/1Zg3o1wrIc-0dj7n14gP0MxMedtiLMAd2ywbhNygDtfM/
 
 
 
-        <script>
+        <script type="text/javascript">
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js" charset="utf-8"></script>
-        <script src="mark.min.js" charset="utf-8"></script>
-        <script src="searcher.js" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="clipboard.min.js" charset="utf-8"></script>
-        <script src="highlight.js" charset="utf-8"></script>
-        <script src="book.js" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        <script src="mermaid.min.js"></script>
-        <script src="mermaid-init.js"></script>
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
 
-        <script>
+        <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });

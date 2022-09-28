@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Experience - Mama Samia Institute</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../mama_samia_institute/intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/gifts_to_tanzania.html"><strong aria-hidden="true">2.</strong> A Gift For Tanzania</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/digital_transformation_african_union.html"><strong aria-hidden="true">3.</strong> Digital Transformation</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/for_humanity.html"><strong aria-hidden="true">4.</strong> For Humanity</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mama_samia_institute/mission_vision.html"><strong aria-hidden="true">4.1.</strong> Mission Vision</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/msi_values_principles.html"><strong aria-hidden="true">4.2.</strong> Values</a></li></ol></li><li class="chapter-item expanded "><a href="../mama_samia_institute/policies.html"><strong aria-hidden="true">5.</strong> Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mama_samia_institute/independenca_sustainability_policies.html"><strong aria-hidden="true">5.1.</strong> ISP</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/natural_wealth_conservation_policies.html"><strong aria-hidden="true">5.2.</strong> NWCP</a></li></ol></li><li class="chapter-item expanded "><a href="../mama_samia_institute/projects.html"><strong aria-hidden="true">6.</strong> Projects</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mama_samia_institute/internet_needs_fix.html"><strong aria-hidden="true">6.1.</strong> Internet Needs Fix</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/projects_internal.html"><strong aria-hidden="true">6.2.</strong> 100% Owned Projects</a></li></ol></li><li class="chapter-item expanded "><a href="../mama_samia_institute/funding.html"><strong aria-hidden="true">7.</strong> Funding</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mama_samia_institute/value_increase.html"><strong aria-hidden="true">7.1.</strong> Value Increase</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/msi_structure.html"><strong aria-hidden="true">7.2.</strong> Structure</a></li></ol></li><li class="chapter-item expanded "><a href="../mama_samia_institute/experience.html" class="active"><strong aria-hidden="true">8.</strong> Experience</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/roadmap.html"><strong aria-hidden="true">9.</strong> Roadmap</a></li><li class="chapter-item expanded "><a href="../mama_samia_institute/note_founders.html"><strong aria-hidden="true">10.</strong> Note Founders</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Mama Samia Institute</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="experience"><a class="header" href="#experience">EXPERIENCE</a></h1>
+<h2 id="our-previous-successes"><a class="header" href="#our-previous-successes">OUR PREVIOUS SUCCESSES</a></h2>
+<p><img src="img/history_experience.png" alt="image alt text" /></p>
+<p>More than 500.000.000 USD in exits. Average IRR for our investors was above 44% per year. </p>
+<h2 id="technology-achievements-of-the-institute-founding-team"><a class="header" href="#technology-achievements-of-the-institute-founding-team">Technology Achievements of the institute founding team</a></h2>
+<h3 id="3-world-records-for-web-hosting-1997-2002"><a class="header" href="#3-world-records-for-web-hosting-1997-2002">3 World Records for Web Hosting (1997-2002)</a></h3>
+<p>Our team launched the internet hosting and datacenter business in Europe. It's fair to say that we were at the beginning of the internet's enormous growth at that time. We hosted the largest websites in the world during this period. UEFA, Nasa, World Cup,, … Numerous times we demonstrated how to achieve super scale while staying sustainable.</p>
+<h3 id="the-first-backup-data-deduplication-system-in-the-world-2005"><a class="header" href="#the-first-backup-data-deduplication-system-in-the-world-2005">The first Backup Data Deduplication system in the world (2005)</a></h3>
+<p>Upto 100x benefit compared to the status quo in data centers at that point.
+We showed how our customers could back up full data centers with 100x less energy and storage utilization.</p>
+<p>This product still lives on in all Symantec backup products. This was a highly innovative solution, there was nothing like it at the time as. It facilitated the  move away from tape to disk based backup systems.</p>
+<h3 id="the-first-cloud-system-in-the-world-2008"><a class="header" href="#the-first-cloud-system-in-the-world-2008">The first cloud system in the world (2008)</a></h3>
+<p>We formed one of the key innovation groups in the field of cloud computing. Concepts like Virtual Private Datacenter were invented by us. We were one of the main sources of inspiration for companies like VMWare for their cloud strategy. We became the core of SUN microsystem, and the inspiration behind Sun’s ambition to become the largest player in the cloud industry. This didn’t happen inthe end because Oracle bought SUN and buried all Sun’s cloud computing projects.</p>
+<h3 id="the-first-always-consistent-database-in-the-world-2010"><a class="header" href="#the-first-always-consistent-database-in-the-world-2010">The first always consistent database in the world (2010)</a></h3>
+<p>This was a major technological achievement, we pioneered and developed the method to store data in a database over multiple sites in such a way that data could never be lost, corrupted or order of updates changed. Consistency was key. This database was called Arakoon and served as inspiration for further database projects. This fact is little known but is especially relevant today</p>
+<h3 id="the-first-unbreakable-and-distributed-storage-system-in-the-world-2012"><a class="header" href="#the-first-unbreakable-and-distributed-storage-system-in-the-world-2012">The first unbreakable and distributed storage system in the world (2012)</a></h3>
+<p>We invented a way to store petabytes of information in such a way that no-one can hack it, and the data can never be corrupted.</p>
+<p>This system was 10x more energy efficient compared to any alternative. This led to our biggest exit to date. Even today there are barely any storage systems which can compete with our approach and solutions that were developed at that time.</p>
+<h3 id="the-first-proof-of-block-stake-blockchain-in-the-world-2017"><a class="header" href="#the-first-proof-of-block-stake-blockchain-in-the-world-2017">The first proof of block stake blockchain in the world (2017)</a></h3>
+<p>We developed the first blockchain which was not using proof of work to battle the energy usage which went with proof of work blockchains. We have used this system for the last 4  years. Today many blockchains have evolved in this direction.</p>
+<h3 id="the-first-peer2peer-cloud-in-the-world-now"><a class="header" href="#the-first-peer2peer-cloud-in-the-world-now">The first peer2peer cloud in the world (now)</a></h3>
+<p>Probably our biggest achievement to date. A real carbon removing, sovereign peer2peer cloud.This system is being deployed and evolved in one of our scale out startups called ThreeFold.</p>
+<p>The benefits of this system are huge. We had to write an operating system from scratch (re-using linux kernel), a new blockchain provisioning layer as well as the most reliable and sustainable storage system in the world. This system has now been deployed in many locations. More than 40m USD has been invested by founders and friends to make this possible.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../mama_samia_institute/msi_structure.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../mama_samia_institute/roadmap.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../mama_samia_institute/msi_structure.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../mama_samia_institute/roadmap.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>
