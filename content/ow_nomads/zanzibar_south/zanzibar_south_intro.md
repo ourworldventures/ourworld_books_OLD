@@ -2,6 +2,8 @@
 
 Fun Beach is a beachfront property in the south-east of Zanzibar which provides a far more relaxed, holiday vibe. 
 
+![lounge1](img/lounge1.jpeg)
+
 ## Location 
 
 Fun Beach is located between Jambiani and Paje in Zanzibar, an ideal location in close proximity to the Zanzibar nightlife but sufficiently far from the busy tourist hot spots, therefore a perfect fit for digital nomads.
@@ -44,7 +46,6 @@ Below is a sitemap, showcasing the different facilities in the property.
 ![pool4](img/pool4.jpeg)
 ![pool5](img/pool5.jpeg)
 ![pool6](img/pool6.jpeg)
-![lounge1](img/lounge1.jpeg)
 ![lounge2](img/lounge2.jpeg)
 ![lounge3](img/lounge3.jpeg)
 ![lounge4](img/lounge4.jpeg)

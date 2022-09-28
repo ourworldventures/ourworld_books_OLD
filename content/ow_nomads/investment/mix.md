@@ -1,3 +1,3 @@
 # Token Mix
 
-![](img/mix.png)  
+![](img/mix_new.png)  

@@ -8,6 +8,8 @@ Mbweni was a Universities Mission to Central Africa (UMCA) base and settlement f
 
 The Historic Ruins of the Mbweni School for freed slaves was founded in 1874, with associations with Sir John Kirk, Zanzibar’s first scientific botanist. 
 
+![overview2](img/overview2.jpeg)
+
 ## Location 
 
 Jungle Paradise is located in Mbweni, Zanzibar. This location in the capital is ideal for digital nomads as they have quick access to Zanzibar's business district and airport, while being in a remote and peaceful neighbourhood.
@@ -54,7 +56,6 @@ It has a mature rainforest atmosphere, only found in a few other places in Zanzi
 ## Aesthetics
 
 ![overview1](img/overview1.jpeg)
-![overview2](img/overview2.jpeg)
 ![overview3](img/overview3.jpeg)
 ![pier1](img/pier1.jpeg)
 ![pier2](img/pier2.jpeg)

@@ -53,10 +53,8 @@ We want to design our partnership following the guidelines as described by:
 - Government support to fast track the registrations and tax requirements for the first startups prior to the completion of OurTown and OurHub. 
 - Government to provide +1,000,000m2 in a prime location in Zanzibar to start the OurTown project.
 - Government to provide OurWorld with an initial building in StoneTown close to the Mbwuini Ruins where OurWorld started it's operations already. 
-- Partnership with Zanzibar ICT Infrastructures Agency (ZICTIA) to build the decentralized, self-sovereign digital backbone infrastructure.
+- Partnership with Zanzibar ICT Infrastructures Agency (ZICTIA) to build the decentralized, self-sovereign digital backbone infrastructure. We will work together as partners on all ICT-related projects that we undertake in Zanzibar.
 
 
-> TODO: (jonathan) describe what we need from local org's
-> TODO: (jonathan) what is name of shukru org, and his name proper? we need to explain how we will work together
 > TODO: (sacha) review the full partnership section
 > TODO: (vic) is there newer one? (vic) where zanizbar? Can we do some research.
