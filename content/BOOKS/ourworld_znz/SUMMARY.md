@@ -47,6 +47,7 @@
     - [Internet of Internets](mission/goals/1_concept_realization0.md)
     - [Internet GDP Positivity](mission/goals/2_internet_GDP_positivity.md)
     - [Realizing Web 4.0](mission/goals/3_realizing_web_4.md)
+- [MORE INFO](company/more_info.md)
 - [DETAILS](details.md)
     - [Licenses Fintech](company/licenses/finance/finance_licenses_overview.md)
         - [PSP License](company/licenses/finance/psp.md) 

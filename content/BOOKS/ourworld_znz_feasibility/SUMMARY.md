@@ -61,6 +61,7 @@
         - [Bandwidth Problem](abundance_internet/architecture/internet_bandwidth_problem.md)
         - [The Internet Today](abundance_internet/architecture/internet_today.md)
     - [TECHNOLOGY](technology/technology.md)
+- [MORE INFO](company/more_info.md)
 - [Product Details](company/product_details.md)
     - [DIGITAL NOMADS](company/nomads/nomads.md)
         - [Why Digital Nomads](company/nomads/nomads_why.md)
@@ -83,7 +84,6 @@
     - [Mission](mission/mission.md)- 
     - [Internet of Internets](mission/goals/1_concept_realization0.md)
     - [Internet GDP Positivity](mission/goals/2_internet_GDP_positivity.md)
-
 
     <!-- - [Personal License](company/bizmodel/bizmodel_personal_licenses.md)  -->
     <!-- - [Operations](company/operations/operations.md)
