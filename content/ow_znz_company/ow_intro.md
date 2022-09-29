@@ -1,4 +1,4 @@
-# OURWORLD ZANZIBAR FEASIBILITY STUDY
+# OURWORLD ZANZIBAR 
 
 ![image alt text](img/high_level_country_overview.png)
 
@@ -22,7 +22,5 @@ Painkillers never address the real problem. They patch something which might bec
 We believe Zanzibar has a unique chance to build a future based on digital possibilities where the root of the issues are being addressed by using systems which rething the way how things can be done. Personally we would like to help Zanzibar to make its dreams come  happen.
 
 ## Together With The Zanzibar Government we want to deliver:
-
-
 
 {{#include company/services/ow_comp_services_include.md}}
