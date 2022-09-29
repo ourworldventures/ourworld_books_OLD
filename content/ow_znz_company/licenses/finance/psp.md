@@ -2,7 +2,7 @@
 
 ![](img/psp.png)  
 
-OurFintech aims to provide Payment Service Provider (PSP) licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
+OurWorld Company aims to provide Payment Service Provider (PSP) licences to businesses and merchants. A payment service provider (PSP) is a company which provides merchants with individual merchant accounts, helps them with merchant underwriting and payment processing but does not fund merchants directly. 
 
 PSP is a necessity in the digital age, offering online shopping services through electronic payments by using methods like direct debit, credit card, online bank transfer etc. while acting as a mediator between banks and customers. In simple words, it is an online payment solution for multiple channels, including mobile and online store.
 
@@ -28,7 +28,7 @@ Payment services:
 
 ![](img/psp_how.png)  
 
-- Each time a customer enters their card details and clicks ‘pay’, a transaction request is sent to the OurFintech payment gateway (blockchain based).
+- Each time a customer enters their card details and clicks ‘pay’, a transaction request is sent to the OurWorld Company payment gateway (blockchain based).
 - The PSP blockchain then verifies that the customer’s card or digital wallet holds the required funds to make the payment. The PSP does this with the help of a payment processor in case of FIAT.
 - Once the customer’s card or digital wallet details are verified, the PSP either confirms or declines the payment according to the funds available. If confirmed, the PSP initiates the transfer of funds from the customer’s account to the associated merchant account.
 - Finally, the PSP sends a transaction notification to the customer and the merchant to confirm the payment's completion.
@@ -36,7 +36,7 @@ Payment services:
 
 In summary, a PSP ensures secure and efficient transfer of funds between customers and merchants. That being said, there are other benefits that PSPs offer business owners in addition to facilitating payments. Signing up with a PSP offers several advantages, from transaction reporting, to the ability to accept multiple payment methods in multiple currencies.
 
-## Additional advantages of using a PSP under OurFintech
+## Additional advantages of using a PSP under OurWorld Company
 
 ### Accept multiple payment methods:
 
@@ -54,7 +54,7 @@ PSPs only initiate transfers of funds once the customer’s card details and fun
 
 PSPs provide support for multiple currencies to enable fast and secure cross-border payments. This is important for business planning to expand their presence abroad. 
 
-OurFintech has access to a third-party processor with +17 global currencies integrated with VISA, Mastercard and UnionPay. By integrating them to our platform, we aim to streamline international PSP services from day 1. 
+OurWorld Company has access to a third-party processor with +17 global currencies integrated with VISA, Mastercard and UnionPay. By integrating them to our platform, we aim to streamline international PSP services from day 1. 
 
 ### Get monthly reports on payments:
 
@@ -74,4 +74,4 @@ PSPs provide complete transaction reports for all of your payment methods. This 
 
 ## What it means for Digital Nomads.
 
-What digital nomads gain from OurFintech solution is a fully integrated financial regulatory service within a wider package including licenses, technology, auditing services, tax reporting, and facility services. 
+What digital nomads gain from OurWorld Company solution is a fully integrated financial regulatory service within a wider package including licenses, technology, auditing services, tax reporting, and facility services. 

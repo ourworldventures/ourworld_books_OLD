@@ -7,6 +7,8 @@
 - establishments of companies in a sandbox (OurTown) in most automated way
 - full TAX revenue collection done in automatic way in collaboration with Zanzibar authorities
 - registration automated as much as possible
+- operate our OurLedger Blockchain 
+- audit the parties (using the OurLedger capabilities)
 - promotion to attract digital startups/residents and provide value that way for TNZ
 - do expositions and organze events to show how the OurTown/OurHub model works.
 
@@ -20,7 +22,7 @@
     - pricing see TBD... 
     - this will not be done at start, this is for H2 2023 after more research
 
-The fees would be split between OurWorld Company (60%) and Zanzibar Government (40%). Please note OurWorld Company is also 20% owned by Zanzibar Government.
+> The fees will be split between OurWorld Company (60%) and Zanzibar Government (40%). Please note OurWorld Company is also 20% owned by Zanzibar Government.
 
 ### Important Milestones
 
@@ -41,7 +43,7 @@ The fees would be split between OurWorld Company (60%) and Zanzibar Government (
 
 - OurWorld Company execute on regulatory work and prepare all required regulatory and other agreements for any establishment of companies in Cybercity Zanzibar (under a sandbox license)
 - Enable onboarding of resident companies this will require additional work
-    - Automation of the workpermits, company and resident registration system on the [OurLedger Ledger](/ourinternet/ourledger/ourledger.md)
+    - Automation of the workpermits, company and resident registration system on the [OurLedger Blockchain ](/ourinternet/ourledger/ourledger.md)
     - Aim is to allow new residents to be registered < 1 week
     - Each new resident gets checked (fraud, ...): cost +-1000 USD for normal person
     - Need to see how to integrate with ZNZ existing system
@@ -68,7 +70,7 @@ The fees would be split between OurWorld Company (60%) and Zanzibar Government (
 - summer 2022, first OurWorld location (innovation center & first startup location) (done)
 - mid october 2022, initial feasibility study completed (almost done)
 - october 2022, sign agreement between ZNZ Government & 4OurWorld (initial organization in Zanzibar) & ThreeFold SA
-- Q1 2023, [OurLedger Ledger](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
+- Q1 2023, [OurLedger Blockchain ](/ourinternet/ourledger/ourledger.md) operational and running in ZNZ !
 - H2 2023, first digital nomads can register and get their digital presence here in ZNZ
 - H1 2024, +10.000 digital nomads activated
 

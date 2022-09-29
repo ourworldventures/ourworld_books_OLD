@@ -19,7 +19,7 @@ The Bank of Tanzania must make a decision within three months of receiving a com
     - Compliance documentation (AML/KYC/KYT etc.)
     - Financial documentation and forecasts
     - Operational Risk Procedures
-    - IT Procedures (as provided by default by OurFintech)
+    - IT Procedures (as provided by default by OurWorld Company)
 - Application for the license
     - Submission of the application for the license
 - Practical

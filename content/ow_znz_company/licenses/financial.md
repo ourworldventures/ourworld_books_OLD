@@ -1,4 +1,4 @@
-# OurFinTech = Digital Finance
+# OurWorld Company = Digital Finance
 
 ![](img/digifin1.png)  
 
@@ -26,7 +26,7 @@ All these features will be provided by and hosted on OurHub's [OurLedger Blockch
 
 ## Required Licences 
 
-The following table highlights the various licences that OurFinTech can provide and are needed to operate a fully comprehensive digital freezone. 
+The following table highlights the various licences that OurWorld Company can provide and are needed to operate a fully comprehensive digital freezone. 
 
 
 

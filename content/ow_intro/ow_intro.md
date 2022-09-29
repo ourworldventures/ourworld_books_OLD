@@ -1,4 +1,4 @@
-# OURWORLD ZANZIBAR FEASIBILITY STUDY
+<!-- # OURWORLD ZANZIBAR FEASIBILITY STUDY
 
 ![image alt text](img/high_level_country_overview.png)
 
@@ -23,4 +23,7 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
 
 ## Together With The Zanzibar Government we want to deliver:
 
-{{#include company/services/ow_comp_services_include.md}}
+{{#include company/services/ow_comp_services_include.md}} -->
+
+
+> THIS IS ERROR< REPORT TO KRISTOF PLEASE>

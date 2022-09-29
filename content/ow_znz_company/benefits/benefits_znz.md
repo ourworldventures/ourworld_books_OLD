@@ -15,11 +15,11 @@
 
 Note: A global objective analysis in perceived prime locations in the past two decades shows that prime locations tend to shift from one domicile to another for the failure of these domiciles to capture and anchor visitors, tourists, people with interest for the lack of strategic projects that grants continuity and engagement. OurHub presents an incredible opportunity for Zanzibar to become a sustainable prime location.
 
-## OurFintech
+## OurWorld Company
 
-- OurFintech will create revenue for the government of Zanzibar in the form of licence costs and taxes, supporting Zanzibar's objective to grow the country's GDP and FDI. 
-- The regulatory framework provided by OurFintech will position Zanzibar as a leader within the “Digital Transformation of Africa Strategy (2020-2030)” of the African Union, being the first unified platform that places the sovereignty and independence of Tanzania at the forefront of its operations. 
-- Through a simple yet effective regulatory approach, OurFintech will be in a unique position to attract international financial experts to further develop Zanzibar's financial frameworks and ease-of-doing business.
+- OurWorld Company will create revenue for the government of Zanzibar in the form of licence costs and taxes, supporting Zanzibar's objective to grow the country's GDP and FDI. 
+- The regulatory framework provided by OurWorld Company will position Zanzibar as a leader within the “Digital Transformation of Africa Strategy (2020-2030)” of the African Union, being the first unified platform that places the sovereignty and independence of Tanzania at the forefront of its operations. 
+- Through a simple yet effective regulatory approach, OurWorld Company will be in a unique position to attract international financial experts to further develop Zanzibar's financial frameworks and ease-of-doing business.
 
 ## OurSource  = Incubator
 

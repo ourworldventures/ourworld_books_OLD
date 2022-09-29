@@ -1,8 +1,8 @@
-# OurFinTech = Digital Finance
+# OurWorld Company = Digital Finance
 
 ![](img/digifin1.png)  
 
-OurFinTech is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated financial framework for the self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. 
+OurWorld Company is the organization which collaborates with the Zanzibar government to provide financial regulatory services and technology to its customers. It is a fully automated financial framework for the self-sovereign and sustainable digital freezone bridging Africa and the rest of the world. 
 
 Our unique proposition is that we will become a license and service provider which uses twin technology to aggregate all the following features into a single, very simple, consumable package including:
 
@@ -21,9 +21,9 @@ All these features will be provided by and hosted on OurHub's [OurLedger Blockch
 - The tokenization of various assets such as precious metals, land and more represents a substantial opportunity to rapidly build an international customer base.
 - The advent of peer-to-peer, autonomous financial systems provide the ideal platform for affordable, simple and efficient credit-union disbursement-platforms and remittence transactions across the world. 
 
-## Required Licences 
+## The Following Licenses will be provided by OurWorld Company
 
-The following table highlights the various licences that OurFinTech can provide and are needed to operate a fully comprehensive digital freezone. 
+The following table highlights the various licences that OurWorld Company can provide and are needed to operate a fully comprehensive digital freezone. 
 
 - [PSP License](../licenses/finance/psp.md) 
     - [PSP License Steps](../licenses/finance/psp_steps.md) 
