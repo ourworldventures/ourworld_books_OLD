@@ -8,7 +8,7 @@ In centralized systems, vendors will try to make the central controller redundan
 
 ## ThreeFold Systems Benefits
 
-> TODO, Jonathan: described how storage can be distributed and how data can never be lost, make link to qsss
+> TODO: (jonathan) described how storage can be distributed and how data can never be lost, make link to qsss
 
 #### TETRA Systems benefits
 

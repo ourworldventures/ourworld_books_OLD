@@ -32,12 +32,12 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
     - The legal and corporate connection with Zanzibar and the rest of the world. 
     - It provides all the necessary licensing and information.
     - One of our targets is digital nomads and future residents of the cybercity called OurTown
-- [OurTown](/ourtown/ourtown_intro.md) 
+- [OurTown](ourtown/ourtown_intro.md) 
     - The project management and establishment of a sustainable clity called OurTown (or CyberCity)
     - Property development and maintenance
-- [OurInternet](/solutions/solution_sovereign_internet.md) 
+- [OurInternet](techsolutions/solution_sovereign_internet.md) 
     - Our own sovereign Internet as can be used inside OurTown but also outside based on ThreeFold
     - physical internet capacity, distributed ledger and Twin's primitives, protocol.me
-- [OurExperiences](/mytwin/experiences/experiences.md) 
+- [OurExperiences](mytwin/experiences/experiences.md) 
     - Digital interface of OurTown, how physical and virtual residents interact with each other and the rest of the world.
     - Based on ThreeFold Technology

@@ -59,5 +59,3 @@ By allowing investors to pool funds, DAOs also give them a chance to invest in e
 
 
 
-
-> TODO: (sacha)

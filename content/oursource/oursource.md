@@ -1,15 +1,7 @@
 
+# OurSource = Incubaid Intro
 
-> TODO: (na) need to copy content from http://incubaid.com
-
-we can also pick some content from what we used for mama samia but we cannot duplicate
-
-- see here https://docs.google.com/document/d/1v5C4YQ3yvBWQEMFOqKiDJJIiQ9vSBYWGl1olxa5HzxM/edit
-
-
-> TODO: (sacha) don't spent too much time, max 1-2h on full oursource
-
-# OurSource Intro
+![](img/incubaid.png)  
 
 OurSource believes that doing good for the world and doing business can go hand in hand. We are building companies which will help to achieve an ambituous global goal:
 
@@ -58,8 +50,6 @@ With the help of more than 80 investors and thousands of project supporters we h
 - An upgraded economic system platform where no money needs to be paid to offer or find information, where lock-in does not exist.
 - A Digital Twin system which is the base of Banking and Web 4.0, a new way to communicate, share, collaborate
 - A decentralized healthcare & education system
-
-> TODO: (na) The above seems to be a repetition of whats been said previously. Delete or keep and add links?
 
 More than 50m USD has been invested so far, we have a very active community of hundreds of contributors and we are working with some governments to deploy the system in their country. We are excited about a future where we can together create a more safe platform, based on values, transparency and love. Not in a talking way, in a super practical can do mentality with concrete plan. We are doing it, join us… become part of our movement.
 

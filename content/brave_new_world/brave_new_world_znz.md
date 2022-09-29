@@ -64,8 +64,7 @@ Aims:
 We have ideas how this can be implemented at lowest possible cost with maximum benefit for Zanzibar. \
 
 The basic requirements:
-> TODO: (na) Do we already have this technology, what does all knowledge in the country mean?
-* All knowledge in the country. Incredible opportunities to grow
+* All knowledge must be within the country. This will provide incredible opportunities to grow.
 * All required technology (software) in the country is open source, unlimitedly usable and managed by teams in OurTown ready for the future
 * All super transparent and done by OurTown, for OurTown
 
