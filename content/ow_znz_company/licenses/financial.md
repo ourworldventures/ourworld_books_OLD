@@ -28,7 +28,7 @@ All these features will be provided by and hosted on OurHub's [Community Digital
 
 The following table highlights the various licences that OurFinTech can provide and are needed to operate a fully comprehensive digital freezone. 
 
-> TODO: (na) link to foundation licenses
+
 
 > Unique to our solution is that the tech is fully integrated for all assets of the financial solution.
 
