@@ -1,4 +1,4 @@
-# Our World Zaznibar Layers
+# Our World Zanzibar Layers
 
 Below there is an overview of how the full ecosystem is coming together.
 

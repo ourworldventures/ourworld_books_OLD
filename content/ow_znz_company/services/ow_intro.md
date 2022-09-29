@@ -21,7 +21,7 @@ Painkillers never address the real problem. They patch something which might bec
 
 We believe Zanzibar has a unique chance to build a future based on digital possibilities where the root of the issues are being addressed by using systems which rething the way how things can be done. Personally we would like to help Zanzibar to make its dreams come  happen.
 
-## Together With The Zanzibar Government we want to deliver:
+<!-- ## Together With The Zanzibar Government we want to deliver:
 
 {{#include company/services/ow_comp_services_include.md}}
 
@@ -40,4 +40,4 @@ We believe Zanzibar has a unique chance to build a future based on digital possi
     - physical internet capacity, distributed ledger and Twin's primitives, protocol.me
 - [OurExperiences](mytwin/experiences/experiences.md) 
     - Digital interface of OurTown, how physical and virtual residents interact with each other and the rest of the world.
-    - Based on ThreeFold Technology
+    - Based on ThreeFold Technology -->

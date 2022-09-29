@@ -26,16 +26,18 @@ There needs to be a decentralized but ultra sovereign [digital backbone](/ourint
     * Government information.
     * Government archives.
     * … to be further defined …
-* The backbone needs to be scalable
-* The backbone needs to be flexible, which means usable for all required digital services
-* The backbone needs to be truly decentralized
-* The backbone needs to be truly sovereign
+* The storage system needs to be scalable
+* The storage system needs to be flexible, which means usable for all required digital services
+* The storage system needs to be truly decentralized
+* The storage system needs to be truly sovereign
     * Delivered by local team operating in country (living & working)
     * Guided by a non corruptible entity (not for profit might be a good idea) as a supervising entity.
     * All source code is open (open source)
     * Enough technically skilled people in the country to work & understand this code.
     * The code is unlimited usable and there are no hidden costs (licenses, …) 
     * All improvements can be done from out of country
+
+**We already have all the technology to create this tool, the [Sovereign Digital Backbone](../ourbackbone/ourbackbone_intro.md)
 
 ![image alt text](img/gdp_pos2.png)
 
@@ -54,9 +56,9 @@ Deliver solutions which cost less than what is available today and provide more 
 
 Allow everyone in the country to participate in a more GDP positive inclusive internet experience. There are a vast number of projects which fit underneath this category, but it's all about providing a sovereign digital future for every Country citizen.
 
-### A Public Unified and Sovereign  Digital Backbone For ZANZIBAR OURTOWN
+### A Public, Unified and Sovereign  system for Governance
 
-The upgraded sovereign internet digital backbone needs to be able to support:
+The upgraded sovereign internet system needs to be able to support:
 
 * Digital identity.
 * Voting and other Operational Services

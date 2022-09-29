@@ -1,6 +1,6 @@
 # Zanzibar
 
-- [INTRO](intro.md)
+- [INTRO](ow_intro.md)
     - [Brave New Digital World](brave_new_world/brave_new_world_znz.md)
     - [No Painkillers](brave_new_world/no_pain_killer.md)
     - [Our Recipe](brave_new_world/the_recipe.md)
@@ -11,23 +11,18 @@
         - [OurTown Registrar](company/services/ow_registrar.md)
         - [OurTown Internet](company/services/ow_internet.md)
         - [OurWorld Layers](intro/ow_layers.md)
+    - [Income Zanzibar](company/ppp/income_zanzibar.md)
+    - [OurWorld Company](company/ppp/ppp_ourworld_company.md)
     - [Partnership](company/ppp/partnership.md)
-        - [Income Overview Zanzibar](company/ppp/income_zanzibar.md)
         - [Corporate Licenses](company/ppp/ppp_licenses_corporate.md)
         - [Fintech Licenses](company/ppp/ppp_licenses_fintech.md)
-        - [Personal Licenses](company/ppp/ppp_licenses_person.md)
         - [OurTown](company/ppp/ppp_ourtown.md)
-        - [OurWorld Company](company/ppp/ppp_ourworld_company.md)
     - [Benefits](company/benefits/benefits_znz.md)
         - [Benefits Digital Nomads](company/benefits/benefits_nomads.md)
         - [Financial Licenses](company/intro/licenses_finance_why.md)
     - [Business Model](company/bizmodel/bizmodel.md)
         - [Digital Nomads](company/bizmodel/bizmodel_corporate.md) 
         - [Fintech License](company/bizmodel/bizmodel_fintech.md) 
-        - [Personal License](company/bizmodel/bizmodel_personal_licenses.md) 
-    <!-- - [Operations](company/operations/operations.md)
-        - [Security](company/operations/security.md)
-        - [Team](company/operations/team.md) -->
 - [Feasibility](feasibility/feasibility.md)
     - [market](feasibility/ourworld_feasibility_market.md)
         - [finance licenses](company/market/market_size_fintech.md)
@@ -94,3 +89,11 @@
     - [Mission](mission/mission.md)- 
     - [Internet of Internets](mission/goals/1_concept_realization0.md)
     - [Internet GDP Positivity](mission/goals/2_internet_GDP_positivity.md)
+
+
+    <!-- - [Personal License](company/bizmodel/bizmodel_personal_licenses.md)  -->
+    <!-- - [Operations](company/operations/operations.md)
+        - [Security](company/operations/security.md)
+        - [Team](company/operations/team.md) -->
+
+    <!-- - [Personal Licenses](company/ppp/ppp_licenses_person.md) -->
