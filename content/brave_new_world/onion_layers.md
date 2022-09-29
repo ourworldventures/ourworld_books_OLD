@@ -22,15 +22,15 @@ The model can be seen as a dictionary that keeps on expanding more and more.
 
 Now, imagine when hundreds of such models are connectted to one another and exchanging information. The more layers each indivdual model has, the heavier it is for its message to get across. The whole system becomes very complex. 
 
-The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefne that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. 
+The problem here is that individual systems are trying to redo things better, however they are using the same base infrastructure. They simply redefine that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. 
 
-One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this doesnot solve the problem at the root.
+One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this does not solve the problem at the root.
 
 
 ## OurTwin Scenario
 
 ![](img/twin_model.png)
 
-WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its databse, hence any necessary changes can be appliied at the root. 
+WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its database, hence any necessary changes can be applied at the root. 
 
-The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the sourcecode that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipies. 
+The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the source code that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipes. 
