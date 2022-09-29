@@ -1,7 +1,6 @@
 
 # Sovereign Digital Backbone System
 
+> TODO: (kristof) check if this is ok
 
-
-
-> TODO: make nicer  (zia) (vic)
+![](img/digital_backbone.png)

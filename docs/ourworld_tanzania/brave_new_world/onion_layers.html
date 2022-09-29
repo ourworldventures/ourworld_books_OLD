@@ -146,14 +146,26 @@
 <p><img src="img/onion_layers.png" alt="" /></p>
 <p>What has IT to do with onions...</p>
 <blockquote>
-<p>TODO: (kristof) describe what this means</p>
+<p>TODO: (kristof) check if this is ok</p>
 </blockquote>
-<blockquote>
-<p>TODO: (vic) lets make picture where we can show how adding stuff to already existing stuff creates complexity</p>
-</blockquote>
-<!-- ## Complexity
+<p>The development of applications in the IT sphere has been using painkiller methods at each layer of model first patterns to go forward. </p>
+<h2 id="model-first-pattern"><a class="header" href="#model-first-pattern">Model First Pattern</a></h2>
+<p><img src="img/model.png" alt="" /></p>
+<p>A model first pattern has a standardised foundation. When there is a problem or a bug, or when changes are required, it is not possble to change the sublayers, so a new layer is created. Making changes in the middle is affecting everyhting else that is on top, therefore, it requires more work. Layers keep being added on top of the base which adds complexity, si the problem is never fixed at the root. </p>
+<p>( NOT NECESSARY) </p>
+<p>The model can be seen as a dictionary that keeps on expanding more and more. </p>
+<ul>
+<li>More but complex words = Harder to understand</li>
+<li>Less but simple words = Easy to understand</li>
+</ul>
+<p>Now, imagine when hundreds of such models are connectted to one another and exchanging information. The more layers each indivdual model has, the heavier it is for its message to get across. The whole system becomes very complex. </p>
+<p>The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefne that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. </p>
+<p>One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this doesnot solve the problem at the root.</p>
+<h2 id="ourtwin-scenario"><a class="header" href="#ourtwin-scenario">OurTwin Scenario</a></h2>
+<p><img src="img/twin_model.png" alt="" /></p>
+<p>WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its databse, hence any necessary changes can be appliied at the root. </p>
+<p>The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the sourcecode that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipies. </p>
 
-![](img/onion2.png)   -->
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

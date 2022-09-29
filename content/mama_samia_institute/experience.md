@@ -5,13 +5,13 @@
 
 ![image alt text](img/history_experience.png)
 
-More than 500.000.000 USD in exits. Average IRR for our investors was above 44% per year. 
+More than 500.000.000 USD in exits, average IRR for our investors was above 44% per year. 
 
 ## Technology Achievements of the institute founding team
 
 ### 3 World Records for Web Hosting (1997-2002)
 
-Our team launched the internet hosting and datacenter business in Europe. It's fair to say that we were at the beginning of the internet's enormous growth at that time. We hosted the largest websites in the world during this period. UEFA, Nasa, World Cup,, … Numerous times we demonstrated how to achieve super scale while staying sustainable.
+Our team launched the internet hosting and datacenter business in Europe. It's fair to say that we were at the beginning of the internet's enormous growth at that time. We hosted the largest websites in the world during this period. UEFA, Nasa, World Cup.Numerous times we demonstrated how to achieve super scale while staying sustainable.
 
 ### The first Backup Data Deduplication system in the world (2005)
 
@@ -22,11 +22,11 @@ This product still lives on in all Symantec backup products. This was a highly i
 
 ### The first cloud system in the world (2008)
 
-We formed one of the key innovation groups in the field of cloud computing. Concepts like Virtual Private Datacenter were invented by us. We were one of the main sources of inspiration for companies like VMWare for their cloud strategy. We became the core of SUN microsystem, and the inspiration behind Sun’s ambition to become the largest player in the cloud industry. This didn’t happen inthe end because Oracle bought SUN and buried all Sun’s cloud computing projects.
+We formed one of the key innovation groups in the field of cloud computing. Concepts like Virtual Private Datacenter were invented by us. We were one of the main sources of inspiration for companies like VMWare for their cloud strategy. We became the core of SUN microsystem, and the inspiration behind Sun’s ambition to become the largest player in the cloud industry. This didn’t happen in the end because Oracle bought SUN and buried all Sun’s cloud computing projects.
 
 ### The first always consistent database in the world (2010)
 
-This was a major technological achievement, we pioneered and developed the method to store data in a database over multiple sites in such a way that data could never be lost, corrupted or order of updates changed. Consistency was key. This database was called Arakoon and served as inspiration for further database projects. This fact is little known but is especially relevant today
+This was a major technological achievement, we pioneered and developed the method to store data in a database over multiple sites in such a way that data could never be lost, corrupted or order of updates changed. Consistency was key. This database was called Arakoon and served as inspiration for further database projects. This fact is little known but is especially relevant today.
 
 ### The first unbreakable and distributed storage system in the world (2012)
 

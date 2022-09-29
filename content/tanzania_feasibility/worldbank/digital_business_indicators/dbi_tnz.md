@@ -14,7 +14,7 @@
 
 
 
-<!-- > TODO (vic) (emre)
+<!-- > TODO  (emre)
 
 - make a page per subsection which is relevant
 - copy all relevant content

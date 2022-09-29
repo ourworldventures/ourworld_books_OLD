@@ -2,8 +2,6 @@
 
 ![](img/opensource.png)  
 
-> TODO: (vic) write something about why opensource in relation to sovereignity and other benefits... 
-
 Open Source is one of the main components necessary to develop healthy, equitable and safe digital solutions that can address societal challenges. Open Source enables what closed systems hinder: designing with the user, developing towards public good, rapid prototyping, the culture of sharing, transparent peer review, and unobstructed multinational collaboration. 
 
 Raising awareness of Open Source; strengthening the policy environment for supporting and developing Open Source solutions; engaging startup and entrepreneurship ecosystems to consider Open Source as a viable approach and business model to develop products; and discovering and developing digital public goods is a priority of OurSource for the following reasons: 

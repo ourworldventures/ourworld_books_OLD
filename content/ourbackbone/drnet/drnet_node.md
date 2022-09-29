@@ -35,7 +35,7 @@ Save on infrastructure costs by utilizing VHF frequencies to obtain the same cov
 
 ## Rugged and compact design
 
-Built to withstand harsh conditions – from extreme cold to extreme heat and also wet conditions thanks to its IP65 encapsulation. Its compact and light-weight design makes it easy to install everywhere from masts to tunnels and on the back of a truck.
+Built to withstand harsh conditions – from extreme cold to extreme heat and wet conditions thanks to its IP65 encapsulation. Its compact and light-weight design makes it easy to install everywhere from masts to tunnels and on the back of a truck.
 
 ## No single point of failure
 

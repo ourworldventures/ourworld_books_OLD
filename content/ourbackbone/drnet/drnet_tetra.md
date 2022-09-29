@@ -12,4 +12,4 @@ ThreeFold TETRA provides multi-vendor choice – allowing customers to switch fr
 
 Control room vendors have their systems tightly integrated with ThreeFold TETRA networks, and many users have optimised operational processes around the flexible capabilities of ThreeFold TETRA.
 
-We at ThreeFold have partnered with ThreeFold TETRA standards to extend our Critical Operations network approach.
+We at ThreeFold have partnered with TETRA standards to extend our Critical Operations network approach.

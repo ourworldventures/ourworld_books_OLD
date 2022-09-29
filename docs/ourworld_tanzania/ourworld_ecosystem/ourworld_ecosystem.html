@@ -142,7 +142,65 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="ourworld-ecosystem"><a class="header" href="#ourworld-ecosystem">OURWORLD ECOSYSTEM</a></h1>
+                        <h2 id="ourworld-holding"><a class="header" href="#ourworld-holding">OurWorld Holding</a></h2>
+<pre class="mermaid">flowchart TD
+
+HOLDING[OURWORLD HOLDING] 
+HOLDING ---|100%| THREEFOLD[THREEFOLD] 
+HOLDING ---|51%| OURVERSE[OURVERSE DUBAI]
+HOLDING ---|35%| OURWORLDZNZ[OURWORLD ZNZ]
+HOLDING ---|35%| OURTOWN[OurTown ZNZ&lt;br&gt;develop OurTown]
+HOLDING ---|100%| THREEFOLD[ThreeFold ZNZ&lt;br&gt;INCA]
+
+
+STO{{STO Public Ownership in 2023}} -.-&gt; HOLDING
+
+%% style OURTOWN fill:##FFC300,stroke:#333,stroke-width:0px,align:right
+%% style OUREXPERIENCE fill:#FDF2D3,stroke:#333,stroke-width:0px
+%% style OURINTERNET fill:#33C7FF,stroke:#333,stroke-width:0px
+style STO fill:#33C7FF,stroke:#333,stroke-width:0px
+</pre>
+<p>Plan to do a security token offering in 2023, a part of the shares will be owned by our founders and internal community.</p>
+<h2 id="company-ecosystem"><a class="header" href="#company-ecosystem">COMPANY ECOSYSTEM</a></h2>
+<pre class="mermaid">flowchart TD
+
+OURTOWN{{OURWORLD CONCEPT}} -.-|Inca Project&lt;br&gt;Internet| THREEFOLD[ThreeFold ZNZ]:::myclass0
+OURTOWN -.-|Town&lt;br&gt;Development&lt;br&gt;Operations| OURTOWNCO[OurTown ZNZ&lt;br&gt;develop OurTown]:::myclass0
+OURTOWN -.-|Registry&lt;br&gt;Licenses&lt;br&gt;Tax| OURWORLDZNZ[OurWorld ZNZ&lt;br&gt;colab with gov.]:::myclass0
+
+style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
+classDef myclass0 fill:#CD8730,stroke-width:0px;
+</pre>
+<h3 id="responsibilities"><a class="header" href="#responsibilities">Responsibilities</a></h3>
+<pre class="mermaid">%%{init: { &quot;flowchart&quot;: 
+    { &quot;htmlLabels&quot;: true, &quot;curve&quot;: curve} } 
+}%%
+flowchart TD
+
+OURTOWN{{OURWORLD CONCEPT}} -.-|Inca Project&lt;br&gt;Internet| THREEFOLD[ThreeFold ZNZ]:::myclass0
+OURTOWN -.-|Town&lt;br&gt;Development&lt;br&gt;Operations| OURTOWNCO[OurTown ZNZ&lt;br&gt;develop OurTown]:::myclass0
+OURTOWN -.-|Registry&lt;br&gt;Licenses&lt;br&gt;Tax| OURWORLDZNZ[OurWorld ZNZ&lt;br&gt;colab with gov.]:::myclass0
+
+
+THREEFOLD --&gt; TECH[Internet&lt;br&gt;ledger&lt;br&gt;twin&lt;br&gt;Technology]:::classserv
+OURTOWNCO--&gt; OPERATE[Build&lt;br&gt;Town]:::classserv
+OURTOWNCO--&gt; BUILD[Operate&lt;br&gt;Town]:::classserv
+OURWORLDZNZ --&gt; LIC[Fintech&lt;br&gt;Solutions]:::classserv
+OURWORLDZNZ --&gt; TAX[Digital&lt;br&gt;Nomad&lt;br&gt;Solutions]:::classserv
+OURWORLDZNZ --&gt; BH[Business&lt;br&gt;Hub&lt;br&gt;Solutions]:::classserv
+OURWORLDZNZ --&gt; REG[Registration&lt;br&gt;Services]:::classserv
+REG --&gt; AUDITING[Audit]:::classserv1
+REG --&gt; REV[Revenue&lt;br&gt;Collection]:::classserv1
+
+TECH -.- INCA[INCA Services]:::classserv1
+
+classDef myclass0 fill:#CD8730,stroke-width:0px;
+classDef classserv fill:#30A7CD,stroke-width:0px;
+classDef classserv1 fill:#3333,stroke-width:0px;
+
+style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
+
+</pre>
 
                     </main>
 
