@@ -5,7 +5,7 @@
 ### highlights of service
 
 - provide digital financial licenses as defined [in our overview](ourfoundation/licenses/finance/finance_licenses_overview.md) to the world.
-- operate the [OurLedger](ourinternet/ourledger/ourledger.md) = our Community Digital Backbone 
+- operate the [OurLedger](ourinternet/ourledger/ourledger.md) = our OurLedger Blockchain 
 - audit the parties (using the OurLedger capabilities)
 - help the detection of crimimal or other unregular activities if that would happen
 - be a global recognized example of how a fintech environment can be build in a sandbox (OurTown)
@@ -14,7 +14,28 @@
 
 ### Pricing
 
-see [this table](ourfoundation/licenses/finance/finance_licenses_table.md)
+see [this table](../licenses/finance/finance_licenses_table.md)
+
+The license fees would be split between OurWorld Company (60%) and Zanzibar Government (40%). Please note OurWorld Company is also 20% owned by Zanzibar Government.
+
+### Important Milestones
+
+#### Milestone 1
+
+- Sign PPP agreement which gives right to OurWorld Company to execute on this business model in line to requirements.
+- OurWorld Company will finalize on funding round once PPP Agreement signed.
+- OurWorld Company execute on regulatory work and prepare all required digital freezone regulatory and other agreements.
+- OurWorld Company will formalize all required licenses and agreements with Zanzibar and Tanzania government instances.
+
+#### Milestone 2
+
+- OurWorld Company will formalize website, commercial documents as well as investment round material
+- OurWorld Company will do 2nd fundraise as capital increase to allow more fuel for executing on the business model.
+- OurWorld Company will start executing on the commercial opportunity.
+
+#### Milestone 3
+
+- First couple of financial customers onboarded, model proven, Zanzibar is now officially an operational fintech digital zone in the world.
 
 ### Responsibilities
 

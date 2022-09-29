@@ -12,7 +12,7 @@ Our unique proposition is that we will become a license and service provider whi
 - Auditing services & automatic tax reporting
 - Facility services (office, houses for staff, ...)
 
-All these features will be provided by and hosted on OurHub's [Community Digital Backbone](/ourinternet/ourledger/ourledger.md), the decentralised internet infrastucture of the new [cybercity](/ourtown/ourtown.md). 
+All these features will be provided by and hosted on OurHub's [OurLedger Blockchain](/ourinternet/ourledger/ourledger.md), the decentralised internet infrastucture of the new [cybercity](/ourtown/ourtown.md). 
 
 ## The timing is ideal
 

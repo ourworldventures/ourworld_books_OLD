@@ -10,7 +10,7 @@ In line to the Investments Act of 2018 provided procedures and criteria for Stra
 
 ## OurTown Company Tax
 
-- Companies as registered in OurTown by the OurTown Community Digital Backbone (OurLedger)
+- Companies as registered in OurTown by the OurTown OurLedger Blockchain (OurLedger)
 - Foreign ownership is allowed 
 - No business licence fees appart from OurHub Monthly License Fee
 - Company Income Tax: 

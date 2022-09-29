@@ -37,7 +37,14 @@ The resulting information is available in the [Government Dashboard](government_
 
 ### Ports
 
-For air and sea ports...
+Digitalisation holds great potential for making maritime transport chains more efficient, flexible and agile. It thus opens up the possibility for ports to meet the challenges of globalisation, demographic change and urbanisation.
 
-> TODO: ... (kristof)
+- Improved efficiency operations of the port and its specific transport chains
+- Simplification and automation of complex processes
+- Reduction of energy consumption
+- Internetational digital networking between seaports for improved security and opportunities within maritime transport chain.
+- By storing data locally, ports can develop and use new business models through the targeted exchange of information and data.
+- Augmented/ Virtual reality can be used to support inport and seaport activies.
+
+> TODO: (kristof)
 

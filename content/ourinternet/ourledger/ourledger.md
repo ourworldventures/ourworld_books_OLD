@@ -8,7 +8,7 @@ OurTown has access to technology as developed by ThreeFold to make this happen.
 
 ## Functions
 
-- Multiple Local Digital Currencies for OurTown on a blockchain called the Community Digital Backbone (OurLedger).
+- Multiple Local Digital Currencies for OurTown on a blockchain called the OurLedger Blockchain (OurLedger).
     - One of them is a digital TSH, but only useable for now in OurTown
 - Integrated Revenue Collection for ZNZ (TAX)
 - Each commercial transaction in OurTown is registered on the OurLedger
