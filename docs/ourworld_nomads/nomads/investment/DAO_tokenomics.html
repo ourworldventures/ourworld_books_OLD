@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>DAO &amp; Token Mix - OurWorld Nomads</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../nomads/nomads_intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="../../nomads/locations.html"><strong aria-hidden="true">2.</strong> Locations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/zanzibar_west/zanzibar_west_intro.html"><strong aria-hidden="true">2.1.</strong> Zanzibar West - JP</a></li><li class="chapter-item expanded "><a href="../../nomads/zanzibar_south/zanzibar_south_intro.html"><strong aria-hidden="true">2.2.</strong> Zanzibar South - Fun</a></li><li class="chapter-item expanded "><a href="../../nomads/tanzania_dar/tanzania_dar_intro.html"><strong aria-hidden="true">2.3.</strong> Tanzania - Mainland City of Peace</a></li><li class="chapter-item expanded "><a href="../../nomads/nile/nile_intro.html"><strong aria-hidden="true">2.4.</strong> Egyptian Nile - Luxor</a></li><li class="chapter-item expanded "><a href="../../nomads/turkey/turkey_intro.html"><strong aria-hidden="true">2.5.</strong> Turkey Yenice Valley</a></li><li class="chapter-item expanded "><a href="../../nomads/dubai_paradise/dubai_paradise_intro.html"><strong aria-hidden="true">2.6.</strong> Dubai Paradise Hills</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/farms/farms_intro.html"><strong aria-hidden="true">3.</strong> Farms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/farms/bambi.html"><strong aria-hidden="true">3.1.</strong> Zanzibar</a></li><li class="chapter-item expanded "><a href="../../nomads/farms/mainland.html"><strong aria-hidden="true">3.2.</strong> Tanzania - Mainland</a></li></ol></li><li class="chapter-item expanded "><a href="../../nomads/investment/investor.html"><strong aria-hidden="true">4.</strong> Investment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nomads/investment/value.html"><strong aria-hidden="true">4.1.</strong> Valuation Excercise</a></li><li class="chapter-item expanded "><a href="../../nomads/investment/DAO_tokenomics.html" class="active"><strong aria-hidden="true">4.2.</strong> DAO &amp; Token Mix</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">OurWorld Nomads</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="dao"><a class="header" href="#dao">DAO</a></h1>
+<blockquote>
+<p>TODO: link to &quot;What is a DAO?&quot; document</p>
+</blockquote>
+<h2 id="phase-1"><a class="header" href="#phase-1">Phase 1</a></h2>
+<p>Holding company in Dubai holds: </p>
+<ul>
+<li>SPV in Zanzibar (in process of being setup)</li>
+<li>SPV in Egypt (holds land and 4 boats and an operational organization operating the boats)</li>
+<li>SPV in Tanzania</li>
+<li>SPV in Turkey</li>
+</ul>
+<p>The idea is that everyone invests as a convertible loan. Conversion will be done to governance tokens once phase 2 is done, or returned over time as income is generated or more DAO tokens sold, in other words it's ok to stay in as loan and just get money back over time as well. </p>
+<h2 id="phase-2"><a class="header" href="#phase-2">Phase 2</a></h2>
+<p>The local SPVs are not for profit and work and their management can only execute on directions as given by the DAO. Their role is to deal with the operations of the assets locally. The DAO of the parent organiation has 100% community managed governance, which means the DAO can accept proposal for change or grants. The members of the DAO then vote on the proposals. </p>
+<h2 id="phase-2-tokenization"><a class="header" href="#phase-2-tokenization">Phase 2 Tokenization</a></h2>
+<blockquote>
+<p>TODO: explain the governance structure and tokenomics </p>
+</blockquote>
+<p>The Digital Nomad Tokens - DNT are valuable and represent your part of the total economic system. 
+You can use your DNT to do the following: </p>
+<ul>
+<li>Come and stay in one of the Creator Zones (there are family homes, rooms for individuals, …)</li>
+<li>Pay for your stay, food, … </li>
+<li>Rent one of our organic beautiful homes in Zanzibar, ideal to replenish yourself and your friends and family.</li>
+<li>Join one of the retreats on the Nile or in Zanzibar (later India Kerala probably)</li>
+<li>Each retreat has as purpose to let you experience the amazing power of regenerative food and medicine and healing practices eg. Ayurvedic, Energy Healing, Yoga, Sound Healing, …</li>
+<li>Join cruises on the Nile for an unforgettable experience combining above practices with the energy of the Nile and its temples. Regular cruises are organized and you can rent your room(s).</li>
+<li>Or you can rent one or more of our ships on the Nile (organic food, solar power, luxe rooms, …) and organize your own event. Our ecosystem of artists, healers will be very happy to help.</li>
+<li>Buy produce from one of the OurWorld Ecosystems (food, herbs, …)
+Eventually the NDT will be usable for many more use cases and available in thousands of different ourworld zones.
+At any point in time you can resell your NDT to any other digital currency as well, by means of our DEFI system, we will establish large liquidity pools which will make this an easy process (give us some time for that please).</li>
+</ul>
+<h1 id="token-mix"><a class="header" href="#token-mix">Token Mix</a></h1>
+<p><img src="img/mix_new.png" alt="" />  </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../nomads/investment/value.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../nomads/investment/value.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../../mermaid.min.js"></script>
+        <script type="text/javascript" src="../../mermaid-init.js"></script>
+
+
+    </body>
+</html>

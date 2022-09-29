@@ -1,3 +1,0 @@
-# OURWORLD
- 
-![](img/otoverview.png)  
