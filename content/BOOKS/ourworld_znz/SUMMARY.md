@@ -48,6 +48,12 @@
     - [Internet GDP Positivity](mission/goals/2_internet_GDP_positivity.md)
     - [Realizing Web 4.0](mission/goals/3_realizing_web_4.md)
 - [MORE INFO](company/more_info.md)
+- [OURWORLD ECOSYSTEM](ourworld_ecosystem/ourworld_ecosystem.md)
+    - [ThreeFold](ourworld_ecosystem/threefold.md)
+    - [OurVerse](ourworld_ecosystem/ourverse.md)
+    - [OurWorld ZNZ](ourworld_ecosystem/ourworld_znz.md)
+    - [OurTown ZNZ](ourworld_ecosystem/ourtown_znz.md)
+    - [OurWorld Holding](ourworld_ecosystem/ourworld_holding.md)
 - [DETAILS](details.md)
     - [Licenses Fintech](company/licenses/finance/finance_licenses_overview.md)
         - [PSP License](company/licenses/finance/psp.md) 
@@ -92,12 +98,3 @@
         - [metaverse - ourverse](mytwin/experiences/ourverse/ourverse.md)
         - [learning system - sikana](mytwin/experiences/sikana/sikana.md)
     - [What Is The Internet](tfgrid/theinternet/theinternet.md)
-            
-        
-
-<!-- - [OURWORLD ECOSYSTEM](ourworld_ecosystem/ourworld_ecosystem.md)
-    - [ThreeFold](ourworld_ecosystem/threefold.md)
-    - [OurVerse](ourworld_ecosystem/ourverse.md)
-    - [OurWorld ZNZ](ourworld_ecosystem/ourworld_znz.md)
-    - [OurTown ZNZ](ourworld_ecosystem/ourtown_znz.md)
-    - [OurWorld Holding](ourworld_ecosystem/ourworld_holding.md) -->

@@ -1,4 +1,4 @@
-
+<!-- 
 ## OurWorld Holding
 
 ```mermaid
@@ -20,7 +20,7 @@ STO{{STO Public Ownership in 2023}} -.-> HOLDING
 style STO fill:#33C7FF,stroke:#333,stroke-width:0px
 ```
 
-Plan to do a security token offering in 2023, a part of the shares will be owned by our founders and internal community.
+Plan to do a security token offering in 2023, a part of the shares will be owned by our founders and internal community. -->
 
 ## COMPANY ECOSYSTEM
 

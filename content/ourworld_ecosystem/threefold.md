@@ -1,9 +1,10 @@
 # ThreeFold
-> TODO: (na) Fill out this section
 
 ![](img/internet_sea_cable.png)  
 
 ThreeFold is a decentralized, sovereign and sustainable internet infrastructure platform with +US$ 50m invested and about 100 people working full time on the project. ThreeFold is driven by their mission to empower 1 billion people with sustainable access to a self-sovereign Internet by 2030. 
+
+> THREEFOLD IS ONE OF THE MAIN PROMOTORS OF OURTOWN AND OURWORLD.
 
 ThreeFold solves two serious problems present in the legacy stack:
 
