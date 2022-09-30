@@ -37,16 +37,20 @@ Capacity generation can be done in any location that has reliable power and netw
 - office buildings
 - government buildings
 
-The better the electricity and network reliability in these locations, the better they a suited to start creating capacity (compute and storage).  Most locations are feasible when, but if there is lack of real estate ThreeFold is able to create an edge dataccenter where needed.
+The better the electricity and network reliability in these locations, the better they a suited to start creating capacity (compute and storage).  Most locations are feasible when, but if there is lack of real estate ThreeFold is able to create an edge datacenter where needed.
 
-
+![edge_datacenter](img/edge_dataacenter.png)
 
 ## Workload orchestration
 Workload orchestration (usage of the created capacity) is done by a combination of blockchain(s) and smart contracts.  For a sovereign, Tanzanian internet that is part of a larger, global internet build from sovereign internets specific blockchain(s) and blockchain nodes need to be deployed for the Tanzanian country.  This blockchain will then contain all of the information needed to run applications on the Tanzanian capacity grid and will be governed by Tanzanians only.
 
-Also this capacity grid and workload orchestration will be able to keep functioning without international links to the rest of the world.  It will also encompass it's own local digital currency.
+Not having to rely on knowledge and people create independence from the technology giants in the internet industry.  ThreeFold is creating decentralized technology which requires people to be self governing and not relying on maintenance contracts and professional services to keep things going.
+
+Also this capacity grid and workload orchestration will be able to keep functioning without international links to the rest of the world.  It will also encompass it's own local digital currency.  This currency can be used and kept ans a private Tanzanian currency or listed on public exchanges.  There will always be a 1:1 relationship with the ThreeFold main token: TFT
 
 ## Data transport
+Networking is core to create digital experiences.  It's the glue between capacity creation, workload orchestration and the consumer.  With decentralized capacity creation data transport is key.  Data transport can be wireless networking like 3,4,5 G or WiFi, or copper / fiber cables.  Any existing network infrastructure can be used to provide data transport. And where needed there are technology partners.
+
 
 
 
