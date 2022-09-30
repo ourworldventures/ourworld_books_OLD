@@ -1,8 +1,8 @@
-# Technical
+# Technology feasibility
 
 An experienced team has created all the technology as used on this project, see [Team Experience](../../threefold_team/experience.md))
 
-# Technology feasibility
+## ThreeFold Technology
 
 Threefold Tech has been innovating in the Information Technology space for a very long time.  An incubator (Incubaid) has spawned several technology startups and exit'ed a number of them.  For more information on them please have a look here:
 ![here](img/exits.png). 
@@ -24,7 +24,7 @@ The current mainnet is a global network of Internet capacity generators and span
 
 Planning forward the expansion model of the Internet of Internets is to have countries, tribes and regions take ownership of local **capacity generation**, **workload orchestration** and **data transport**.
 
-## Capacity generation
+### Capacity generation
 Capacity generation is the starting point for local internet capacity and creation of the internet of internets.  For this a new, autonomous and decentralized capacity generator network is needed.  Such a network can be build in multiple locations.  These locations can be different in size, infrastructure quality and participation.
 
 Capacity generation can be done in any location that has reliable power and network infrastructure.  
@@ -41,17 +41,32 @@ The better the electricity and network reliability in these locations, the bette
 
 ![edge_datacenter](img/edge_dataacenter.png)
 
-## Workload orchestration
+### Workload orchestration
 Workload orchestration (usage of the created capacity) is done by a combination of blockchain(s) and smart contracts.  For a sovereign, Tanzanian internet that is part of a larger, global internet build from sovereign internets specific blockchain(s) and blockchain nodes need to be deployed for the Tanzanian country.  This blockchain will then contain all of the information needed to run applications on the Tanzanian capacity grid and will be governed by Tanzanians only.
 
 Not having to rely on knowledge and people create independence from the technology giants in the internet industry.  ThreeFold is creating decentralized technology which requires people to be self governing and not relying on maintenance contracts and professional services to keep things going.
 
 Also this capacity grid and workload orchestration will be able to keep functioning without international links to the rest of the world.  It will also encompass it's own local digital currency.  This currency can be used and kept ans a private Tanzanian currency or listed on public exchanges.  There will always be a 1:1 relationship with the ThreeFold main token: TFT
 
-## Data transport
+### Data transport
 Networking is core to create digital experiences.  It's the glue between capacity creation, workload orchestration and the consumer.  With decentralized capacity creation data transport is key.  Data transport can be wireless networking like 3,4,5 G or WiFi, or copper / fiber cables.  Any existing network infrastructure can be used to provide data transport. And where needed there are technology partners.
 
+## Deployment feasibility
 
+Building a local internet requires all mentioned components to be present and operational.  Some of the required infrastructure components are available in Tanzania in certain locations, and some are not.
 
-
-
+Between the Tanzanian government and ThreeFold Tech plus technology partners it is feasible to deploy this local internet
+|  Component | How? | Feasible? | Remarks |
+| ------ | ------ | ------ | ----- |
+| capacity creation | homes | Yes |  homes needs to have reliable electricity and network connectivity  |
+|  | community centers | Yes |
+|  |schools | Yes |
+|  |city halls | Yes |
+|  | market places | Yes |
+|  |commercial buildings | Yes |
+|  | office buildings | Yes |
+|  | government buildings | Yes |
+| Workload orchestration | On deployed capacity generation the required blockchain and smartcontract software is deployed | yes | Basic capacity distribution (5 sites) needed to create reliability and resilience| 
+| Data transport | Existing country fiber  backbone to connect edge datacenters | Yes | Use the existing infrastructure and augment where needed and possible |
+| | 3,4 of 5G networking | Yes | Use the existing infrastructure and augment where needed and possible |
+| | Meshed wife | Yes | For remote areas use one or 2 connected sites and extend by simple meshed wifi to other nearby locations. |
