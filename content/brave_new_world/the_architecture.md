@@ -3,4 +3,6 @@
 
 > TODO: (kristof) check if this is ok
 
-![](img/digital_backbone.png)
+![](img/centralised_int.png)
+
+![](img/decentralised_int.png)

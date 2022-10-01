@@ -1,36 +1,34 @@
-# onion layers
+# New Onion Layers
 
 ![](img/onion_layers.png)  
 
-What has IT to do with onions...
+What does IT have to do with onions...
 
-> TODO: (kristof) check if this is ok
+Just like onions, our current applications have many layers. There is the initial model, the core of the onion. That core, however, is patched by layers and layers of painkiller fixes. The more layers, the greater the complexity of the application.
 
-The development of applications in the IT sphere has been using painkiller methods at each layer of model first patterns to go forward. 
-
-## Model First Pattern
+## Model-First Paradigm
 
 ![](img/model.png)
 
-A model first pattern has a standardised foundation. When there is a problem or a bug, or when changes are required, it is not possble to change the sublayers, so a new layer is created. Making changes in the middle is affecting everyhting else that is on top, therefore, it requires more work. Layers keep being added on top of the base which adds complexity, si the problem is never fixed at the root. 
+A model-first application has a pre-defined internal structure, with specific functions and data tables intertwined. On top of this core, there are many layers, such as the API layer for communicating with other applications, and the UI layer for interfacing with the user. In order to change the core, every surrounding layer must also be modified. Therefore, when there is a problem or a bug, or when changes are required, it is standard to layer a painkiller fix or patch on top. In this way, layers keep being added on top of the base which adds complexity, and the problem is never truly fixed at the root. 
 
-( NOT NECESSARY) 
+Imagine there are hundreds of such onions. The core models of every application are fundamentally different; they have been defined in different ways. Yet, there is also substantial overlap; a CRM application and an invoicing application might contain the same information about clients, but stored in contrasting ways.
 
-The model can be seen as a dictionary that keeps on expanding more and more. 
-- More but complex words = Harder to understand
-- Less but simple words = Easy to understand
+All these onions now need to communicate with each other. However, their messages must pass through their various onion layers and even then, every application needs to know exactly how to process a message from every other application.  The result is a system that is incredibly complex and fragmented.
 
-Now, imagine when hundreds of such models are connectted to one another and exchanging information. The more layers each indivdual model has, the heavier it is for its message to get across. The whole system becomes very complex. 
+The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefine that base towards a relevant issue. As such, we simply cannot attain an optimal systems, because there is no consistency between applications, they are single mindedly focused on their specific function. If multiple people or applications need to use that function it gets very complicated. 
 
-The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefne that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. 
-
-One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this doesnot solve the problem at the root.
+One way to go around this has been to use an enterprise service bus (ESB). An ESB controls how models talk to each other by pre-defining the messages exchanged. While this does fix some issues, we are still left with onions, we have not solved the problem at its root.
 
 
-## OurTwin Scenario
+## Digital Twin Solution
 
 ![](img/twin_model.png)
 
-WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its databse, hence any necessary changes can be appliied at the root. 
+The digital twin solution employs an actor-first structure instead of a model-first one. At the core of this structure is a digital entity that acts on our behalf. It has access to the model; the essential set of data relevant to and describing that user. 
 
-The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the sourcecode that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipies. 
+Distinct, is the functional knowledge (how to do things) that a digital twin has access to. This knowledge is the set of functions or recipes that a twin can perform. Through the use of Domain Specific Language, it becomes incredibly ease to adapt and reuse recipes.
+
+With this structure, if an error needs to be fixed or an upgrade needs to be applied, it is very easy to add fields to the data model and to modify the recipes. This is because there is a clear separation of the two and a standard procedure through which the twin manages everything. Moreover, there is very little duplication of information across the internet, because the twin is the single source of truth for its data.
+
+> TODO: (kristof) check if this is ok

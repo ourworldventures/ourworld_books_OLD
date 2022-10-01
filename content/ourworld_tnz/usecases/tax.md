@@ -37,7 +37,7 @@ The resulting information is available in the [Government Dashboard](government_
 
 ### Ports
 
-Digitalisation holds great potential for making maritime transport chains more efficient, flexible and agile. It thus opens up the possibility for ports to meet the challenges of globalisation, demographic change and urbanisation.
+Digitization holds great potential for making maritime transport chains more efficient, flexible and agile. It thus opens up the possibility for ports to meet the challenges of globalisation, demographic change and urbanisation.
 
 - Improved efficiency operations of the port and its specific transport chains
 - Simplification and automation of complex processes

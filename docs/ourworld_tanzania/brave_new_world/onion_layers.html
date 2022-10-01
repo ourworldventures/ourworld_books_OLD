@@ -142,29 +142,25 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="onion-layers"><a class="header" href="#onion-layers">onion layers</a></h1>
+                        <h1 id="new-onion-layers"><a class="header" href="#new-onion-layers">New Onion Layers</a></h1>
 <p><img src="img/onion_layers.png" alt="" /></p>
-<p>What has IT to do with onions...</p>
+<p>What does IT have to do with onions...</p>
+<p>Just like onions, our current applications have many layers. There is the initial model, the core of the onion. That core, however, is patched by layers and layers of painkiller fixes. The more layers, the greater the complexity of the application.</p>
+<h2 id="model-first-paradigm"><a class="header" href="#model-first-paradigm">Model-First Paradigm</a></h2>
+<p><img src="img/model.png" alt="" /></p>
+<p>A model-first application has a pre-defined internal structure, with specific functions and data tables intertwined. On top of this core, there are many layers, such as the API layer for communicating with other applications, and the UI layer for interfacing with the user. In order to change the core, every surrounding layer must also be modified. Therefore, when there is a problem or a bug, or when changes are required, it is standard to layer a painkiller fix or patch on top. In this way, layers keep being added on top of the base which adds complexity, and the problem is never truly fixed at the root. </p>
+<p>Imagine there are hundreds of such onions. The core models of every application are fundamentally different; they have been defined in different ways. Yet, there is also substantial overlap; a CRM application and an invoicing application might contain the same information about clients, but stored in contrasting ways.</p>
+<p>All these onions now need to communicate with each other. However, their messages must pass through their various onion layers and even then, every application needs to know exactly how to process a message from every other application.  The result is a system that is incredibly complex and fragmented.</p>
+<p>The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefine that base towards a relevant issue. As such, we simply cannot attain an optimal systems, because there is no consistency between applications, they are single mindedly focused on their specific function. If multiple people or applications need to use that function it gets very complicated. </p>
+<p>One way to go around this has been to use an enterprise service bus (ESB). An ESB controls how models talk to each other by pre-defining the messages exchanged. While this does fix some issues, we are still left with onions, we have not solved the problem at its root.</p>
+<h2 id="digital-twin-solution"><a class="header" href="#digital-twin-solution">Digital Twin Solution</a></h2>
+<p><img src="img/twin_model.png" alt="" /></p>
+<p>The digital twin solution employs an actor-first structure instead of a model-first one. At the core of this structure is a digital entity that acts on our behalf. It has access to the model; the essential set of data relevant to and describing that user. </p>
+<p>Distinct, is the functional knowledge (how to do things) that a digital twin has access to. This knowledge is the set of functions or recipes that a twin can perform. Through the use of Domain Specific Language, it becomes incredibly ease to adapt and reuse recipes.</p>
+<p>With this structure, if an error needs to be fixed or an upgrade needs to be applied, it is very easy to add fields to the data model and to modify the recipes. This is because there is a clear separation of the two and a standard procedure through which the twin manages everything. Moreover, there is very little duplication of information across the internet, because the twin is the single source of truth for its data.</p>
 <blockquote>
 <p>TODO: (kristof) check if this is ok</p>
 </blockquote>
-<p>The development of applications in the IT sphere has been using painkiller methods at each layer of model first patterns to go forward. </p>
-<h2 id="model-first-pattern"><a class="header" href="#model-first-pattern">Model First Pattern</a></h2>
-<p><img src="img/model.png" alt="" /></p>
-<p>A model first pattern has a standardised foundation. When there is a problem or a bug, or when changes are required, it is not possble to change the sublayers, so a new layer is created. Making changes in the middle is affecting everyhting else that is on top, therefore, it requires more work. Layers keep being added on top of the base which adds complexity, si the problem is never fixed at the root. </p>
-<p>( NOT NECESSARY) </p>
-<p>The model can be seen as a dictionary that keeps on expanding more and more. </p>
-<ul>
-<li>More but complex words = Harder to understand</li>
-<li>Less but simple words = Easy to understand</li>
-</ul>
-<p>Now, imagine when hundreds of such models are connectted to one another and exchanging information. The more layers each indivdual model has, the heavier it is for its message to get across. The whole system becomes very complex. </p>
-<p>The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefne that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. </p>
-<p>One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this doesnot solve the problem at the root.</p>
-<h2 id="ourtwin-scenario"><a class="header" href="#ourtwin-scenario">OurTwin Scenario</a></h2>
-<p><img src="img/twin_model.png" alt="" /></p>
-<p>WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its databse, hence any necessary changes can be appliied at the root. </p>
-<p>The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the sourcecode that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipies. </p>
 
                     </main>
 

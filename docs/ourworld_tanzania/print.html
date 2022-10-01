@@ -261,29 +261,25 @@
 <li>It is more prepared for the future</li>
 <li>It's greener (such a system will use up to 100 times less energy)</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="onion-layers"><a class="header" href="#onion-layers">onion layers</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="new-onion-layers"><a class="header" href="#new-onion-layers">New Onion Layers</a></h1>
 <p><img src="brave_new_world/img/onion_layers.png" alt="" /></p>
-<p>What has IT to do with onions...</p>
+<p>What does IT have to do with onions...</p>
+<p>Just like onions, our current applications have many layers. There is the initial model, the core of the onion. That core, however, is patched by layers and layers of painkiller fixes. The more layers, the greater the complexity of the application.</p>
+<h2 id="model-first-paradigm"><a class="header" href="#model-first-paradigm">Model-First Paradigm</a></h2>
+<p><img src="brave_new_world/img/model.png" alt="" /></p>
+<p>A model-first application has a pre-defined internal structure, with specific functions and data tables intertwined. On top of this core, there are many layers, such as the API layer for communicating with other applications, and the UI layer for interfacing with the user. In order to change the core, every surrounding layer must also be modified. Therefore, when there is a problem or a bug, or when changes are required, it is standard to layer a painkiller fix or patch on top. In this way, layers keep being added on top of the base which adds complexity, and the problem is never truly fixed at the root. </p>
+<p>Imagine there are hundreds of such onions. The core models of every application are fundamentally different; they have been defined in different ways. Yet, there is also substantial overlap; a CRM application and an invoicing application might contain the same information about clients, but stored in contrasting ways.</p>
+<p>All these onions now need to communicate with each other. However, their messages must pass through their various onion layers and even then, every application needs to know exactly how to process a message from every other application.  The result is a system that is incredibly complex and fragmented.</p>
+<p>The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefine that base towards a relevant issue. As such, we simply cannot attain an optimal systems, because there is no consistency between applications, they are single mindedly focused on their specific function. If multiple people or applications need to use that function it gets very complicated. </p>
+<p>One way to go around this has been to use an enterprise service bus (ESB). An ESB controls how models talk to each other by pre-defining the messages exchanged. While this does fix some issues, we are still left with onions, we have not solved the problem at its root.</p>
+<h2 id="digital-twin-solution"><a class="header" href="#digital-twin-solution">Digital Twin Solution</a></h2>
+<p><img src="brave_new_world/img/twin_model.png" alt="" /></p>
+<p>The digital twin solution employs an actor-first structure instead of a model-first one. At the core of this structure is a digital entity that acts on our behalf. It has access to the model; the essential set of data relevant to and describing that user. </p>
+<p>Distinct, is the functional knowledge (how to do things) that a digital twin has access to. This knowledge is the set of functions or recipes that a twin can perform. Through the use of Domain Specific Language, it becomes incredibly ease to adapt and reuse recipes.</p>
+<p>With this structure, if an error needs to be fixed or an upgrade needs to be applied, it is very easy to add fields to the data model and to modify the recipes. This is because there is a clear separation of the two and a standard procedure through which the twin manages everything. Moreover, there is very little duplication of information across the internet, because the twin is the single source of truth for its data.</p>
 <blockquote>
 <p>TODO: (kristof) check if this is ok</p>
 </blockquote>
-<p>The development of applications in the IT sphere has been using painkiller methods at each layer of model first patterns to go forward. </p>
-<h2 id="model-first-pattern"><a class="header" href="#model-first-pattern">Model First Pattern</a></h2>
-<p><img src="brave_new_world/img/model.png" alt="" /></p>
-<p>A model first pattern has a standardised foundation. When there is a problem or a bug, or when changes are required, it is not possble to change the sublayers, so a new layer is created. Making changes in the middle is affecting everyhting else that is on top, therefore, it requires more work. Layers keep being added on top of the base which adds complexity, si the problem is never fixed at the root. </p>
-<p>( NOT NECESSARY) </p>
-<p>The model can be seen as a dictionary that keeps on expanding more and more. </p>
-<ul>
-<li>More but complex words = Harder to understand</li>
-<li>Less but simple words = Easy to understand</li>
-</ul>
-<p>Now, imagine when hundreds of such models are connectted to one another and exchanging information. The more layers each indivdual model has, the heavier it is for its message to get across. The whole system becomes very complex. </p>
-<p>The problem here is that indvidual systems are trying to redo things better, howver they are using the same base infrastructure. They simply redefne that base towards a relevant issue. Ths cannot lead to optimal systems since solutions are managed around a single functiion. If multiiple people need to use that function it gets very complicated. </p>
-<p>One way to go around this has been to use Enterprise Message Bus: Controlling how models talk to each other by pre-defining the messages exchanged. But this doesnot solve the problem at the root.</p>
-<h2 id="ourtwin-scenario"><a class="header" href="#ourtwin-scenario">OurTwin Scenario</a></h2>
-<p><img src="brave_new_world/img/twin_model.png" alt="" /></p>
-<p>WITH OurTwin, there is an 'actor' driven pattern instead of a model first pattern. In such a pattern, the root model only holds essentials in its databse, hence any necessary changes can be appliied at the root. </p>
-<p>The model can tap direct into knowledge (how to do certain things) by accessing the 'recipes'. 'Recipes' are the sourcecode that can easily be adapted to any task. By using Domain Specific Language (DSL) it is easy to reuse recipies. </p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="our-recipe"><a class="header" href="#our-recipe">Our Recipe</a></h1>
 <p><img src="brave_new_world/img/recipe.png" alt="" /></p>
 <p>Together we can make this digital dream happen; we need commitment, a good plan, and most importantly, a loyal team and a strong partnership:</p>
@@ -299,7 +295,8 @@
 <blockquote>
 <p>TODO: (kristof) check if this is ok</p>
 </blockquote>
-<p><img src="brave_new_world/img/digital_backbone.png" alt="" /></p>
+<p><img src="brave_new_world/img/centralised_int.png" alt="" /></p>
+<p><img src="brave_new_world/img/decentralised_int.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="gdp-positive"><a class="header" href="#gdp-positive">GDP Positive</a></h1>
 <p><img src="brave_new_world/tnz/img/gdp_loss.png" alt="" /></p>
 <p>The Internet is now the second largest economy int he world after the financial sector. However, most countries do not have their own sovereign solution. The whole industry is being outsourced to large tech companies and this is resulting into a huge GDP loss to the emerging world. </p>
@@ -458,7 +455,7 @@ td, th {
 <p>The resulting information is available in the <a href="ourworld_tnz/usecases/government_dashboard.html">Government Dashboard</a>.</p>
 <p><strong>All payments for the telco have to be done using the generic available payment systems to allow auditing and recording, all of this is under supervision of the central bank.</strong></p>
 <h3 id="ports"><a class="header" href="#ports">Ports</a></h3>
-<p>Digitalisation holds great potential for making maritime transport chains more efficient, flexible and agile. It thus opens up the possibility for ports to meet the challenges of globalisation, demographic change and urbanisation.</p>
+<p>Digitization holds great potential for making maritime transport chains more efficient, flexible and agile. It thus opens up the possibility for ports to meet the challenges of globalisation, demographic change and urbanisation.</p>
 <ul>
 <li>Improved efficiency operations of the port and its specific transport chains</li>
 <li>Simplification and automation of complex processes</li>
@@ -573,6 +570,31 @@ Layer 2: Experiences layer where virtual healthcare platform is deployed</p>
 <li>Tokenised Assets</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="e-education"><a class="header" href="#e-education">E-Education</a></h1>
+<p>The Internet has become an increasingly important feature of the learning environment for teenagers. Research shows that teens use the Internet as an essential study aid outside the classroom and that the Internet increasingly has a place inside the classroom.</p>
+<p>Here are some of the significant global findings:</p>
+<ul>
+<li>94% of youth ages 12-17 who have Internet access say they use the Internet for school research and 78% say they believe the Internet helps them with schoolwork.</li>
+<li>71% of online teens say that they used the Internet as the major source for their most recent major school project or report.</li>
+<li>41% of online teens say they use email and instant messaging to contact teachers or classmates about schoolwork.</li>
+<li>34% of online teens have downloaded an online study aid.</li>
+</ul>
+<p>The challenge in most emerging markets is the lack of infrastructure that supports teachers in providing a holistic educational framework and platform that can evolve to meet local student requirements. This imbalance poses significant challenges for goverment who simply don't have enough budget, skilled professionals nor infrastructure to meet its citizens' needs.</p>
+<p>Based on our research, the situation on the ground in Tanzania mirrors the same dilemma whenever there is a shortage of budget, infrastructure and teachers relative to the community needs. </p>
+<h2 id="solution-overview-1"><a class="header" href="#solution-overview-1">Solution Overview</a></h2>
+<p>A universal learning platform including tokenisation and datafication is underpinned by the decentralised, autonomous infrastructure of TSIP.</p>
+<p>TSIP delivers on the fundamental requirements to ensure the Virtual Education solution lives up to its promise of:</p>
+<ul>
+<li>ease-of-access of information</li>
+<li>peer-to-peer learning tracks </li>
+<li>incentivization of knowledge providers/ teachers</li>
+<li>sovereignty</li>
+<li>scalability</li>
+<li>...</li>
+</ul>
+<p>Architecturally, the virtual educational solution is depicted as follows:
+Layer 0: TSIP Network
+Layer 1: Threefold Blockchain
+Layer 2: Experiences layer where virtual educational platform is deployed</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="central-bank-digital-currency"><a class="header" href="#central-bank-digital-currency">Central Bank Digital Currency</a></h1>
 <p><img src="ourworld_tnz/usecases/img/cbdc5.png" alt="" /></p>
 <p>Payment and settlement systems and services have become vital components of the economic life of contemporary societies. Over the last decades, they have gone through several waves of reforms that has changed the landscape of the national payments system (NPS), in virtually every country in the world. Yet, in the middle of the 20th century, as payment technology settled down, payment and settlement systems and services issues were still slightly neglected versus other aspects of the financial system. They were seen mostly as technical matters, or “plumbing”, to be dealt with by sub-units of IT departments at both the central and commercial banks.</p>
@@ -727,7 +749,8 @@ Layer 2: Experiences layer where virtual healthcare platform is deployed</p>
 <li>A system which keeps the data in the country where the people live, this leads to more performance and safety.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="worldbank"><a class="header" href="#worldbank">Worldbank</a></h1>
-<p><img src="worldbank/img/worldbank.png" alt="" />  </p>
+<p><img src="worldbank/img/worldbank.png" alt="" /></p>
+<p>The world bank has been supporting the digital business indicators initiative in researching the best regulatory and policy practices for governments seeking to promote their digital economy, especially from the lens of ease-of-doing business.  Digital business indicators measure the laws, regulations, and bureaucratic processes that impact digital businesses in various countries, especially in the areas of data privacy and security, logistics, payment, and digital market regulations.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="digital-business-indicatorstanzania"><a class="header" href="#digital-business-indicatorstanzania">Digital Business Indicators—Tanzania</a></h1>
 <p><img src="worldbank/digital_business_indicators/img/dbi.png" alt="" /></p>
 <blockquote>
