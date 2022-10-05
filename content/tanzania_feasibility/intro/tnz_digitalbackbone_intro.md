@@ -16,7 +16,7 @@ The make up of such an ecosystem includes:
 
 ### Digital Experiences ###
 
-* the layer of digital services running of top of the grid infrastructure that give purpose to the soverign internet grid and bring true value to the people of tanznaia
+* the layer of digital services running of top of the grid infrastructure that give purpose to the sovereign internet grid and bring true value to the people of Tanzania
 * example: FREEFLOW LIFE
   * a prime example of such a digital service is FREEFLOW LIFE, the primary internet experience of TSIP giving every TZN citizen their digital life in one experience. 
   * a universally accessible digital platform through which Tanzanians can access improved alternatives to commonly used global communications, media and productivity software;

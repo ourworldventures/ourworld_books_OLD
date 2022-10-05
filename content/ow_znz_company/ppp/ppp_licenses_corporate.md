@@ -19,10 +19,15 @@
     - 500 USD per medium sized company per year
     - 1000 USD for larger companies per year
 - for residents (companies operate also in ZNZ)
-    - pricing see TBD... 
+    - pricing TBD... 
     - this will not be done at start, this is for H2 2023 after more research
 
-> The fees will be split between OurWorld Company (60%) and Zanzibar Government (40%). Please note OurWorld Company is also 20% owned by Zanzibar Government.
+- The above mentioned fees contain
+    - license fee (as to be agreed with government), we split the license fee 50-50 with government 
+    - technology and hosting fee (digital twin, compute & storage capacity, security offering)
+    - support and service fee (helpdesk, allow people to onboard, ...)
+
+> Government main income components is tax on top of the license fees.
 
 ### Important Milestones
 

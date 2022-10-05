@@ -25,10 +25,9 @@ We are in contact with innovators and businesses that will help OurTown become a
 
  
 ## OurTown holding balance 
-
-Zanzibar seeks to develop further, but developing with no clear direction and goals will lead to nowhere. By going forward blindly, you risk endangering the fragile balance that holds your society and your ecosystems together. This is why we want to offer you a plan to create Our Town. Development has to cater for the social needs of the people, the ecological needs of ecosystems and the economic needs of the island. 
+Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when the needs of both the planet and the people are met, you open the door for successful and reliable economic development.
 
 ![](img/sustainable_dev.png)  
 
-Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when the needs of both the planet and the people are met, you open the door for successful and reliable economic development.
+
 

@@ -10,7 +10,7 @@
         - Digital Nomad, Small, Large Company
         - Can be in Country or Outside
     - Personal Licenses: 
-        - For next phase only, to be definef as we go, right now we just work with government instances.
+        - For next phase only, to be defined as we go, right now we just work with government instances.
 - OURWORLD ZNZ OWNERSHIP
     - 20% owned by Zanzibar Goverment
 

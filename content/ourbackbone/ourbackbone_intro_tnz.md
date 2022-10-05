@@ -23,7 +23,7 @@
 - is reliable and high performance
 - is cost effective
 - is local and sovereign (no need to travel thousands of km with your digital life)
-- cannot loose your data, your personal data is yours
+- cannot lose your data, your personal data is yours
 - allows you to be you, you are not manipulated
 - allows you to find any information, service and product for free
 - allows you to participate in e-commerce in a safe way
@@ -32,5 +32,4 @@
 
 All of this is possible today, we would like to help Tanzania to make it happen.
 
-Although many systems are already installed, to get fast results a more integrated approach can avoid "the painkiller problem".
-
+An integrated approach can avoid "the painkiller problem" and compatibility with existing systems.

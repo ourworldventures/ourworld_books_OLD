@@ -12,7 +12,7 @@ The make up of such an ecosystem includes:
 
 ### Mama Samia Institute
 
-* a policy creating mechanism to effectivily prioritise the utilization of Tanzania resources, sovereign IT, and data management
+* a policy creating mechanism to effectively prioritize the utilization of Tanzania resources, sovereign IT, and data management
 * An incubation hub to empower the development of further digital services to run on top of the TSIP platform, and to further empower and uplift the community of Tanzania.  Such examples include:
     * Virtual healthcare delivery
     * Online education curriculum
@@ -37,7 +37,7 @@ The make up of such an ecosystem includes:
 
 ### Digital Experiences
 
-* the layer of digital services running of top of the grid infrastructure that give purpose to the soverign internet grid, and bring true value to the people of tanznaia
+* the layer of digital services running of top of the grid infrastructure that give purpose to the sovereign internet grid, and bring true value to the people of Tanzania
 * example: FREEFLOW LIFE
   * a prime example of such a digital service is FREEFLOW LIFE, the primary internet experience of TSIP giving every TZN citizen its digital life in one experience 
   * a universally accessible digital platform through which Tanzanians can access improved alternatives to commonly used global communications, media and productivity software
