@@ -153,12 +153,11 @@
 <li>Strong identity is a must, see that section for more info.</li>
 </ul>
 <h2 id="high-level-architecture-for-the-backbone"><a class="header" href="#high-level-architecture-for-the-backbone">High Level Architecture for the Backbone</a></h2>
-<pre class="mermaid">
-graph TB
+<pre class="mermaid">graph TB
 
-    User[User Web Browser] --- Explorers
-    User --- ConsensusEngine1
-    User --- money_blockchain
+    User[User Web Browser] --&gt; Explorers
+    User --&gt; ConsensusEngine1
+    User --&gt; money_blockchain
 
     subgraph Auditing[Audit Monitor Cluster]
         Monitor[Monitoring]
@@ -167,17 +166,15 @@ graph TB
     end
 
     subgraph Digital Currency Ecosystem
-        money_blockchain[Money Blockchain Explorers]
-        Exch1[Money Blockchain Decentralized Exchange]
         OracleEngine[Oracle For Pricing Digital Currencies] --&gt; Exch2[Financial Institute A]
         OracleEngine --&gt; Exch3[Financial Institute B]     
         OracleEngine --&gt; Exch1[Digital Currency Exchange]
     end
 
     subgraph TFChainNode1[ThreeFold Blockchain Node]
-        Explorers[Blockchain Explorer]--&gt;TFGridDB[Blockchain DB] 
+        Explorers[Blockchain Explorer] --- TFGridDB[Blockchain DB] 
         Explorers --&gt; Validator[Validator Node]
-        ConsensusEngine1[Consensus Engine]--&gt;Validator
+        ConsensusEngine1[Consensus Engine] --&gt;Validator
         ConsensusEngine1 --&gt; TFGridDB
         ConsensusEngine1 --&gt; money_blockchain[Money Blockchain]
         ConsensusEngine1 --&gt; ReputationEngine[Reputation Engine]

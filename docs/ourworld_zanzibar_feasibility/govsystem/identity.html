@@ -177,24 +177,26 @@
         Validator5 --- Validator6
     end
 
-    subgraph Identity Verificatin
+    subgraph IV[Identity Verification]
         KYC1[KYC/AML Provider 1]
         KYC2[KYC/AML Provider 1]
-        P2P[Peer Review = Proof of Authenticity]
+        P2P[Peer Review, Proof of Authenticity]
     end
 
-    subgraph Identity Management System
-        KYC[KYC / AML Connector] --- KYC1
+
+
+    subgraph IMS[Identity Management System]
+        KYC[KYC, AML Connector] --- MANAGER[Identity Manager]
         KYC --- KYC2
         KYC --- P2P
-        BC[Blockchain Connector] --- Validator1
-        WS[Web Server]
-        WS --- MGMT[Identity Manager]
-        MGMT ---&gt; KYC
-        MGMT ---&gt; BC
-        MGMT ---&gt; Monitor
+        BCCC[Blockchain Connector] --- Validator1
+        WS[Web Server] --- MANAGER
 
+        MANAGER --&gt; Monitor
+        MANAGER --&gt; BCCC
     end    
+
+ 
 
 </pre>
 <h2 id="process"><a class="header" href="#process">Process</a></h2>
