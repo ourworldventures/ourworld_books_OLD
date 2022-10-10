@@ -1,21 +1,19 @@
-# World First
+# World First 
 
-The development of OurTown Sustainable City represents the political will to work towards a sustainable future. Commitment to regenerative practices will result in sustainable and equitable growth which will become an example for the rest of the world. The development will showcase how sustainable development can be achieved while reflecting the values of the local communities and their culture.
+We have plans and solutions to create a sustainable city that can fully sustain its needs for food, energy and core consumer products. Compared to conventional implementations of self-sufficiency, OurTown will have digital sovereignity and self-governance therough its own decentralized internet and digital backbone, facilitating communications, transactions and governance. OurTown will be the first ever development to achieve complete self-sufficinecy with sustainable living, digital sovereignty, and autonoous governance.
 
-The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. OurHub will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use OurTown as a physical or digital home. 
+## Self-sufficiency
 
-![](img/goals.png)
+### Physical Self-Sufficiency: Sustainable Living
+Through collaboration with one of the co-founders of Dubai Sustainable City, one of the first ever net-zero communities of its size, we will ensure that OurTown is sustainable and self-sufficient in terms of food, energy, water and waste. More than half of the land area is reserved for nature and recreational areas. These areas will contain regenerative farming and conservation zones that promote social engagement that will become a core element of the education of OurTown’s children. We are also obtaining a separate plot in the most fertile region of Zanzibar to supplement the city food supply and we are already in contact with local nature conservationists and regenerative farmers. 
 
-## OurTown: Unlike any other Sustainable City Project
+Our team is currently working on ways to sustainably manage OurTown’s water supply, energy production, waste, mobility and air quality. We aim to integrate the solutions into the built environment in innovative and harmonious ways.
 
- Sustainable cities and communities are growing trends in the world of real estate development. One of the core members of the development team is one of the co-founders and engineers of the Dubai Sustainable City, which is the first ever net zero energy community in the world of its size. It provides high standards of eco-living and a healthy lifestyle. It was selected as the happiest community in Dubai 3 years in a row. Sustainable development projects in Dubai and all around the world proves the financial, social and environmental feasibility of the concept. Other large-scale sustainable city projects are being developed in Canada, USA, Saudi Arabia, UAE, Malaysia, Egypt, Mexico, Maldives and China. 
+### Digital Self-Sufficiency: Digital Sovereignty 
+OurTown citizens will have complete digital sovereignty through a decentralized internet infrastructure  installed in the city. This technology has already been developed and deployed by ThreeFold around the world. The network will consist of thousands of small nodes that generate compute, storage and network capacity, allowing citizens to store their data locally and to truly own it. All citizens will have secure digital twins that store their data, facilitate peer-2-peer communication and provide completely reliable identification. These twins will also provide applications for and solutions to all of its citizens' digital needs, from messaging and file storage to education, without involvement by third parties. 
 
- While there are multiple sustainable or smart city projects around the world, OurTown will be truely revolutionary by providing all digital services needed by businesses and individuals such as digital nomads. These services include a sovereign internet, digital bank and a convenient tax system. The development is also be revolutionary because OurTown itself will serve as a co-owned data-center providing the following advantages:
-- OurTown is equipped with Threefold’s 3Nodes providing digital sovereignty to its inhabitants
-- The city and its citizens will add value to the development from the capacity provided
-- The city will include micro-datacenters that helps power the regional internet of Zanzibar
-
-​​Moreover, OurTown has a climate advantage over many of the similar projects. It will exceed projects of similar scale at much lower costs. Zanzibar climate is compatible with sustainable development in comparison to many other cities such as Dubai and Abu Dhabi. The city has an ambitious goal of being carbon neutral. 
+### Governance Self-Sufficiency: Autonomous Governance
+The strong digital identity management of OurTown unlocks many possibilities around autonomous governance. OurTown will be managed by a DAO involving all its members. Due to Digital Twin technology, the community-run DAO can accept proposals for changes/grants and easily/ and securely vote on them.
 
 ## Green technology
 
@@ -25,9 +23,10 @@ We are in contact with innovators and businesses that will help OurTown become a
 
  
 ## OurTown holding balance 
-Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when the needs of both the planet and the people are met, you open the door for successful and reliable economic development.
+The development of OurTown Sustainable City represents the political will to work towards a sustainable future. Commitment to regenerative practices will result in sustainable and equitable growth which will become an example for the rest of the world. The development will showcase how sustainable development can be achieved while reflecting the values of the local communities and their culture.
 
 ![](img/sustainable_dev.png)  
 
-
+The integration of digital aspects of the development to the regenerative practices within it will make an incredible example of how emerging technologies can be used to foster sustainable development with the right policies. OurHub will make it convenient for innovators and businesses to come to the city to work on disruptive technologies. These innovators will be able to use OurTown as a physical or digital home. 
+Imagine a sustainable city where the social needs of all are met while living in symbiosis with nature. Mother nature provides abundantly, but only if we treat her well. By keeping environemntal needs in mind, you are already creating a better future for your people. And when the needs of both the planet and the people are met, you open the door for successful and reliable economic development.
 
