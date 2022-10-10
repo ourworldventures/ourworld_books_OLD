@@ -15,6 +15,6 @@
 - [Funding](mama_samia_institute/funding.md)
     - [Value Increase](mama_samia_institute/value_increase.md)
     - [Structure](mama_samia_institute/msi_structure.md)
-- [Experience](mama_samia_institute/experience.md)
+- [Experience](threefold_team/experience.md)
 - [Roadmap](mama_samia_institute/roadmap.md)
 - [Note Founders](mama_samia_institute/note_founders.md)

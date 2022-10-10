@@ -35,7 +35,6 @@
 - [Technical Architecture](company/tech_architecture.md)
     - [Smart City Backbone](govsystem/city_backbone.md)
         - [Identity System](govsystem/identity.md)
-        - [Process](govsystem/process.md)
         - [Auditing and Reporting](govsystem/auditing_reporting.md)
     - [Digital Backbone](web4/architecture_highlevel/web4_intro_generic.md)
         - [Web 4.0 Digital Twin](web4/architecture_highlevel/web4_digital_twin.md)
