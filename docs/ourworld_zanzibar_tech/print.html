@@ -365,7 +365,21 @@ sequenceDiagram
 <li>If any tax is Due.</li>
 <li>Key Performance Metrics e.g. nr of users, growth over last months, average spending, ... </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-backbone-system"><a class="header" href="#digital-backbone-system">Digital Backbone System</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="modern-digital-backbone-architecture"><a class="header" href="#modern-digital-backbone-architecture">Modern Digital Backbone Architecture</a></h1>
+<p><img src="web4/architecture_highlevel/img/web_intro_0.png" alt="" /></p>
+<p>Web 4 is a new concept which is the combination of Web 3 (blockchain) and digital twin technology.</p>
+<p>Its a concept with many advantages like</p>
+<ul>
+<li>less power usage</li>
+<li>more scalability</li>
+<li>more flexibility</li>
+<li>faster development</li>
+<li>more security</li>
+</ul>
+<h3 id="architecture-intro"><a class="header" href="#architecture-intro">Architecture Intro</a></h3>
+<p><img src="web4/architecture_highlevel/img/web4_architecture_intro.png" alt="" /></p>
+<p><strong>Specific for storage, there are some cool features:</strong></p>
+<p>Each twin has its own storage system where data cannot be lost or corrupted. Each twin decides for itself where the data will be stored.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ourledger"><a class="header" href="#ourledger">OurLedger</a></h1>
 <p>OurLedger is the base consensus layer to develop any business or government solution on top of.</p>
 <p><img src="web4/ourledger/img/consensus_subsystem.png" alt="" /></p>
@@ -633,7 +647,30 @@ sequenceDiagram
 </ul>
 <p><img src="web4/architecture_highlevel/img/web4_bc_link.png" alt="" /></p>
 <p>Each twin can talk to any required blockchain in a way that is 100% transparent for the user.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture-communication"><a class="header" href="#architecture-communication">Architecture Communication</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="twin-communication"><a class="header" href="#twin-communication">Twin Communication</a></h2>
+<p>For a web4 based architecture:</p>
+<pre class="mermaid">graph TD
+    A---|peer2peer&lt;br&gt;local&lt;br&gt;safe|B
+    B---|p2p|C
+    C---|p2p|A
+
+    U1[User 1] --&gt;|http| A(Your Twin Web Interface)
+    U2[User 2] --&gt;|http| B(Your Twin Web Interface)
+    U3[User 3] --&gt;|http| C(Your Twin Web Interface)
+    subgraph TWIN1[twin 1 private env]
+        A[TWIN 1&lt;br&gt;Process]
+        A --&gt;|owns| X[[Twin1 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN2[twin 2 private env]
+        B[TWIN 2&lt;br&gt;Process]
+        B --&gt;|owns| Y[[Twin2 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN3[twin 3 private env]
+        C[TWIN 3&lt;br&gt;Process]
+        C --&gt;|owns| Z[[Twin3 Data &amp;&lt;br&gt;Capabilities]]
+    end
+
+</pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="digital-backbone-features"><a class="header" href="#digital-backbone-features">Digital Backbone Features</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="unbreakable-deployment"><a class="header" href="#unbreakable-deployment">Unbreakable Deployment</a></h2>
 <p><img src="web4/features/img/unbreakable_deployment.png" alt="" /></p>
@@ -822,7 +859,20 @@ sequenceDiagram
 <p>This leads to very good protection and ‘Auditing’ opportunities.</p>
 <p>Cyber crime will have a much harder time to be successful, way more difficult (we hope impossible).</p>
 <p>Even in the very unlikely event a hacker would succeed, he would only interfere with one twin, which means only one customer would be affected!!!  This makes it so much harder for hackers to deploy capital to hack and social engineer their way into a secure environment.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="infrastructure"><a class="header" href="#infrastructure">Infrastructure</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="threefold-infrastructure-layer"><a class="header" href="#threefold-infrastructure-layer">ThreeFold Infrastructure Layer</a></h1>
+<p>ThreeFold has developed a highly efficient infrastructure layer with 4 layers:</p>
+<ul>
+<li>compute - a flexible way to deploy any workload on edge cloud computers</li>
+<li>storage - a quantum safe storage system</li>
+<li>network - a planetary scalable overlay network</li>
+<li>blockchain for Smart Contract For IT</li>
+</ul>
+<p><img src="technology/img/tech_overview2.png" alt="" /></p>
+<p>ThreeFold nodes provide Internet (storage, compute and network) to the people around.</p>
+<p><img src="technology/img/3node_simple.png" alt="" /></p>
+<h2 id="developers-platform"><a class="header" href="#developers-platform">Developers Platform</a></h2>
+<p>There are multiple ways how people can interactive without our platform (as developer or IT expert = sysadmin):</p>
+<p><img src="technology/img/architecture_usage.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="threefold-capacity-layer"><a class="header" href="#threefold-capacity-layer">ThreeFold Capacity Layer</a></h2>
 <p><img src="technology/layers/img/architecture_why_us.jpg" alt="" /> </p>
 <h3 id="zero-os"><a class="header" href="#zero-os">Zero-OS</a></h3>

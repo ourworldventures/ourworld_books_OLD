@@ -153,10 +153,7 @@ archives/
 _docs/
 *.code-workspace
 .vscode
-
 .DS_Store
 node_modules/
-
 book/
-.DS_Store
 

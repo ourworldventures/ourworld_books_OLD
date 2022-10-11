@@ -142,7 +142,30 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="architecture-communication"><a class="header" href="#architecture-communication">Architecture Communication</a></h1>
+                        <h2 id="twin-communication"><a class="header" href="#twin-communication">Twin Communication</a></h2>
+<p>For a web4 based architecture:</p>
+<pre class="mermaid">graph TD
+    A---|peer2peer&lt;br&gt;local&lt;br&gt;safe|B
+    B---|p2p|C
+    C---|p2p|A
+
+    U1[User 1] --&gt;|http| A(Your Twin Web Interface)
+    U2[User 2] --&gt;|http| B(Your Twin Web Interface)
+    U3[User 3] --&gt;|http| C(Your Twin Web Interface)
+    subgraph TWIN1[twin 1 private env]
+        A[TWIN 1&lt;br&gt;Process]
+        A --&gt;|owns| X[[Twin1 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN2[twin 2 private env]
+        B[TWIN 2&lt;br&gt;Process]
+        B --&gt;|owns| Y[[Twin2 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN3[twin 3 private env]
+        C[TWIN 3&lt;br&gt;Process]
+        C --&gt;|owns| Z[[Twin3 Data &amp;&lt;br&gt;Capabilities]]
+    end
+
+</pre>
 
                     </main>
 
