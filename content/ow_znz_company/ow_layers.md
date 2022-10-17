@@ -31,7 +31,7 @@ end
 
 OURTOWN --> OUREXPERIENCE
 OUREXPERIENCE -.-|OurExperiences implemented on top of OurInternet| OURINTERNET
-OURINTERNET -.-|OurFoundation implemented on top of OurInternet| OURFOUNDATION
+OURINTERNET -.-|OurInternet implemented on top of OurFoundation| OURFOUNDATION
 
 PEOPLE((Digital Nomads and <br>Zanzibar Resident <br>Community.))
 GOVERNMENT((Government))
