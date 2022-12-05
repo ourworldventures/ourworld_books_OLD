@@ -62,13 +62,7 @@ We are planning projects in Zanzibar and Tanzania, the investments are spread ov
 ## For Zanzibar
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
+![alt_text](img/zanzibar_model.png "image_tooltip")
 
 
 * The shares will be tokenized in 2023 or 2024, and liquidity will be looked for
@@ -86,16 +80,9 @@ Tanzania is a big country (5x size france) with 60,000,000 citizens, Tanzania al
 
 We structure this investment as a PPP (Public Private Partnership).
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
+![alt_text](img/zanzibar_model.png "image_tooltip")
 
 We are planning 30m USD of revenue within 3 years for this project from which the majority will be recurring, this will lead to a serious valuation.
-
 
 # OURSAFETY.IO ASSETS
 
@@ -156,16 +143,9 @@ The Internet is the second largest and fastest growing industry in the world aft
 
 ThreeFold represents the only decentralized, scalable and efficient Internet infrastructure able to provide for all digital requirements at the edge — A complete blue ocean strategy in a +$10 Trillion industry. 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.jpg "image_tooltip")
-
+![alt_text](img/tsunami.jpg "image_tooltip")
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
-
 
 We are in the forefront of a growing movement, more and more companies want to prioritize people and planet positive policies. We are not swimming against the stream, we are part of a group of leaders of change and realizing the zeitgeist of the 21st century. 
 
