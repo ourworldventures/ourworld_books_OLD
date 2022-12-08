@@ -26,12 +26,8 @@ Below is a sitemap, showcasing the different facilities in the property.
 
 ![sitemap](img/sitemap.jpeg)
 
-## Financials
 
-> TODO:
-
-
-## Aesthetics
+## Gallery
 
 ![overview1](img/overview1.jpeg)
 ![hut1](img/hut1.jpeg)

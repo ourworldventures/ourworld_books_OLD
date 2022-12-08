@@ -1,19 +1,34 @@
 # Nile Luxor
 Dahabiyas are traditional sailing boats used on the Nile river. This location includes four dahabiyas that offer peaceful and organic platforms for its visitors. 
 
+They are originally designed for private trips along the Nile offering a unique and authentic experience with organic food, green energy, and a warm-hearted crew. 
+
+Stays can vary in length from a few days to several weeks, providing a unique opportunity for guests to explore the Nile, while affording the peace and tranquility for them to work on their own projects.
+
 ![](img/vedas.jpg)  
 
 ## Location
-The boats are located on the Nile River in Luxor, Egypt. They are originally designed for private trips along the Nile offering a unique and authentic experience with organic food, green energy, and a warm-hearted crew. 
+The boats are located on the Nile River in Luxor, Egypt. Guests can either visit the boats in berth at Luxor or can take part in an incredible journey along the length of the Egyptian Nile.
 
 ![](img/nile.png)  
 
-The dahabiyas can host visitors in Luxor or host them on trips along the Nile. 
+Luxor International Airport is located 1 hours flight away from Cairo, however, being an international airport it also serves flights to and from Paris, London, Kuwait, Spain, Zanzibar and more. 
+
+The boats travel along the Nile visiting the locations below:
+- Edfu is the site of the Ptolemaic Temple of Horus and an ancient settlement, Tell Edfu.
+![](img/horus_temple.png) 
+
+- At Silsila the cliffs on both sides close to the narrowest point along the length of the entire Nile.
+![](img/silsila.png) 
+
+- Previously known as the City of Gold in ancient Egypt but also with Graeco-Roman history, Kom Ombo has the incredibly and unusual double temple of Kom Ombo.
+![](img/kom_ombo.png)
+
+- Aswan is a busy market and tourist centre with a UNESCO site containing five different monuments.
+![](img/aswan.png)
 
 ## Amenities
 The four dahabiyas total have 29 rooms and 10 suites that can host up to 78 people. Each room has a private bathroom. All boats have clean, modern and authentic communal areas for relaxation and co-working. 
-
-![](img/veda_rooms.jpg) 
 
 ![](img/veda_deck.jpg) 
 
@@ -43,9 +58,6 @@ Veda 4 is the newest addition to the dahabiyas. It is a 55-meter dahabiya with 1
 
 More information about the dahabiyas can be found in https://veda-egypt.com/index.html. 
 
-## Finances
-
->: TODO
 
 ## Gallery
 
@@ -64,6 +76,8 @@ More information about the dahabiyas can be found in https://veda-egypt.com/inde
 ![](img/veda_bar.jpg)  
 
 ![](img/veda_meeting.jpg)  
+
+![](img/veda_rooms.jpg) 
 
 ![](img/veda_room2.jpg)  
 
