@@ -1,4 +1,4 @@
-# Critical Ops Requirements
+# Disaster Recovery Center Requirements
 
 ![](img/critical_ops_reqs.png)  
 

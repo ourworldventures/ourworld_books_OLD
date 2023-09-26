@@ -6,9 +6,6 @@ Imagine a Network where data, storage and compute are all decentralized and dist
 
 In centralized systems, vendors will try to make the central controller redundant but this is not good enough, a full decentralized architecture is so much more powerful.
 
-## ThreeFold Systems Benefits
-
-> TODO: (jonathan) described how storage can be distributed and how data can never be lost, make link to qsss
 
 #### TETRA Systems benefits
 

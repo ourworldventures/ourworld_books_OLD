@@ -9,7 +9,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -34,14 +33,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -69,12 +69,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -87,11 +89,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -100,7 +124,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -133,7 +157,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -346,9 +370,10 @@ td, th {
    border: none!important;
 }
 </style>
-<table><thead><tr><th></th><th></th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th></th><th></th></tr></thead><tbody>
 <tr><td><img src="ourworld_tnz/img/mama_samia_big.png" alt="" /></td><td><img src="ourworld_tnz/img/tnz.png" alt="" /></td></tr>
 </tbody></table>
+</div>
 <p>Affordable, performant and accessible internet for everyone, empowering the people of Tanzania and Zanzibar.</p>
 <p>If the Covid 19 pandemic has taught us anything, it is that digital is a necessity. It guarantees the continuity of services in the event of a crisis, and is also essential for ensuring a country’s competitiveness and growth.</p>
 <p>To initiate Tanzania’s digital transformation and ensure the social, financial and digital inclusion of all its citizens, the country needs to embark on a digitisation strategy focused on:</p>
@@ -2040,7 +2065,7 @@ A NEW APPROACH IS NEEDED.</p>
 <p>This leads to very good protection and ‘Auditing’ opportunities.</p>
 <p>Cyber crime will have a much harder time to be successful, way more difficult (we hope impossible).</p>
 <p>Even in the very unlikely event a hacker would succeed, he would only interfere with one twin, which means only one customer would be affected!!!  This makes it so much harder for hackers to deploy capital to hack and social engineer their way into a secure environment.</p>
-<div style="break-before: page; page-break-before: always;"></div><p><img src="mytwin/intro/img/betheinternet.png" alt="" /></p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="mytwin/intro/img/betheinternet_.png" alt="" /></p>
 <h1 id="my-personal-digita-twin"><a class="header" href="#my-personal-digita-twin">My Personal Digita Twin</a></h1>
 <h2 id="i-am-powerful-i-am-alive----------------------------meet-my-digital-twin"><a class="header" href="#i-am-powerful-i-am-alive----------------------------meet-my-digital-twin">I am Powerful, I am alive, <br>                           meet my Digital Twin</a></h2>
 <p>Imagine a world where we are powerful, skilled and sovereign, where we can learn and teach every day.</p>
@@ -2060,7 +2085,7 @@ A NEW APPROACH IS NEEDED.</p>
 <p>This is not just a dream, its a dream which is becoming reality.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="internet-sovereignity"><a class="header" href="#internet-sovereignity">Internet Sovereignity</a></h1>
-<p><img src="mytwin/intro/img/twin_sovereignity.png" alt="" /></p>
+<p><img src="mytwin/intro/img/twin_sovereignity_.png" alt="" /></p>
 <p>In the current internet system I exist many times, each application provider owns my data and provides functionality they own and let me use in return for my data.</p>
 <p>We are digitally sovereign:</p>
 <ul>
@@ -2074,17 +2099,17 @@ A NEW APPROACH IS NEEDED.</p>
 <li>I am capable of making my own decisions</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="i-am-powerful-i-am-alive----------------------------meet-my-digital-twin-1"><a class="header" href="#i-am-powerful-i-am-alive----------------------------meet-my-digital-twin-1">I am Powerful, I am alive, <br>                           meet my Digital Twin</a></h1>
-<p><img src="mytwin/intro/img/my_freeflow_life.png" alt="" /></p>
+<p><img src="mytwin/intro/img/my_freeflow_life_.png" alt="" /></p>
 <p>Every person owns a Digital Twin, which is your personal Internet Gateway Application. This Digital Twin (also called Freeflow Twin) is running on a location of your choice. Each twin is owned by only one owner. The Twin has lots of capabilities and serves its owner 24h a day, 7/7. Experiences are being built which use the capabilities of the Twin.</p>
-<p><img src="mytwin/intro/img/intro_twin.png" alt="" /></p>
+<p><img src="mytwin/intro/img/intro_twin_.png" alt="" /></p>
 <p>A twin owns your data and your identity. All data is stored in such a way it can never be corrupted or lost. You own your data, your identity and your digital skills for all your life.</p>
 <p>And when you die you can handover your digital heritage to your beloved ones.</p>
 <p>Each Twin has following capabilities:</p>
-<p><img src="mytwin/intro/img/capabilities.png" alt="" /></p>
+<p><img src="mytwin/intro/img/capabilities_.png" alt="" /></p>
 <p>Twins are unique, they talk directlty to each other, no centralized datacenters or server farms needed.</p>
-<p><img src="mytwin/intro/img/twin2twin.png" alt="" /></p>
+<p><img src="mytwin/intro/img/twin2twin_.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="web-vs-real-physical-life"><a class="header" href="#web-vs-real-physical-life">Web vs real physical life.</a></h1>
-<p><img src="mytwin/intro/img/welcome_back.png" alt="" /></p>
+<p><img src="mytwin/intro/img/welcome_back_.png" alt="" /></p>
 <p>Lets make a comparison of how our digital systems work in relation to how we do things in day to day life, in this case we are comparing with an educational event.</p>
 <p>We hope you will see how current web experiences are and not logical, they are designed to lock us in ,and treat us like their product rather than being only at our service.</p>
 <h3 id="the-web-2-way--the-current-internet"><a class="header" href="#the-web-2-way--the-current-internet">The Web 2 way = the current internet.</a></h3>
@@ -2101,7 +2126,7 @@ A NEW APPROACH IS NEEDED.</p>
 <li>If I want to get back to the content of the event, I need to pay again and go through the event again</li>
 <li>If I would go to another (similar) event from another provider, I would have to restart from scratch, I would have to get other tools, another notebook, I cannot reuse what I have produced on the first event.</li>
 </ul>
-<p>However, the good thing is, I don't have to think that much and it is very addictive, they learn very well what we like and keep on improving constantly, so we want to come back. </p>
+<p>However, the good thing is, I don't have to think that much and it is very addictive, they learn very well what we like and keep on improving constantly, so we want to come back.</p>
 <h3 id="the-web-3-way"><a class="header" href="#the-web-3-way">The Web 3 way</a></h3>
 <ul>
 <li>All as above, but the event is not owned by a company but by all of us</li>
@@ -2128,7 +2153,7 @@ A NEW APPROACH IS NEEDED.</p>
 </blockquote>
 <p>Doesn't this sound like a better idea, don't we wanna have a tool which works that way?</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="my-twin-has-many-skills"><a class="header" href="#my-twin-has-many-skills">My twin has many skills.</a></h1>
-<p><img src="mytwin/skills/img/iamtheweb.png" alt="" /></p>
+<p><img src="mytwin/skills/img/iamtheweb_.png" alt="" /></p>
 <p>I am powerful and have many skills, these skills are used when we enter in an experience.</p>
 <p>This is a very different paradigm compared to current web or mobile applications where the capability is owned by the provider of the application.</p>
 <p>I am powerful and can use my skills wherever I go.</p>
@@ -2222,7 +2247,7 @@ A NEW APPROACH IS NEEDED.</p>
 <br>
 <br>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="communicate"><a class="header" href="#communicate">Communicate</a></h1>
-<p><img src="mytwin/skills/img/communicate.png" alt="" /></p>
+<p><img src="mytwin/skills/img/communicate_.png" alt="" /></p>
 <p>The Twin is a powerful communicator.</p>
 <p>Features right now:</p>
 <ul>
@@ -2233,23 +2258,23 @@ A NEW APPROACH IS NEEDED.</p>
 </ul>
 <p>Any communication you do is directly between you and your peer, twin to twin. You don't need any centralized service to allow you to communicate on a global level.</p>
 <p>It is Unique as all communication fill follow the shortest path.</p>
-<p><img src="mytwin/skills/img/communicate2.png" alt="" /></p>
+<p><img src="mytwin/skills/img/communicate2_.png" alt="" /></p>
 <p>All the communication skills will eventually be available in all experiences.</p>
 <h2 id="roadmap-vs-experiences"><a class="header" href="#roadmap-vs-experiences">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
-<tr><td>Chat</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
-<tr><td>Video Conferencing</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
-<tr><td>Messaging</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td></tr>
-<tr><td>Reliable Message Bus</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
-<tr><td>Planetary network (encrypted end 2 end communication)</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
-<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<tr><td style="text-align: left">Chat</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
+<tr><td style="text-align: left">Video Conferencing</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
+<tr><td style="text-align: left">Messaging</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td></tr>
+<tr><td style="text-align: left">Reliable Message Bus</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
+<tr><td style="text-align: left">Planetary network (encrypted end 2 end communication)</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
-<p><img src="mytwin/skills/extra/img/chat_people_invite.png" alt="groups_and_contacts" /></p>
+</div><div style="break-before: page; page-break-before: always;"></div><h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
+<p><img src="mytwin/skills/extra/img/chat_people_invite_.png" alt="" /></p>
 <p>Private version of the chat:</p>
-<p><img src="mytwin/skills/extra/img/chat_overview.png" alt="private_chat" /></p>
+<p><img src="mytwin/skills/extra/img/chat_overview.png" alt="" /></p>
 <p>The chat communication tools presents a simple interface to manage both individuals and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.</p>
 <p>Centralized messaging services always have a third party (company) involved.  A message would follow the following path:</p>
 <h2 id="chat-architecture"><a class="header" href="#chat-architecture">Chat Architecture</a></h2>
@@ -2340,7 +2365,7 @@ A NEW APPROACH IS NEEDED.</p>
 <div style="text-align: center;">
 <!-- ![communication tool chat](img/oc.png) -->
 </div>
-<div style="break-before: page; page-break-before: always;"></div><p><img src="mytwin/skills/extra/img/camera.png" alt="comnunication tool video" /></p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="mytwin/skills/extra/img/camera.png" alt="" /></p>
 <h2 id="communication-tool-video"><a class="header" href="#communication-tool-video">Communication tool: Video</a></h2>
 <p>A truly peer2peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
 <p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers. Take for example two users in Zanzibar who wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same), they will connect from their laptops/phones to a centralized service, and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
@@ -2365,7 +2390,7 @@ A NEW APPROACH IS NEEDED.</p>
 mermaid source in: ./includes/centralized_video.md
 -->
 <div style="text-align: left;">
-<p><img src="mytwin/skills/extra/img/videoconference_central-1.png" alt="alt text" />)</p>
+<p><img src="mytwin/skills/extra/img/videoconference_central_1.png" alt="" />)</p>
 </div>
 <blockquote>
 <p>TODO: pictures are too small, need to make new ones, also revisit text &amp; flow.</p>
@@ -2376,7 +2401,7 @@ mermaid source in: ./includes/centralized_video.md
 mermaid source in: ./includes/private_video.md
 -->
 <div style="text-align: center;">
-<p><img src="mytwin/skills/extra/img/videoconference_decentral.png" alt="" /></p>
+<p><img src="mytwin/skills/extra/img/example" alt="" /></p>
 </div>
 <pre class="mermaid">graph LR
     
@@ -2397,17 +2422,16 @@ mermaid source in: ./includes/private_video.md
     subgraph Individual D
     INDIVIDUALD(Person D) --&gt;|Browser| TWINA
     end
-
 </pre>
 <blockquote>
 <p>TODO: not ok</p>
 </blockquote>
 <p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier, the two people in Zanzibar would be able to communicate as follows:</p>
 <div style="text-align: center;">
-<p><img src="mytwin/skills/extra/img/videoconference_central-2.png" alt="" /></p>
+<p><img src="mytwin/skills/extra/img/videoconference_central_2.png" alt="" /></p>
 </div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="my-creativity"><a class="header" href="#my-creativity">My Creativity</a></h1>
-<p><img src="mytwin/skills/img/coding.png" alt="Developing Code" /></p>
+<p><img src="mytwin/skills/img/coding.png" alt="" /></p>
 <p>I am capable and creative</p>
 <ul>
 <li><a href="mytwin/skills/creativity/creativity_metaverse.html">I can expand the metaverse</a></li>
@@ -2434,26 +2458,26 @@ mermaid source in: ./includes/private_video.md
 </ul>
 <p>Capabilities can be used over multiple experiences.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="expand-the-metaverse"><a class="header" href="#expand-the-metaverse">Expand the metaverse</a></h1>
-<p><img src="mytwin/skills/creativity/img/metaverse_create.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/metaverse_create_.png" alt="" /></p>
 <p>Our FreeFlow Twin is integrating with the OurVerse development platform and as such makes it easy to expand our day2day life into virtual which might be in the form of a metaverse.</p>
 <h2 id="walk-through"><a class="header" href="#walk-through">Walk Through</a></h2>
-<p><img src="mytwin/skills/creativity/img/ourverse_welcome.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/ourverse_welcome1.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/choose_template.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_welcome_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_welcome1_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/choose_template_.png" alt="" /></p>
 <h2 id="education-facility"><a class="header" href="#education-facility">Education Facility</a></h2>
-<p><img src="mytwin/skills/creativity/img/edu1.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/edu2.png" alt="" /> </p>
-<p><img src="mytwin/skills/creativity/img/edu3.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/edu4.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/edu5.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/edu6.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/edu1_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/edu2_.png" alt="" /> </p>
+<p><img src="mytwin/skills/creativity/img/edu3_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/edu4_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/edu5_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/edu6_.png" alt="" /></p>
 <h2 id="shopping"><a class="header" href="#shopping">Shopping</a></h2>
-<p><img src="mytwin/skills/creativity/img/ourverse_creation1.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/ourverse_creation2.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/ourverse_creation3.png" alt="" /><br />
-<img src="mytwin/skills/creativity/img/ourverse_creation4.png" alt="" /><br />
-<img src="mytwin/skills/creativity/img/ourverse_creation5.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/ourverse_creation6.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_creation1_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_creation2_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_creation3_.png" alt="" /><br />
+<img src="mytwin/skills/creativity/img/ourverse_creation4_.png" alt="" /><br />
+<img src="mytwin/skills/creativity/img/ourverse_creation5_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/ourverse_creation6_.png" alt="" /></p>
 <h2 id="roadmap"><a class="header" href="#roadmap">Roadmap</a></h2>
 <ul>
 <li>Q1 2023: 
@@ -2490,15 +2514,15 @@ mermaid source in: ./includes/private_video.md
 <p>You will be able to use your CHI tokens to ask help from someone in our community to migrate your website to the FreeFlow Network, providing for the best possible web and search experience.</p>
 <h2 id="coming-in-2023--graphical-web-builder"><a class="header" href="#coming-in-2023--graphical-web-builder">Coming in 2023 : graphical web builder</a></h2>
 <p>We are working on graphical web builders as well.</p>
-<p><img src="mytwin/skills/creativity/img/website_create.png" alt="" /></p>
-<p><img src="mytwin/skills/creativity/img/website_create2.png" alt="" />  </p>
+<p><img src="mytwin/skills/creativity/img/website_create_.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/img/website_create2_.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="create-educational-content"><a class="header" href="#create-educational-content">create educational content</a></h1>
 <p><img src="mytwin/skills/creativity/img/education_create.png" alt="" /></p>
 <blockquote>
 <p>TODO: there are some screenshots we can re-use from sikana, i've asked greg to give us content of how people can edit and collaborate on content</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="share"><a class="header" href="#share">Share</a></h1>
-<p><img src="mytwin/skills/img/ownyourdata.png" alt="" /></p>
+<p><img src="mytwin/skills/img/ownyourdata_.png" alt="" /></p>
 <ul>
 <li>How can I share my creations to the rest of the world</li>
 <li>How can I promote my products &amp; services</li>
@@ -2509,19 +2533,19 @@ mermaid source in: ./includes/private_video.md
 <p>For more info see <a href="mytwin/skills/creativity/creativity_web.html">creativity web publishing</a></p>
 <h2 id="roadmap-vs-experiences-2"><a class="header" href="#roadmap-vs-experiences-2">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
-<tr><td>Share All Information relevant to experience in generic way</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">now</td></tr>
-<tr><td>Promote Services &amp; Products</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Integration with Proof of Authenticity</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Integration with Indexing Service &amp; Edge/Twin Browser</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Publish in multiple spots in world (TFGrid, FF Network)</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>IPFS integration</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
-<tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<tr><td style="text-align: left">Share All Information relevant to experience in generic way</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">H1 2023</td><td style="text-align: center">now</td></tr>
+<tr><td style="text-align: left">Promote Services &amp; Products</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Integration with Proof of Authenticity</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Integration with Indexing Service &amp; Edge/Twin Browser</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Publish in multiple spots in world (TFGrid, FF Network)</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">IPFS integration</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q2 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
-<p><img src="mytwin/skills/extra/img/video_share.png" alt="" /></p>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="video-share"><a class="header" href="#video-share">Video Share</a></h1>
+<p><img src="mytwin/skills/extra/img/video_share_.png" alt="" /></p>
 <blockquote>
 <p>TODO: explain more</p>
 </blockquote>
@@ -2554,7 +2578,6 @@ mermaid source in: ./includes/private_video.md
     VIDEOPLATFORM .-&gt; INDIVIDUALI
     VIDEOPLATFORM .-&gt; INDIVIDUALJ
     VIDEOPLATFORM .-&gt; INDIVIDUALK
-
 </pre>
 <p>versus a more decentralized approach:</p>
 <pre class="mermaid">graph LR
@@ -2599,9 +2622,6 @@ mermaid source in: ./includes/private_video.md
     VIDEOPLATFORMC --&gt; VIDEOPLATFORMA
     VIDEOPLATFORMB --&gt; VIDEOPLATFORMC
     VIDEOPLATFORMC --&gt; VIDEOPLATFORMB
-
-
-
 </pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="discover"><a class="header" href="#discover">Discover</a></h1>
 <h2 id="find-information-in-neutral-way"><a class="header" href="#find-information-in-neutral-way">Find information in Neutral Way</a></h2>
@@ -2619,17 +2639,17 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-3"><a class="header" href="#roadmap-vs-experiences-3">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
-<tr><td>Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Locality Based Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
-<tr><td>Planet/People First Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
-<tr><td>Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<tr><td style="text-align: left">Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Locality Based Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
+<tr><td style="text-align: left">Planet/People First Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
+<tr><td style="text-align: left">Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
-<p><img src="mytwin/skills/extra/img/search.png" alt="surf safe" /></p>
+</div><div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="mytwin/skills/extra/img/search.png" alt="" /></p>
 </div>
 <h2 id="my-private-safe-browser"><a class="header" href="#my-private-safe-browser">My Private Safe Browser</a></h2>
 <p>Browsing the internet present risks. There are many sites which have malicious codes embedded in what look like harmless web pages. These malicious contents get uploaded to your browser and might trick you in agreeing malicious codes in your local browser or you local machine. This is a fairly common practice and people are being tricked into providing information of access to others which they should not.</p>
@@ -2650,7 +2670,6 @@ mermaid source in: ./includes/private_video.md
 
     WEB --&gt; Internet
     Internet --&gt; PERSONA
-
 </pre>
 <p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
 <pre class="mermaid">graph RL
@@ -2692,7 +2711,8 @@ mermaid source in: ./includes/private_video.md
     TWINB --&gt;|secure network| TWINA
     end
 </pre>
-<pre><code></code></pre>
+<pre><code>
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="economy"><a class="header" href="#economy">Economy</a></h1>
 <h2 id="manage-my-digital-wealth"><a class="header" href="#manage-my-digital-wealth">Manage my digital wealth</a></h2>
 <ul>
@@ -2712,7 +2732,7 @@ mermaid source in: ./includes/private_video.md
 <p>This is a capability your twin will have, FreeFlow Developers are working on it, stay tuned.</p>
 <h2 id="roadmap-vs-experiences-4"><a class="header" href="#roadmap-vs-experiences-4">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Integrated FreeFlow Wallet</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>Integrated Exchange</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>eCommerce Integration</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
@@ -2721,7 +2741,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="organize"><a class="header" href="#organize">Organize</a></h1>
 <p><img src="mytwin/skills/img/organie.png" alt="" /></p>
 <p>Your twin can help you to organize your digital life</p>
 <ul>
@@ -2732,7 +2752,7 @@ mermaid source in: ./includes/private_video.md
 </ul>
 <h2 id="roadmap-vs-experiences-5"><a class="header" href="#roadmap-vs-experiences-5">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>task &amp; project management</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>deal with my time, personal agenda...</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
 <tr><td>manage all my file based data for multiple experiences</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">Q1 2023</td></tr>
@@ -2741,7 +2761,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="protect"><a class="header" href="#protect">Protect</a></h1>
 <ul>
 <li>Make sure only the right people have access to my digital assets</li>
 <li>What happens if I die, make sure my loved once can inherit my digital assets</li>
@@ -2753,7 +2773,7 @@ mermaid source in: ./includes/private_video.md
 </blockquote>
 <h2 id="roadmap-vs-experiences-6"><a class="header" href="#roadmap-vs-experiences-6">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Twin Authentication</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td></tr>
 <tr><td>Integrated Circles</td><td style="text-align: center">Y</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>Quantum Safe Storage</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
@@ -2762,7 +2782,7 @@ mermaid source in: ./includes/private_video.md
 <tr><td>ACL = Access Control List on all Digital Assets</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 <tr><td>End2end Encrypted Messaging-planetary network</td><td style="text-align: center">Y</td><td style="text-align: center">Q2 23</td><td style="text-align: center">Q2 23</td><td style="text-align: center">2023</td><td style="text-align: center">Y</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate"><a class="header" href="#collaborate">Collaborate</a></h1>
 <h2 id="task--project-management-2023"><a class="header" href="#task--project-management-2023">Task &amp; Project Management (2023)</a></h2>
 <ul>
 <li>Alternative to tools like Ansana, Trello, ...</li>
@@ -2775,15 +2795,15 @@ mermaid source in: ./includes/private_video.md
 <p>Other collaboration tools are coming soon.</p>
 <h2 id="roadmap-vs-experiences-7"><a class="header" href="#roadmap-vs-experiences-7">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
 <tr><td>Project Management</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td>Agenda/Task mgmt</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 <tr><td></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td><td style="text-align: center"></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">Code</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="code"><a class="header" href="#code">Code</a></h1>
 <p>Develop directly in your private cloud, invite your friends to develop together with you.</p>
-<p><img src="mytwin/skills/creativity/coding/img/coder.png" alt="" /></p>
+<p><img src="mytwin/skills/creativity/coding/img/coder_.png" alt="" /></p>
 <p>Code development platform that manages your code in a git (like gitea). Your code is stored in a secure (quantum secure) environment in your own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
 <p><img src="mytwin/skills/creativity/coding/img/gitea0.png" alt="" /></p>
 <p>Full colaboration capabilities</p>
@@ -2792,7 +2812,7 @@ mermaid source in: ./includes/private_video.md
 <p>TODO more info</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="my-experiences"><a class="header" href="#my-experiences">My Experiences</a></h1>
-<p><img src="mytwin/experiences/img/experiences_built.png" alt="" /></p>
+<p><img src="mytwin/experiences/img/experiences_built_.png" alt="" /></p>
 <ul>
 <li><a href="mytwin/experiences/ourlife/ourlife.html">OurLife</a> : Q1 2023
 <ul>
@@ -2819,7 +2839,7 @@ mermaid source in: ./includes/private_video.md
 </ul>
 <p>The freeflow system is different, you are in the center of your digital life.</p>
 <p>We made a funny comparison with our real life, <a href="mytwin/experiences/../../ourtwin/intro/mytwin_sovereignity.html">read here</a></p>
-<p><img src="mytwin/experiences/img/experiences3.png" alt="" /></p>
+<p><img src="mytwin/experiences/img/experiences3_.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="collaborate-and-communicate-in-ourlife"><a class="header" href="#collaborate-and-communicate-in-ourlife">Collaborate and communicate in ourLife</a></h1>
 <p><img src="mytwin/experiences/ourlife/img/freeflow_intro_screen.png" alt="" /></p>
 <br>
@@ -2840,11 +2860,11 @@ mermaid source in: ./includes/private_video.md
 <p><img src="mytwin/experiences/ourlife/img/freeflow_chat.png" alt="" /></p>
 <p>See more info in <a href="mytwin/experiences/ourlife/../../../freeflow/skills/extra/chat.html">the document for our chat skill.</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="meet"><a class="header" href="#meet">Meet</a></h1>
-<p><img src="mytwin/experiences/ourlife/img/mrrt.png" alt="" /></p>
+<p><img src="mytwin/experiences/ourlife/img/mrrt_.png" alt="" /></p>
 <p>videoconference</p>
 <p>See more info in <a href="mytwin/experiences/ourlife/../../../freeflow/skills/extra/videoconference.html">the document for our video conference skill.</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="shareorganize"><a class="header" href="#shareorganize">Share/Organize</a></h1>
-<p><img src="mytwin/experiences/ourlife/img/files_overview.png" alt="" /></p>
+<p><img src="mytwin/experiences/ourlife/img/files_overview_.png" alt="" /></p>
 <blockquote>
 <p>TODO: explain how we can use this to organize our digital life</p>
 </blockquote>
@@ -2865,7 +2885,7 @@ Users can switch into “Semi-Formal” mode to instantly see their co-author’
 <p><img src="mytwin/experiences/ourlife/img/sheet.png" alt="" /></p>
 <p><img src="mytwin/experiences/ourlife/img/preso.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="browse"><a class="header" href="#browse">Browse</a></h1>
-<p><img src="mytwin/experiences/ourlife/img/browser.png" alt="" /></p>
+<p><img src="mytwin/experiences/ourlife/img/browser_.png" alt="" /></p>
 <blockquote>
 <p>TODO: give some more context</p>
 </blockquote>
@@ -2916,7 +2936,7 @@ Children, teachers and parents support each other, their school and staff result
 <li>Keep their fiat money to better fulfill their core mission</li>
 <li>Businesses linked their in-kind donations towards their corporate responsibility.</li>
 </ul>
-<p><img src="mytwin/experiences/floweavers/img/social_enterprise.png" alt="" /></p>
+<p><img src="mytwin/experiences/floweavers/img/social_enterprise_.png" alt="" /></p>
 <h2 id="usecase-4-community-shipping"><a class="header" href="#usecase-4-community-shipping">Usecase 4: Community Shipping</a></h2>
 <p>We developed a unique P2P delivery system using reward points.</p>
 <p>Use case of a Peer2Peer community shipping:</p>
@@ -2928,13 +2948,13 @@ Children, teachers and parents support each other, their school and staff result
 <li>Rachel contacted Betty to schedule a pickup time to get the item</li>
 <li>Rachel rewarded Betty with points for delivering the item closer to her home.</li>
 </ol>
-<p><img src="mytwin/experiences/floweavers/img/community_shipping.png" alt="" /></p>
+<p><img src="mytwin/experiences/floweavers/img/community_shipping_.png" alt="" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="video-education-platform-sikana"><a class="header" href="#video-education-platform-sikana">Video Education Platform Sikana</a></h2>
-<p><img src="mytwin/experiences/sikana/img/sikana.png" alt="" /></p>
+<p><img src="mytwin/experiences/sikana/img/sikana_.png" alt="" /></p>
 <p>Education is a sector that still relies on traditional teaching methods, a teacher, a classroom, a black (or white) board, books, paper and pencils. This method has been in use for hundreds of years. In the current digital age, the classroom can be a digital classroom, with a teacher teaching while all of the rest of the required items can be digitised.</p>
 <p>Traditional learning is based on a live teacher, teaching an audience in a classroom. This works, however it has a number of restrictions which makes that work for a limited number of pupils, and not everywhere, because of the necessity to have live teachers and pupils. In this digital world we can record and present the learning materials in a digital manner to a much larger audience than a single classroom.  Classes, or better as curriculum can be digitised and shared along a much larger group of pupils spanning a vast geographic area.</p>
 <p>The Covid-19 pandemic has proven that remote teaching is possible and that the current technology allow for this. This experience was still based on the standard teacher - pupil relationship and numbers for live teaching. Another technology, a video sharing platform has proven that storing videos and sharing videos is a effective manner to reach a very large number of viewers (youtube.com).</p>
-<p><img src="mytwin/experiences/sikana/img/sikana2.png" alt="" /></p>
+<p><img src="mytwin/experiences/sikana/img/sikana2_.png" alt="" /></p>
 <p>Taking the learnings from both of these current use cases, we have created Sikana. Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 billion views, aiming to deliver quality education and necessary skills to everyone. The software can be installed on threefold nodes and deployed regionally so that bandwidth requirements are minimised because it is a decentralized online education platform.</p>
 <pre class="mermaid">graph LR
     VIDEOPLATFORM .-&gt; INDIVIDUALA
@@ -2964,7 +2984,6 @@ Children, teachers and parents support each other, their school and staff result
     VIDEOPLATFORM .-&gt; INDIVIDUALI
     VIDEOPLATFORM .-&gt; INDIVIDUALJ
     VIDEOPLATFORM .-&gt; INDIVIDUALK
-
 </pre>
 <p>To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.</p>
 <p>Decentralized video sharing as an education platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school. This brings a solution to educate everywhere, even if there is no internet connection. A simple Wifi router that connects devices to the educational platform is all that is needed.</p>
@@ -3648,7 +3667,7 @@ Any application which can run on linux can run on the TFGrid.</p>
 </ul>
 <p>Whereas current computer networks depend heavily on very centralized design and configuration, this networking concept breaks this mould by making use of a global spanning tree to form a scalable IPv6 encrypted mesh network. This is a peer2peer implementation of a networking protocol.</p>
 <p>The following table illustrates high-level differences between traditional networks like the internet, and the planetary threefold network:</p>
-<table><thead><tr><th>Characteristic</th><th>Traditional</th><th>Planetary Network</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Characteristic</th><th>Traditional</th><th>Planetary Network</th></tr></thead><tbody>
 <tr><td>End-to-end encryption for all traffic across the network</td><td>No</td><td>Yes</td></tr>
 <tr><td>Decentralized routing information shared using a DHT</td><td>No</td><td>Yes</td></tr>
 <tr><td>Cryptographically-bound IPv6 addresses</td><td>No</td><td>Yes</td></tr>
@@ -3656,6 +3675,7 @@ Any application which can run on linux can run on the TFGrid.</p>
 <tr><td>IPv6 address remains with the device even if moved</td><td>No</td><td>Yes</td></tr>
 <tr><td>Topology extends gracefully across different mediums, i.e. mesh</td><td>No</td><td>Yes</td></tr>
 </tbody></table>
+</div>
 <h2 id="what-are-the-problems-solved-here"><a class="header" href="#what-are-the-problems-solved-here">What are the problems solved here?</a></h2>
 <p>The internet as we know it today doesn’t conform to a well-defined topology. This has largely happened over time - as the internet has grown, more and more networks have been “bolted together”. The lack of defined topology gives us some unavoidable problems:</p>
 <ul>
@@ -3856,7 +3876,7 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <div style="break-before: page; page-break-before: always;"></div><h1 id="details-1"><a class="header" href="#details-1">Details</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="connectivity"><a class="header" href="#connectivity">Connectivity</a></h1>
 <h2 id="universal-access"><a class="header" href="#universal-access">Universal Access</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th style="text-align: center">Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th style="text-align: center">Solution</th></tr></thead><tbody>
 <tr><td>Does your country have a national broadband plan or policy to develop a high-speed access network?</td><td>YES</td><td></td><td style="text-align: center"></td></tr>
 <tr><td>If yes, does the plan or policy include government investment in infrastructure to make broadband more broadly available?</td><td>YES</td><td></td><td style="text-align: center"></td></tr>
 <tr><td>If yes, what areas are the government investments targeting: Check all that apply.</td><td></td><td></td><td style="text-align: center"></td></tr>
@@ -3904,8 +3924,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>What is the average price for a month of business broadband connection with at least 10 Mbps download speed with unlimited data usage? (USD)</td><td>1000</td><td>TBD</td><td style="text-align: center"></td></tr>
 <tr><td>Are there fees or penalties for switching broadband providers?</td><td>YES</td><td>TBD</td><td style="text-align: center"></td></tr>
 </tbody></table>
+</div>
 <h2 id="spectrum-management"><a class="header" href="#spectrum-management">Spectrum Management</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th style="text-align: center">Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th style="text-align: center">Solution</th></tr></thead><tbody>
 <tr><td>Does your country assign spectrum on the basis of competitive auctions?</td><td>YES</td><td></td><td style="text-align: center"></td></tr>
 <tr><td>- If yes, please specify how the spectrum auction winners are primarily evaluated: Bid Price</td><td>YES</td><td></td><td style="text-align: center"></td></tr>
 <tr><td>- If yes, please specify how the spectrum auction winners are primarily evaluated: Speed of Build-Out</td><td>YES</td><td></td><td style="text-align: center"></td></tr>
@@ -3917,6 +3938,7 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- Spectrum caps:</td><td>NO</td><td></td><td style="text-align: center"></td></tr>
 <tr><td>- Secondary markets for unlicensed spectrum (TVWS or other relevant frequency bands)?</td><td>NO</td><td></td><td style="text-align: center"></td></tr>
 </tbody></table>
+</div>
 <h2 id="obtaining--protecting-domain-names"><a class="header" href="#obtaining--protecting-domain-names">Obtaining &amp; Protecting Domain Names</a></h2>
 <p>| Question                                                                                                                                                              	| Status 	| Future 	| Solution 	|
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------	|--------	|--------	|--------------------	|
@@ -3942,7 +3964,7 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 | What is the cost to request domain name registration service? USD                                                                                                     	| 12.5   	|        	|                    	|</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="payments"><a class="header" href="#payments">Payments</a></h1>
 <h2 id="licensing-of-payment-service-providers-psps"><a class="header" href="#licensing-of-payment-service-providers-psps">Licensing of Payment Service Providers (PSPs)</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>According to the law, do PSPs have to establish at least one separate account with commercial banks to safeguard user funds?</td><td>YES</td><td></td><td></td></tr>
 <tr><td>If yes, which of the following provisions are required for PSPs when managing the separate account(s)? Check all that apply:</td><td></td><td></td><td></td></tr>
 <tr><td>- Ensure all received funds are placed in a ring-fenced account at a commercial bank exclusively dedicated for this purpose as approved by the central bank</td><td>YES</td><td></td><td></td></tr>
@@ -3963,8 +3985,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- Ensure the financial performance of PSPs</td><td>NO</td><td></td><td></td></tr>
 <tr><td>- Ensure the soundness and continuity of the PSPs’ digital payment services.</td><td>YES</td><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h2 id="payment-authorization-and-processing"><a class="header" href="#payment-authorization-and-processing">Payment Authorization and Processing</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>According to the law, do PSPs have a monthly load limit for a merchant through an issued payment instrument in your country?</td><td>NO</td><td></td><td></td></tr>
 <tr><td>If yes, what is the load limit amount per month?</td><td>N/A</td><td></td><td></td></tr>
 <tr><td>According to the law, do PSPs have a single payment transaction limit for a merchant through an issued payment instrument in your country?</td><td>YES</td><td></td><td></td></tr>
@@ -3980,8 +4003,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- Domestic e-commerce (Calendar days)</td><td>1</td><td></td><td></td></tr>
 <tr><td>- Cross-border e-commers (Calendar days)</td><td>3</td><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h2 id="security-3"><a class="header" href="#security-3">Security</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>According to the law, do PSPs have to provide two-factor authentication using standards like 3D Secure?</td><td>NO</td><td></td><td></td></tr>
 <tr><td>According to the law, do PSPs and users (like Electronics Inc.) have to comply with the Payment Card Industry Data Security Standard (PCI DSS)?</td><td>YES</td><td></td><td></td></tr>
 <tr><td>According to the law, do PSPs and users (e.g., internet platforms) have to install Transport Layer Security (TLS) or its predecessor, Secure Sockets Layer (SSL), on their web page or internet browser?</td><td>NO</td><td></td><td></td></tr>
@@ -3992,9 +4016,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- An error in the amount</td><td>NO</td><td></td><td></td></tr>
 <tr><td>Do PSPs set a maximum predetermined threshold of the monthly chargeback rate for a merchant?</td><td>NO</td><td></td><td></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="data-privacy--security"><a class="header" href="#data-privacy--security">Data Privacy &amp; Security</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="data-privacy--security"><a class="header" href="#data-privacy--security">Data Privacy &amp; Security</a></h1>
 <h2 id="individual-rights"><a class="header" href="#individual-rights">Individual Rights</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>Under which conditions can e-commerce platforms lawfully process the computerized personal data of adult customers?</td><td></td><td></td><td></td></tr>
 <tr><td>- The customer has given consent for the processing of his or her personal data for one or more specific purposes</td><td>NO</td><td></td><td></td></tr>
 <tr><td>- Processing is necessary for the performance of a contract to which the customer is party</td><td>NO</td><td></td><td></td></tr>
@@ -4020,8 +4044,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- All personal data must be deleted (or erased) with no conditions</td><td>NO</td><td></td><td></td></tr>
 <tr><td>- All personal data can be deleted (or erased) but only under certain conditions</td><td>NO</td><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h2 id="cross-border-data-flows"><a class="header" href="#cross-border-data-flows">Cross-Border Data Flows</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>To what degree are e-commerce platforms allowed to transfer the personal data of local customers to nondomestic third parties?</td><td></td><td></td><td></td></tr>
 <tr><td>- Free with all countries</td><td>YES</td><td></td><td></td></tr>
 <tr><td>- Free with certain countries with no conditions</td><td>NO</td><td></td><td></td></tr>
@@ -4039,8 +4064,9 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- Any relevant codes of conduct or other rules enforceable in the third country</td><td>NO</td><td></td><td></td></tr>
 <tr><td>- Any security measures taken with respect to the data in the third country</td><td>NO</td><td></td><td></td></tr>
 </tbody></table>
+</div>
 <h2 id="data-security--enforcement"><a class="header" href="#data-security--enforcement">Data Security &amp; Enforcement</a></h2>
-<table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Question</th><th>Status</th><th>Future</th><th>Solution</th></tr></thead><tbody>
 <tr><td>Do data controllers/processors have to comply with a legal or regulatory framework on data privacy?</td><td>NO</td><td></td><td></td></tr>
 <tr><td>Do data controllers/processors have to process differently nonsensitive and sensitive personal data?</td><td>NO</td><td></td><td></td></tr>
 <tr><td>Do e-commerce platforms, considered data controllers/processors, have to comply with any security requirements for automated personal data?</td><td></td><td></td><td></td></tr>
@@ -4057,7 +4083,7 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 <tr><td>- Registration through the supervisory authority</td><td>NO</td><td></td><td></td></tr>
 <tr><td>If yes, are fees applied by the supervisory authority?</td><td>NO</td><td></td><td></td></tr>
 </tbody></table>
-
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -4078,28 +4104,29 @@ style OURTOWN fill:#3CCD30,stroke:#333,stroke-width:0px
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="mermaid.min.js"></script>
-        <script type="text/javascript" src="mermaid-init.js"></script>
+        <script src="mermaid.min.js"></script>
+        <script src="mermaid-init.js"></script>
 
-        <script type="text/javascript">
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
 
+    </div>
     </body>
 </html>

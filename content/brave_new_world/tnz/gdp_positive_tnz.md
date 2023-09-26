@@ -2,7 +2,7 @@
 
 ![](img/gdp_loss.png)  
 
-The Internet is now the second largest economy int he world after the financial sector. However, most countries do not have their own sovereign solution. The whole industry is being outsourced to large tech companies and this is resulting into a huge GDP loss to the emerging world. 
+The Internet is now the second largest economy in the world after the financial sector. However, most countries do not have their own sovereign solution. The whole industry is being outsourced to large tech companies and this is resulting into a huge GDP loss to the emerging world. 
 
 ## The Solution
 
@@ -17,5 +17,4 @@ Data is now the most valuable asset in the world, and Tanzania can own it's data
 
 The future is digital, and the development of the country's fintech sector is more than just a strategy, it is a necessity to attract talent, knowledge and resources to Tanzania. 
 
-> TODO: (kristof)
 
