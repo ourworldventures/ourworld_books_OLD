@@ -4,8 +4,6 @@
 
 What has IT to do with onions...
 
-> TODO: (kristof) check if this is ok
-
 The development of applications in the IT sphere has been using painkiller methods at each layer of model first patterns to go forward. 
 
 ## Model First Pattern
@@ -13,8 +11,6 @@ The development of applications in the IT sphere has been using painkiller metho
 ![](img/model.png)
 
 A model first pattern has a standardised foundation. When there is a problem or a bug, or when changes are required, it is not possble to change the sublayers, so a new layer is created. Making changes in the middle is affecting everyhting else that is on top, therefore, it requires more work. Layers keep being added on top of the base which adds complexity, si the problem is never fixed at the root. 
-
-( NOT NECESSARY) 
 
 The model can be seen as a dictionary that keeps on expanding more and more. 
 - More but complex words = Harder to understand
