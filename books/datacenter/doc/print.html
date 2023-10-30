@@ -1,0 +1,915 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>AI Datacenter</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="datacenter/intro/intro.html">Introduction</a></li><li class="chapter-item "><a href="datacenter/history/history_intro.html">History</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="datacenter/history/tier3.html">Tier 3</a></li><li class="chapter-item "><a href="datacenter/history/tier4.html">Tier 4</a></li></ol></li><li class="chapter-item "><a href="datacenter/costs/costs.html">Costs</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="datacenter/costs/datacenter_cost.html">Datacenter Cost Estimates</a></li></ol></li><li class="chapter-item "><a href="datacenter/requirements/requirements.html">Requirements</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="datacenter/requirements/ai_impact.html">AI Impact</a></li><li class="chapter-item "><a href="datacenter/liquid/immersive_cooling.html">Immersive Cooling</a></li></ol></li><li class="chapter-item "><a href="datacenter/power/power.html">Power</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="datacenter/power/power_diesel.html">Diesel</a></li><li class="chapter-item "><a href="datacenter/power/power_biomass.html">BioMass</a></li><li class="chapter-item "><a href="datacenter/power/power_h20.html">H20</a></li><li class="chapter-item "><a href="datacenter/power/power_solar.html">Solar</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">AI Datacenter</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="datacenter/intro/img/solar.png" alt="" /></p>
+<h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="history"><a class="header" href="#history">History</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tier-3"><a class="header" href="#tier-3">Tier 3</a></h1>
+<p>A Tier 3 data center is a type of data center facility that is designed to provide a high level of availability and redundancy for IT infrastructure and data storage. Tier 3 data centers are classified based on the Uptime Institute's Tier Classification System, which defines four tiers (Tier 1, Tier 2, Tier 3, and Tier 4) to categorize data centers according to their design and infrastructure capabilities.</p>
+<p>Key characteristics of a Tier 3 data center include:</p>
+<ol>
+<li>
+<p><strong>Availability</strong>: A Tier 3 data center is designed to ensure 99.982% availability, which means it allows for an annual downtime of no more than 1.6 hours. This high level of availability is achieved through redundant components and systems.</p>
+</li>
+<li>
+<p><strong>Redundancy</strong>: Tier 3 data centers feature redundant power and cooling systems, as well as multiple distribution paths for data. Redundancy ensures that if one component or system fails, there is an alternative in place to maintain operations without disruption.</p>
+</li>
+<li>
+<p><strong>Concurrent Maintainability</strong>: A Tier 3 data center allows for maintenance and repairs to be performed on infrastructure components without affecting the normal operation of the data center. This is achieved through the use of redundant systems and pathways.</p>
+</li>
+<li>
+<p><strong>Security</strong>: Security measures are typically in place to protect the data center against unauthorized access, including physical security, access controls, and surveillance systems.</p>
+</li>
+<li>
+<p><strong>Scalability</strong>: Tier 3 data centers are designed to accommodate growth and expansion of IT infrastructure, making them suitable for businesses with evolving needs.</p>
+</li>
+<li>
+<p><strong>High-Level Performance</strong>: These data centers offer high-speed connectivity, low-latency network connections, and advanced monitoring and management capabilities.</p>
+</li>
+</ol>
+<p>It's important to note that while Tier 3 data centers provide a high level of availability and redundancy, they are not as robust as Tier 4 data centers, which are designed to provide even higher levels of fault tolerance and uptime. The choice of data center tier depends on the specific needs and risk tolerance of the organization using the facility.</p>
+<h2 id="power-requirements"><a class="header" href="#power-requirements">Power Requirements</a></h2>
+<ol>
+<li>
+<p><strong>Standard Range</strong>: Typically, the power availability per rack in a Tier 3 data center ranges from 4 kW to 10 kW. This range is sufficient for most traditional computing needs.</p>
+</li>
+<li>
+<p><strong>High-Density Options</strong>: For more demanding applications, such as high-performance computing or for racks densely packed with servers, Tier 3 data centers may offer high-density zones where power availability can range from 10 kW to 20 kW or more per rack.</p>
+</li>
+<li>
+<p><strong>Cooling Limitations</strong>: The upper limit on power availability is often determined by the data center’s cooling capacity. As power density increases, so does the heat output, which must be effectively managed by the data center’s cooling systems.</p>
+</li>
+<li>
+<p><strong>Custom Solutions</strong>: Some data centers can customize power availability based on client needs. This can include providing additional power circuits or designing a specific area of the data center with a higher power capacity.</p>
+</li>
+<li>
+<p><strong>Redundancy</strong>: Since Tier 3 data centers offer N+1 redundancy, there is always at least one backup for each power component. This does not directly affect the power available per rack, but it ensures consistent availability of the supplied power.</p>
+</li>
+<li>
+<p><strong>Scalability</strong>: Many Tier 3 data centers are designed to allow scaling of power and cooling resources as the needs of the customers grow.</p>
+</li>
+</ol>
+<p>When a business is considering colocation or hosting in a Tier 3 data center, it's important to assess its power requirements carefully. For operations with high power demands, it might be necessary to discuss with the data center provider the possibilities of allocating additional power resources or choosing a high-density zone within the data center. Data center providers typically measure power in kilowatts (kW) per rack and will have different pricing models based on the power and cooling requirements of the equipment hosted.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tier-4"><a class="header" href="#tier-4">Tier 4</a></h1>
+<p>A Tier 4 data center is the most advanced type of data center tier, as classified by the Uptime Institute. These tiers are a standardized methodology used to determine availability in a facility. The Tier 4 data center is the most robust and less prone to failures. Its design ensures redundancy and reliability. </p>
+<h3 id="tier-4-data-center"><a class="header" href="#tier-4-data-center">Tier 4 Data Center:</a></h3>
+<ol>
+<li><strong>Uptime</strong>: Designed for 99.995% availability.</li>
+<li><strong>Redundancy</strong>: 2N+1 fully redundant infrastructure (the highest level of redundancy in a data center).</li>
+<li><strong>Components</strong>: All components are fully fault-tolerant including uplinks, storage, chillers, HVAC systems, servers etc.</li>
+<li><strong>Cooling</strong>: Fully redundant cooling equipment.</li>
+<li><strong>Concurrent Maintainability</strong>: Everything can be maintained concurrently.</li>
+<li><strong>Fault Tolerance</strong>: Fully fault-tolerant with the ability to sustain at least one worst-case scenario fault without impacting critical load.</li>
+<li><strong>Power Paths</strong>: Multiple active power distribution paths.</li>
+<li><strong>Downtime</strong>: Approximately 0.4 hours of downtime annually.</li>
+<li><strong>Target Audience</strong>: Ideal for mission-critical operations such as large financial institutions, government data processing centers, and other high-demand networks.</li>
+</ol>
+<h3 id="key-differences"><a class="header" href="#key-differences">Key Differences:</a></h3>
+<ul>
+<li><strong>Redundancy</strong>: Tier 4 offers 2N+1 redundancy, meaning there is a double system for power and cooling (plus an additional backup), while Tier 3 typically offers N+1.</li>
+<li><strong>Fault Tolerance</strong>: Tier 4 is fully fault-tolerant, meaning that any single failure of components does not impact services, unlike Tier 3.</li>
+<li><strong>Power Paths</strong>: Tier 4 data centers have multiple active power paths, whereas Tier 3 has multiple paths but only one active at a time.</li>
+<li><strong>Downtime</strong>: Tier 4 data centers have significantly less downtime per year compared to Tier 3.</li>
+<li><strong>Cost and Complexity</strong>: Building and maintaining a Tier 4 data center is significantly more expensive and complex than a Tier 3 facility.</li>
+</ul>
+<h3 id="choosing-between-them"><a class="header" href="#choosing-between-them">Choosing Between Them:</a></h3>
+<ul>
+<li><strong>Cost vs. Need</strong>: Tier 4 data centers are significantly more expensive to build and operate. Organizations should assess whether they need the highest level of uptime and fault tolerance that Tier 4 provides.</li>
+<li><strong>Business Requirements</strong>: Businesses that can afford occasional downtimes for maintenance or those that don't have extremely critical data operations may find Tier 3 facilities adequately sufficient.</li>
+<li><strong>Industry Compliance</strong>: Certain industries may require or favor Tier 4 facilities due to regulatory requirements.</li>
+</ul>
+<p>In summary, while both Tier 3 and Tier 4 data centers are designed to ensure high levels of uptime and reliability, Tier 4 takes this a step further with increased redundancy, fault tolerance, and a correspondingly higher price point.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="costs"><a class="header" href="#costs">Costs</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/costs/img/costs.png" alt="" /></p>
+<h1 id="datacenter-cost"><a class="header" href="#datacenter-cost">Datacenter Cost</a></h1>
+<p>The cost to build a data center can vary widely based on numerous factors, including location, design specifications, infrastructure quality, and the intended power capacity per rack. </p>
+<h3 id="factors-influencing-data-center-construction-costs"><a class="header" href="#factors-influencing-data-center-construction-costs">Factors Influencing Data Center Construction Costs:</a></h3>
+<ol>
+<li>
+<p><strong>Power Capacity and Redundancy</strong>: Higher power per rack generally means more robust electrical infrastructure, including transformers, generators, uninterruptible power supplies (UPS), and distribution units. Redundancy levels (N+1, 2N, etc.) also impact cost.</p>
+</li>
+<li>
+<p><strong>Cooling Systems</strong>: As power per rack increases, so does the need for efficient cooling. Advanced cooling systems (like in-row cooling, liquid cooling, or chilled beam systems) can significantly increase costs.</p>
+</li>
+<li>
+<p><strong>Land and Construction</strong>: The location and the local price of construction play a significant role. Urban areas typically have higher costs compared to rural areas.</p>
+</li>
+<li>
+<p><strong>Building Specifications</strong>: The cost is influenced by whether you are retrofitting an existing building or constructing a new one, including the need for raised floors, structural reinforcements, and security measures.</p>
+</li>
+<li>
+<p><strong>Network Infrastructure</strong>: High-quality cabling, switches, and routers are essential, especially for higher-density setups.</p>
+</li>
+<li>
+<p><strong>Energy Efficiency Measures</strong>: Investments in energy-efficient design and equipment (like energy-efficient UPS systems, solar panels, or advanced building management systems) can increase initial costs but often reduce operational costs in the long term.</p>
+</li>
+</ol>
+<h3 id="rough-cost-estimates"><a class="header" href="#rough-cost-estimates">Rough Cost Estimates:</a></h3>
+<ul>
+<li>
+<p><strong>Low-Density Setup (1-5 kW per rack)</strong>: For a traditional data center with lower power densities, construction costs might range from $7 to $12 million per MW of IT load.</p>
+</li>
+<li>
+<p><strong>Medium-Density Setup (5-10 kW per rack)</strong>: This requires more robust infrastructure and might cost between $10 to $15 million per MW of IT load.</p>
+</li>
+<li>
+<p><strong>High-Density Setup (10-20+ kW per rack)</strong>: For high-density environments, especially those needing advanced cooling solutions, the cost can exceed $15 million per MW of IT load.</p>
+</li>
+</ul>
+<h3 id="additional-considerations"><a class="header" href="#additional-considerations">Additional Considerations:</a></h3>
+<ul>
+<li><strong>Economies of Scale</strong>: Larger data centers often enjoy lower costs per MW due to economies of scale.</li>
+<li><strong>Operational Costs</strong>: Operational expenses, including energy, maintenance, and staffing, can significantly impact the total cost of ownership.</li>
+<li><strong>Customization and Future-Proofing</strong>: Costs increase if the data center is designed for specific needs or built with the capability to easily upgrade and expand in the future.</li>
+</ul>
+<p>Given these variables, it's essential for an organization to thoroughly analyze its specific requirements and future growth expectations when planning a data center. Consulting with architects and engineers who specialize in data center construction can provide more precise cost estimates based on current market conditions and specific requirements.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/requirements/img/requirements.png" alt="" /></p>
+<h1 id="requirements"><a class="header" href="#requirements">Requirements</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/requirements/img/ai.png" alt="" /></p>
+<h2 id="ai-impact-on-datacenter"><a class="header" href="#ai-impact-on-datacenter">AI Impact on Datacenter</a></h2>
+<p>The rise of Artificial Intelligence (AI) and machine learning (ML) has had a significant impact on data center design and operations. </p>
+<h3 id="1-high-power-and-cooling-demands"><a class="header" href="#1-high-power-and-cooling-demands">1. <strong>High Power and Cooling Demands</strong>:</a></h3>
+<ul>
+<li><strong>GPU's can require more than 200 KW per rack, this means a 1 MWatt datacenter would only host 3 racks (rest is loss for cooling). Air cooling also becomes extremely difficult and expensive.</strong></li>
+<li><strong>Power Requirements</strong>: AI/ML hardware, especially dense GPU servers, consume significantly more power per rack than traditional servers, often necessitating enhanced power infrastructure.</li>
+<li><strong>Cooling Solutions</strong>: The high power usage translates to increased heat output, requiring more effective cooling solutions, possibly including liquid cooling or advanced air cooling technologies.</li>
+</ul>
+<h3 id="2-increased-computational-power"><a class="header" href="#2-increased-computational-power">2. <strong>Increased Computational Power</strong>:</a></h3>
+<ul>
+<li><strong>GPUs and TPUs</strong>: AI/ML workloads often require GPUs (Graphics Processing Units) or TPUs (Tensor Processing Units) for efficient processing. This leads to the need for racks that can support high-density GPU/TPU servers.</li>
+<li><strong>Specialized Hardware</strong>: AI/ML applications  require specialized hardware that can handle complex computations more efficiently than standard CPU's (huge GPUs).</li>
+</ul>
+<h3 id="3-enhanced-network-infrastructure"><a class="header" href="#3-enhanced-network-infrastructure">3. <strong>Enhanced Network Infrastructure</strong>:</a></h3>
+<ul>
+<li><strong>Bandwidth and Latency</strong>: AI/ML workloads often involve large datasets, necessitating high-bandwidth and low-latency network infrastructure to efficiently move data in and out of the processing nodes.</li>
+<li><strong>Interconnectivity</strong>: Enhanced interconnects are required for rapid communication between servers, especially for parallel processing tasks common in AI applications.</li>
+</ul>
+<h3 id="4-large-scale-storage-solutions"><a class="header" href="#4-large-scale-storage-solutions">4. <strong>Large Scale Storage Solutions</strong>:</a></h3>
+<ul>
+<li><strong>Data Storage Requirements</strong>: AI/ML workloads typically require access to vast amounts of data. This necessitates large-scale storage solutions with high throughput and low latency.</li>
+<li><strong>Data Management</strong>: Efficient data management systems are critical for AI/ML, as they often need to access and analyze large datasets.</li>
+</ul>
+<h3 id="5-reliability-and-redundancy"><a class="header" href="#5-reliability-and-redundancy">5. <strong>Reliability and Redundancy</strong>:</a></h3>
+<ul>
+<li>AI and ML workloads are often mission-critical, requiring high levels of uptime. This may lead to more stringent redundancy and failover requirements in data centers hosting these workloads.</li>
+</ul>
+<h3 id="6-energy-efficiency"><a class="header" href="#6-energy-efficiency">6. <strong>Energy Efficiency</strong>:</a></h3>
+<ul>
+<li>Given the high power demand, implementing energy-efficient designs and technologies becomes crucial to control operational costs and reduce environmental impact.</li>
+</ul>
+<h3 id="7-scalability-and-flexibility"><a class="header" href="#7-scalability-and-flexibility">7. <strong>Scalability and Flexibility</strong>:</a></h3>
+<ul>
+<li>AI and ML needs can scale rapidly. Data centers must be designed to easily expand and adapt to changing requirements, including the adoption of newer, more powerful hardware over time.</li>
+</ul>
+<h3 id="8-security-and-compliance"><a class="header" href="#8-security-and-compliance">8. <strong>Security and Compliance</strong>:</a></h3>
+<ul>
+<li>AI/ML workloads often involve sensitive data, necessitating higher levels of security and compliance with data protection regulations.</li>
+</ul>
+<h3 id="9-edge-computing"><a class="header" href="#9-edge-computing">9. <strong>Edge Computing</strong>:</a></h3>
+<ul>
+<li>Some AI applications, especially those requiring real-time processing (like autonomous vehicles or IoT devices), benefit from edge computing. This pushes some data center capabilities closer to the data source to reduce latency.</li>
+</ul>
+<h2 id="some-references"><a class="header" href="#some-references">Some references</a></h2>
+<ul>
+<li>https://www.upsite.com/blog/whats-driving-higher-rack-densities-in-the-data-center</li>
+<li>https://journal.uptimeinstitute.com/too-hot-to-handle-operators-to-struggle-with-new-chips/ (this isnt even for AI)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/liquid/img/intro_spacy.png" alt="" /></p>
+<h2 id="immersive-liquid-cooling"><a class="header" href="#immersive-liquid-cooling">Immersive liquid cooling</a></h2>
+<p>Immersive liquid cooling is an advanced technique used in data centers to manage the heat generated by electronic components, particularly in high-performance computing environments like those with dense GPU configurations. This cooling method involves directly immersing computer components or entire servers in a non-conductive liquid. There are two main types of immersive liquid cooling: single-phase and two-phase.</p>
+<h3 id="single-phase-immersion-cooling"><a class="header" href="#single-phase-immersion-cooling">Single-Phase Immersion Cooling</a></h3>
+<p>In single-phase immersion cooling, electronic components are submerged in a thermally conductive, but electrically insulating liquid. This liquid does not change its state; it remains a liquid as it absorbs heat. The process involves:</p>
+<ol>
+<li><strong>Immersion</strong>: Hardware (such as motherboards, GPUs, and CPUs) is placed directly into a bath of cooling liquid.</li>
+<li><strong>Heat Absorption</strong>: The liquid absorbs the heat generated by the electronic components.</li>
+<li><strong>Heat Exchanger</strong>: The now warmer liquid is pumped through a heat exchanger, where it releases the heat, and then recirculated back into the cooling bath.</li>
+</ol>
+<h3 id="two-phase-immersion-cooling"><a class="header" href="#two-phase-immersion-cooling">Two-Phase Immersion Cooling</a></h3>
+<p>Two-phase immersion cooling is more advanced. In this system, the liquid absorbs the heat from the components and then boils, changing its state from liquid to gas. The process involves:</p>
+<ol>
+<li><strong>Boiling</strong>: The heat from the electronic components causes the liquid to boil and change into a vapor.</li>
+<li><strong>Condensation</strong>: This vapor then rises to a condenser located at the top of the tank, where it cools and returns to a liquid state.</li>
+<li><strong>Recirculation</strong>: The liquid is returned to the main tank to absorb more heat from the components, repeating the cycle.</li>
+</ol>
+<h3 id="advantages-of-immersive-liquid-cooling"><a class="header" href="#advantages-of-immersive-liquid-cooling">Advantages of Immersive Liquid Cooling</a></h3>
+<ol>
+<li><strong>Efficiency</strong>: Liquid is more effective than air at absorbing and transferring heat, allowing for more efficient cooling, especially in high-density configurations.</li>
+<li><strong>Reduced Energy Consumption</strong>: These systems can significantly reduce the energy consumption required for cooling, as the heat transfer is more direct and effective.</li>
+<li><strong>Lower Noise Levels</strong>: Immersive cooling systems are quieter than traditional air-cooled systems since there are fewer fans and moving parts.</li>
+<li><strong>Increased Hardware Lifespan</strong>: By maintaining consistent and optimal temperatures, these systems can prolong the life of hardware components.</li>
+<li><strong>Space Saving</strong>: This cooling method can reduce the overall space required for cooling infrastructure.</li>
+<li><strong>Overclocking Potential</strong>: Enhanced cooling efficiency can provide more headroom for overclocking CPUs and GPUs, potentially boosting performance.</li>
+</ol>
+<h3 id="challenges-and-considerations"><a class="header" href="#challenges-and-considerations">Challenges and Considerations</a></h3>
+<ol>
+<li><strong>Cost</strong>: The initial setup cost for immersive liquid cooling systems can be higher than traditional air cooling systems.</li>
+<li><strong>Maintenance</strong>: Maintaining and servicing hardware immersed in liquid can be more complex and time-consuming.</li>
+<li><strong>Compatibility</strong>: Not all hardware is designed for or compatible with liquid immersion, and certain modifications may be necessary.</li>
+<li><strong>Liquid Selection</strong>: The choice of liquid is crucial, as it must efficiently conduct heat while not damaging the hardware or posing safety hazards.</li>
+</ol>
+<p>Immersive liquid cooling is particularly suitable for data centers that require high-density computing power and are looking to optimize energy efficiency and cooling effectiveness. As computational demands continue to grow, especially with the proliferation of AI and machine learning, immersive cooling technologies are becoming increasingly relevant.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/power/img/poweroverview.png" alt="" /></p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/power/img/diesel.png" alt="" /></p>
+<h2 id="diesel-generator-impact-on-environment"><a class="header" href="#diesel-generator-impact-on-environment">Diesel Generator impact on Environment</a></h2>
+<p>Diesel electricity generation is considered bad for the environment for several reasons due to the negative impact it has on air quality, greenhouse gas emissions, and human health. Here are some key reasons why diesel-based electricity generation is harmful:</p>
+<ul>
+<li>
+<ol>
+<li><strong>Air Pollution</strong>: Diesel engines emit a variety of pollutants, including particulate matter (PM), nitrogen oxides (NOx), sulfur dioxide (SO2), and volatile organic compounds (VOCs). These pollutants can lead to poor air quality, smog formation, and respiratory problems in humans.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li><strong>Particulate Matter</strong>: Diesel engines emit fine particulate matter (PM2.5), which are tiny particles suspended in the air. These particles can penetrate deep into the lungs and even enter the bloodstream, causing a range of health issues, including respiratory diseases, cardiovascular problems, and premature death.</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><strong>Nitrogen Oxides (NOx)</strong>: Diesel engines produce significant amounts of nitrogen oxides (NOx), which contribute to the formation of ground-level ozone and smog. NOx emissions can worsen respiratory conditions, irritate the respiratory system, and impair lung development in children.</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li><strong>Greenhouse Gas Emissions</strong>: Diesel engines are fossil fuel-based and emit carbon dioxide (CO2) and other greenhouse gasses when burned. CO2 is a major contributor to global climate change and is a primary driver of the Earth's warming, leading to temperature rise, sea level rise, and extreme weather events.</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li><strong>Black Carbon</strong>: Diesel engines emit black carbon, a type of particulate matter that contributes to air pollution and has a warming effect on the atmosphere. Black carbon settles on snow and ice, reducing their reflectivity (albedo) and accelerating melting.</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li><strong>Environmental Damage</strong>: The extraction, production, and transport of diesel fuel contribute to environmental damage, including habitat destruction, water pollution, and ecosystem disruption. Oil spills during extraction and transport can harm aquatic and terrestrial ecosystems.</li>
+</ol>
+</li>
+<li>
+<ol start="7">
+<li><strong>Noise Pollution</strong>: Diesel generators are noisy and can contribute to noise pollution in both urban and rural areas. Noise pollution can have negative impacts on human health, including stress, sleep disturbances, and cardiovascular issues.</li>
+</ol>
+</li>
+<li>
+<ol start="8">
+<li><strong>Limited Renewable Energy Integration</strong>: Relying on diesel generators hinders the transition to cleaner and more sustainable energy sources like renewable energy (solar, wind, hydro) because it maintains dependency on fossil fuels.</li>
+</ol>
+</li>
+</ul>
+<p>To mitigate these environmental impacts, it's important to shift towards cleaner and more sustainable energy sources, such as renewable energy and grid-connected electricity. This transition not only helps reduce harmful emissions but also contributes to global efforts to combat climate change and improve air quality.</p>
+<h2 id="diesel-generator-consumption"><a class="header" href="#diesel-generator-consumption">Diesel Generator Consumption</a></h2>
+<p>Here are some details on the typical fuel usage and consumption of a 1MW diesel generator</p>
+<blockquote>
+<p>1MW = 1 mega watt</p>
+</blockquote>
+<p>A diesel generator uses about 400 liters/hour for 1 MW of power output:</p>
+<ul>
+<li>Diesel generator power output: 1 MW</li>
+<li>Diesel consumption: 400 liters/hour</li>
+<li>Diesel cost: $1.5 per liter</li>
+</ul>
+<p>To generate 1 MW for 1 hour requires:</p>
+<ul>
+<li>Power: 1 MW</li>
+<li>Time: 1 hour</li>
+<li>Therefore, diesel consumed is: 400 liters (given)</li>
+</ul>
+<p>With diesel costing $1.5 per liter:</p>
+<ul>
+<li>Diesel consumed: 400 liters </li>
+<li>Diesel cost: $1.5 per liter</li>
+<li>Total fuel cost = 400 liters x $1.5 per liter = $600</li>
+</ul>
+<p>So based on a diesel consumption of 400 liters/hour for a 1 MW generator, and a diesel cost of $1.5 per liter, the estimated fuel cost to generate 1 MW of electricity for 1 hour is $600.</p>
+<blockquote>
+<p>do note that you need 1MW for e.g. 0.6MW usable electricity (the rest is lost to cooling and other overhead).</p>
+</blockquote>
+<h2 id="daily-utilization"><a class="header" href="#daily-utilization">Daily utilization</a></h2>
+<p>Daily diesel consumption:</p>
+<ul>
+<li>Generator uses 400 liters/hr at 1 MW</li>
+<li>Running for 24 hours </li>
+<li>So total usage is: 400 liters/hr x 24 hrs = 9,600 liters per day</li>
+</ul>
+<p>Daily fuel cost:</p>
+<ul>
+<li>Diesel consumed: 9,600 liters </li>
+<li>Diesel cost: $1.5 per liter</li>
+<li>Daily cost = 9,600 liters x $1.5 per liter = $14,400</li>
+</ul>
+<h2 id="10-mwatt-datacenter"><a class="header" href="#10-mwatt-datacenter">10 MWatt Datacenter</a></h2>
+<p>We believe a datacenter needs to be at least 10 MWatt these days (AI).</p>
+<p>If the datacenter would use Diesel this would result in a bill of 140,400 USD per day.</p>
+<h2 id="electricity-cost-based-on-fuel"><a class="header" href="#electricity-cost-based-on-fuel">Electricity Cost Based on Fuel</a></h2>
+<p>Parameters</p>
+<ul>
+<li>Diesel fuel price: I used $1000 per metric ton, which is a representative global industrial price. Fuel prices vary by region.</li>
+<li>Density of diesel: 0.83 kg/L is the standard density. This converts volume in liters to mass in kg.</li>
+<li>Energy density: 36 MJ/L is the energy content per liter of diesel. This is an important factor.</li>
+<li>Generator efficiency: 40% is a typical efficiency of converting the diesel fuel energy to electrical energy. Good generators range from 38-42% conversion efficiency.</li>
+<li>Fuel consumption: 0.28 L/kWh is the estimated diesel consumption rate for the generator size. The generator datasheet provides this specification.</li>
+<li>Fuel energy input per kWh: By dividing the 0.28 L/kWh by the 0.83 kg/L density, we get the kg of diesel fuel input per kWh output. This shows the physical energy content.</li>
+<li>Fuel cost per kWh: Multiplying the kg/kWh by the fuel cost per kg ($1000 per ton divided by 1000 kg per ton) calculates the literal fuel cost to generate each kWh of electricity.</li>
+<li>O&amp;M cost: Operation, maintenance and other costs add about 10% typically.</li>
+</ul>
+<p>The result:</p>
+<ul>
+<li>Diesel fuel price: $1000 per metric ton</li>
+<li>Density of diesel: 0.83 kg/L</li>
+<li>Energy density: Approximately 36 MJ/L</li>
+<li>Generator efficiency: 40%</li>
+<li>Fuel consumption: 0.28 L/kWh generated</li>
+<li>Fuel energy input per kWh generated:
+<ul>
+<li>0.28 L / 0.83 kg/L = 0.34 kg per kWh</li>
+</ul>
+</li>
+<li>Fuel cost per kWh:
+<ul>
+<li>0.34 kg x $1000 per ton / 1000 kg per ton = $0.34 per kWh</li>
+</ul>
+</li>
+</ul>
+<p>Total cost including operational cost ~$0.38 per kWh</p>
+<h2 id="crude-oil-generation-plant"><a class="header" href="#crude-oil-generation-plant">Crude Oil Generation Plant</a></h2>
+<p>Here is an estimate of the capital cost for a 10MW electricity generation plant running on crude oil:</p>
+<ul>
+<li>For small-scale oil power plants, capital costs typically range from $1500-$2000 per kW of capacity.</li>
+<li>For a 10MW plant, the capacity-based costs would be:
+<ul>
+<li>10,000 kW x $1500 per kW = $15 million</li>
+<li>10,000 kW x $2000 per kW = $20 million</li>
+</ul>
+</li>
+<li>The crude oil boiler/combustor system likely costs around $2 million for 10MW scale.</li>
+<li>Turbines, generators and power system equipment adds $5-10 million.</li>
+<li>Balance of plant, construction, site development, permitting, engineering etc can cost $5-10 million.</li>
+<li>So the total capital cost would likely range from:
+<ul>
+<li>$15 million + $10 million + $10 million = $35 million (on the lower end)</li>
+<li>$20 million + $10 million + $10 million = $40 million (on the higher end)</li>
+</ul>
+</li>
+</ul>
+<p>So in summary, the total installed capital cost for a 10MW crude oil power plant potentially ranges from $35 million to $40 million, with the per kW cost of the power generation equipment being the largest component. There are also significant ongoing fuel and O&amp;M costs.</p>
+<h2 id="crude-oil"><a class="header" href="#crude-oil">Crude Oil</a></h2>
+<p>Crude Oil is super bad for the environment</p>
+<ul>
+<li>Crude oil price: $90 per barrel</li>
+<li>150 kg per barrel</li>
+<li>Energy density: 45 MJ/kg</li>
+<li>Power plant efficiency: 38%</li>
+<li>Oil required per kWh: 0.092 kg/kWh</li>
+<li>Fuel cost per kWh:
+<ul>
+<li>0.092 kg/kWh x $90 per barrel / 150 kg per barrel = $0.068</li>
+</ul>
+</li>
+<li>O&amp;M cost per kWh: $0.02</li>
+<li>Total cost per kWh:
+<ul>
+<li>Fuel cost: $0.068</li>
+<li>O&amp;M cost: $0.02</li>
+<li>Total: $0.088 per kWh</li>
+</ul>
+</li>
+</ul>
+<p>Conclusion: cost would be around $0.12 if we take into consideration price of plant.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/power/img/biomass.png" alt="" /></p>
+<h2 id="biomass-needed"><a class="header" href="#biomass-needed">Biomass needed</a></h2>
+<p>To generate 1 megawatt (MW) of electricity per hour from biomass requires approximately 1,000 kilograms (or 1 metric ton) of biomass fuel.</p>
+<p>Here's a breakdown of the math:</p>
+<ul>
+<li>1 MW of power = 1,000,000 watts</li>
+<li>With a typical biomass power plant electrical efficiency of around 25%, it takes 4 units of fuel energy to generate 1 unit of electrical energy.</li>
+<li>The energy content of biomass fuels varies by source, but a typical value is about 18 GJ per metric ton (at 10% moisture content).</li>
+<li>So to generate 1 MW of power for 1 hour requires:</li>
+</ul>
+<p>1,000,000 W x 1 hr = 1,000,000 Wh = 3,600,000 kJ</p>
+<p>At 25% efficiency, the fuel energy required is: 3,600,000 kJ / 0.25 = 14,400,000 kJ</p>
+<p>With biomass containing 18 GJ/ton = 18,000 kJ/kg</p>
+<p>The biomass fuel required is: 14,400,000 kJ / 18,000 kJ/kg = 800 kg, or approximately 1 metric ton.</p>
+<p>So in summary, generating 1 MW of power from biomass for 1 hour requires burning approximately 1 ton of biomass fuel. The actual amount can vary slightly based on the biomass source and moisture content.</p>
+<h2 id="cost-per-kwh"><a class="header" href="#cost-per-kwh">Cost per KWH</a></h2>
+<p>Here is the cost per kWh breakdown for a 1 MW biomass power plant, with the numbers formatted more clearly:</p>
+<p>Assumptions:</p>
+<ul>
+<li>1 MW capacity</li>
+<li>90% capacity factor</li>
+<li>7,884 MWh annual generation</li>
+<li>$3,000,000 capital cost</li>
+<li>10% interest rate on capital</li>
+</ul>
+<p>Biomass Cost: $20/tonne</p>
+<ul>
+<li>Annual biomass fuel cost: 7,884 tonnes x $20/tonne = $157,680</li>
+<li>Fixed O&amp;M cost: $300,000</li>
+<li>Variable O&amp;M cost: 7,884 MWh x $0.02/kWh = $157,680</li>
+<li>Annual capital cost: <br />
+10% of $3,000,000 = $300,000</li>
+<li>Total annual cost = $915,360</li>
+<li>Cost per kWh = Total annual cost / Annual generation = $915,360 / 7,884 MWh = $0.116 per kWh</li>
+</ul>
+<p>Biomass Cost: $100/tonne</p>
+<ul>
+<li>Annual biomass fuel cost: 7,884 tonnes x $100/tonne = $788,400</li>
+<li>Fixed O&amp;M cost: $300,000</li>
+<li>Variable O&amp;M cost: $157,680</li>
+<li>Annual capital cost: $300,000</li>
+<li>Total annual cost = $1,546,080</li>
+<li>Cost per kWh = Total annual cost / Annual generation = $1,546,080 / 7,884 MWh = $0.196 per kWh</li>
+</ul>
+<h2 id="hemp-as-biomass"><a class="header" href="#hemp-as-biomass">Hemp as Biomass</a></h2>
+<p>The energy content of industrial hemp is equivalent to that of woody biomass, approximately 7,247 BTUs / pound or 16.9 megajoules / kilogram.</p>
+<p>Hemp grows fast and is capable of absorbing 22 tonnes of CO2 per hectare under the right conditions. In some regions it is possible to produce 3 crops per year. </p>
+<p>In one season a hectare of healthy soil can produce as much as 12 tonnes of hemp biomass with an energy equivalent of approximately 202,800 megajoules (192,217,312 BTUs) or 56,333.33 kilowatt hours.</p>
+<p>An EPL with a 10 hectare hemp TBR would generate 281,666 kilowatt hours and sequester 220 tonnes of carbon dioxide.</p>
+<p>Conclusion Per Season</p>
+<ul>
+<li>220 tonnes of CO2 = 220*60 USD = 13200 USD</li>
+<li>281 MW = 0.2 * 1000 * 281 = 56000 USD (if cost of energy is put on 0.2)</li>
+</ul>
+<p>If 3x per year</p>
+<ul>
+<li>Need 1/(281*3/24/30/12) times the size = 10x = 100 hectares per MW continuous</li>
+<li>For 5 MW = 500 hectares = 5km2 </li>
+</ul>
+<h2 id="cost-to-produce-hemp-biomass"><a class="header" href="#cost-to-produce-hemp-biomass">Cost to produce Hemp Biomass</a></h2>
+<p>Here's an estimate on the cost to produce 1 metric tonne of hemp biomass:</p>
+<ul>
+<li>Hemp yields average around 8,000 kg/ha (around 3.5 tons/acre)</li>
+<li>Input costs for hemp production:
+<ul>
+<li>Seeds: $500/ha</li>
+<li>Fertilizer: $150/ha</li>
+<li>Equipment, labor, other overhead: $800/ha</li>
+</ul>
+</li>
+<li>Total input costs per hectare: $1,450</li>
+<li>For a yield of 8,000 kg/ha:
+<ul>
+<li>Input cost per kg hemp = $1,450 / 8,000 kg = $0.18</li>
+</ul>
+</li>
+<li>So input cost per metric tonne (1,000 kg) hemp = $180</li>
+<li>Additional harvesting/transport costs estimated around $30/tonne</li>
+<li>Total production cost = $180 + $30 = $210 per metric tonne</li>
+</ul>
+<p>So in summary, current industry estimates put the total cost to produce 1 metric tonne of hemp biomass at around $210. This can vary based on yields, farming practices, and equipment/labor costs. But overall, hemp provides a relatively low-cost biomass feedstock for energy production.</p>
+<p>If fertilizer cost is $0 and overhead is $400 per hectare then 1 metric tonne of hemp biomass:</p>
+<ul>
+<li>Hemp yields average around 8,000 kg/ha</li>
+<li>Input costs for hemp production:
+<ul>
+<li>Seeds: $500/ha</li>
+<li>Fertilizer: $0</li>
+<li>Overhead: $400/ha</li>
+</ul>
+</li>
+<li>Total input costs per hectare: $500 + $0 + $400 = $900</li>
+<li>For a yield of 8,000 kg/ha:
+<ul>
+<li>Input cost per kg hemp = $900 / 8,000 kg = $0.113</li>
+</ul>
+</li>
+<li>So input cost per metric tonne (1,000 kg) hemp = $113</li>
+<li>Additional harvesting/transport costs estimated around $30/tonne</li>
+<li>Total production cost = $113 + $30 = $143 per metric tonne</li>
+</ul>
+<p>With zero fertilizer cost and $400/ha overhead, the total estimated cost to produce 1 metric tonne of hemp biomass is approximately $143.</p>
+<h2 id="other-biomass-sources"><a class="header" href="#other-biomass-sources">Other Biomass Sources</a></h2>
+<p>Here is an overview of some of the most cost-effective options for farming biomass to be used for electricity production:</p>
+<ul>
+<li>Short rotation woody crops like willow or poplar:
+<ul>
+<li>Yield up to 8 dry tonnes/ha/year</li>
+<li>Require low inputs like fertilizer</li>
+<li>Cost around $50-60/dry tonne</li>
+</ul>
+</li>
+<li>Perennial grasses like switchgrass or miscanthus:
+<ul>
+<li>Yield up to 20 dry tonnes/ha/year</li>
+<li>Low input costs, well-suited to marginal land</li>
+<li>Cost around $40-60/dry tonne</li>
+</ul>
+</li>
+<li>Agricultural residues like straw and corn stover:
+<ul>
+<li>Already produced as byproducts of food crops</li>
+<li>Cost just $20-40/dry tonne</li>
+<li>Lower yields than dedicated energy crops</li>
+</ul>
+</li>
+<li>Fast growing trees like eucalyptus:
+<ul>
+<li>Yield 10-40 dry tonnes/ha/year depending on climate</li>
+<li>Cost around $40-50/dry tonne</li>
+</ul>
+</li>
+<li>Hemp:
+<ul>
+<li>Yields around 8 dry tonnes/ha/year</li>
+<li>Low input costs</li>
+<li>Cost around $100-150/dry tonne</li>
+</ul>
+</li>
+</ul>
+<p>The lowest cost options are agricultural residues, but availability may be limited. Perennial grasses like switchgrass provide a good combination of high yields and low costs.</p>
+<p>Overall, the optimal feedstock depends on local climate, land availability, and production costs. But several options can provide biomass at costs competitive with other fuel sources.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/power/img/h2o.png" alt="" /></p>
+<h2 id="cost-to-generate-h20"><a class="header" href="#cost-to-generate-h20">Cost to generate H20</a></h2>
+<p>Here is an estimate of the cost to generate 1 liter of H2O (water) from electricity:</p>
+<ul>
+<li>The chemical reaction for water electrolysis is: <br />
+2H2O --&gt; 2H2 + O2</li>
+<li>This requires an input of 286 kJ of electricity per mole of water.</li>
+<li>One mole of water = 18 grams = 18 mL of water</li>
+<li>So to generate 1 liter of water (1000 mL) requires: <br />
+1000 mL / 18 mL per mole = 55.6 moles</li>
+<li>Electricity input required = 55.6 moles x 286 kJ per mole = 15,930 kJ</li>
+<li>15,930 kJ = 4.42 kWh of electricity</li>
+<li>At an electricity price of $0.10 per kWh: <br />
+Cost for 4.42 kWh = $0.44</li>
+</ul>
+<p>So the estimated cost to produce 1 liter of H2O from water electrolysis powered by electricity is around $0.44, assuming an electricity rate of $0.10 per kWh.</p>
+<p>This does not include the capital cost of the electrolyzer system. But in terms of just operating costs, the electricity required to split water into hydrogen and oxygen to generate 1 liter of H2O would be around $0.44 at current typical electricity prices.</p>
+<p>to generate 1 liter of H2O from electricity via water electrolysis at an electricity rate of $0.15 per kWh:</p>
+<ul>
+<li>The electricity input required to generate 1 liter of H2O is 4.42 kWh, based on the previous calculation.	</li>
+<li>At a cost of $0.15 per kWh:</li>
+<li>Cost for 4.42 kWh at $0.15/kWh = 4.42 * $0.15 = $0.66</li>
+</ul>
+<p>So with an electricity price of $0.15 per kWh, the estimated cost to produce 1 liter of H2O through electrolysis would be $0.66.</p>
+<h2 id="h20-cost"><a class="header" href="#h20-cost">H20 Cost</a></h2>
+<p>For a large commercial electrolyzer:</p>
+<ul>
+<li>Capacity: 500 liters H2O/hour</li>
+<li>System cost around $400,000-$600,000</li>
+<li>Utilizing proton-exchange membrane (PEM) electrolysis cells</li>
+<li>Cell stack cost around $600 per kW</li>
+<li>500 liters/hr requires around 60 kW</li>
+<li>Cell stack cost = 60 kW x $600 per kW = $36,000</li>
+<li>Balance of system adds ~2X cost</li>
+<li>Total system cost ~$400,000</li>
+</ul>
+<p>Here is the cost estimate re-done for $0.15/kWh electricity and formatted more clearly:</p>
+<p>Assumptions:</p>
+<ul>
+<li>Electrolyzer efficiency: 70%</li>
+<li>Electricity cost: $0.15/kWh</li>
+<li>$400,000 electrolyzer capital cost</li>
+<li>10 year amortization</li>
+<li>5% interest</li>
+<li>50% capacity factor</li>
+</ul>
+<p>To store 1 MWh electricity as H2O:</p>
+<ul>
+<li>Electricity required: 1 MWh / 0.70 efficiency = 1.43 MWh</li>
+<li>Electricity cost (@ $0.15/kWh): 1.43 MWh x $0.15/kWh = $214.50</li>
+<li>H2O generated: 1.43 MWh x 278 g/MJ x 3600 MJ/MWh = 1,429 kg</li>
+<li>Annual amortized capital cost: $48,763</li>
+<li>Annual H2O production: 6,186 tonnes</li>
+<li>Capital cost per tonne H2O: $48,763 / 6,186 tonnes = $7.88</li>
+<li>Capital cost for 1.429 tonnes H2O: 1.429 tonnes x $7.88/tonne = $11.28</li>
+</ul>
+<p>Total cost to store 1 MWh in H2O:</p>
+<p>Electricity: $214.50 Capital: $11.28 Total: $225.78</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="datacenter/power/img/solar2.png" alt="" /></p>
+<h2 id="cost-for-solar-power-plant"><a class="header" href="#cost-for-solar-power-plant">Cost for solar power plant</a></h2>
+<p>Here is an overview of the typical capital costs for a 1MW solar photovoltaic power plant:</p>
+<ul>
+<li>Solar modules - $0.5 - $0.6 million for crystalline silicon panels rated at 5W per sqft.</li>
+<li>Inverters - $50,000 - $100,000 for grid-tied inverter system and controls.</li>
+<li>Mounting system - $50,000 - $150,000 for fixed tilt or tracking mounts.</li>
+<li>Electrical equipment - $50,000 - $100,000 for transformers, switchgear, monitoring.</li>
+<li>Site preparation - $50,000 - $100,000 for grading, access, perimeter.</li>
+<li>Installation labor - $50,000 - $100,000 depending on complexity.</li>
+<li>Permitting and engineering - $50,000 - $100,000.</li>
+<li>Total: Approximately $800,000 to $1.2 million.</li>
+</ul>
+<p>The wide range accounts for differences in site location, labor rates, type of PV panels, mounting system and other factors. Economies of scale provide some cost savings for larger utility-scale systems.</p>
+<p>1MW solar PV power plant expressed in terms of cost per square meter:</p>
+<ul>
+<li>Solar modules - $100 - $120 per sqm. Crystalline silicon panels are typically rated at 200W per sqm.</li>
+<li>Inverters - $10 - $20 per sqm. Sized based on peak capacity.</li>
+<li>Mounting system - $10 - $30 per sqm. Depends on mounting type.</li>
+<li>Electrical equipment - $10 - $20 per sqm.</li>
+<li>Site preparation - $10 - $20 per sqm. Grading and access roads.</li>
+<li>Installation labor - $10 - $20 per sqm. Based on crew size.</li>
+<li>Permitting/engineering - $10 - $20 per sqm.</li>
+<li>Total: Approximately $160 to $250 per sqm.</li>
+</ul>
+<p>The total PV system size for 1MW is typically 4000 - 5000 sqm depending on the solar irradiance availability.</p>
+<p>Cost of electricity (LCOE) from a 1MW solar PV plant based on the capital costs per sqm:</p>
+<p>Assumptions:</p>
+<ul>
+<li>Capital cost: $200 per sqm</li>
+<li>O&amp;M cost: $10 per kW-year</li>
+<li>Solar irradiance: 1,800 kWh/sqm/year</li>
+<li>System lifetime: 25 years</li>
+<li>Discount rate: 7%</li>
+</ul>
+<p>Calculations:</p>
+<ul>
+<li>System size for 1MW with 1,800 kWh/sqm/yr: 1,000 kW / 1,800 kWh/sqm/yr = ~555 sqm</li>
+<li>Capital cost = 555 sqm x $200 per sqm = $111,000</li>
+<li>O&amp;M cost = 1,000 kW x $10 per kW-year = $10,000 per year</li>
+<li>Annual generation = 555 sqm x 1,800 kWh/sqm/yr = ~1,000,000 kWh</li>
+<li>LCOE = (Capital cost x CRF + O&amp;M cost) / Annual generation
+<ul>
+<li>Where CRF is capital recovery factor based on lifetime and discount rate</li>
+</ul>
+</li>
+<li>LCOE = ($111,000 x 0.074 + $10,000) / 1,000,000 kWh = ~$0.085 per kWh</li>
+</ul>
+<p>Ongoing O&amp;M costs are relatively low for solar at around $10-$20k per MW capacity annually. No fuel costs obviously.</p>
+<h2 id="cost-for-batteries"><a class="header" href="#cost-for-batteries">Cost for batteries</a></h2>
+<p>Here is a realistic estimate of the current costs for battery energy storage including capital and operational expenses:</p>
+<ul>
+<li>Lithium-ion batteries capital cost today ranges from $100/kWh to $300/kWh for grid-scale systems larger than 1MWh.</li>
+<li>A realistic mid-range capital cost is around $185/kWh.</li>
+<li>Fixed O&amp;M costs are typically $10-$15/kW-year.</li>
+<li>Variable O&amp;M costs around 0.5-1 cent/kWh cycled.</li>
+<li>Annual throughput of 250-500 cycles depending on usage.</li>
+<li>Battery lifespan is 5-15 years before replacement needed.</li>
+<li>So for a 10MWh system the costs over 10 years would be:
+<ul>
+<li>Capital: 10,000 kWh x $185/kWh = $1.85 million</li>
+<li>Fixed O&amp;M: $12.5/kW-year x 1000 kW = $125,000/year x 10 years = $1.25 million</li>
+<li>Variable O&amp;M: Avg 400 cycles/year x 10 years x $0.0075/kWh = $300,000</li>
+<li>Total 10-year cost = $3.4 million</li>
+</ul>
+</li>
+<li>Levelized cost around $340/MWh over 10 years for this system.</li>
+</ul>
+<p>Actual costs vary widely based on battery chemistry, scale, location, ancillary equipment and project specifics. But this provides a realistic estimate for modeling purposes. Let me know if you need any other details!</p>
+<p>Here are some of the lowest cost battery storage technologies for grid-scale electricity:</p>
+<ul>
+<li>Lithium-ion batteries - $100 - $150 per kWh for utility scale. Costs continue to decrease rapidly.</li>
+<li>Flow batteries - $120 - $200 per kWh fully installed. Lowest cost is vanadium redox at $150/kWh.</li>
+<li>Lead acid batteries - Around $100 per kWh. Only viable for shorter duration needs.</li>
+<li>Compressed air energy storage - $50 - $100 per kWh based on site geology. Requires underground caverns.</li>
+<li>Pumped hydro storage - $100 - $300 per kWh. Highly site dependent. Cheapest at scale.</li>
+<li>Hydrogen storage - $150 - $300 per kWh. Requires hydrogen production and fuel cells. Emerging option.</li>
+</ul>
+<p>So in summary, lithium-ion batteries offer the lowest cost currently at around $100-$150/kWh at utility scale. Their costs have fallen fast and are expected to continue improving. For long duration storage, pumped hydro and compressed air can be most economical depending on site suitability.</p>
+<h2 id="land-needed"><a class="header" href="#land-needed">Land needed</a></h2>
+<p>Here are some conservative estimates for the land area needed for a 5 MW solar PV facility in Africa:</p>
+<ul>
+<li>Assume a location in sub-Saharan Africa with an average solar insolation of 5.5 kWh/m2/day</li>
+<li>Use a conservative capacity factor of 15% for the solar PV system</li>
+<li>A solar panel with 20% efficiency and 1 m2 area will produce on average: 5.5 kWh/m2/day x 0.2 efficiency = 1.1 kWh per day 1.1 kWh/day x 365 days x 0.15 capacity factor = 61.2 kWh per year</li>
+<li>So each 1 m2 of solar panels will generate about 61.2 kWh per year</li>
+<li>The solar facility needs to generate 5 MW x 24 hours x 365 days = 43,800 MWh per year</li>
+<li>So total solar panels needed: 43,800,000 kWh / 61.2 kWh/m2 = 715,195 m2</li>
+<li>Add ~20% extra land for spacing, access roads etc.</li>
+<li>Total land area required: 715,195 m2 x 1.2 = 858,235 m2</li>
+<li>Which is 86 hectares or 0.86 km2</li>
+</ul>
+<p>So for a 5 MW solar PV facility with a 15% capacity factor in sub-Saharan Africa, a conservative estimate is around 86 hectares or 0.86 km2 of land area.</p>
+<p>If we only need it for 8 hours, then we can do ⅓</p>
+<ul>
+<li>We need 300,000m2 land for solar for the datacenter</li>
+</ul>
+<h2 id="ultra-capacitors"><a class="header" href="#ultra-capacitors">Ultra Capacitors</a></h2>
+<p>Here are some key points about using ultracapacitors for large-scale energy storage:</p>
+<ul>
+<li>Ultracapacitors can store and discharge electricity very quickly, making them well-suited for short duration load leveling and frequency regulation applications.</li>
+<li>They have high power density (up to 10 kW/kg) but relatively low energy density (around 5-10 Wh/kg), so large banks would be needed for bulk energy storage.</li>
+<li>Ultracapacitors have high cycle life (&gt;1 million cycles) and high round-trip efficiency (95%+) which is attractive.</li>
+<li>Cost is still relatively high compared to Li-ion batteries at around $200-300/kWh for the ultracapacitor system. Rapidly improving though.</li>
+<li>Large ultracapacitor banks connected to the grid often use a hybrid system configuration with batteries or other storage to optimize performance and costs.</li>
+<li>Ultracapacitors provide excellent complement to batteries by handling high power transients and smoothing fluctuations.</li>
+<li>Safety advantages over batteries with no fire/explosion risks. More environmentally friendly.</li>
+<li>Could potentially reduce the required size of substation equipment like transformers and switches.</li>
+<li>Challenges include developing pilots to demonstrate benefits, reducing costs further, integrating into grid infrastructure and energy markets.</li>
+</ul>
+<p>So in summary, ultracapacitors have promising characteristics for large scale energy storage but may be better suited to specific high power applications rather than bulk energy storage due to cost and energy density limitations currently. Their role alongside batteries warrants further exploration.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="mermaid.min.js"></script>
+        <script src="mermaid-init.js"></script>
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </div>
+    </body>
+</html>
