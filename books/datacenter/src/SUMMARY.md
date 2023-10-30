@@ -15,7 +15,7 @@
   - [Solar](datacenter/power/power_solar.md)
 - [Costs](datacenter/costs/costs.md)
   - [Tier 3-4 Classic](datacenter/costs/datacenter_cost.md)
-  - [AI Ready](datacenter/costs/datacenter_ai_cost.md)
+  - [Self healing and AI Ready](datacenter/costs/datacenter_ai_cost.md)
 - [Cyberpandemic](cyberpandemic/cyberpandemic/red/cyber_pandemic.md)
   - [Africa Target](cyberpandemic/cyberpandemic/red/africa_target.md)
   - [War on Data](cyberpandemic/cyberpandemic/red/war_on_data.md)
