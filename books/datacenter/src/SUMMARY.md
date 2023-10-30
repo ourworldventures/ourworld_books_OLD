@@ -4,7 +4,7 @@
 - [History](datacenter/history/history_intro.md)
   - [Tier 3](datacenter/history/tier3.md)
   - [Tier 4](datacenter/history/tier4.md)
-- [Requirements](datacenter/requirements/requirements.md)
+- [Ideas](datacenter/requirements/requirements.md)
   - [AI Impact](datacenter/requirements/ai_impact.md) 
   - [Immersive Cooling](datacenter/liquid/immersive_cooling.md)
   - [Decentralization](datacenter/requirements/decentralization.md)
@@ -21,7 +21,5 @@
   - [War on Data](cyberpandemic/cyberpandemic/red/war_on_data.md)
   - [Internet Vulnerable](cyberpandemic/cyberpandemic/red/internet_vulnerable.md)
   - [Manipulation of Info](cyberpandemic/cyberpandemic/red/manipulation_info.md)
-- [Ideas](datacenter/ideas/ideas.md)
-  - [Small DC Ring](datacenter/ideas/decentralized_datacenters.md)
 
 
