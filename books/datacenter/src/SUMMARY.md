@@ -31,5 +31,11 @@
   - [War on Data](cyberpandemic/cyberpandemic/red/war_on_data.md)
   - [Internet Vulnerable](cyberpandemic/cyberpandemic/red/internet_vulnerable.md)
   - [Manipulation of Info](cyberpandemic/cyberpandemic/red/manipulation_info.md)
+- [Technology](datacenter/technology/technology.md)
+  - [Quantum Safe Storage System](datacenter/technology/qsss/qsss_home.md)
+    - [QSS Algo](datacenter/technology/qsss/qss_algorithm.md)
+    - [QSS Filesystem](datacenter/technology/qsss/qss_filesystem.md)
+    - [QSS zero knowledge proof](datacenter/technology/qsss/qss_zero_knowledge_proof.md)
+    
 
 

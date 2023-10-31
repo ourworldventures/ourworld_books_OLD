@@ -27,16 +27,22 @@ Tier-S datacenters are compatible with Tier 3 and most of Tier 4 but they have a
 
 ### reliability
 
+- storage can never be lost
+- data can be spread over multiple sites in such a way that not even quantum computers can hack
+
 ### redundancy
 
-- all is liquid cooled (submerged)
-- liquid cooling is a much more simple process how to cool.
+- all pods are liquid cooled (submerged)
+  - liquid cooling is a much more simple and reliable process
+- all power paths and network pats are fully redundant
 
-### war proof
+### war and natural disaster proof
 
-- the circular design 
+- the circular design with main datacenter and edge datacenters makes it much harder to bring a datacenter down in a situation of nautral disaster, war or other unrest.
 
 ### self healing
 
-A tier I datacenter, these data
+A tier S datacenter, has self healing properties, the aim is that workloads can run in all safety and don't need human super administrators to keep alive.
+
+
 

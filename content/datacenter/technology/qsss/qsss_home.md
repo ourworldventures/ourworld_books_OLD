@@ -9,3 +9,9 @@ Our storage architecture follows the true peer2peer design of the TF grid. Any p
 ![](img/qsss_intro_0_.jpg)
 
 Peer2peer provides the unique proposition of selecting storage providers that match your application and service of business criteria. For example, you might be looking to store data for your application in a certain geographic area (for governance and compliance) reasons. You might also want to use different "storage policies" for different types of data. Examples are live versus archived data. All of these uses cases are possible with this storage architecture, and could be built by using the same building blocks produced by farmers and consumed by developers or end-users.
+
+## More Information
+
+- [QSS Algo](qss_algorithm.md)
+- [QSS Filesystem](qss_filesystem.md)
+- [QSS zero knowledge proof](qss_zero_knowledge_proof.md)
