@@ -1,6 +1,6 @@
 # energy mix
 
-![](energy_mix.png)
+![](img/energy_mix.png)
 
 The world's reliance on fossil fuels remains a significant challenge, given its unsustainable nature and prevailing dominance in our global energy consumption. This ongoing dependence is compounded by economic uncertainties and geopolitical instabilities. 
 
