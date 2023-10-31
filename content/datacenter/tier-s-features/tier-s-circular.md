@@ -2,11 +2,9 @@
 
 # Tier S Circular
 
-> S stands for Self Healing, we made them compatible with Tier 3 and Tier 4.
+> S stands for Self Healing and can be seen as extensions to Tier 3 and 4 datacenters.
 
 Tier-S datacenters are compatible with Tier 3 and most of Tier 4 but they have additional benefits:
-
-
 
 ## Principles
 
@@ -14,6 +12,7 @@ Tier-S datacenters are compatible with Tier 3 and most of Tier 4 but they have a
 - A larger datacenter typically 2-10 mwatt capacity is extended with at least 9 edge datacenters.
 - Each edge datacenter is on a ring and can be 3 to 30 pods.
 - The main datacenters can be pod, rack based on container based.
+- A Tier-S datacenter can be Tier 3 or Tier 4 capable but is constructed in more modern ways.
 
 ## More Info
 
