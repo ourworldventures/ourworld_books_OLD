@@ -1,4 +1,4 @@
-# [**Datacenter Research**](datacenter/intro/intro.md)
+# [**Tier S Datacenter**](datacenter/intro/intro.md)
 
 - [Introduction](datacenter/intro/intro.md)
 - [Tier 3-4](datacenter/history/history_intro.md)
