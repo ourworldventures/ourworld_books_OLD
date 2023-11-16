@@ -41,7 +41,7 @@
     - [Sovereign Internet](ow_techsolutions/techsolutions/solution_sovereign_internet.md)
     - [Sovereign Digital Backbone](ow_techsolutions/techsolutions/solution_sovereign_ledger.md)
 - [INTERNET Technology](ourworld_tanzania/technology/technology.md)
-- [PLANETFIRST](ourworld_tanzania/ppp/ppp.md)
+- [PLANETFIRST](ourworld_znz_company/ppp/ppp.md)
     - [Mission](ourworld_tanzania/mission/mission.md)
 - [ThreeFold Vision](ourworld_tanzania/mission/vision.md)
     - [Internet of Internets](ourworld_tanzania/mission/goals/1_concept_realization0.md)
