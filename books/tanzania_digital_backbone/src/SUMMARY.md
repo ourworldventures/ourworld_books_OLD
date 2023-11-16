@@ -1,6 +1,6 @@
 # Tanzania
 
-- [INTRO](ourbackbone_intro_tnz.md)
+- [INTRO](ourbackbone/ourbackbone_intro_tnz.md)
     - [Brave New Digital World](brave_new_world/brave_new_digital_world.md)
     - [No Painkillers](brave_new_world/no_pain_killer.md)
     - [Onion Layers](brave_new_world/onion_layers.md)
