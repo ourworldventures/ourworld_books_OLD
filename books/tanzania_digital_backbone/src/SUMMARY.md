@@ -26,9 +26,9 @@
     - [Internet Decentralized](mission/goals/5_the_internet_infrastructure.md)
     - [Digital Transformation](mission/goals/7_realizing_digital_Transformation.md)
     - [Web 4.0](mission/goals/3_realizing_web_4.md)
-- [WORLDBANK](worldbank/worldbank.md)
-    - [Digital Indicators](worldbank/digital_business_indicators/dbi_tnz.md)
-    - [Central Bank Digital Currencies](worldbank/cdbc/wb_cbdc.md)
+- [WORLDBANK](tanzania_feasibility/worldbank/worldbank.md)
+    - [Digital Indicators](tanzania_feasibility/worldbank/digital_business_indicators/dbi_tnz.md)
+    - [Central Bank Digital Currencies](tanzania_feasibility/worldbank/cdbc/wb_cbdc.md)
 - [MAMA SAMIA INSTITUTE](mama_samia_institute/intro.md)
     - [A Gift For Tanzania](mama_samia_institute/gifts_to_tanzania.md)
     - [Digital Transformation](mama_samia_institute/digital_transformation_african_union.md)
@@ -164,9 +164,9 @@
 - [OURWORLD ECOSYSTEM](ourworld_ecosystem/ourworld_ecosystem.md)
     - [ThreeFold](ourworld_ecosystem/threefold.md)
 - [Details](tnz_feasibility/details.md)
-    - [Worldbank DBI Internet Connectivity](worldbank/digital_business_indicators/dbi_connectivity.md)
-    - [Worldbank DBI Digital Payments](worldbank/digital_business_indicators/dbi_payments.md)
-    - [Worldbank DBI Privacy](worldbank/digital_business_indicators/dbi_privacy.md)
+    - [Worldbank DBI Internet Connectivity](tanzania_feasibility/worldbank/digital_business_indicators/dbi_connectivity.md)
+    - [Worldbank DBI Digital Payments](tanzania_feasibility/worldbank/digital_business_indicators/dbi_payments.md)
+    - [Worldbank DBI Privacy](tanzania_feasibility/worldbank/digital_business_indicators/dbi_privacy.md)
 
         
         
