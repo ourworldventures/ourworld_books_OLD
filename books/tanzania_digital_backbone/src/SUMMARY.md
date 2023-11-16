@@ -86,7 +86,7 @@
         - [Blockchain Pruning](web4/ourledger/blockchain_pruning.md)
     - [VLang](web4/vlang/vlang_dev.md)
         - [VLang](web4/executor/executor_vlang.md)
-    - [Finance](finance/finance.md)
+    - [Finance](web4/finance/finance.md)
         - [Currency Wrapping](web4/finance/digitial_currency_wrapping.md)
         - [Reputation System](web4/finance/p2p_reputation_system.md)
         - [Proof Authenticity](web4/finance/proof_of_authenticity.md)
