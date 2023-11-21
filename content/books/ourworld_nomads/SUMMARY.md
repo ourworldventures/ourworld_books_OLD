@@ -9,7 +9,7 @@
     - [Turkey Yenice Valley](ow_nomads/turkey/turkey_intro.md)
     - [Dubai Paradise Hills](ow_nomads/dubai_paradise/dubai_paradise_intro.md)
 - [Farms](ow_nomads/farms/farms_intro.md)
-    - [Zanzibar](nomads/farms/bambi.md)
+    - [Zanzibar](ow_nomads/farms/bambi.md)
     - [Tanzania - Mainland](ow_nomads/farms/mainland.md)
 - [Investment](ow_nomads/investment/investor.md)
     - [Valuation Excercise](ow_nomads/investment/value.md)
